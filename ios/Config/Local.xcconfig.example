@@ -1,6 +1,6 @@
 // Copy to Local.xcconfig. Never commit signing/private configuration.
 GRACE_TEAM_ID = YOUR_TEAM_ID
-GRACE_BUNDLE_ID = your.owned.bundle.identifier
+GRACE_BUNDLE_ID = com.nerdswithkeyboards.GraceAtHand
 GRACE_CONTENT_BASE_URL = https:/$()/media.your-owned-domain.com/
 GRACE_SUPPORT_URL = https:/$()/your-owned-domain.com/support
 GRACE_PRIVACY_URL = https:/$()/your-owned-domain.com/privacy

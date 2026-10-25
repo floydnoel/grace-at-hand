@@ -1,5 +1,5 @@
 GRACE_TEAM_ID =
-GRACE_BUNDLE_ID = org.graceathand.unconfigured
+GRACE_BUNDLE_ID = com.nerdswithkeyboards.GraceAtHand
 GRACE_CONTENT_BASE_URL =
 GRACE_SUPPORT_URL =
 GRACE_PRIVACY_URL =
