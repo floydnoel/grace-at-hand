@@ -1,0 +1,8 @@
+# Copy to CODEOWNERS after replacing every placeholder with a real owner.
+# *                         @OWNER
+# /ios/                     @IOS_OWNER
+# /shared/                  @PLATFORM_OWNER
+# /content/                 @EDITORIAL_OWNER
+# /content/reviews/         @EDITORIAL_OWNER @PERMISSIONS_OWNER
+# /tools/                   @PLATFORM_OWNER
+# /.github/workflows/       @REPOSITORY_ADMIN

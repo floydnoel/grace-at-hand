@@ -1,0 +1,23 @@
+name: App issue
+description: Report a playback, download, accessibility, or app problem
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the expected behavior. Do not include private intentions or personal prayer writing.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device, OS, and app version
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Optional diagnostic report
+      description: Review the report before sharing it.

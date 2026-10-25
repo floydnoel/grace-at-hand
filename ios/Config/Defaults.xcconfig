@@ -1,0 +1,7 @@
+GRACE_TEAM_ID =
+GRACE_BUNDLE_ID = org.graceathand.unconfigured
+GRACE_CONTENT_BASE_URL =
+GRACE_SUPPORT_URL =
+GRACE_PRIVACY_URL =
+GRACE_HELP_EMAIL =
+#include? "Local.xcconfig"

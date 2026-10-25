@@ -1,0 +1,63 @@
+name: Publish reviewed content
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Reviewed catalog path in this revision
+        required: true
+        default: content/catalog.json
+      operation:
+        description: Publication operation
+        type: choice
+        options: [publish, rollback]
+        default: publish
+      rollback_pointer:
+        description: Checked-in previous pointer JSON (rollback only)
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: production-content
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production-content
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Retrieve approved media from private staging
+        if: inputs.operation == 'publish'
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_STAGING_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_STAGING_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_STAGING_BUCKET }}
+          CONTENT_BASE_URL: ${{ vars.CONTENT_BASE_URL }}
+          CONTENT_SOURCE: ${{ inputs.source }}
+          CONTENT_MEDIA_DIR: build/approved-media
+        run: node tools/fetch-staging.mjs
+      - name: Validate and publish
+        if: inputs.operation == 'publish'
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          CONTENT_BASE_URL: ${{ vars.CONTENT_BASE_URL }}
+          CONTENT_SOURCE: ${{ inputs.source }}
+          CONTENT_MEDIA_DIR: build/approved-media
+        run: node tools/content.mjs publish
+      - name: Roll back to verified snapshot
+        if: inputs.operation == 'rollback'
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          CONTENT_BASE_URL: ${{ vars.CONTENT_BASE_URL }}
+          ROLLBACK_POINTER: ${{ inputs.rollback_pointer }}
+        run: node tools/content.mjs rollback --pointer "$ROLLBACK_POINTER"

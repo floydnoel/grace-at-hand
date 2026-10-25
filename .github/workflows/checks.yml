@@ -1,0 +1,57 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - run: node tools/content.mjs validate
+      - run: node --test tools/tests/*.test.mjs
+      - run: node tools/generate-tokens.mjs && git diff --exit-code -- ios/App/Design/GeneratedTokens.swift
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '26.0.1'
+      - name: Install pinned XcodeGen
+        run: |
+          git clone --depth 1 --branch 2.46.0 https://github.com/yonaskolb/XcodeGen.git "$RUNNER_TEMP/xcodegen"
+          cd "$RUNNER_TEMP/xcodegen"
+          swift build -c release --product xcodegen
+          echo "$RUNNER_TEMP/xcodegen/.build/release" >> "$GITHUB_PATH"
+      - run: make test-core
+      - run: make build
+      - run: make test-ios
+      - run: make test-ui
+      - name: Verify iPad navigation and prayer flows
+        run: make test-ui DESTINATION='platform=iOS Simulator,name=iPad Pro 11-inch (M4)'
+      - name: Verify HTTP catalog and downloads
+        run: |
+          node tools/content.mjs preview > "$RUNNER_TEMP/grace-preview.log" 2>&1 &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          sleep 1
+          make test-network
+      - name: Preserve diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-test-results
+          path: build/DerivedData/Logs/Test
+          retention-days: 7
