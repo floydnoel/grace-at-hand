@@ -35,7 +35,7 @@ Reviewed native welcome, Today, detail, player, read-along, Rosary, Scripture, M
 
 ## Known release limitations
 
-No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed. A GitHub owner and authenticated connection are still needed. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.
+No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed by this implementation. Floyd will handle the private GitHub remote; the local repository is committed on `main` and ready to push. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.
 
 Simulator results do not prove physical-device file protection, locked playback, calls/Bluetooth/headphone behavior, background transfers after suspension, real airplane-mode relaunch, storage exhaustion, notification delivery, or cloud-backup exclusion. VoiceOver focus, keyboard/pointer behavior, iPad resizing/landscape, Reduce Motion/Transparency, and network/log privacy inspection still require the documented device review.
 

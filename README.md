@@ -53,6 +53,8 @@ See [design coverage](docs/design/coverage.md), [architecture](docs/architecture
 
 ## Before production
 
-The private GitHub remote needs an owner and authenticated connection. Apple team/bundle identity, Cloudflare R2 buckets/custom domain, support/privacy/contact URLs, reviewed content, named editorial/calendar owners, and final artwork review remain release inputs. CI publication is configured but has not been run against live R2. No TestFlight or App Store submission has been made.
+The local repository is initialized on `main` and ready to push. Floyd will create and connect the private GitHub remote; no GitHub plugin is required for local development. Configure remote ownership and protection using [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Apple team/bundle identity, Cloudflare R2 buckets/custom domain, support/privacy/contact URLs, reviewed content, named editorial/calendar owners, and final artwork review remain release inputs. CI publication is configured but has not been run against live R2. No TestFlight or App Store submission has been made.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing content or contracts. Code and content have separate licensing notices; no third-party content is implicitly relicensed.

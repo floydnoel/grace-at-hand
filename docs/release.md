@@ -8,7 +8,7 @@ Native iPhone and iPad, iOS/iPadOS 18+, English, US Roman Catholic calendar, US 
 
 | Milestone | Local implementation | Remaining release work |
 | --- | --- | --- |
-| 1. Foundation | Monorepo, generated Xcode project, shared contracts/tokens, app components, CI, fixtures, navigation | Connect private GitHub remote; assign owners and protection rules |
+| 1. Foundation | Monorepo, generated Xcode project, shared contracts/tokens, app components, CI, fixtures, navigation | Floyd will connect the private GitHub remote; assign owners and protection rules |
 | 2. Prayer flow | Guest entry, Today/detail/player/read-along, saving, verified downloads, persistence | Physical airplane-mode/relaunch, locked audio, calls and routing checks |
 | 3. Launch coverage | 17 launch screens, two states, iPad adaptation, intentions/reminders/settings/support | Accessibility/device matrix and reviewer acceptance of every flow |
 | 4. Publication/assets | Validation, immutable publication, rollback, health workflow, original development artwork | R2/domain setup, restore drill, final assets, reviewed production catalog |
