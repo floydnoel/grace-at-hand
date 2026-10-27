@@ -78,7 +78,7 @@ struct ReadingLibraryView: View {
                     if library.isDevelopment { Text("Development library · source, transcription, and reading-guide review pending.").font(.caption).foregroundStyle(GraceColor.secondary) }
                 } else { StatusNotice(text: services.readings.errorMessage ?? "The reading library is unavailable.") }
             }.padding(24).frame(maxWidth: 800).frame(maxWidth: .infinity)
-        }.scrollDismissesKeyboard(.interactively).pageStyle().navigationBarTitleDisplayMode(.inline)
+        }.accessibilityIdentifier("readingLibraryScroll").scrollDismissesKeyboard(.interactively).pageStyle().navigationBarTitleDisplayMode(.inline)
             .task(id: request) {
                 guard !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { results = []; error = nil; searching = false; return }
                 do { try await Task.sleep(for: .milliseconds(200)); await search() } catch {}
@@ -123,7 +123,10 @@ struct ReadingWorkView: View {
                         ReadingControls()
                         SectionHeading(title: work.kind == .bible ? "Chapters" : "Contents") { EmptyView() }
                         ForEach(work.sections.sorted { $0.order < $1.order }) { section in
-                            NavigationLink(value: AppRoute.readingSection(section.id, nil)) { HStack { Text(section.title); Spacer(); Image(systemName: "chevron.right").font(.caption) }.frame(minHeight: 48) }.buttonStyle(.plain).accessibilityIdentifier("readingSection-\(section.id)")
+                            NavigationLink(value: AppRoute.readingSection(section.id, nil)) {
+                                HStack { Text(section.title); Spacer(); Image(systemName: "chevron.right").font(.caption) }
+                                    .frame(maxWidth: .infinity, minHeight: 48).contentShape(Rectangle())
+                            }.buttonStyle(.plain).accessibilityIdentifier("readingSection-\(section.id)")
                             Divider()
                         }
                     } else {
@@ -133,7 +136,7 @@ struct ReadingWorkView: View {
                 }.padding(24).frame(maxWidth: GraceLayout.readingWidth).frame(maxWidth: .infinity)
                 .toolbar { ToolbarItem(placement: .topBarTrailing) { ReadingSaveButton(id: work.id) } }
             } else { ContentUnavailableView("Reading unavailable", systemImage: "book") }
-        }.pageStyle().navigationBarTitleDisplayMode(.inline)
+        }.accessibilityIdentifier("readingWorkScroll").pageStyle().navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -153,7 +156,7 @@ struct ReadingSectionView: View {
                 LazyVStack(alignment: .leading, spacing: 22) {
                     if let section, let work {
                         PageHeading(eyebrow: work.author, title: section.reference)
-                        ReadingEditionNotice(work: work)
+                        ReadingEditionNotice(work: work, section: section)
                         ReadingControls()
                         if loading { ProgressView("Opening reading…") }
                         if let error { StatusNotice(text: error); Button("Try opening again") { Task { await load() } }.frame(minHeight: 44) }
@@ -166,11 +169,11 @@ struct ReadingSectionView: View {
                                 Spacer()
                                 if let next = work.sections.first(where: { $0.order > section.order }) { Button { currentID = next.id } label: { Label("Next", systemImage: "chevron.right") }.frame(minHeight: 48).accessibilityIdentifier("nextReadingSection") }
                             }
-                            Divider(); ReadingSourceView(work: work)
+                            Divider(); ReadingSourceView(work: work, section: section)
                         }
                     }
                 }.padding(24).frame(maxWidth: GraceLayout.readingWidth).frame(maxWidth: .infinity).id("reading-top")
-            }.pageStyle().navigationTitle(work?.title ?? "Reading").navigationBarTitleDisplayMode(.inline)
+            }.accessibilityIdentifier("readingReaderScroll").pageStyle().navigationTitle(work?.title ?? "Reading").navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
                         if let work, let section {
@@ -214,14 +217,20 @@ private struct ReadingMarkdownBlock: View {
 
 struct ReadingSourceView: View {
     let work: ReadingWork
+    var section: ReadingSection? = nil
+    private var isEditorialSummary: Bool { section.map(work.isEditorialSummary) ?? false }
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Eyebrow(text: "Source & edition")
-            Text(work.isOffline ? work.rights.edition : work.sourceIsDirectory == true ? "Find this document in the source directory." : "Published source edition").font(.footnote)
-            if work.isOffline { Text("Text language: \(Locale(identifier: "en").localizedString(forLanguageCode: work.language) ?? work.language)").font(.caption).foregroundStyle(GraceColor.secondary) }
-            if let language = work.sourceLanguage { Text("Source language: \(Locale(identifier: "en").localizedString(forLanguageCode: language) ?? language)").font(.caption).foregroundStyle(GraceColor.secondary) }
+            Eyebrow(text: isEditorialSummary ? "Original document source" : "Source & edition")
+            if isEditorialSummary {
+                Text("This English editorial summary is unreviewed. The source edition and its notices are available in the table of contents.").font(.footnote).foregroundStyle(GraceColor.secondary)
+            } else {
+                Text(work.isOffline ? work.rights.edition : work.sourceIsDirectory == true ? "Find this document in the source directory." : "Published source edition").font(.footnote)
+                if work.isOffline { Text("Text language: \(Locale(identifier: "en").localizedString(forLanguageCode: work.language) ?? work.language)").font(.caption).foregroundStyle(GraceColor.secondary) }
+                if let language = work.sourceLanguage { Text("Source language: \(Locale(identifier: "en").localizedString(forLanguageCode: language) ?? language)").font(.caption).foregroundStyle(GraceColor.secondary) }
+                Text(work.isOffline ? work.rights.statement : "This edition opens on the source website and is not saved offline in Grace at Hand.").font(.footnote).foregroundStyle(GraceColor.secondary)
+            }
             if let type = work.originalType { Text("Document type: \(type.replacingOccurrences(of: "-", with: " "))").font(.caption).foregroundStyle(GraceColor.secondary) }
-            Text(work.isOffline ? work.rights.statement : "This edition opens on the source website and is not saved offline in Grace at Hand.").font(.footnote).foregroundStyle(GraceColor.secondary)
             if let url = URL(string: work.sourceURL) { Link(work.sourceIsDirectory == true ? "Browse source directory" : "Open source website", destination: url).frame(minHeight: 44).accessibilityIdentifier("readingSourceLink") }
             if work.rights.evidenceURL != work.sourceURL, let url = URL(string: work.rights.evidenceURL) { Link("Source rights notice", destination: url).font(.footnote).frame(minHeight: 44) }
         }
@@ -230,8 +239,12 @@ struct ReadingSourceView: View {
 
 private struct ReadingEditionNotice: View {
     let work: ReadingWork
+    var section: ReadingSection? = nil
     var body: some View {
-        if work.rights.status == .developmentOnly {
+        if let section, work.isEditorialSummary(section) {
+            Text("English editorial summary · review pending").font(.caption).foregroundStyle(GraceColor.secondary)
+                .accessibilityIdentifier("readingEditorialSummaryNotice")
+        } else if work.rights.status == .developmentOnly {
             VStack(alignment: .leading, spacing: 8) {
                 Text("Research edition · review pending").font(.caption).foregroundStyle(GraceColor.secondary)
                 if work.rights.edition.contains("DeepL") {

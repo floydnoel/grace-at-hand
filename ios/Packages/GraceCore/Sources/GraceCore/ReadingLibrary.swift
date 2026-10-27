@@ -63,6 +63,10 @@ public struct ReadingWork: Codable, Identifiable, Hashable, Sendable {
     public let sections: [ReadingSection]
     public let bibleCode: String?
     public var isOffline: Bool { !sections.isEmpty && rights.supportsLocalText }
+
+    /// Editorial summaries use a stable section ID; the work language still describes the source text.
+    public var editorialSummary: ReadingSection? { sections.first { $0.id == "\(id)-summary" } }
+    public func isEditorialSummary(_ section: ReadingSection) -> Bool { editorialSummary?.id == section.id }
 }
 
 public struct ReadingTopic: Codable, Identifiable, Hashable, Sendable {

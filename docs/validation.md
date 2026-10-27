@@ -138,6 +138,53 @@ describes the prior iteration. No CMS write or deployment is part of this backpo
 tests), and `make generate` rebuilds the 645-work, 2,060-section bundle. Evidence:
 `build/readings-backport-tests.log`, `build/readings-backport-generate.log`.
 
+## Encyclical metadata, summaries and recovered text sync — October 27, 2026
+
+The current bundle contains 645 offline works and 2,629 Markdown sections. All
+569 papal works now have a source section and a separate English editorial
+summary. The sync includes the 170 recently added source-project summaries,
+curated English finding aliases, 12 corrected original document types, and the
+source project's generic-letter classifications. Both archival date resolutions
+are retained: *In consistorio*, April 6, 1843; *Maximis angustiis*, April 27, 1844.
+The recovered Pius XII lay-apostolate address is dated October 5, 1957 and retains
+its separately marked congress appendix. Its historical English translation is
+distinguished from the 31 retained DeepL translations.
+
+All 645 work IDs, all 2,060 preexisting section IDs and every guide destination
+remain stable. Bible/classic manifests and their acquisition fingerprints are
+unchanged. New summary sections use the existing version-2 contract and version-1
+reading shelf; no stored-data migration is required. Original and converted
+summary hashes are recorded independently. Comparison of 1,735 source-project
+file hashes confirms that this sync did not modify the `encyclicals` project.
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| Required content/domain/publication checks | `make test` passed: 30 Swift domain tests and 29 Node tests | `build/readings-sync-tests-final.log` |
+| Unsigned simulator build | `make build` passed with the regenerated 645-work, 2,629-section bundle | `build/readings-sync-build-final.log` |
+| iPhone 17 Pro native suite | 29 passed, one existing HTTP-only case skipped in Debug; all five reading cases passed | `build/readings-sync-native-final.log` |
+| iPhone 17 Pro reading UI | All eight cases passed across the full run and targeted follow-ups: Bible/reference navigation, topic search/save, source reading, recovered body and saved summary, English summary with Latin source, DeepL/source distinction and largest-text dark reader. Final contents-row fix also passed source navigation at largest text | `build/readings-sync-iphone-ui.log`, `build/readings-sync-iphone-summary-final.log`, `build/readings-sync-iphone-contents-final.log` |
+| iPad Pro 11-inch (M4) reading UI | All eight cases passed across the full run and focused contents-row follow-up, including recovered-text search/read/save and English-summary-to-Latin-source navigation at largest text | `build/readings-sync-ipad-ui.log`, `build/readings-sync-ipad-contents-final.log` |
+| Bundled reading and search | Bible/topic, recovered-body phrase, Latin-document English-summary search and checksum-verified Markdown reading passed using local files; the combined native case took about 2.5 seconds | `build/readings-sync-native-final.log` |
+| Source/summary persistence | Both bookmarks and the summary resume point survived reopening the protected shelf; clearing activity preserved both bookmarks | Native reading tests |
+| Publication and stripping | Both source and summary remain development-only; stripping removes both files and their indexed prose; source metadata imports no approvals or private evidence | `tools/tests/encyclical-sync.test.mjs` |
+| Identity and source audit | Existing work/section IDs, Bible/classics and all 486 official-index mappings preserved; 1,735 source-file fingerprints unchanged | `build/readings-sync-audit.json` |
+
+The iPad checks exposed empty space in plain contents links that did not activate
+the row. Contents labels now define a full-width rectangular hit area, including
+their minimum 48-point height. Both previously missed taps passed after that fix.
+Inspected iPhone and iPad light/dark and largest-text captures, including the
+recovered body and English summaries. Evidence is in
+`build/readings-sync-iphone-captures/`,
+`build/readings-sync-iphone-summary-captures/`,
+`build/readings-sync-ipad-captures/`, and
+`build/readings-sync-ipad-contents-captures/`.
+
+The text payload is approximately 22.59 MiB and the prepared search index
+44.10 MiB. All summaries remain unreviewed editorial drafts. Offline search and
+reading use checksum-verified bundle files, with no external search service.
+These are Xcode 26.0.1 / iOS 26 simulator results; they do not establish a
+physical-device or actual airplane-mode relaunch result.
+
 ## Outstanding production and hardware work
 
 No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed by this implementation. Floyd will handle the private GitHub remote; the latest work remains local. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.

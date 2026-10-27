@@ -4,6 +4,9 @@
 Usage: python3 tools/import-readings.py --bible /path/engDRA_usfm.zip
        --gutenberg-dir /path/containing/grace-pg1653.txt [--encyclicals /path/index.json]
        [--development-texts content/readings/development-texts.json]
+
+Use --reuse-non-papal instead of --bible/--gutenberg-dir to retain the existing,
+checksum-verified local Bible and classic editions without their acquisition files.
 """
 import argparse
 import hashlib
@@ -15,6 +18,7 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parent.parent
 DEST = ROOT / "content/readings"
+PAPAL_KINDS = {"encyclical", "papalDocument", "apostolicLetter"}
 CANON = "GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH TOB JDT EST JOB PSA PRO ECC SNG WIS SIR ISA JER LAM BAR EZK DAN HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL 1MA 2MA MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV".split()
 TRADITIONAL = {"JOS": "Josue", "1SA": "1 Kings", "2SA": "2 Kings", "1KI": "3 Kings", "2KI": "4 Kings", "1CH": "1 Paralipomenon", "2CH": "2 Paralipomenon", "EZR": "1 Esdras", "NEH": "2 Esdras", "TOB": "Tobias", "SNG": "Canticle of Canticles", "WIS": "Wisdom", "SIR": "Ecclesiasticus", "ISA": "Isaias", "JER": "Jeremias", "EZK": "Ezechiel", "HOS": "Osee", "JOL": "Joel", "OBA": "Abdias", "JON": "Jonas", "MIC": "Micheas", "NAM": "Nahum", "HAB": "Habacuc", "ZEP": "Sophonias", "HAG": "Aggeus", "ZEC": "Zacharias", "MAL": "Malachias", "1MA": "1 Machabees", "2MA": "2 Machabees", "REV": "Apocalypse"}
 
@@ -143,21 +147,60 @@ def gutenberg(path, number, work_id, title, author, kind, edition, topics):
     return {"id": work_id, "title": title, "author": author, "kind": kind, "language": "en", "summary": "Complete source text, divided into reading sections. Introductory matter and the source redistribution notice are retained. Editorial review pending.", "aliases": [], "topics": topics, "sourceURL": f"https://www.gutenberg.org/ebooks/{number}", "rights": {"status": "publicDomain", "edition": edition, "statement": "Project Gutenberg identifies this edition as public domain in the USA. Its source notice and redistribution terms accompany this converted text. No modern translation is substituted.", "evidenceURL": f"https://www.gutenberg.org/ebooks/{number}", "territory": "US"}, "sections": sections}
 
 
+def reuse_non_papal():
+    """Reuse only the established Bible/classics, never old papal text overlays."""
+    library = json.loads((DEST / "library.json").read_text())
+    if library.get("schemaVersion") not in {1, 2}:
+        raise ValueError("Unsupported existing reading library")
+    works = [w for w in library["works"] if w["kind"] not in PAPAL_KINDS]
+    expected = {"drb-" + code.lower() for code in CANON} | {"imitation", "confessions", "presence-of-god"}
+    if len(works) != len(expected) or {w["id"] for w in works} != expected:
+        raise ValueError("Existing non-papal library must retain all 73 Bible books and three classics")
+    bible_works = [w for w in works if w["kind"] == "bible"]
+    if ({w.get("bibleCode") for w in bible_works} != set(CANON)
+            or sum(len(w["sections"]) for w in bible_works) != 1334
+            or sum(s.get("verseCount", 0) for w in bible_works for s in w["sections"]) != 35811):
+        raise ValueError("Unexpected existing Bible chapter/verse inventory")
+    for work in works:
+        for section in work["sections"]:
+            file = section["file"]
+            path = (DEST / file["path"]).resolve()
+            if not path.is_relative_to(DEST.resolve()):
+                raise ValueError("Existing reading section escapes the library")
+            data = path.read_bytes()
+            if sha(data) != file["sha256"] or len(data) != file["bytes"]:
+                raise ValueError(f"Changed existing reading section: {section['id']}")
+    source_lock = json.loads((DEST / "source-lock.json").read_text())
+    expected_locks = {"drb-1899", "gutenberg-1653", "gutenberg-3296", "gutenberg-13871"}
+    locks = [s for s in source_lock["sources"] if s["id"] in expected_locks]
+    if len(locks) != len(expected_locks) or {s["id"] for s in locks} != expected_locks:
+        raise ValueError("Missing existing Bible/classic source fingerprints")
+    return works, locks
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--bible", type=Path, required=True)
-    parser.add_argument("--gutenberg-dir", type=Path, required=True)
+    parser.add_argument("--bible", type=Path)
+    parser.add_argument("--gutenberg-dir", type=Path)
+    parser.add_argument("--reuse-non-papal", action="store_true", help="Reuse verified local Bible/classic sections and their source lock")
     parser.add_argument("--encyclicals", type=Path)
     parser.add_argument("--development-texts", type=Path, help="Explicit local-demo editions; never creates rights approvals")
     args = parser.parse_args()
+    if args.reuse_non_papal and (args.bible or args.gutenberg_dir):
+        parser.error("Use --reuse-non-papal or the Bible/Gutenberg acquisition files, not both")
+    if not args.reuse_non_papal and (not args.bible or not args.gutenberg_dir):
+        parser.error("Provide --bible and --gutenberg-dir, or --reuse-non-papal")
     curation = json.loads((DEST / "curation.json").read_text())
-    works = bible(args.bible)
     editions = [(1653, "imitation", "The Imitation of Christ", "Thomas à Kempis", "spiritualClassic", "William Benham translation; Project Gutenberg #1653", ["prayer", "charity"]), (3296, "confessions", "Confessions", "Saint Augustine of Hippo", "churchFather", "E. B. Pusey translation; Project Gutenberg #3296", ["faith", "mercy"]), (13871, "presence-of-god", "The Practice of the Presence of God", "Brother Lawrence of the Resurrection", "spiritualClassic", "English edition published by Fleming H. Revell; Project Gutenberg #13871", ["prayer", "charity"])]
-    locks = [{"id": "drb-1899", "url": "https://ebible.org/Scriptures/engDRA_usfm.zip", "sha256": sha(args.bible.read_bytes())}]
-    for number, *metadata in editions:
-        path = args.gutenberg_dir / f"grace-pg{number}.txt"
-        works.append(gutenberg(path, number, *metadata))
-        locks.append({"id": f"gutenberg-{number}", "url": f"https://www.gutenberg.org/cache/epub/{number}/pg{number}.txt", "sha256": sha(path.read_bytes())})
+    if args.reuse_non_papal:
+        works, locks = reuse_non_papal()
+    else:
+        works = bible(args.bible)
+        locks = [{"id": "drb-1899", "url": "https://ebible.org/Scriptures/engDRA_usfm.zip", "sha256": sha(args.bible.read_bytes())}]
+        for number, *metadata in editions:
+            path = args.gutenberg_dir / f"grace-pg{number}.txt"
+            works.append(gutenberg(path, number, *metadata))
+            locks.append({"id": f"gutenberg-{number}", "url": f"https://www.gutenberg.org/cache/epub/{number}/pg{number}.txt", "sha256": sha(path.read_bytes())})
     works.extend(curation.get("sourceWorks", []))
     if args.encyclicals:
         # Metadata is independent of the optional development-only text overlay.
@@ -169,7 +212,7 @@ def main():
     if args.development_texts:
         overlay = json.loads(args.development_texts.read_text())
         if overlay.get("schemaVersion") != 1: raise ValueError("Unsupported development-text overlay")
-        expected = {w["id"] for w in works if w["kind"] in {"encyclical", "papalDocument", "apostolicLetter"}}
+        expected = {w["id"] for w in works if w["kind"] in PAPAL_KINDS}
         if set(overlay["works"]) != expected: raise ValueError("Development texts must cover the exact papal catalog")
         for work in works:
             edition = overlay["works"].get(work["id"])
@@ -188,7 +231,7 @@ def main():
                 raise ValueError(f"Missing guide work: {step['workID']}")
             if not step.get("sectionID") and by_id[step["workID"]]["sections"]:
                 step["sectionID"] = by_id[step["workID"]]["sections"][0]["id"]
-    library = {"schemaVersion": 2, "revision": "readings-2026-10-27-demo-2", "isDevelopment": True, "coverage": curation["coverage"], "works": works, "topics": curation["topics"], "guides": guides, "searchIndex": {"path": "search-index.json", "sha256": "0" * 64, "bytes": 1}}
+    library = {"schemaVersion": 2, "revision": "readings-2026-10-27-sync-3", "isDevelopment": True, "coverage": curation["coverage"], "works": works, "topics": curation["topics"], "guides": guides, "searchIndex": {"path": "search-index.json", "sha256": "0" * 64, "bytes": 1}}
     (DEST / "library.json").write_text(json.dumps(library, ensure_ascii=False, indent=2) + "\n")
     (DEST / "source-lock.json").write_text(json.dumps({"schemaVersion": 1, "sources": locks}, indent=2) + "\n")
     subprocess.run(["node", "tools/readings.mjs", "index"], cwd=ROOT, check=True)

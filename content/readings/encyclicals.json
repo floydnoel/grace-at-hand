@@ -8,8 +8,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
-        "Safeguarding The Human Person In The Time Of Artificial Intelligence"
+        "Magnifica Humanitas",
+        "Safeguarding The Human Person In The Time Of Artificial Intelligence",
+        "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
@@ -654,7 +655,7 @@
       "id": "papal-paul06-signum-magnum",
       "title": "Signum Magnum",
       "author": "Pope Paul VI",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -664,7 +665,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//paul06/p6great.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "exhortation",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -673,7 +674,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1967"
+      "date": "1967",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-paul06-christi-matri",
@@ -787,8 +789,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Pacem In Terris",
-        "Peace on Earth"
+        "Pacem in Terris",
+        "Peace on Earth",
+        "Pacem In Terris"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
@@ -854,7 +857,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1962-02-22"
+      "date": "1962-02-22",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-john23-aeterna-dei-sapientia",
@@ -890,8 +894,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Mater Et Magistra",
-        "Church as Mother and Teacher of All Nations"
+        "Mater et Magistra",
+        "Church as Mother and Teacher of All Nations",
+        "Mater Et Magistra"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
@@ -912,7 +917,7 @@
       "id": "papal-john23-religiosorum-institutio",
       "title": "Religiosorum institutio",
       "author": "Pope John XXIII",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -922,7 +927,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//paul06/j23religios.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "instruction",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -931,7 +936,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1961"
+      "date": "1961",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-john23-le-voci-che-da-tutti",
@@ -956,7 +962,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1961"
+      "date": "1961",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-john23-on-promoting-devotion-to-the-most-precious-blood",
@@ -981,7 +988,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1960-06-30"
+      "date": "1960-06-30",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-john23-princeps-pastorum",
@@ -1161,7 +1169,34 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1958"
+      "date": "1958",
+      "sourceLanguage": "en"
+    },
+    {
+      "id": "papal-pius12-guiding-principles-of-the-lay-apostolate",
+      "title": "Guiding Principles Of The Lay Apostolate",
+      "author": "Pope Pius XII",
+      "kind": "papalDocument",
+      "language": "en",
+      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
+      "aliases": [
+        "Guiding Principles Of The Lay Apostolate",
+        "Six ans se sont écoulés"
+      ],
+      "topics": [],
+      "sourceURL": "https://www.papalencyclicals.net/pius12/p12layap.htm",
+      "sourceIsDirectory": false,
+      "originalType": "address",
+      "rights": {
+        "status": "linkOnly",
+        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
+        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
+        "evidenceURL": "https://www.papalencyclicals.net/document-directory",
+        "territory": "US"
+      },
+      "sections": [],
+      "date": "1957-10-05",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-miranda-prorsus",
@@ -1197,8 +1232,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Le Pelerinage De Lourdes",
-        "Against Materialism on the Centenary of the Apparitions at Lourdes"
+        "Le Pèlerinage de Lourdes",
+        "Against Materialism on the Centenary of the Apparitions at Lourdes",
+        "Le Pelerinage De Lourdes"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
@@ -1289,7 +1325,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1957"
+      "date": "1957",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-sacram-communionem",
@@ -1305,7 +1342,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12fast.htm",
       "sourceIsDirectory": false,
-      "originalType": "apostolic-constitution",
+      "originalType": "motu-proprio",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1314,31 +1351,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1957"
-    },
-    {
-      "id": "papal-pius12-guiding-principles-of-the-lay-apostolate",
-      "title": "Guiding Principles Of The Lay Apostolate",
-      "author": "Pope Pius XII",
-      "kind": "papalDocument",
-      "language": "en",
-      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [
-        "Guiding Principles Of The Lay Apostolate"
-      ],
-      "topics": [],
-      "sourceURL": "https://www.papalencyclicals.net//pius12/p12layap.htm",
-      "sourceIsDirectory": false,
-      "originalType": "address",
-      "rights": {
-        "status": "linkOnly",
-        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
-        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
-        "evidenceURL": "https://www.papalencyclicals.net/document-directory",
-        "territory": "US"
-      },
-      "sections": [],
-      "date": "1957"
+      "date": "1957",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-datis-nuperrime",
@@ -1578,7 +1592,7 @@
       "id": "papal-pius12-si-diligis-canonisation-of-st-pius-x",
       "title": "Si Diligis – Canonisation Of St Pius X",
       "author": "Pope Pius XII",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -1587,7 +1601,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12sidil.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "allocution",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1596,7 +1610,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1954"
+      "date": "1954",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-fulgens-corona",
@@ -1654,7 +1669,7 @@
       "id": "papal-pius12-christus-dominus",
       "title": "Christus Dominus",
       "author": "Pope Pius XII",
-      "kind": "apostolicLetter",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -1664,7 +1679,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12chdom.htm",
       "sourceIsDirectory": false,
-      "originalType": "apostolic-letter",
+      "originalType": "apostolic-constitution",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1673,7 +1688,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1953-01-06"
+      "date": "1953-01-06",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-on-psychotherapy-and-religion",
@@ -1698,7 +1714,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1953"
+      "date": "1953",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-the-moral-limits-of-medical-research-and-treatment",
@@ -1722,7 +1739,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1952"
+      "date": "1952",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-the-function-of-art",
@@ -1746,7 +1764,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1952"
+      "date": "1952",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-exsul-familia-nazarethana",
@@ -1771,7 +1790,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1952"
+      "date": "1952",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-ingruentium-malorum",
@@ -1873,7 +1893,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1951"
+      "date": "1951",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-counsel-to-teaching-sisters",
@@ -1897,7 +1918,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1951"
+      "date": "1951",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-address-to-midwives-on-the-nature-of-their-profession",
@@ -1921,7 +1943,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1951"
+      "date": "1951",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-mirabile-illud",
@@ -2031,7 +2054,7 @@
       "id": "papal-pius12-munificentissimus-deus",
       "title": "Munificentissimus Deus",
       "author": "Pope Pius XII",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -2041,7 +2064,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12munif.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "apostolic-constitution",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -2050,7 +2073,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1950"
+      "date": "1950",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-menti-nostrae",
@@ -2075,7 +2099,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1950"
+      "date": "1950",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-redemptoris-nostri-cruciatus",
@@ -2256,7 +2281,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1947"
+      "date": "1947",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-papal-directives-for-the-woman-of-today",
@@ -2280,7 +2306,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1947"
+      "date": "1947",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-deiparae-virginis-mariae",
@@ -2357,7 +2384,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1946"
+      "date": "1946",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-orientales-omnes-ecclesias",
@@ -2393,8 +2421,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Communium Interpretes Doloraum",
-        "Ending the 2nd World War"
+        "Communium Interpretes Dolorum",
+        "Ending the 2nd World War",
+        "Communium Interpretes Doloraum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041945_communium-interpretes-dolorum.html",
@@ -2459,7 +2488,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1944"
+      "date": "1944",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-divino-afflante-spiritu",
@@ -2495,8 +2525,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Mystici Corporis",
-        "The Mystical Body of Christ, the Church"
+        "Mystici Corporis Christi",
+        "The Mystical Body of Christ, the Church",
+        "Mystici Corporis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html",
@@ -2535,7 +2566,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1942"
+      "date": "1942",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius12-saeculo-exeunte-octavo",
@@ -2649,8 +2681,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Nos Es Muy Conocida",
-        "On the Religious Situation in Mexico"
+        "Firmissimam Constantiam",
+        "On the Religious Situation in Mexico",
+        "Nos Es Muy Conocida"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
@@ -2805,8 +2838,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Acerba animi",
-        "On the Persecution of the Church in Mexico"
+        "Acerba Animi",
+        "On the Persecution of the Church in Mexico",
+        "Acerba animi"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091932_acerba-animi.html",
@@ -2950,7 +2984,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1931"
+      "date": "1931",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-casti-connubii",
@@ -3001,7 +3036,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1930"
+      "date": "1930",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-divini-illius-magistri",
@@ -3078,7 +3114,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1929"
+      "date": "1929",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-rerum-orientalium",
@@ -3103,7 +3140,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1928-09-08"
+      "date": "1928-09-08",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-miserentissimus-redemptor",
@@ -3161,8 +3199,8 @@
       "id": "papal-pius11-apostolicorum-in-missionibus",
       "title": "Apostolicorum in Missionibus",
       "author": "Pope Pius XI",
-      "kind": "encyclical",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Apostolicorum in Missionibus",
@@ -3171,7 +3209,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius11/p11apost.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "decree",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -3180,7 +3218,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1927"
+      "date": "1927",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-pius11-iniquis-afflictisque",
@@ -3335,7 +3374,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1923-11-12"
+      "date": "1923-11-12",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-rerum-omnium-perturbationem",
@@ -3386,7 +3426,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1923"
+      "date": "1923",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius11-ubi-arcano-dei-consilio",
@@ -3734,8 +3775,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Singulari Quadam",
-        "On Labor Organizations"
+        "Singulari quadam",
+        "On Labor Organizations",
+        "Singulari Quadam"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
@@ -3809,7 +3851,7 @@
       "title": "Divino Afflatu",
       "author": "Pope Pius X",
       "kind": "encyclical",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Divino Afflatu",
@@ -3827,7 +3869,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1911"
+      "date": "1911",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-pius10-notre-charge-apostolique",
@@ -3852,7 +3895,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1910-08-25"
+      "date": "1910-08-25",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-editae-saepe",
@@ -3902,13 +3946,14 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1910"
+      "date": "1910",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-quam-singulari",
       "title": "Quam Singulari",
       "author": "Pope Pius X",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -3918,7 +3963,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius10/p10quam.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "decree",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -3927,7 +3972,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1910"
+      "date": "1910",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-communium-rerum",
@@ -3978,7 +4024,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1908"
+      "date": "1908",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-praestantia-scripturae",
@@ -4003,7 +4050,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1907-11-18"
+      "date": "1907-11-18",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-pascendi-dominici-gregis",
@@ -4061,7 +4109,7 @@
       "id": "papal-pius10-lamentabili-sane",
       "title": "Lamentabili Sane",
       "author": "Pope Pius X",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -4071,7 +4119,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius10/p10lamen.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "decree",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -4080,7 +4128,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1907"
+      "date": "1907",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius10-gravissimo-officii-munere",
@@ -4116,8 +4165,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Pieni L’animo",
-        "On the Clergy in Italy"
+        "Pieni L'Animo",
+        "On the Clergy in Italy",
+        "Pieni L’animo"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html",
@@ -4246,6 +4296,7 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
+        "For the Fiftieth Anniversary of the Immaculate Conception",
         "FOR THE FIFTIETH ANNIVERSARY OF THE PROCLAMATION OF THE DOGMA OF THE IMMACULATE CONCEPTION"
       ],
       "topics": [],
@@ -4375,8 +4426,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Fin Dal Principio",
-        "On the Education of the Clergy"
+        "Fin dal Principio",
+        "On the Education of the Clergy",
+        "Fin Dal Principio"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html",
@@ -4531,8 +4583,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Reputantiubus",
-        "On the Language Question in Bohemia"
+        "Reputantibus",
+        "On the Language Question in Bohemia",
+        "Reputantiubus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20081901_reputantibus.html",
@@ -4583,8 +4636,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Graves De Communi Re",
-        "On Christian Democracy"
+        "Graves de Communi Re",
+        "On Christian Democracy",
+        "Graves De Communi Re"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html",
@@ -4687,8 +4741,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Depuis Le Jour",
-        "On the Education of the Clergy"
+        "Depuis le Jour",
+        "On the Education of the Clergy",
+        "Depuis Le Jour"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html",
@@ -4754,7 +4809,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1899-01-22"
+      "date": "1899-01-22",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-quum-diuturnum",
@@ -4972,8 +5028,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Divinum Illud Munus",
-        "On the Holy Spirit Divinum"
+        "Divinum illud munus",
+        "On the Holy Spirit Divinum",
+        "Divinum Illud Munus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_09051897_divinum-illud-munus.html",
@@ -4998,8 +5055,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Fidentem Piumque Animum",
-        "On the Rosary"
+        "Fidentem piumque animum",
+        "On the Rosary",
+        "Fidentem Piumque Animum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091896_fidentem-piumque-animum.html",
@@ -5091,7 +5149,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1896"
+      "date": "1896",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-adiutricem",
@@ -5153,8 +5212,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Longinqua (January 6, 1895)",
-        "On Catholicism in the United States"
+        "Longinqua",
+        "On Catholicism in the United States",
+        "Longinqua (January 6, 1895)"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua.html",
@@ -5194,7 +5254,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1895"
+      "date": "1895",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-christi-nomen",
@@ -5256,8 +5317,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Litteras A Vobis",
-        "On the Clergy in Brasil"
+        "Litteras a Vobis",
+        "On the Clergy in Brasil",
+        "Litteras A Vobis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02071894_litteras-a-vobis.html",
@@ -5281,7 +5343,11 @@
       "kind": "encyclical",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter Graves",
+        "On the Church in Peru",
+        "To the Bishops of Peru."
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051894_inter-graves.html",
       "sourceIsDirectory": false,
@@ -5304,7 +5370,11 @@
       "kind": "encyclical",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Caritatis",
+        "On the Church in Poland",
+        "To the Bishops of Poland."
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_19031894_caritatis.html",
       "sourceIsDirectory": false,
@@ -5343,7 +5413,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1894"
+      "date": "1894",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-orientalium-dignitas",
@@ -5368,7 +5439,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1894"
+      "date": "1894",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-providentissimus-deus",
@@ -5403,7 +5475,11 @@
       "kind": "encyclical",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Non Mediocri",
+        "On the Spanish College in Rome",
+        "On The spanish college in rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25101893_non-mediocri.html",
       "sourceIsDirectory": false,
@@ -5531,8 +5607,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Custodi Di Quella Fede",
-        "On Freemasonry"
+        "Custodi di quella Fede",
+        "On Freemasonry",
+        "Custodi Di Quella Fede"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html",
@@ -5686,7 +5763,10 @@
       "kind": "encyclical",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastoralis vigilantiae",
+        "On Episcopal Cooperation and Catholic Life in Portugal"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18910625_pastoralis.html",
       "sourceIsDirectory": false,
@@ -5725,7 +5805,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1891-06-25"
+      "date": "1891-06-25",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo13-rerum-novarum",
@@ -5813,8 +5894,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Dall’alto Dell’apostolico Seggio",
-        "On Freemasonry in Italy"
+        "Dall'alto dell'Apostolico Seggio",
+        "On Freemasonry in Italy",
+        "Dall’alto Dell’apostolico Seggio"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18901015_apostolico-seggio.html",
@@ -5994,7 +6076,10 @@
       "kind": "encyclical",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Paterna Caritas",
+        "On Armenian Unity with the Apostolic See"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071888_paterna-caritas.html",
       "sourceIsDirectory": false,
@@ -6044,8 +6129,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Libertas Praestantissimum",
-        "On the Nature of Human Liberty"
+        "Libertas",
+        "On the Nature of Human Liberty",
+        "Libertas Praestantissimum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html",
@@ -6148,8 +6234,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Vi E Ben Noto",
-        "On the Rosary and Public Life"
+        "Vi è Ben Noto",
+        "On the Rosary and Public Life",
+        "Vi E Ben Noto"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091887_vi-e-ben-noto.html",
@@ -6642,8 +6729,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Arcanum",
-        "On Christian Marriage"
+        "Arcanum Divinae",
+        "On Christian Marriage",
+        "Arcanum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10021880_arcanum.html",
@@ -6743,9 +6831,12 @@
       "title": "Dives in misericordia",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dives in misericordia",
+        "On Saint Francis de Sales as Doctor of the Church"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-dives-in-misericordia-16-novembre-1877.html",
       "sourceIsDirectory": false,
@@ -6769,8 +6860,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quae In Patriarchatu",
-        "On the Church in Chaldea"
+        "Quae in Patriarchatu",
+        "On the Church in Chaldea",
+        "Quae In Patriarchatu"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quae-in-patriarchatu-1-settembre-1876.html",
@@ -6795,8 +6887,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Graves Ac Diuturnae",
-        "On the Church in Switzerland"
+        "Graves ac diuturnae",
+        "On the Church in Switzerland",
+        "Graves Ac Diuturnae"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-graves-ac-diuturnae-23-martii-1875.html",
@@ -6821,8 +6914,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quod Nunquam",
-        "On the Church in Prussia"
+        "Quod nunquam",
+        "On the Church in Prussia",
+        "Quod Nunquam"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quod-nunquam-5-febbraio-1875.html",
@@ -6873,8 +6967,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Omnem Sollicitudinem",
-        "On the Greek-Ruthenian Rite"
+        "Omnem sollicitudinem",
+        "On the Greek-Ruthenian Rite",
+        "Omnem Sollicitudinem"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-omnem-sollicitudinem-13-maggio-1874.html",
@@ -6899,8 +6994,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Vix Dum A Nobis",
-        "On the Church in Austria"
+        "Vix dum a Nobis",
+        "On the Church in Austria",
+        "Vix Dum A Nobis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-vix-dum-a-nobis-7-marzo-1874.html",
@@ -6922,9 +7018,12 @@
       "title": "In magnis illis",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "In magnis illis",
+        "On Unauthorized Episcopal Elections and Consecrations in the Netherlands"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-in-magnis-illis-27-dicembre-1873.html",
       "sourceIsDirectory": false,
@@ -6948,8 +7047,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Etsi Multa",
-        "On the Church in Italy, Germany and Switzerland"
+        "Etsi multa",
+        "On the Church in Italy, Germany and Switzerland",
+        "Etsi Multa"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-etsi-multa-21-novembre-1873.html",
@@ -6974,8 +7074,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quartus Supra",
-        "On the Church in Armenia"
+        "Quartus supra",
+        "On the Church in Armenia",
+        "Quartus Supra"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quartus-supra-6-gennaio-1873.html",
@@ -6996,10 +7097,13 @@
       "id": "papal-pius09-in-luctuosissimis",
       "title": "In luctuosissimis",
       "author": "Pope Pius IX",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "In luctuosissimis",
+        "On Religious Orders in Rome and Papal Independence"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-in-luctuosissimis-16-iunii-1872.html",
       "sourceIsDirectory": false,
@@ -7020,9 +7124,12 @@
       "title": "Ordinem vestrum",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ordinem vestrum",
+        "On Filling Italian Sees and Defending the Vatican Council"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-ordinem-vestrum-27-octobris-1871.html",
       "sourceIsDirectory": false,
@@ -7046,8 +7153,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Saepe Venerabiles Fratres",
-        "Thanksgiving for 25 Years of Pontificate"
+        "Saepe, venerabiles",
+        "Thanksgiving for 25 Years of Pontificate",
+        "Saepe Venerabiles Fratres"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-saepe-venerabiles-5-augusti-1871.html",
@@ -7121,9 +7229,12 @@
       "title": "Ubi prima",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi prima",
+        "On Schism and the Armenian Patriarchate of Cilicia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-prima-11-martii-1871.html",
       "sourceIsDirectory": false,
@@ -7143,10 +7254,13 @@
       "id": "papal-pius09-ecclesia-dei",
       "title": "Ecclesia Dei",
       "author": "Pope Pius IX",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ecclesia Dei",
+        "On the Jesuits and Proposed Guarantees for Papal Independence"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-ecclesia-dei-2-martii-1871.html",
       "sourceIsDirectory": false,
@@ -7170,8 +7284,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Respicientes",
-        "Protesting the Taking of the Pontifical States"
+        "Respicientes ea",
+        "Protesting the Taking of the Pontifical States",
+        "Respicientes"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-respicientes-ea-1-novembris-1870.html",
@@ -7193,9 +7308,12 @@
       "title": "dogmatica Pastor Aeternus",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "dogmatica Pastor Aeternus",
+        "On Papal Primacy and Infallible Teaching"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-pastor-aeternus-18-iulii-1870.html",
       "sourceIsDirectory": false,
@@ -7216,9 +7334,12 @@
       "title": "Quo impensiore",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quo impensiore",
+        "On Obedience and Discipline among Armenian Catholics"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-quo-impensiore-20-maii-1870.html",
       "sourceIsDirectory": false,
@@ -7239,9 +7360,12 @@
       "title": "dogmatica Dei Filius",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "dogmatica Dei Filius",
+        "On God, Revelation, Faith, and Reason"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-dei-filius-24-aprilis-1870.html",
       "sourceIsDirectory": false,
@@ -7262,9 +7386,12 @@
       "title": "Apostolici ministerii",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Apostolici ministerii",
+        "On the Visitation of the Armenian Antonian Monks in Rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-apostolici-ministerii-5-aprilis-1870.html",
       "sourceIsDirectory": false,
@@ -7285,9 +7412,12 @@
       "title": "Multiplices inter",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Multiplices inter",
+        "On Establishing the Diocese of Portoviejo"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/bolla-multiplices-inter-23-marzo-1870.html",
       "sourceIsDirectory": false,
@@ -7308,9 +7438,12 @@
       "title": "Non sine gravissimo",
       "author": "Pope Pius IX",
       "kind": "apostolicLetter",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Non sine gravissimo",
+        "On Discord and Ecclesiastical Authority among Armenian Catholics"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-non-sine-gravissimo-24-februarii-1870.html",
       "sourceIsDirectory": false,
@@ -7331,9 +7464,12 @@
       "title": "Religiosas regularium",
       "author": "Pope Pius IX",
       "kind": "apostolicLetter",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Religiosas regularium",
+        "On an Apostolic Visitation of the Armenian Antonian Order"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-religiosas-regularium-23-februarii-1870.html",
       "sourceIsDirectory": false,
@@ -7354,9 +7490,12 @@
       "title": "Iam vos omnes",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Iam vos omnes",
+        "On Inviting Non-Catholic Christians to Catholic Unity"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-iam-vos-omnes-13-septembris-1868.html",
       "sourceIsDirectory": false,
@@ -7377,9 +7516,12 @@
       "title": "Arcano divinae",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Arcano divinae",
+        "On Inviting Eastern Bishops to the Vatican Council"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-arcano-divinae-8-septembris-1868.html",
       "sourceIsDirectory": false,
@@ -7400,9 +7542,12 @@
       "title": "Aeterni Patris",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Aeterni Patris",
+        "On Convoking the First Vatican Council"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-aeterni-patris-29-iunii-1868.html",
       "sourceIsDirectory": false,
@@ -7423,9 +7568,12 @@
       "title": "Ex quo infensissimi",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex quo infensissimi",
+        "On Honoring the Defenders of Rome and the Victory at Mentana"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-ex-quo-infensissimi-14-novembre-1867.html",
       "sourceIsDirectory": false,
@@ -7471,7 +7619,7 @@
       "id": "papal-pius09-meridionali-americae",
       "title": "Meridionali Americae",
       "author": "Pope Pius IX",
-      "kind": "apostolicLetter",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -7498,9 +7646,12 @@
       "title": "Multiplices inter",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Multiplices inter",
+        "On Freemasonry and Secret Societies"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-multiplices-inter-25-septembris-1865.html",
       "sourceIsDirectory": false,
@@ -7524,8 +7675,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quanta Cura",
-        "Condemning Current Errors"
+        "Quanta cura",
+        "Condemning Current Errors",
+        "Quanta Cura"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/encyclica-quanta-cura-8-decembris-1864.html",
@@ -7550,8 +7702,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Maximae Quidem",
-        "On the Church in Bavaria"
+        "Maximae quidem",
+        "On the Church in Bavaria",
+        "Maximae Quidem"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-maximae-quidem-18-agosto-1864.html",
@@ -7573,9 +7726,12 @@
       "title": "Ubi urbaniano",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi urbaniano",
+        "On the Persecution of Catholics in Russia and Poland"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-urbaniano-30-luglio-1864.html",
       "sourceIsDirectory": false,
@@ -7596,9 +7752,12 @@
       "title": "Multis gravissimis",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Multis gravissimis",
+        "On Ecclesiastical Justice in Sicily"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-multis-gravissimis-28-gennaio-1864.html",
       "sourceIsDirectory": false,
@@ -7636,16 +7795,20 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1864"
+      "date": "1864",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius09-tuas-libenter",
       "title": "Tuas libenter",
       "author": "Pope Pius IX",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Tuas libenter",
+        "On Catholic Scholarship and Assent to Church Teaching"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-tuas-libenter-21-decembris-1863.html",
       "sourceIsDirectory": false,
@@ -7669,8 +7832,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Incredibili",
-        "On the Persecution in New Granada"
+        "Incredibili afflictamur",
+        "On the Persecution in New Granada",
+        "Incredibili"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-incredibili-afflictamur-17-settembre-1863.html",
@@ -7695,8 +7859,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quanto Conficiamur Moerore",
-        "On Promotion of False Doctrines"
+        "Quanto conficiamur",
+        "On Promotion of False Doctrines",
+        "Quanto Conficiamur Moerore"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quanto-conficiamur-10-agosto-1863.html",
@@ -7718,9 +7883,12 @@
       "title": "Maxima quidem",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Maxima quidem",
+        "On Errors Concerning Revelation, Morality, and Church Authority"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maxima-quidem-9-giugno-1862.html",
       "sourceIsDirectory": false,
@@ -7744,8 +7912,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Amantissimus",
-        "On the Care of the Churches"
+        "Amantissimus humani",
+        "On the Care of the Churches",
+        "Amantissimus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimus-humani-8-aprile-1862.html",
@@ -7767,9 +7936,12 @@
       "title": "Iamdudum cernimus",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Iamdudum cernimus",
+        "On Modern Political Civilization and the Rights of the Holy See"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-iamdudum-cernimus-18-marzo-1861.html",
       "sourceIsDirectory": false,
@@ -7790,9 +7962,12 @@
       "title": "Multis gravibusque",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Multis gravibusque",
+        "On Church Freedom in Europe and Persecuted Christians in the East"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-multis-gravibusque-17-dicembre-1860.html",
       "sourceIsDirectory": false,
@@ -7813,9 +7988,12 @@
       "title": "Novos et ante",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Novos et ante",
+        "On the Sardinian Invasion of Papal Territories"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-novos-et-ante-28-settembre-1860.html",
       "sourceIsDirectory": false,
@@ -7836,9 +8014,12 @@
       "title": "Cum Catholica Ecclesia",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum Catholica Ecclesia",
+        "On the Annexation of Papal Territories and Ecclesiastical Censures"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-cum-catholica-ecclesia-26-marzo-1860.html",
       "sourceIsDirectory": false,
@@ -7862,8 +8043,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Nullis Certe Verbis",
-        "On the Need for Civil Sovereignty"
+        "Nullis certe",
+        "On the Need for Civil Sovereignty",
+        "Nullis Certe Verbis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nullis-certe-19-gennaio-1860.html",
@@ -7885,9 +8067,12 @@
       "title": "Maximo animi",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Maximo animi",
+        "On the Rejection of Papal Government in Emilia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maximo-animi-26-settembre-1859.html",
       "sourceIsDirectory": false,
@@ -7908,9 +8093,12 @@
       "title": "Ad gravissimum",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad gravissimum",
+        "On Rebellion against Papal Government"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-ad-gravissimum-20-giugno-1859.html",
       "sourceIsDirectory": false,
@@ -7934,8 +8122,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Qui Nuper",
-        "On Pontifical States"
+        "Qui nuper",
+        "On Pontifical States",
+        "Qui Nuper"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-nuper-18-giugno-1859.html",
@@ -7960,8 +8149,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Sancta Mater Ecclesia",
-        "Pleading for Public Prayer"
+        "Cum Sancta Mater",
+        "Pleading for Public Prayer",
+        "Cum Sancta Mater Ecclesia"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-sancta-mater-27-aprile-1859.html",
@@ -8012,8 +8202,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Nuper",
-        "On Care for Clerics"
+        "Cum nuper",
+        "On Care for Clerics",
+        "Cum Nuper"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-nuper-20-gennaio-1858.html",
@@ -8038,8 +8229,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Singulari Quidem",
-        "On the Church in Austria"
+        "Singulari quidem",
+        "On the Church in Austria",
+        "Singulari Quidem"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-singulari-quidem-17-marzo-1856.html",
@@ -8105,7 +8297,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1854-08-01"
+      "date": "1854-08-01",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius09-optime-noscitis",
@@ -8115,8 +8308,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Optime Noscitis",
-        "On Episcopal Meetings"
+        "Optime noscitis",
+        "On Episcopal Meetings",
+        "Optime Noscitis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-optime-noscitis-20-marzo-1854.html",
@@ -8141,8 +8335,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Neminem Vestrum",
-        "On the Persecution of Armenians"
+        "Neminem vestrum",
+        "On the Persecution of Armenians",
+        "Neminem Vestrum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-neminem-vestrum-2-febbraio-1854.html",
@@ -8167,8 +8362,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Inter Multiplices",
-        "Pleading for Unity of Spirit"
+        "Inter multiplices",
+        "Pleading for Unity of Spirit",
+        "Inter Multiplices"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-inter-multiplices-21-marzo-1853.html",
@@ -8208,7 +8404,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1852-05-17"
+      "date": "1852-05-17",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius09-nemo-certe-ignorat",
@@ -8218,8 +8415,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Nemo Certe Ignorat",
-        "On Discipline for Clergy"
+        "Nemo certe ignorat",
+        "On Discipline for Clergy",
+        "Nemo Certe Ignorat"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nemo-certe-ignorat-25-marzo-1852.html",
@@ -8244,8 +8442,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Exultavit Cor Nostrum",
-        "On the Effects of the Jubilee"
+        "Exultavit cor nostrum",
+        "On the Effects of the Jubilee",
+        "Exultavit Cor Nostrum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-exultavit-cor-nostrum-21-novembre-1851.html",
@@ -8267,9 +8466,12 @@
       "title": "Ex aliis Nostris",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex aliis Nostris",
+        "On a Jubilee for the Needs of Church and Society"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ex-aliis-nostris-21-novembre-1851.html",
       "sourceIsDirectory": false,
@@ -8290,9 +8492,12 @@
       "title": "Si semper antea",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Si semper antea",
+        "On the Return from Exile and the Church’s Freedom"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-si-semper-antea-20-maggio-1850.html",
       "sourceIsDirectory": false,
@@ -8316,8 +8521,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Nostis Et Nobiscum",
-        "On the Church in the Pontifical States"
+        "Nostis et nobiscum",
+        "On the Church in the Pontifical States",
+        "Nostis Et Nobiscum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nostis-et-nobiscum-8-dicembre-1849.html",
@@ -8339,9 +8545,12 @@
       "title": "Quibus, quantisque",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quibus, quantisque",
+        "On Revolution, Exile, and the Restoration of Papal Government"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-quibus-quantisque-20-aprile-1849.html",
       "sourceIsDirectory": false,
@@ -8362,9 +8571,12 @@
       "title": "Protesta La serie",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Protesta La serie",
+        "On the Proclamation of the Roman Republic"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/protesta-la-serie-14-febbraio-1849.html",
       "sourceIsDirectory": false,
@@ -8385,9 +8597,12 @@
       "title": "Ubi primum",
       "author": "Pope Pius IX",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi primum",
+        "On Consultation about the Immaculate Conception"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-2-febbraio-1849.html",
       "sourceIsDirectory": false,
@@ -8408,9 +8623,12 @@
       "title": "Proclama Da questa pacifica",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Proclama Da questa pacifica",
+        "On Opposition to the Roman Constituent Assembly"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-da-questa-pacifica-1-gennaio-1849.html",
       "sourceIsDirectory": false,
@@ -8431,9 +8649,12 @@
       "title": "Non semel",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Non semel",
+        "On Papal Reforms and Refusal to Enter the Italian War"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-non-semel-29-aprile-1848.html",
       "sourceIsDirectory": false,
@@ -8454,9 +8675,12 @@
       "title": "Proclama Romani, e quanti",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Proclama Romani, e quanti",
+        "On Respect for Clergy and Public Order in Rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-romani-e-quanti-14-marzo-1848.html",
       "sourceIsDirectory": false,
@@ -8477,9 +8701,12 @@
       "title": "Decreto Nelle istituzioni",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Decreto Nelle istituzioni",
+        "On the Fundamental Statute of the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/decreto-nelle-istituzioni-14-marzo-1848.html",
       "sourceIsDirectory": false,
@@ -8503,8 +8730,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Ubi Primum",
-        "On Discipline for Religious"
+        "Ubi primum",
+        "On Discipline for Religious",
+        "Ubi Primum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-17-giugno-1847.html",
@@ -8555,8 +8783,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Qui Pluribus",
-        "On Faith and Religion"
+        "Qui pluribus",
+        "On Faith and Religion",
+        "Qui Pluribus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-pluribus-9-novembre-1846.html",
@@ -8578,9 +8807,12 @@
       "title": "Editto Nei giorni",
       "author": "Pope Pius IX",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Editto Nei giorni",
+        "On an Amnesty for Political Offenses"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/editto-nei-giorni-16-luglio-1846.html",
       "sourceIsDirectory": false,
@@ -8601,9 +8833,12 @@
       "title": "Ex debito pastoralis",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex debito pastoralis",
+        "On Establishing the Apostolic Vicariate of Japan"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-27-marzo-1846.html",
       "sourceIsDirectory": false,
@@ -8623,10 +8858,13 @@
       "id": "papal-greg16-inter-gravissimas",
       "title": "Inter gravissimas",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter gravissimas",
+        "On the Freedom to Invite Foreign Preachers in Tuscany"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-inter-gravissimas-28-giugno-1845.html",
       "sourceIsDirectory": false,
@@ -8646,10 +8884,13 @@
       "id": "papal-greg16-libentissime-fraternitas",
       "title": "Libentissime fraternitas",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Libentissime fraternitas",
+        "On Encouraging Marriage Assistance for Poor Couples in Bruges"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-libentissime-fraternitas-28-maggio-1845.html",
       "sourceIsDirectory": false,
@@ -8666,36 +8907,16 @@
       "sourceLanguage": "it"
     },
     {
-      "id": "papal-greg16-maximis-angustiis",
-      "title": "Maximis angustiis",
-      "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
-      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
-      "topics": [],
-      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-maximis-angustiis-27-aprile-1845.html",
-      "sourceIsDirectory": false,
-      "originalType": "letter",
-      "rights": {
-        "status": "linkOnly",
-        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
-        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
-        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
-        "territory": "US"
-      },
-      "sections": [],
-      "date": "1845-04-27",
-      "sourceLanguage": "it"
-    },
-    {
       "id": "papal-greg16-summa-quidem",
       "title": "Summa quidem",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Summa quidem",
+        "On Devotion to Mary’s Immaculate Conception in Bohemia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-summa-quidem-23-aprile-1845.html",
       "sourceIsDirectory": false,
@@ -8719,8 +8940,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Inter Praecipuas",
-        "On Biblical Societies"
+        "Inter praecipuas machinationes",
+        "On Biblical Societies",
+        "Inter Praecipuas"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-inter-praecipuas-machinationes-8-maii-1844.html",
@@ -8738,13 +8960,42 @@
       "sourceLanguage": "it"
     },
     {
+      "id": "papal-greg16-maximis-angustiis",
+      "title": "Maximis angustiis",
+      "author": "Pope Gregory XVI",
+      "kind": "papalDocument",
+      "language": "it",
+      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
+      "aliases": [
+        "Maximis angustiis",
+        "On Civil Censorship of Episcopal Writings in Tuscany"
+      ],
+      "topics": [],
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-maximis-angustiis-27-aprile-1845.html",
+      "sourceIsDirectory": false,
+      "originalType": "letter",
+      "rights": {
+        "status": "linkOnly",
+        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
+        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
+        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
+        "territory": "US"
+      },
+      "sections": [],
+      "date": "1844-04-27",
+      "sourceLanguage": "it"
+    },
+    {
       "id": "papal-greg16-cum-maxima",
       "title": "Cum maxima",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum maxima",
+        "On Defending Catholic Faith and Seminary Formation in Bohemia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-cum-maxima-31-marzo-1844.html",
       "sourceIsDirectory": false,
@@ -8764,10 +9015,13 @@
       "id": "papal-greg16-ubi-novam",
       "title": "Ubi novam",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi novam",
+        "On a Claimed New Apostolate in the Diocese of Bayeux"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ubi-novam-8-novembre-1843.html",
       "sourceIsDirectory": false,
@@ -8787,10 +9041,13 @@
       "id": "papal-greg16-ad-gravissimas",
       "title": "Ad gravissimas",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad gravissimas",
+        "On Secret Societies and Pastoral Vigilance in Malta"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ad-gravissimas-31-agosto-1843.html",
       "sourceIsDirectory": false,
@@ -8811,9 +9068,12 @@
       "title": "Inter maximas",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter maximas",
+        "On the Condemnation of Francesco Forti’s Letter on Studies"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-maximas-5-agosto-1843.html",
       "sourceIsDirectory": false,
@@ -8830,13 +9090,42 @@
       "sourceLanguage": "it"
     },
     {
+      "id": "papal-greg16-in-consistorio",
+      "title": "In consistorio",
+      "author": "Pope Gregory XVI",
+      "kind": "papalDocument",
+      "language": "it",
+      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
+      "aliases": [
+        "In consistorio",
+        "On the Patriarch of Lisbon and Freedom of Episcopal Appointment"
+      ],
+      "topics": [],
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-in-consistorio-29-agosto-1841.html",
+      "sourceIsDirectory": false,
+      "originalType": "letter",
+      "rights": {
+        "status": "linkOnly",
+        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
+        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
+        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
+        "territory": "US"
+      },
+      "sections": [],
+      "date": "1843-04-06",
+      "sourceLanguage": "it"
+    },
+    {
       "id": "papal-greg16-apostolici-ministerii",
       "title": "Apostolici ministerii",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Apostolici ministerii",
+        "On Establishing the Apostolic Vicariate of Curaçao"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-apostolici-ministerii-20-settembre-1842.html",
       "sourceIsDirectory": false,
@@ -8857,9 +9146,12 @@
       "title": "Haerentem diu",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Haerentem diu",
+        "On Making Known Papal Efforts for Catholics in the Russian Empire"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-haerentem-diu-22-luglio-1842.html",
       "sourceIsDirectory": false,
@@ -8880,9 +9172,12 @@
       "title": "Inter ea",
       "author": "Pope Gregory XVI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter ea",
+        "On the Suppression and Property of Swiss Monasteries"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-inter-ea-1-aprile-1842.html",
       "sourceIsDirectory": false,
@@ -8903,9 +9198,12 @@
       "title": "Catholicae religionis",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Catholicae religionis",
+        "On Prayer for the Church in Spain and Its Communion with Rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-catholicae-religionis-22-febbraio-1842.html",
       "sourceIsDirectory": false,
@@ -8922,36 +9220,16 @@
       "sourceLanguage": "it"
     },
     {
-      "id": "papal-greg16-in-consistorio",
-      "title": "In consistorio",
-      "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
-      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
-      "topics": [],
-      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-in-consistorio-29-agosto-1841.html",
-      "sourceIsDirectory": false,
-      "originalType": "letter",
-      "rights": {
-        "status": "linkOnly",
-        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
-        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
-        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
-        "territory": "US"
-      },
-      "sections": [],
-      "date": "1841-08-29",
-      "sourceLanguage": "it"
-    },
-    {
       "id": "papal-greg16-e-lungo-tempo",
       "title": "È lungo tempo",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "È lungo tempo",
+        "On Friendship and Unity in Faith with the Ruler of Tigré"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-e-lungo-tempo-29-agosto-1841.html",
       "sourceIsDirectory": false,
@@ -8972,9 +9250,14 @@
       "title": "Espistola Ex litteris",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Espistola Ex litteris",
+        "On Declining a Proposed Society for Catholic Missions",
+        "Ex litteris",
+        "Epistola Ex litteris"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/espistola-ex-litteris-4-maggio-1841.html",
       "sourceIsDirectory": false,
@@ -8998,8 +9281,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quas Vestro",
-        "On Mixed Marriages"
+        "Quas vestro",
+        "On Mixed Marriages",
+        "Quas Vestro"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quas-vestro-30-aprile-1841.html",
@@ -9021,9 +9305,12 @@
       "title": "Afflictas in Hispania",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Afflictas in Hispania",
+        "On Violations of Ecclesiastical Rights in Spain"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-hispania-1-marzo-1841.html",
       "sourceIsDirectory": false,
@@ -9044,9 +9331,12 @@
       "title": "De Cochinchinae",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "De Cochinchinae",
+        "On Emergency Succession for the Mission of Cochinchina"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-de-cochinchinae-26-febbraio-1841.html",
       "sourceIsDirectory": false,
@@ -9067,9 +9357,12 @@
       "title": "Augustissimam beatissimi",
       "author": "Pope Gregory XVI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Augustissimam beatissimi",
+        "On Completing the Reconstruction of Saint Paul's Basilica"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-augustissimam-beatissimi-21-dicembre-1840.html",
       "sourceIsDirectory": false,
@@ -9093,8 +9386,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Probe Nostis",
-        "On the Propogation of the Faith"
+        "Probe nostis",
+        "On the Propogation of the Faith",
+        "Probe Nostis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-probe-nostis-18-settembre-1840.html",
@@ -9116,9 +9410,12 @@
       "title": "Pastorale officium",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastorale officium",
+        "On Appointing a Coptic Delegate and Visitor to Abyssinia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-24-luglio-1840.html",
       "sourceIsDirectory": false,
@@ -9139,9 +9436,12 @@
       "title": "Afflictas in tunquino",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Afflictas in tunquino",
+        "On the Witness of Martyrs in Tonkin and Cochinchina"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-tunquino-27-aprile-1840.html",
       "sourceIsDirectory": false,
@@ -9165,8 +9465,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "In Supremo Apostolatus",
-        "Condemning the Slave Trade"
+        "In supremo",
+        "Condemning the Slave Trade",
+        "In Supremo Apostolatus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-in-supremo-3-dicembre-1839.html",
@@ -9187,10 +9488,13 @@
       "id": "papal-greg16-dolorem-quo",
       "title": "Dolorem quo",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dolorem quo",
+        "On Clerical Discipline and Catholic Instruction in Freiburg"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-dolorem-quo-30-novembre-1839.html",
       "sourceIsDirectory": false,
@@ -9211,9 +9515,12 @@
       "title": "Quae nuncia",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quae nuncia",
+        "On Perseverance under Persecution in Tonkin and Cochinchina"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quae-nuncia-4-agosto-1839.html",
       "sourceIsDirectory": false,
@@ -9233,14 +9540,17 @@
       "id": "papal-greg16-hanno-sempre",
       "title": "Hanno sempre",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Hanno sempre",
+        "On Entrusting the Capitoline Museum to Rome’s Civic Magistrates"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-hanno-sempre-18-settembre-1838.html",
       "sourceIsDirectory": false,
-      "originalType": "letter",
+      "originalType": "motu-proprio",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -9257,9 +9567,12 @@
       "title": "Pastorale officium",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastorale officium",
+        "On Transferring Luigi Fontana to the Restored Huguang Vicariate"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-14-agosto-1838.html",
       "sourceIsDirectory": false,
@@ -9280,9 +9593,12 @@
       "title": "Ex debito pastoralis Leao Tung",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex debito pastoralis Leao Tung",
+        "On Establishing the Apostolic Vicariate of Liaodong"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-leao-tung-14-agosto-1838.html",
       "sourceIsDirectory": false,
@@ -9303,9 +9619,12 @@
       "title": "Ex debito pastoralis China",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex debito pastoralis China",
+        "On Separate Apostolic Vicariates for Zhejiang and Jiangxi"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-china-14-agosto-1838.html",
       "sourceIsDirectory": false,
@@ -9326,9 +9645,12 @@
       "title": "Ex debito pastoralis",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex debito pastoralis",
+        "On Restoring the Apostolic Vicariate of Huguang"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-14-agosto-1838.html",
       "sourceIsDirectory": false,
@@ -9349,9 +9671,12 @@
       "title": "Dum intima",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dum intima",
+        "On the Removal of the Archbishop of Cologne over Mixed Marriages"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-dum-intima-10-dicembre-1837.html",
       "sourceIsDirectory": false,
@@ -9372,9 +9697,12 @@
       "title": "Universi Dominici Nashville",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Universi Dominici Nashville",
+        "On Establishing the Diocese of Nashville"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-nashville-28-luglio-1937.html",
       "sourceIsDirectory": false,
@@ -9395,9 +9723,12 @@
       "title": "Universi dominici",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Universi dominici",
+        "On Establishing the Diocese of Dubuque"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-28-luglio-1837.html",
       "sourceIsDirectory": false,
@@ -9418,9 +9749,12 @@
       "title": "Universi dominici",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Universi dominici",
+        "On Organizing an Apostolic Vicariate for Egypt and Arabia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-21-febbraio-1837.html",
       "sourceIsDirectory": false,
@@ -9440,10 +9774,13 @@
       "id": "papal-greg16-la-moltiplicita",
       "title": "La moltiplicità",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "La moltiplicità",
+        "On Evidence and Safeguards for Marriage Dispensations"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-la-moltiplicita-22-novembre-1836.html",
       "sourceIsDirectory": false,
@@ -9464,9 +9801,12 @@
       "title": "Ad beatissimi",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad beatissimi",
+        "On Privileges and Indulgences at the Apostles' Tomb in Saint Peter's"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ad-beatissimi-17-luglio-1836.html",
       "sourceIsDirectory": false,
@@ -9487,9 +9827,12 @@
       "title": "Sextus iam",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Sextus iam",
+        "On Ecclesiastical Oppression in Portugal and Spain"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-sextus-iam-1-febbraio-1836.html",
       "sourceIsDirectory": false,
@@ -9510,9 +9853,12 @@
       "title": "Dum acerbissimas",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dum acerbissimas",
+        "On the Condemnation of Georg Hermes’s Theological Works"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-dum-acerbissimas-26-settembre-1835.html",
       "sourceIsDirectory": false,
@@ -9533,9 +9879,12 @@
       "title": "Melchitarum catholicorum",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Melchitarum catholicorum",
+        "On the Condemnation of the Melkite Synod of Carcafe"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-melchitarum-catholicorum-3-giugno-1835.html",
       "sourceIsDirectory": false,
@@ -9559,8 +9908,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Commissum Divinitus",
-        "On Church and State"
+        "Commissum divinitus",
+        "On Church and State",
+        "Commissum Divinitus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-commissum-divinitus-17-maggio-1835.html",
@@ -9582,9 +9932,12 @@
       "title": "Perlatae dudum",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Perlatae dudum",
+        "On the Provincial Council of Baltimore and Episcopal Cooperation"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-perlatae-dudum-23-aprile-1835.html",
       "sourceIsDirectory": false,
@@ -9605,9 +9958,12 @@
       "title": "L'evidente diminuzione",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "L'evidente diminuzione",
+        "On Reforming Rome’s Acqua Felice Water Supply"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/Chirografo-l-evidente-diminuzione-6-agosto-1834.html",
       "sourceIsDirectory": false,
@@ -9628,9 +9984,12 @@
       "title": "Cum pro pastorali",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum pro pastorali",
+        "On Government Measures against the Church in Portugal"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-cum-pro-pastorali-1-agosto-1834.html",
       "sourceIsDirectory": false,
@@ -9654,8 +10013,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Singulari Nos",
-        "On the Errors of Lammenais"
+        "Singulari nos",
+        "On the Errors of Lammenais",
+        "Singulari Nos"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-singulari-nos-25-giugno-1834.html",
@@ -9677,9 +10037,12 @@
       "title": "Benedictus Deus",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Benedictus Deus",
+        "On Defining Diocesan Boundaries in the United States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/bolla-benedictus-deus-17-giugno-1834.html",
       "sourceIsDirectory": false,
@@ -9700,9 +10063,12 @@
       "title": "Superabundavimus",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Superabundavimus",
+        "On Reconciliation with Lamennais and the Work of the Archbishop of Paris"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-superabundavimus-28-dicembre-1833.html",
       "sourceIsDirectory": false,
@@ -9722,10 +10088,13 @@
       "id": "papal-greg16-quod-de-tua",
       "title": "Quod de tua",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quod de tua",
+        "On Receiving Lamennais’s Declaration of Reconciliation"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-quod-de-tua-28-dicembre-1833.html",
       "sourceIsDirectory": false,
@@ -9746,9 +10115,12 @@
       "title": "Editam nuper",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Editam nuper",
+        "On Welcoming Lamennais’s Declaration of Submission"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-editam-nuper-28-dicembre-1833.html",
       "sourceIsDirectory": false,
@@ -9769,9 +10141,12 @@
       "title": "Maiori certo",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Maiori certo",
+        "On Approving a Catholic University in Belgium"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-maiori-certo-13-dicembre-1833.html",
       "sourceIsDirectory": false,
@@ -9792,9 +10167,12 @@
       "title": "Quod litteris",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quod litteris",
+        "On Renewed Concern over Lamennais’s Response"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quod-litteris-29-novembre-1833.html",
       "sourceIsDirectory": false,
@@ -9814,10 +10192,13 @@
       "id": "papal-greg16-litteras-accepimus",
       "title": "Litteras accepimus",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Litteras accepimus",
+        "On the Submission Required of Lamennais"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-littera-accepimus-5-ottobre-1833.html",
       "sourceIsDirectory": false,
@@ -9841,8 +10222,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Quo Graviora",
-        "On the Pragmatic Constitution"
+        "Quo graviora",
+        "On the Pragmatic Constitution",
+        "Quo Graviora"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quo-graviora-4-ottobre-1833.html",
@@ -9864,9 +10246,12 @@
       "title": "Avendoci ella",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Avendoci ella",
+        "On Dividing Foreign and Internal Affairs in the Papal Government"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-avendoci-ella-20-febbraio-1833.html",
       "sourceIsDirectory": false,
@@ -9887,9 +10272,12 @@
       "title": "Plura post",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Plura post",
+        "On a Universal Jubilee of Prayer for the Church"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-plura-post-2-dicembre-1832.html",
       "sourceIsDirectory": false,
@@ -9913,8 +10301,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Mirari Vos",
-        "On Liberalism and Religious Indifferentism"
+        "Mirari vos",
+        "On Liberalism and Religious Indifferentism",
+        "Mirari Vos"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-mirari-vos-15-augusti-1832.html",
@@ -9936,9 +10325,12 @@
       "title": "Pastorale Officium",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastorale Officium",
+        "On Appointing an Episcopal Vicar for the Madras Mission"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-3-luglio-1832.html",
       "sourceIsDirectory": false,
@@ -9962,8 +10354,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Primum",
-        "On Civil Obedience"
+        "Cum primum",
+        "On Civil Obedience",
+        "Cum Primum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-cum-primum-9-giugno-1832.html",
@@ -9985,9 +10378,12 @@
       "title": "Ci è stato",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ci è stato",
+        "On Diverting the Aniene River to Protect Tivoli"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-ci-e-stato-9-giugno-1832.html",
       "sourceIsDirectory": false,
@@ -10011,8 +10407,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Summo Iugiter Studio",
-        "On Mixed Marriages"
+        "Summo iugiter",
+        "On Mixed Marriages",
+        "Summo Iugiter Studio"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-summo-iugiter-27-maggio-1832.html",
@@ -10034,9 +10431,12 @@
       "title": "Inter gravissimas",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter gravissimas",
+        "On Armenian Catholic Jurisdiction, Worship, and Sacramental Discipline"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-gravissimas-3-febbraio-1832.html",
       "sourceIsDirectory": false,
@@ -10057,9 +10457,12 @@
       "title": "Ex debito pastoralis",
       "author": "Pope Gregory XVI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex debito pastoralis",
+        "On Establishing an Independent Apostolic Vicariate for Korea"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-9-settembre-1831.html",
       "sourceIsDirectory": false,
@@ -10080,9 +10483,12 @@
       "title": "Le armi valorose",
       "author": "Pope Gregory XVI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Le armi valorose",
+        "On Peace in the Four Legations after the Withdrawal of Austrian Troops"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-le-armi-valorose-12-luglio-1831.html",
       "sourceIsDirectory": false,
@@ -10103,9 +10509,12 @@
       "title": "Quel Dio",
       "author": "Pope Gregory XVI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quel Dio",
+        "On Restored Order and Government after Revolt in the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-quel-dio-5-aprile-1831.html",
       "sourceIsDirectory": false,
@@ -10125,10 +10534,13 @@
       "id": "papal-greg16-chiamati-dalla-divina",
       "title": "Chiamati dalla divina",
       "author": "Pope Gregory XVI",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Chiamati dalla divina",
+        "On Reconciliation after Unrest in the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-chiamati-dalla-divina-9-febbraio-1831.html",
       "sourceIsDirectory": false,
@@ -10149,9 +10561,12 @@
       "title": "Inter multiplices",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter multiplices",
+        "On the Transfer of Cape Breton to the Vicariate of Nova Scotia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-4-settembre-1829.html",
       "sourceIsDirectory": false,
@@ -10172,9 +10587,12 @@
       "title": "Inter multiplices",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter multiplices",
+        "On the Establishment of the Diocese of Charlottetown"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-11-agosto-1829.html",
       "sourceIsDirectory": false,
@@ -10195,9 +10613,12 @@
       "title": "Coelestis agricola",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Coelestis agricola",
+        "On the Unauthorized Bishopric of San Salvador and Matías Delgado"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-coelestis-agricola-7-luglio-1829.html",
       "sourceIsDirectory": false,
@@ -10218,9 +10639,12 @@
       "title": "Literae fraternitatis",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Literae fraternitatis",
+        "On the Sentence against Matías Delgado and Schism in Guatemala"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-literae-fraternitatis-30-giugno-1829.html",
       "sourceIsDirectory": false,
@@ -10241,9 +10665,12 @@
       "title": "In supremi",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "In supremi",
+        "On a Jubilee at the Beginning of the Pontificate"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-in-supremi-18-giugno-1829.html",
       "sourceIsDirectory": false,
@@ -10267,8 +10694,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Traditi Humilitati",
-        "On His Program for His Pontificate"
+        "Traditi humilitati",
+        "On His Program for His Pontificate",
+        "Traditi Humilitati"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/enciclica-traditi-humilitati-24-maggio-1829.html",
@@ -10290,9 +10718,12 @@
       "title": "Inter multiplices",
       "author": "Pope Pius VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter multiplices",
+        "On the Establishment of the Diocese of Mobile"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-15-maggio-1829.html",
       "sourceIsDirectory": false,
@@ -10313,9 +10744,12 @@
       "title": "Quando Spirato",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quando Spirato",
+        "On Uniting the Papal Printing, Engraving, and Paper Administrations"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/chirografo-quando-spirato-6-gennaio-1829.html",
       "sourceIsDirectory": false,
@@ -10335,10 +10769,13 @@
       "id": "papal-leo12-apostolici-nostri",
       "title": "Apostolici Nostri",
       "author": "Pope Leo XII",
-      "kind": "apostolicLetter",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Apostolici Nostri",
+        "On Appointing Mariano Talavera to Govern the Diocese of Guiana"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/epistola-apostolici-nostri-22-dicembre-1828.html",
       "sourceIsDirectory": false,
@@ -10359,9 +10796,12 @@
       "title": "Fructus Quos",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Fructus Quos",
+        "On Encouraging Religious and Scientific Writing through the Society of Good Books"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-fructus-quos-2-ottobre-1827.html",
       "sourceIsDirectory": false,
@@ -10382,9 +10822,12 @@
       "title": "Inter Multiplices",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Inter Multiplices",
+        "On Establishing the Diocese of Detroit"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-inter-multiplices-20-marzo-1827.html",
       "sourceIsDirectory": false,
@@ -10405,9 +10848,12 @@
       "title": "Quanta Laetitia",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quanta Laetitia",
+        "On Dividing Scotland into Three Apostolic Vicariates"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
       "sourceIsDirectory": false,
@@ -10428,9 +10874,12 @@
       "title": "Ecclesiarum Omnium",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ecclesiarum Omnium",
+        "On Interim Episcopal Government of the Church of Goa"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-ecclesiarum-omnium-12-dicembre-1826.html",
       "sourceIsDirectory": false,
@@ -10451,9 +10900,12 @@
       "title": "I Gloriosi Nostri",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "I Gloriosi Nostri",
+        "On Reorganizing Rome’s Institutions for Poor Girls"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-gloriosi-nostri-14-novembre-1826.html",
       "sourceIsDirectory": false,
@@ -10474,9 +10926,12 @@
       "title": "Pastoris Aeterni",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastoris Aeterni",
+        "On the Petite Église and Communion with Rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/esortazione-pastoris-aeterni-2-luglio-1826.html",
       "sourceIsDirectory": false,
@@ -10497,9 +10952,12 @@
       "title": "L'olio oggetto",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "L'olio oggetto",
+        "On Weighing and Regulating the Oil Trade in Rome"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-l-olio-oggetto-21-giugno-1826.html",
       "sourceIsDirectory": false,
@@ -10520,9 +10978,12 @@
       "title": "Qui Pacem",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Qui Pacem",
+        "On the Risen Christ’s Peace and the Call to Conversion"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/omelia-qui-pacem-26-marzo-1826.html",
       "sourceIsDirectory": false,
@@ -10543,9 +11004,12 @@
       "title": "Exultabat Spiritus",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Exultabat Spiritus",
+        "On Extending the Jubilee to the Universal Church"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-exultabat-spiritus-25-dicembre-1825.html",
       "sourceIsDirectory": false,
@@ -10618,9 +11082,12 @@
       "title": "Ad Plurimas",
       "author": "Pope Leo XII",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad Plurimas",
+        "On Rebuilding the Basilica of Saint Paul after the Fire"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ad-plurimas-25-gennaio-1825.html",
       "sourceIsDirectory": false,
@@ -10641,9 +11108,12 @@
       "title": "Etsi Iam Diu",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Etsi Iam Diu",
+        "On Religious and Civil Peace in America"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-etsi-iam-diu-24-settembre-1824.html",
       "sourceIsDirectory": false,
@@ -10690,9 +11160,12 @@
       "title": "Cum Multa",
       "author": "Pope Leo XII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum Multa",
+        "On Returning the Roman College to the Society of Jesus"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-cum-multa-17-maggio-1824.html",
       "sourceIsDirectory": false,
@@ -10739,9 +11212,12 @@
       "title": "Ecclesiam a Jesu",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ecclesiam a Jesu",
+        "On the Condemnation of the Carbonari"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html",
       "sourceIsDirectory": false,
@@ -10762,9 +11238,12 @@
       "title": "Praeclara quam",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Praeclara quam",
+        "On the Completion of a French Episcopal Appointment Commission"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-praeclara-quam-16-maggio-1820.html",
       "sourceIsDirectory": false,
@@ -10785,9 +11264,12 @@
       "title": "Dominici gregis",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dominici gregis",
+        "On Interim Government of the French Dioceses"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-dominici-gregis-25-agosto-1819.html",
       "sourceIsDirectory": false,
@@ -10808,9 +11290,12 @@
       "title": "Vineam quam plantavit",
       "author": "Pope Pius VII",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Vineam quam plantavit",
+        "On Increasing and Redrawing the Dioceses of France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-vineam-quam-plantavit-12-giugno-1817.html",
       "sourceIsDirectory": false,
@@ -10831,9 +11316,12 @@
       "title": "Lettera Magno et acerbo",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Lettera Magno et acerbo",
+        "On Bible Translations and the Authority to Interpret Scripture and Tradition"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/epistola-magno-et-acerbo-3-septembris-1816.html",
       "sourceIsDirectory": false,
@@ -10854,9 +11342,12 @@
       "title": "Etsi longissimo",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Etsi longissimo",
+        "On Loyalty to the Spanish Crown in Catholic America"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-etsi-longissimo-30-gennaio-1816.html",
       "sourceIsDirectory": false,
@@ -10877,9 +11368,12 @@
       "title": "Optatissimus tandem",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Optatissimus tandem",
+        "On Thanksgiving and Ecclesial Restoration after Captivity"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-optatissimus-tandem-26-settembre-1814.html",
       "sourceIsDirectory": false,
@@ -10900,9 +11394,12 @@
       "title": "Sollicitudo omnium",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Sollicitudo omnium",
+        "On the Universal Restoration of the Society of Jesus"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-sollicitudo-omnium-7-agosto-1814.html",
       "sourceIsDirectory": false,
@@ -10923,9 +11420,12 @@
       "title": "Il trionfo",
       "author": "Pope Pius VII",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Il trionfo",
+        "On Liberation from Captivity and the Restoration of Papal Government"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html",
       "sourceIsDirectory": false,
@@ -10946,9 +11446,12 @@
       "title": "Quum memoranda",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quum memoranda",
+        "On Excommunication for the French Occupation of Papal Territory"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-quum-memoranda-10-giugno-1809.html",
       "sourceIsDirectory": false,
@@ -10969,9 +11472,12 @@
       "title": "Hoc ipso",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Hoc ipso",
+        "On the Journey to France for Napoleon's Coronation"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-hoc-ipso-29-ottobre-1804.html",
       "sourceIsDirectory": false,
@@ -10992,9 +11498,12 @@
       "title": "Quam luctuosam",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quam luctuosam",
+        "On the French Concordat and Its Unapproved Additional Articles"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-quam-luctuosam-24-maggio-1802.html",
       "sourceIsDirectory": false,
@@ -11015,9 +11524,12 @@
       "title": "Tam multa",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Tam multa",
+        "On the Requested Resignation of the French Bishops"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-tam-multa-15-agosto-1801.html",
       "sourceIsDirectory": false,
@@ -11038,9 +11550,12 @@
       "title": "Ecclesia Christi",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ecclesia Christi",
+        "On the Ratification of the French Concordat"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesia-christi-15-agosto-1801.html",
       "sourceIsDirectory": false,
@@ -11061,9 +11576,12 @@
       "title": "Le più colte",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Le più colte",
+        "On Free Internal Trade in Foodstuffs in the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/motu-proprio-le-piu-colte-11-marzo-1801.html",
       "sourceIsDirectory": false,
@@ -11084,9 +11602,12 @@
       "title": "Ex quo Ecclesiam",
       "author": "Pope Pius VII",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ex quo Ecclesiam",
+        "On Conversion and a Jubilee during Political Upheaval"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-ex-quo-ecclesiam-24-maggio-1800.html",
       "sourceIsDirectory": false,
@@ -11110,8 +11631,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Diu Satis",
-        "\\English\\ On a Return to Gospel Principles"
+        "Diu satis",
+        "\\English\\ On a Return to Gospel Principles",
+        "Diu Satis"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-diu-satis-15-maggio-1800.html",
@@ -11133,9 +11655,12 @@
       "title": "Ad supremum",
       "author": "Pope Pius VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad supremum",
+        "On Assuming the Papacy amid the Church's Trials"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-ad-supremum-28-marzo-1800.html",
       "sourceIsDirectory": false,
@@ -11156,9 +11681,12 @@
       "title": "Quoties animo",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quoties animo",
+        "On Conditional Sales of Spanish Pious Foundations' Property"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html",
       "sourceIsDirectory": false,
@@ -11179,9 +11707,12 @@
       "title": "Cum Nos superiori",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum Nos superiori",
+        "On Emergency Procedures for the Next Papal Election"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html",
       "sourceIsDirectory": false,
@@ -11202,9 +11733,12 @@
       "title": "Constantiam vestram",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Constantiam vestram",
+        "On Consolation and Constancy for the Exiled French Bishops"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html",
       "sourceIsDirectory": false,
@@ -11225,9 +11759,12 @@
       "title": "Christi Ecclesiae",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Christi Ecclesiae",
+        "On Adapting Conclave Arrangements to Political Emergencies"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html",
       "sourceIsDirectory": false,
@@ -11248,9 +11785,12 @@
       "title": "Auctorem fidei",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Auctorem fidei",
+        "On the Condemnation of Propositions from the Synod of Pistoia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html",
       "sourceIsDirectory": false,
@@ -11271,9 +11811,12 @@
       "title": "Ad nostras manus",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ad nostras manus",
+        "On the Pretended Bishop of Agra in France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html",
       "sourceIsDirectory": false,
@@ -11294,9 +11837,12 @@
       "title": "Quare lacrymae",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quare lacrymae",
+        "On the Execution of Louis XVI"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html",
       "sourceIsDirectory": false,
@@ -11317,9 +11863,12 @@
       "title": "Perpensis circumstantiis",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Perpensis circumstantiis",
+        "On Absolving Displaced French Clergy and Extending Emergency Faculties"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html",
       "sourceIsDirectory": false,
@@ -11340,9 +11889,12 @@
       "title": "Quae causa",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quae causa",
+        "On a Jubilee of Prayer amid Threats to the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html",
       "sourceIsDirectory": false,
@@ -11363,9 +11915,12 @@
       "title": "Ignotae nemini",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ignotae nemini",
+        "On Hospitality for French Clergy in Exile"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ignotae-nemini-21-novembre-1792.html",
       "sourceIsDirectory": false,
@@ -11389,6 +11944,7 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
+        "Ubi Lutetiam",
         "Ubi lutetiam"
       ],
       "topics": [],
@@ -11411,9 +11967,12 @@
       "title": "Quo fluctu",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quo fluctu",
+        "On Emergency Ordination and Liturgical Faculties in France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
       "sourceIsDirectory": false,
@@ -11434,9 +11993,12 @@
       "title": "Dum Nos",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dum Nos",
+        "On French Annexation and Religious Authority in Avignon and the Comtat Venaissin"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html",
       "sourceIsDirectory": false,
@@ -11457,9 +12019,12 @@
       "title": "Ubi communis",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi communis",
+        "On the Civil Constitution of the Clergy and Ecclesiastical Authority in Corsica"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html",
       "sourceIsDirectory": false,
@@ -11480,9 +12045,12 @@
       "title": "Novae hae litterae",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Novae hae litterae",
+        "On Renewed Admonitions against the Civil Constitution of the Clergy"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html",
       "sourceIsDirectory": false,
@@ -11503,9 +12071,12 @@
       "title": "In gravissimis",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "In gravissimis",
+        "On Emergency Pastoral Faculties for the French Hierarchy"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html",
       "sourceIsDirectory": false,
@@ -11526,9 +12097,12 @@
       "title": "Ancorché antichissimo",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ancorché antichissimo",
+        "On the Papal Protest against the Annexation of Avignon and the Comtat Venaissin"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html",
       "sourceIsDirectory": false,
@@ -11549,9 +12123,12 @@
       "title": "Quo luctu",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quo luctu",
+        "On Extraordinary Liturgical Faculties for the French Bishops"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-luctu-4-maggio-1791.html",
       "sourceIsDirectory": false,
@@ -11572,9 +12149,12 @@
       "title": "Adeo nota",
       "author": "Pope Pius VI",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Adeo nota",
+        "On Revolutionary Ecclesiastical and Civil Changes in Avignon"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html",
       "sourceIsDirectory": false,
@@ -11595,9 +12175,12 @@
       "title": "Cum populi",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Cum populi",
+        "On Resistance to the Civil Constitution of the Clergy in Corsica"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html",
       "sourceIsDirectory": false,
@@ -11621,8 +12204,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Charitas",
-        "In the Civil Oath in France"
+        "Charitas quae",
+        "In the Civil Oath in France",
+        "Charitas"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-charitas-quae-13-aprile-1791.html",
@@ -11644,9 +12228,12 @@
       "title": "Quod aliquantum",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quod aliquantum",
+        "On the Civil Constitution of the Clergy in France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html",
       "sourceIsDirectory": false,
@@ -11667,9 +12254,12 @@
       "title": "Super soliditate Petrae",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Super soliditate Petrae",
+        "On Papal Primacy and the Condemnation of Eybel's Pamphlet"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html",
       "sourceIsDirectory": false,
@@ -11690,9 +12280,12 @@
       "title": "Nuper pro",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Nuper pro",
+        "On Burdensome Pious Obligations Attached to Portuguese Estates"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html",
       "sourceIsDirectory": false,
@@ -11713,9 +12306,12 @@
       "title": "Summa Dei",
       "author": "Pope Pius VI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Summa Dei",
+        "On Extending the Jubilee of 1775 throughout the Church"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html",
       "sourceIsDirectory": false,
@@ -11739,8 +12335,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Inscrutabile",
-        "On the Problems of the Pontificate"
+        "Inscrutabile Divinae",
+        "On the Problems of the Pontificate",
+        "Inscrutabile"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-inscrutabile-divinae-25-dicembre-1775.html",
@@ -11765,8 +12362,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Salutis Nostrae",
-        "Proclaiming a Universal Jubilee"
+        "Salutis nostrae",
+        "Proclaiming a Universal Jubilee",
+        "Salutis Nostrae"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/bolla-salutis-nostrae-30-aprile-1774.html",
@@ -11788,9 +12386,12 @@
       "title": "Dominus ac Redemptor",
       "author": "Pope Clement XIV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Dominus ac Redemptor",
+        "On the Suppression of the Society of Jesus"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-dominus-ac-redemptor-21-luglio-1773.html",
       "sourceIsDirectory": false,
@@ -11811,9 +12412,12 @@
       "title": "Magna atque",
       "author": "Pope Clement XIV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Magna atque",
+        "On an Easter Jubilee for the Papal States"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-magna-atque-16-marzo-1771.html",
       "sourceIsDirectory": false,
@@ -11837,8 +12441,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Inscrutabili Divinae Sapientiae",
-        "Proclaiming a Universal Jubilee"
+        "Inscrutabili divinae",
+        "Proclaiming a Universal Jubilee",
+        "Inscrutabili Divinae Sapientiae"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-inscrutabili-divinae-12-dicembre-1769.html",
@@ -11863,8 +12468,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Summi",
-        "Proclaiming a Universal Jubilee"
+        "Cum summi apostolatus",
+        "Proclaiming a Universal Jubilee",
+        "Cum Summi"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-cum-summi-apostolatus-12-dicembre-1769.html",
@@ -11889,8 +12495,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Decet Quam Maxime",
-        "On Abuses in Taxes and Benefices"
+        "Decet quam maxime",
+        "On Abuses in Taxes and Benefices",
+        "Decet Quam Maxime"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-decet-quam-maxime-21-settembre-1769.html",
@@ -11912,9 +12519,12 @@
       "title": "Accedamus cum fiducia",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Accedamus cum fiducia",
+        "On a Jubilee of Prayer, Penance, and Mercy"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html",
       "sourceIsDirectory": false,
@@ -11938,8 +12548,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Summa Quae",
-        "On the Church in Poland"
+        "Summa quae",
+        "On the Church in Poland",
+        "Summa Quae"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-summa-quae-6-gennaio-1768.html",
@@ -11964,8 +12575,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Christianae Reipublicae",
-        "On the Dangers of Anti-Christian Writings"
+        "Christianae reipublicae",
+        "On the Dangers of Anti-Christian Writings",
+        "Christianae Reipublicae"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-christianae-reipublicae-25-novembre-1766.html",
@@ -11987,9 +12599,12 @@
       "title": "Quam graviter",
       "author": "Pope Clement XIII",
       "kind": "encyclical",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quam graviter",
+        "On Royal Decrees Restricting the Church in France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html",
       "sourceIsDirectory": false,
@@ -12010,9 +12625,12 @@
       "title": "Quanta auxilii",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quanta auxilii",
+        "On the French Bishops’ Defense of the Church"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html",
       "sourceIsDirectory": false,
@@ -12033,9 +12651,12 @@
       "title": "Ubi primum accepimus",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Ubi primum accepimus",
+        "On the Election of the King of the Romans"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html",
       "sourceIsDirectory": false,
@@ -12056,9 +12677,12 @@
       "title": "Quanto in dolore",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Quanto in dolore",
+        "On the Church’s Distress and the Jesuits in France"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html",
       "sourceIsDirectory": false,
@@ -12082,8 +12706,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "In Dominico Agro",
-        "On Instruction in the Faith"
+        "In dominico agro",
+        "On Instruction in the Faith",
+        "In Dominico Agro"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-in-dominico-agro-14-giugno-1761.html",
@@ -12108,8 +12733,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Appetente Sacro",
-        "On the Spiritual Advantages in Fasting"
+        "Appetente sacro",
+        "On the Spiritual Advantages in Fasting",
+        "Appetente Sacro"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-appetente-sacro-20-dicembre-1759.html",
@@ -12134,8 +12760,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Primum",
-        "On Observing Canonical Sanctions"
+        "Cum primum",
+        "On Observing Canonical Sanctions",
+        "Cum Primum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-cum-primum-17-settembre-1759.html",
@@ -12157,9 +12784,12 @@
       "title": "Pastoralis officii",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Pastoralis officii",
+        "On Limits to Ecclesiastical Asylum in Sardinia"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-pastoraliis-officii-21-marzo-1759.html",
       "sourceIsDirectory": false,
@@ -12183,8 +12813,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "A Quo Die",
-        "On Union Among Christians"
+        "A quo die",
+        "On Union Among Christians",
+        "A Quo Die"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-a-quo-die-14-settembre-1758.html",
@@ -12206,9 +12837,12 @@
       "title": "Venimus in altitudinem",
       "author": "Pope Clement XIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "it",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Venimus in altitudinem",
+        "On a Jubilee at the Beginning of the Pontificate"
+      ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html",
       "sourceIsDirectory": false,
@@ -12257,8 +12891,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Ex Omnibus",
-        "On the Apostolic Constitution Unigenitus"
+        "Ex Omnibus Christiani",
+        "On the Apostolic Constitution Unigenitus",
+        "Ex Omnibus"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-omnibus-christiani--i---16-ottobre-1756--lettera.html",
@@ -12283,8 +12918,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Ex Quo",
-        "On the Euchologion"
+        "Ex Quo Primum",
+        "On the Euchologion",
+        "Ex Quo"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-quo-primum--i---1-marzo-1756--il-pontefice-invit.html",
@@ -12385,8 +13021,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Cum Religiosi",
-        "On Catechesis"
+        "Cum Religiosi Aeque",
+        "On Catechesis",
+        "Cum Religiosi"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-religiosi-aeque--i---26-giugno-1754--il-pontefi.html",
@@ -12408,9 +13045,12 @@
       "title": "Sollicita ac provida",
       "author": "Pope Benedict XIV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
+      "aliases": [
+        "Sollicita ac provida",
+        "On the Examination and Prohibition of Books"
+      ],
       "topics": [],
       "sourceURL": "https://la.wikisource.org/wiki/Sollicita_ac_provida",
       "sourceIsDirectory": false,
@@ -12686,8 +13326,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Peregrinantes",
-        "Proclaiming a Holy Year"
+        "Peregrinantes a Domino",
+        "Proclaiming a Holy Year",
+        "Peregrinantes"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-peregrinantes-a-domino--i---5-maggio-1749-il-pontefice-.html",
@@ -13317,9 +13958,9 @@
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Ubi Primum",
+        "Ubi primum",
         "On the Duties of Bishops",
-        "Ubi primum"
+        "Ubi Primum"
       ],
       "topics": [],
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ubi-primum--i---3-dicembre-1740--nell--8217-ambito-.html",
@@ -13359,7 +14000,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1738"
+      "date": "1738",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-clem11-unigenitus",
@@ -13384,7 +14026,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1713"
+      "date": "1713",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-innoc11-coelestis-pastor",
@@ -13409,14 +14052,15 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1687"
+      "date": "1687",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-innoc11-sollicitudo-pastoralis",
       "title": "Sollicitudo pastoralis",
       "author": "Pope Innocent XI",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Sollicitudo pastoralis",
@@ -13442,7 +14086,7 @@
       "title": "Super Cathedram Principis Apostolorum",
       "author": "Pope Alexander VII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Super Cathedram Principis Apostolorum",
@@ -13460,17 +14104,19 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1659"
+      "date": "1659",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-clem08-ex-supernae-dispositionis-arbitrio",
       "title": "Ex Supernae Dispositionis Arbitrio",
       "author": "Pope Clement VIII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Ex Supernae Dispositionis Arbitrio"
+        "Ex Supernae Dispositionis Arbitrio",
+        "On Papal Recognition and Privileges of the University of Mexico"
       ],
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//clem08/clem8exsuper.htm",
@@ -13484,7 +14130,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1595"
+      "date": "1595",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-sixtus05-triumphantis-hierusalem",
@@ -13509,22 +14156,24 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1590"
+      "date": "1590",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius05-exponi-nobis-nuper",
       "title": "Exponi nobis nuper",
       "author": "Pope Pius V",
-      "kind": "encyclical",
-      "language": "en",
+      "kind": "papalDocument",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Exponi nobis nuper"
+        "Exponi nobis nuper",
+        "On Confirmation of the University of Lima"
       ],
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius05/p5exponi.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "brief",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -13533,7 +14182,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1571"
+      "date": "1571",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-pius05-regnans-in-excelsis",
@@ -13558,13 +14208,14 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1570"
+      "date": "1570",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius05-quo-primum",
       "title": "Quo Primum",
       "author": "Pope Pius V",
-      "kind": "encyclical",
+      "kind": "papalDocument",
       "language": "en",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
@@ -13574,7 +14225,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius05/p5quopri.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "apostolic-constitution",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -13583,7 +14234,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1570"
+      "date": "1570",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-pius05-consueverunt-romani",
@@ -13608,17 +14260,19 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1569"
+      "date": "1569",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-paul03-in-apostolatus-culmine",
       "title": "In apostolatus culmine",
       "author": "Pope Paul III",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "In apostolatus culmine"
+        "In apostolatus culmine",
+        "On Establishing the University of Santo Domingo"
       ],
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//paul03/p3inapost.htm",
@@ -13632,7 +14286,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1538"
+      "date": "1538",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-paul03-sublimis-deus",
@@ -13657,7 +14312,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1537"
+      "date": "1537",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo10-decet-romanum-pontificem",
@@ -13682,7 +14338,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1521"
+      "date": "1521",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-leo10-exsurge-domine",
@@ -13707,7 +14364,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1520"
+      "date": "1520",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-alex06-inter-caetera",
@@ -13732,7 +14390,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1493"
+      "date": "1493",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-sixtus04-superna-caelestis",
@@ -13809,7 +14468,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1435"
+      "date": "1435",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-ben12-benedictus-deus",
@@ -13834,17 +14494,19 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1334"
+      "date": "1334",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-john22-summa-providit-altitudo-consilii",
       "title": "Summa providit altitudo consilii",
       "author": "Pope John XXII",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
-        "Summa providit altitudo consilii"
+        "Summa providit altitudo consilii",
+        "On Degree-Granting Authority at the University of Salamanca"
       ],
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//john22/j22summa-l.htm",
@@ -13858,7 +14520,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1333"
+      "date": "1333",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-john22-quia-quorundam",
@@ -13883,7 +14546,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1316"
+      "date": "1316",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-clem05-exivi-de-paradiso",
@@ -13908,7 +14572,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1305"
+      "date": "1305",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-bon08-unam-sanctam",
@@ -13933,7 +14598,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1302-11-18"
+      "date": "1302-11-18",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-nichol03-exiit-qui-seminat",
@@ -13958,7 +14624,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1279"
+      "date": "1279",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-greg10-papal-protection-of-the-jews",
@@ -13990,7 +14657,7 @@
       "title": "Petitionibus Vestris Benignum Impertientes",
       "author": "Pope Alexander IV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Petitionibus Vestris Benignum Impertientes",
@@ -14008,14 +14675,15 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1255"
+      "date": "1255",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-alex04-inter-ea-quae-placita",
       "title": "Inter Ea Quae Placita",
       "author": "Pope Alexander IV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Inter Ea Quae Placita",
@@ -14033,14 +14701,15 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1255"
+      "date": "1255",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-alex04-dignum-arbitramur-et-congruum",
       "title": "Dignum Arbitramur et Congruum",
       "author": "Pope Alexander IV",
       "kind": "papalDocument",
-      "language": "en",
+      "language": "la",
       "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
       "aliases": [
         "Dignum Arbitramur et Congruum",
@@ -14058,7 +14727,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1255"
+      "date": "1255",
+      "sourceLanguage": "la"
     },
     {
       "id": "papal-innoc04-quae-honorem-conditoris-omnium",
@@ -14083,7 +14753,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1243"
+      "date": "1243",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-greg09-mira-circa-nos",
@@ -14108,7 +14779,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1228"
+      "date": "1228",
+      "sourceLanguage": "en"
     },
     {
       "id": "papal-hon03-solet-annuere",
@@ -14133,7 +14805,8 @@
         "territory": "US"
       },
       "sections": [],
-      "date": "1226"
+      "date": "1226",
+      "sourceLanguage": "en"
     }
   ]
 }

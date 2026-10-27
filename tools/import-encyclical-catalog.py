@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Import bibliographic metadata from the user's processed papal-document corpus.
 
-Read-only access to the original project. No copied document bodies, machine
-translations, generated summaries, accounts, or publication approvals are imported.
+Read-only access to the original project. No document bodies, summary bodies,
+accounts, private evidence, or publication approvals are copied by this command.
 Optional saved Vatican index pages reconcile direct URLs and identify additions.
 This script remains metadata-only; development text import is a separate command.
 """
@@ -102,9 +102,9 @@ def source_date(label):
     return match[0] if match else None
 
 
-def record(work_id, title, author, kind, source_url, date=None, aliases=None, translated=False, directory=False, original_type=None):
+def record(work_id, title, author, kind, source_url, date=None, aliases=None, machine_translated=False, directory=False, original_type=None):
     edition = "Source text as linked; exact English-edition redistribution rights are not recorded."
-    if translated: edition += " The local research corpus contains an unreviewed DeepL translation, which is not bundled here."
+    if machine_translated: edition += " The local research corpus contains an unreviewed DeepL translation, which is not bundled here."
     if directory: edition += " The original import did not retain an exact source URL; this record opens the collection directory."
     result = {"id": work_id, "title": title, "author": author, "kind": kind, "language": "en", "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.", "aliases": aliases or [], "topics": [], "sourceURL": source_url, "sourceIsDirectory": directory, "originalType": original_type or "encyclical-letter", "rights": {"status": "linkOnly", "edition": edition, "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.", "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html" if "vatican.va" in source_url else DIRECTORY, "territory": "US"}, "sections": []}
     if date: result["date"] = str(date)
@@ -127,17 +127,20 @@ def main():
     overrides = corrections["overrides"]
     source_aliases = corrections.get("sourceAliases", {})
     works = []; audit = []; used = set(); excluded = []
+    for archived in index.get("archivedRecords", []):
+        excluded.append({"record": archived["popeSlug"] + "/" + archived["slug"],
+                         "reason": archived.get("reason", "Noncanonical source edition or reference"),
+                         "mergedInto": archived.get("canonicalRecord")})
     for item in index["documents"]:
         key = item["popeSlug"] + "/" + item["slug"]
+        if not re.fullmatch(r"[a-z0-9]+/[a-z0-9-]+", key): raise ValueError("Unsafe source-record path")
         if key == "pius10/pope-st-pius-x":
             excluded.append({"record": key, "reason": "Biographical note, not a papal document"}); continue
-        if key == "jp02/salvifici-doloris":
-            excluded.append({"record": key, "reason": "Already represented by the separately curated apostolic letter", "mergedInto": "salvifici-doloris"}); continue
         metadata_path = source / (key + ".json")
         metadata = json.loads(metadata_path.read_text())
         title = item["incipit"]
         if title.strip("- ") == "": title = item["slug"].replace("-", " ").title()
-        original_type = item["type"]
+        original_type = metadata.get("type") or item["type"]
         kind = "encyclical" if original_type == "encyclical-letter" else "apostolicLetter" if original_type == "apostolic-letter" else "papalDocument"
         if original_type == "encyclical-letter" and item["popeSlug"] == "pius12" and item["slug"] in {"address-to-midwives-on-the-nature-of-their-profession", "democracy-and-a-lasting-peace", "on-rural-life", "the-internal-order-of-states-and-people", "the-states-of-perfection"}:
             kind = "papalDocument"; original_type = "address"
@@ -156,18 +159,44 @@ def main():
             if len(extended) == 1: match = extended[0]
         if match:
             source_url = match["sourceURL"]; used.add(source_url)
-            kind = match.get("kind", "encyclical"); original_type = match.get("originalType", "encyclical-letter")
+            # The saved index identifies coverage, while reconciled sidecars carry
+            # corrected types and dates (including errors in the index's labels).
+            if not metadata.get("type"):
+                kind = match.get("kind", "encyclical"); original_type = match.get("originalType", "encyclical-letter")
         else: source_url = metadata.get("sourceURL") or recovered.get(key, DIRECTORY)
         override = overrides.get(key, {})
         source_url = override.get("sourceURL", source_url)
         if source_url in official: used.add(source_url)
-        work = record("papal-" + key.replace("/", "-"), match["title"] if match else title, "Pope " + item["popeName"], kind, source_url,
-                      source_date(match["label"]) if match else metadata.get("date") or item.get("year"), list(dict.fromkeys(value for value in [title, item.get("englishTitle")] if value and len(value) <= 180)),
-                      item.get("translated", False), source_url == DIRECTORY, original_type)
+        machine_translated = metadata.get("machineTranslated", metadata.get("translationSource") == "deepl")
+        aliases = list(dict.fromkeys(value.strip() for value in [title, metadata.get("englishTitle"), item.get("englishTitle"), *metadata.get("aliases", [])]
+                                     if isinstance(value, str) and value.strip() not in {"", "---"} and len(value.strip()) <= 180))
+        work_id = "salvifici-doloris" if key == "jp02/salvifici-doloris" else "papal-" + key.replace("/", "-")
+        date = metadata.get("date") or (source_date(match["label"]) if match else item.get("year"))
+        work = record(work_id, match["title"] if match else title, "Pope " + item["popeName"], kind, source_url,
+                      date, aliases, machine_translated, source_url == DIRECTORY, original_type)
+        if metadata.get("sourceLanguage"): work["sourceLanguage"] = metadata["sourceLanguage"]
+        if metadata.get("language") in {"en", "it", "la"}: work["language"] = metadata["language"]
         work.update({k: v for k, v in override.items() if k in {"title", "date", "kind", "originalType", "sourceURL", "sourceLanguage"}})
+        audit_record = {"id": work["id"], "localRecord": key, "metadataSHA256": hashlib.sha256(metadata_path.read_bytes()).hexdigest(),
+                        "originalType": original_type, "importedKind": work["kind"], "translated": metadata.get("translated", False),
+                        "machineTranslated": machine_translated, "readingLanguage": metadata.get("language", "en"),
+                        "sourceLanguage": metadata.get("sourceLanguage"), "sourceURL": source_url,
+                        "date": work.get("date"), "englishTitle": metadata.get("englishTitle"), "englishTitleKind": metadata.get("englishTitleKind"),
+                        "aliases": aliases, "addressee": metadata.get("addressee"), "addresseeStatus": metadata.get("addresseeStatus"),
+                        "metadataReviewStatus": metadata.get("metadataReviewStatus", "pending"), "summaryStatus": metadata.get("summaryStatus"),
+                        "sourceTagsForReview": metadata.get("tags", []), "sourceURLRecovered": source_url != DIRECTORY}
+        if metadata.get("dateConflict"):
+            audit_record["dateConflict"] = {field: metadata["dateConflict"][field] for field in
+                ["status", "resolvedDate", "resolvedOn", "resolutionSourceURL", "resolutionEvidence", "indexLabelDate"] if field in metadata["dateConflict"]}
+        if metadata.get("sourceRecovery"):
+            audit_record["sourceRecovery"] = {field: metadata["sourceRecovery"][field] for field in
+                ["status", "sourceRevision", "sourceArtifactSHA256", "congressAppendixIncluded", "congressAppendixIsPapalText"] if field in metadata["sourceRecovery"]}
+        audit.append(audit_record)
+        if key == "jp02/salvifici-doloris":
+            excluded.append({"record": key, "reason": "Catalog entry already represented by the separately curated apostolic letter; local source/summary retained", "mergedInto": work_id})
+            continue
         works.append(work)
-        audit.append({"id": work["id"], "localRecord": key, "metadataSHA256": hashlib.sha256(metadata_path.read_bytes()).hexdigest(), "originalType": item["type"], "importedKind": work["kind"], "translated": item["translated"], "sourceTagsForReview": item["tags"], "sourceURLRecovered": source_url != DIRECTORY})
-    unique = {}; translated_ids = {r["id"] for r in audit if r["translated"]}
+    unique = {}; translated_ids = {r["id"] for r in audit if r["machineTranslated"]}
     for work in works:
         key = (work["author"], normalize(work["title"]), work.get("date", ""))
         if key in unique:
@@ -208,7 +237,7 @@ def main():
     (dest / "encyclicals.json").write_text(json.dumps({"works": works}, ensure_ascii=False, indent=2) + "\n")
     previous = json.loads((ROOT / "content/readings/encyclical-inventory.json").read_text())
     baseline = previous.get("originalCorpus") or {"sourceDocumentCount": previous["sourceDocumentCount"], "sourceIndexSHA256": previous["sourceIndexSHA256"], "translatedRecords": sum(r["translated"] for r in previous["records"])}
-    inventory = {"schemaVersion": 1, "sourceProject": "encyclicals", "sourceIndexSHA256": hashlib.sha256(raw_index).hexdigest(), "sourceIndexGeneratedAt": index["generatedAt"], "checkedOn": "2026-10-27", "completeHistoricalCensusVerified": False, "sourceDocumentCount": len(index["documents"]), "sourcePopeCount": index["totalPopes"], "originalCorpus": baseline, "importedKinds": dict(Counter(w["kind"] for w in works)), "excluded": excluded, "officialIndexAdditions": additions, "manualAdditions": manual_additions, "officialIndexes": inventories, "officialIndexCoverage": coverage, "unresolvedSourceLinks": [], "records": audit}
+    inventory = {"schemaVersion": 1, "sourceProject": "encyclicals", "sourceIndexSHA256": hashlib.sha256(raw_index).hexdigest(), "sourceIndexGeneratedAt": index["generatedAt"], "checkedOn": "2026-10-27", "completeHistoricalCensusVerified": False, "sourceDocumentCount": len(index["documents"]), "sourceStoredDocumentCount": index.get("totalStoredDocuments", len(index["documents"])), "sourcePopeCount": index["totalPopes"], "originalCorpus": baseline, "importedKinds": dict(Counter(w["kind"] for w in works)), "excluded": excluded, "officialIndexAdditions": additions, "manualAdditions": manual_additions, "officialIndexes": inventories, "officialIndexCoverage": coverage, "unresolvedSourceLinks": [], "records": audit}
     (dest / "encyclical-inventory.json").write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + "\n")
     print(f"Cataloged {len(works)} papal works: {dict(Counter(w['kind'] for w in works))}; {sum(not w['sourceIsDirectory'] for w in works)} direct source links; {len(additions)} official-index additions. No source bodies copied.")
 

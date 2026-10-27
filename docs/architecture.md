@@ -88,6 +88,11 @@ manifests. Development-only status requires a development manifest and is reject
 at production boundaries even if the top-level flag is changed. Source-only works
 have no bundled body or body index. The bundler copies only referenced Markdown,
 so removing an edition removes its files and indexed text from the next bundle.
+Papal source and English editorial summary sections share the existing version-2
+contract, with stable `<workID>-text` and `<workID>-summary` IDs. The work language
+describes the source; GraceCore identifies editorial summary sections so the
+reader labels their English editorial status separately. Bookmarks and resume
+points retain the version-1 shelf format, with no data migration.
 See [reading library](reading-library.md) for source rights, coverage, import
 reconciliation and production gates. Remote reading-pack delivery is future work.
 

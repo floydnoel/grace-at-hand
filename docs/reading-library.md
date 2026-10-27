@@ -26,10 +26,13 @@ human permissions approval. Production publication remains blocked.
 - A separate *Salvifici doloris* apostolic-letter record, also available offline.
 - Fourteen starting topics and two optional reading guides.
 
-All **645 cataloged works** have local text, in **2,060 Markdown sections**.
-The Markdown occupies approximately 21.07 MiB and the generated full-text index
-41.07 MiB. The index includes precomputed normalized text to reduce first-search
-work; excerpts are formatted only after ranking the returned page. Each papal work currently has one reading section. The 569 papal
+All **645 cataloged works** have local text, in **2,629 Markdown sections**.
+The Markdown occupies approximately 22.59 MiB and the generated full-text index
+44.10 MiB. The index includes precomputed normalized text to reduce first-search
+work; excerpts are formatted only after ranking the returned page. Each papal work
+has its source text and a separate **English editorial summary**, both available
+offline and searchable. All 569 summaries remain unreviewed editorial drafts;
+they are not official translations. The 569 papal
 editions comprise 394 English, 162 Italian, and 13 Latin texts. Thirty-one retained
 English editions are explicitly labeled unreviewed DeepL translations. The
 Pius X anniversary address is labeled as excerpts because that is what its source
@@ -40,7 +43,8 @@ contains; it is not represented as a complete address.
 The original import read `/Users/floyd/projects/personal/catholic/encyclicals`
 without changing it. Its baseline index had 401 documents across 43 popes,
 rather than the older README's 45. Its scripts, CMS, account configuration,
-credentials, and generated summaries were not used. The supplied
+credentials were not used. A later sync imports all 569 supplied summaries,
+including the 170 added during source-project reconciliation. The supplied
 Markdown is imported directly, retaining original translation notes. Exported
 headings are normalized to catalog titles; duplicate titles and author/year
 wrappers are removed, and stray italic markers in capitalized front matter are
@@ -80,7 +84,8 @@ additions and every official-index-to-work mapping. `vatican-index.json` stores
 bibliographic facts and index hashes. `catalog-corrections.json` records the seven
 fixes and manual additions; `source-links.json` preserves recovered links.
 `development-source-lock.json` fingerprints every supplied or downloaded papal
-edition and records reading language and machine-translation status. Language
+edition and summary and records reading language, machine-translation status,
+original hashes, and converted Markdown hashes. Language
 detection and research classifications still need editorial review.
 
 The user subsequently requested the findings be added to the source project.
@@ -92,6 +97,22 @@ avoids adding *Salvifici doloris* or *Sollicita ac provida* a second time.
 Use `--output-dir /path/to/comparison` to inspect a future metadata import before
 rebuilding the app library. The two Vatican URLs for the 1937 Mexican letter
 resolve to one canonical work in both projects.
+
+The latest sync gives curated source sidecars precedence over stale index labels
+for dates and document types, and retains eligible English finding titles as
+search aliases. *In consistorio* is dated April 6, 1843 and *Maximis angustiis*
+April 27, 1844, following the source project's archival resolutions; the inventory
+retains the conflicting index dates and public resolution evidence. The recovered
+*Guiding Principles of the Lay Apostolate* contains the full retained English
+address and a separately marked congress appendix, dated October 5, 1957. This
+historical English translation is not classified as a DeepL translation.
+
+The sync preserves all 645 work IDs and all 2,060 preexisting section IDs, including
+guide destinations and saved places. The 569 new sections use `<workID>-summary`;
+source sections retain `<workID>-text`. Short catalog overviews come from each
+summary's opening paragraph; the complete supplied summary remains in its own
+Markdown section. One malformed legacy English-title field is retained only in
+the source audit and excluded from app aliases. No source-project file was changed.
 
 ## Editions and release boundary
 
@@ -128,6 +149,10 @@ ambiguous modern aliases. Guides open their offline sections directly.
 The reader offers scalable serif text, contents, previous/next navigation,
 bookmarks and a last-read section. Research and machine-translation labels appear
 before their text, and Italian/Latin editions identify their reading language.
+Contents lists source text and English summary separately. A summary opens with
+an English editorial review notice, including when its source is Italian, Latin,
+or a retained DeepL translation. Source-language and translation notices continue
+to describe the source section. Either section can be bookmarked and resumed.
 Automatic progress is omitted when Keep prayer activity is disabled. Queries are
 temporary view state and are never logged or synchronized.
 
@@ -181,11 +206,26 @@ Omitting `--vatican-indexes` reuses the committed bibliographic snapshot. Downlo
 are explicit, fingerprinted and reusable; the downloader fetches only editions
 missing from the supplied corpus. No source-project script or CMS is run.
 
-To **strip all unreviewed papal bodies**, rerun only `import-readings.py` with the
-same Bible, Gutenberg and encyclical arguments, **omitting `--development-texts`**,
+For subsequent syncs from the reconciled source project, all papal bodies and
+summaries are already present there. Reuse the existing checksum-verified Bible
+and classics without downloading their acquisition files again:
+
+```sh
+python3 tools/import-encyclical-catalog.py --project /path/to/encyclicals
+python3 tools/import-papal-texts.py --project /path/to/encyclicals
+python3 tools/import-readings.py --reuse-non-papal \
+  --encyclicals content/readings/encyclicals.json \
+  --development-texts content/readings/development-texts.json
+make generate
+```
+
+To **strip all unreviewed papal text and summaries**, rerun only
+`import-readings.py` with `--reuse-non-papal` (or the original Bible/Gutenberg
+arguments) and the encyclical argument, **omitting `--development-texts`**,
 then run `make generate`. Papal records return to source links and guides adapt.
 Check the resulting manifest/index and use a fresh, clean production archive.
-This removes bodies from the app bundle, not the local research-source archive.
+This removes source sections, summaries and their indexed prose from the app
+bundle, not the local research-source archive.
 For selective clearance, review the exact edition and replace or remove its
 development overlay record; update the importer policy if mixed reviewed and
 development editions are needed. Never relabel an edition without evidence.

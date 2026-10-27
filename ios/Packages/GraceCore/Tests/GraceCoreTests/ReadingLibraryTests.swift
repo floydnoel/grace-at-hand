@@ -25,6 +25,76 @@ private func readings() throws -> ReadingLibrary { try JSONDecoder().decode(Read
     #expect(ReadingBlock.parse(markdown).contains { $0.id == "verse-1" })
 }
 
+@Test func papalSummarySectionsPreserveSourceIdentityLanguageDatesAndTypes() throws {
+    let library = try readings(); try library.validate()
+    #expect(library.schemaVersion == 2)
+    #expect(library.works.count == 645)
+    #expect(library.works.flatMap(\.sections).count == 2629)
+    let papalWorks = library.works.filter { [.encyclical, .papalDocument, .apostolicLetter].contains($0.kind) }
+    #expect(papalWorks.count == 569)
+    for work in papalWorks {
+        #expect(work.sections.count == 2)
+        let body = try #require(work.sections.first { $0.id == "\(work.id)-text" })
+        let summary = try #require(work.editorialSummary)
+        #expect(body.order == 1)
+        #expect(!work.isEditorialSummary(body))
+        #expect(summary.id == "\(work.id)-summary")
+        #expect(summary.order == 2)
+        #expect(summary.title == "English editorial summary")
+        #expect(summary.reference == "\(work.title) · English editorial summary")
+        #expect(work.isEditorialSummary(summary))
+        #expect(work.rights.status == .developmentOnly)
+    }
+    #expect(papalWorks.filter { $0.language == "en" }.count == 394)
+    #expect(papalWorks.filter { $0.language == "it" }.count == 162)
+    #expect(papalWorks.filter { $0.language == "la" }.count == 13)
+    #expect(library.work("papal-greg16-in-consistorio")?.date == "1843-04-06")
+    #expect(library.work("papal-greg16-maximis-angustiis")?.date == "1844-04-27")
+    for (id, originalType) in [
+        ("papal-pius09-aeterni-patris", "bull"),
+        ("papal-pius09-apostolici-ministerii", "brief"),
+        ("papal-pius09-dogmatica-dei-filius", "apostolic-constitution"),
+        ("papal-pius12-guiding-principles-of-the-lay-apostolate", "address")
+    ] {
+        #expect(library.work(id)?.originalType == originalType)
+        #expect(library.work(id)?.kind == .papalDocument)
+    }
+    let latin = try #require(library.work("papal-ben14-sollicita-ac-provida"))
+    let anotherSummary = try #require(library.work("papal-ben16-spe-salvi")?.editorialSummary)
+    #expect(!latin.isEditorialSummary(anotherSummary))
+    #expect(library.work("drb-rom")?.editorialSummary == nil)
+}
+
+@Test func recoveredPapalBodyAndEnglishSummarySearchUseLocalMarkdown() throws {
+    let library = try readings()
+    let recovered = try #require(library.work("papal-pius12-guiding-principles-of-the-lay-apostolate"))
+    let latin = try #require(library.work("papal-ben14-sollicita-ac-provida"))
+    let body = try #require(recovered.sections.first { $0.id == "\(recovered.id)-text" })
+    let recoveredSummary = try #require(recovered.editorialSummary)
+    let englishSummary = try #require(latin.editorialSummary)
+    let selected: [(ReadingWork, ReadingSection)] = [(recovered, body), (recovered, recoveredSummary), (latin, englishSummary)]
+    let documents = try selected.map { work, section in
+        let data = try Data(contentsOf: readingsRoot().appendingPathComponent(section.file.path))
+        #expect(data.count == section.file.bytes)
+        let markdown = try #require(String(data: data, encoding: .utf8))
+        let blocks = ReadingBlock.parse(markdown)
+        #expect(!blocks.isEmpty)
+        if section.id == body.id {
+            #expect(markdown.split(whereSeparator: \.isWhitespace).count > 8000)
+            #expect(blocks.contains { $0.text.contains("Principle of Subsidiarity") })
+            #expect(blocks.contains { $0.text.contains("European Coal and Steel Authority") })
+        }
+        return ReadingSearchDocument(id: section.id, workID: work.id, sectionID: section.id, text: markdown)
+    }
+    let engine = try ReadingSearchEngine(library: library, documents: documents)
+    #expect(engine.search("European Coal and Steel Authority", offlineOnly: true).map(\.sectionID) == [body.id])
+    let results = engine.search("procedural safeguards", author: latin.author, offlineOnly: true)
+    #expect(results.map(\.sectionID) == [englishSummary.id])
+    #expect(results.first?.reason == "Text matches your search")
+    #expect(results.first?.excerpt?.contains("procedural safeguards") == true)
+    #expect(latin.language == "la")
+}
+
 @Test func topicSearchConnectsScriptureClassicsAndOfflinePapalReadings() throws {
     let library = try readings()
     let wanted = ["drb-rom-8", "imitation-book-2-chapter-12", "papal-ben16-spe-salvi-text"]
