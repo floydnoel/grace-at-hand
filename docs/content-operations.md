@@ -8,6 +8,17 @@ Daily assignments are `YYYY-MM-DD` values interpreted in the device's local cale
 
 The schema rejects unknown fields, including accidental private rights evidence. Public output is an explicit allowlist. For schema evolution, bump the major version for incompatible changes and test the older client's retained-library recovery. Do not reuse withdrawn IDs for unrelated content.
 
+The expanded reading library has a separate version-2 manifest and local Markdown
+contract, described in [reading-library.md](reading-library.md). It supplies the full
+Douay–Rheims reader without changing the prayer catalog's contract. Reading source
+metadata, exact editions, document types, original versus machine translations,
+guides, and offline-use rights need their own review. At the user's request,
+development-only papal editions are bundled for local demos and personal reading;
+they must be cleared or removed before distribution. Source-only records do not
+include hidden document text in the local search index. Normal builds validate
+and bundle committed Markdown; they do not contact the source project, its CMS, or
+the internet. Production also checks the reading approvals and bundled index.
+
 ## Editorial workflow
 
 1. Author a complete record in a content branch, with text, transcript, source credits, suitability, language, and the actual recording duration. Put approved AAC in an M4A container; calculate SHA-256 and byte size. Use `media/<sha256>.m4a` as the production key.

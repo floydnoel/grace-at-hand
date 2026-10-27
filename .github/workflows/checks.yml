@@ -17,6 +17,7 @@ jobs:
         with:
           node-version-file: .node-version
       - run: node tools/content.mjs validate
+      - run: node tools/readings.mjs validate
       - run: node --test tools/tests/*.test.mjs
       - run: node tools/generate-tokens.mjs && git diff --exit-code -- ios/App/Design/GeneratedTokens.swift
   ios:

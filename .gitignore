@@ -20,5 +20,6 @@ private/
 tmp/
 ios/App/Resources/catalog.json
 ios/App/Resources/Media/
+ios/App/Resources/ReadingLibrary/
 ios/Config/Info.plist
 ios/App/Resources/Assets.xcassets/Cloister.imageset/cloister.png

@@ -1,0 +1,412 @@
+{
+  "coverage": "The complete 73-book Douay–Rheims 1899 text, three historical spiritual works, and papal writings reconciled against the source collection and 20 Vatican index snapshots. Earlier historical coverage follows the collected documents. Exact editions, translations, and reading guides remain under review.",
+  "topics": [
+    {
+      "id": "suffering",
+      "title": "Suffering",
+      "aliases": [
+        "pain",
+        "grief",
+        "sorrow",
+        "affliction",
+        "tribulation",
+        "illness"
+      ],
+      "description": "Reading about sorrow, endurance, compassion, and hope."
+    },
+    {
+      "id": "hope",
+      "title": "Hope",
+      "aliases": [
+        "trust",
+        "consolation"
+      ],
+      "description": "Hope in God amid uncertainty."
+    },
+    {
+      "id": "prayer",
+      "title": "Prayer",
+      "aliases": [
+        "contemplation",
+        "silence",
+        "presence of god"
+      ],
+      "description": "Learning to pray and remain attentive to God."
+    },
+    {
+      "id": "mercy",
+      "title": "Mercy",
+      "aliases": [
+        "compassion",
+        "repentance"
+      ],
+      "description": "God’s mercy and a compassionate response to others."
+    },
+    {
+      "id": "forgiveness",
+      "title": "Forgiveness",
+      "aliases": [
+        "reconciliation",
+        "pardon"
+      ],
+      "description": "Receiving and extending forgiveness."
+    },
+    {
+      "id": "charity",
+      "title": "Love and charity",
+      "aliases": [
+        "love",
+        "charity",
+        "service"
+      ],
+      "description": "Love of God and neighbor in ordinary life."
+    },
+    {
+      "id": "justice",
+      "title": "Justice and human dignity",
+      "aliases": [
+        "social teaching",
+        "poverty",
+        "work",
+        "dignity"
+      ],
+      "description": "Human dignity, labor, poverty, and the common good."
+    },
+    {
+      "id": "faith",
+      "title": "Faith",
+      "aliases": [
+        "belief",
+        "conversion"
+      ],
+      "description": "Faith, conversion, and understanding."
+    },
+    {
+      "id": "peace",
+      "title": "Peace",
+      "aliases": [
+        "anxiety",
+        "worry",
+        "reconciliation"
+      ],
+      "description": "Peace of heart and peace among peoples."
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "aliases": [
+        "marriage",
+        "parenthood"
+      ],
+      "description": "Love and responsibility within the household."
+    },
+    {
+      "id": "creation",
+      "title": "Creation",
+      "aliases": [
+        "environment",
+        "ecology"
+      ],
+      "description": "Creation and care for our common home."
+    },
+    {
+      "id": "eucharist",
+      "title": "Eucharist",
+      "aliases": [
+        "communion",
+        "mass",
+        "blessed sacrament"
+      ],
+      "description": "The Eucharist and life in Christ."
+    },
+    {
+      "id": "wisdom",
+      "title": "Wisdom",
+      "aliases": [
+        "discernment",
+        "prudence"
+      ],
+      "description": "Wisdom and discerning a faithful response."
+    },
+    {
+      "id": "mary",
+      "title": "Mary",
+      "aliases": [
+        "rosary",
+        "our lady"
+      ],
+      "description": "Mary’s place in Christian prayer and discipleship."
+    }
+  ],
+  "sectionTopics": {
+    "drb-job-1": [
+      "suffering",
+      "faith"
+    ],
+    "drb-job-19": [
+      "suffering",
+      "hope"
+    ],
+    "drb-psa-22": [
+      "suffering",
+      "hope",
+      "prayer"
+    ],
+    "drb-psa-50": [
+      "mercy",
+      "forgiveness"
+    ],
+    "drb-rom-8": [
+      "suffering",
+      "hope",
+      "faith"
+    ],
+    "drb-2co-4": [
+      "suffering",
+      "hope"
+    ],
+    "drb-jhn-11": [
+      "suffering",
+      "hope"
+    ],
+    "drb-mat-5": [
+      "peace",
+      "justice",
+      "suffering"
+    ],
+    "drb-mat-6": [
+      "prayer",
+      "peace"
+    ],
+    "drb-luk-15": [
+      "mercy",
+      "forgiveness"
+    ],
+    "drb-1co-13": [
+      "charity"
+    ],
+    "drb-jhn-6": [
+      "eucharist"
+    ],
+    "drb-gen-1": [
+      "creation"
+    ],
+    "drb-luk-1": [
+      "mary"
+    ],
+    "drb-mrk-1": [
+      "faith",
+      "prayer"
+    ],
+    "drb-jhn-1": [
+      "faith"
+    ],
+    "imitation-book-1-chapter-12": [
+      "suffering",
+      "hope"
+    ],
+    "imitation-book-2-chapter-12": [
+      "suffering",
+      "faith"
+    ],
+    "presence-of-god-fourth-letter": [
+      "prayer",
+      "suffering"
+    ],
+    "confessions-book-8": [
+      "faith",
+      "mercy"
+    ]
+  },
+  "workTopics": {
+    "papal-ben16-spe-salvi": [
+      "suffering",
+      "hope"
+    ],
+    "papal-ben16-deus-caritas-est": [
+      "charity"
+    ],
+    "papal-ben16-caritas-in-veritate": [
+      "charity",
+      "justice"
+    ],
+    "papal-leo13-rerum-novarum": [
+      "justice"
+    ],
+    "papal-pius11-quadragesimo-anno": [
+      "justice"
+    ],
+    "papal-jp02-laborem-exercens": [
+      "justice"
+    ],
+    "papal-jp02-dives-in-misericordia": [
+      "mercy",
+      "forgiveness"
+    ],
+    "papal-jp02-redemptoris-mater": [
+      "mary"
+    ],
+    "papal-jp02-fides-et-ratio": [
+      "faith",
+      "wisdom"
+    ],
+    "papal-jp02-ecclesia-de-eucharistia": [
+      "eucharist"
+    ],
+    "papal-jp02-evangelium-vitae": [
+      "justice",
+      "family"
+    ],
+    "papal-franc-laudato-si": [
+      "creation",
+      "justice"
+    ],
+    "papal-franc-fratelli-tutti": [
+      "peace",
+      "charity",
+      "justice"
+    ],
+    "papal-franc-lumen-fidei": [
+      "faith"
+    ],
+    "papal-franc-dilexit-nos": [
+      "charity",
+      "prayer"
+    ],
+    "papal-john23-pacem-in-terris": [
+      "peace",
+      "justice"
+    ],
+    "papal-pius12-mediator-dei": [
+      "eucharist",
+      "prayer"
+    ],
+    "papal-pius12-communium-interpretes-doloraum": [
+      "suffering",
+      "peace",
+      "prayer"
+    ]
+  },
+  "sourceWorks": [
+    {
+      "id": "salvifici-doloris",
+      "title": "Salvifici Doloris",
+      "author": "Pope John Paul II",
+      "kind": "apostolicLetter",
+      "language": "en",
+      "date": "1984-02-11",
+      "summary": "Apostolic letter on the Christian meaning of human suffering. This is an apostolic letter, rather than an encyclical.",
+      "aliases": [
+        "On the Christian Meaning of Human Suffering"
+      ],
+      "topics": [
+        "suffering",
+        "hope"
+      ],
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/1984/documents/hf_jp-ii_apl_11021984_salvifici-doloris.html",
+      "rights": {
+        "status": "linkOnly",
+        "edition": "English text at the Holy See website; offline redistribution not authorized",
+        "statement": "Bibliographic record and source link only. No document body or extracted text is bundled. Exact-edition rights review is required before offline reproduction.",
+        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
+        "territory": "US"
+      },
+      "sections": []
+    }
+  ],
+  "guides": [
+    {
+      "id": "guide-suffering",
+      "title": "Reading through suffering",
+      "introduction": "An optional sequence through lament, trust, hope, and the Cross. Read at your own pace. These editorial selections are pending theological review.",
+      "topics": [
+        "suffering",
+        "hope"
+      ],
+      "steps": [
+        {
+          "title": "Bring sorrow honestly to God",
+          "workID": "drb-job",
+          "sectionID": "drb-job-19",
+          "anchor": "verse-25",
+          "note": "Read the chapter in context; notice the movement from grief toward hope."
+        },
+        {
+          "title": "A psalm of trust",
+          "workID": "drb-psa",
+          "sectionID": "drb-psa-22",
+          "anchor": null,
+          "note": "Psalm 22 in this edition corresponds to Psalm 23 in many modern Bibles."
+        },
+        {
+          "title": "Hope amid suffering",
+          "workID": "drb-rom",
+          "sectionID": "drb-rom-8",
+          "anchor": "verse-18",
+          "note": "Begin with verse 18, then read the surrounding chapter."
+        },
+        {
+          "title": "The way of the Cross",
+          "workID": "imitation",
+          "sectionID": "imitation-book-2-chapter-12",
+          "anchor": null,
+          "note": "Read this historical spiritual text alongside Scripture and appropriate pastoral guidance."
+        },
+        {
+          "title": "Hope in a modern encyclical",
+          "workID": "papal-ben16-spe-salvi",
+          "sectionID": null,
+          "anchor": null,
+          "note": "Spe salvi considers Christian hope, including suffering."
+        },
+        {
+          "title": "Explore a modern papal reflection",
+          "workID": "salvifici-doloris",
+          "sectionID": null,
+          "anchor": null,
+          "note": "Read the apostolic letter in full, considering the relationship between suffering, compassion, and Christian hope."
+        }
+      ]
+    },
+    {
+      "id": "guide-begin-reading",
+      "title": "A beginning in Scripture",
+      "introduction": "Four short starting points, with no deadlines or required pace.",
+      "topics": [
+        "faith",
+        "mercy",
+        "hope"
+      ],
+      "steps": [
+        {
+          "title": "Meet Jesus in the Gospel",
+          "workID": "drb-mrk",
+          "sectionID": "drb-mrk-1",
+          "anchor": null,
+          "note": "Read Mark’s opening chapter."
+        },
+        {
+          "title": "Return to the Father’s mercy",
+          "workID": "drb-luk",
+          "sectionID": "drb-luk-15",
+          "anchor": null,
+          "note": "Read the three parables together."
+        },
+        {
+          "title": "The Word made flesh",
+          "workID": "drb-jhn",
+          "sectionID": "drb-jhn-1",
+          "anchor": null,
+          "note": "Read slowly and return to a phrase that stays with you."
+        },
+        {
+          "title": "Live in hope",
+          "workID": "drb-rom",
+          "sectionID": "drb-rom-8",
+          "anchor": null,
+          "note": "Read the chapter in its full context."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Tenth Letter.
+
+I have had a good deal of difficulty to bring myself to write to Mr. ----, and I do it now purely because you and Madam ---- desire me. Pray write the directions and send it to him. I am very well pleased with the trust which you have in GOD: I wish that He may increase it in you more and more. We cannot have too much in so good and faithful a Friend, who will never fail us in this world nor in the next.
+
+If Mr. ---- makes his advantage of the loss he has had, and puts all his confidence in GOD, He will soon give him another friend, more powerful and more inclined to serve him. He disposes of hearts as He pleases. Perhaps Mr. ---- was too much attached to him he has lost. We ought to love our friends, but without encroaching upon the love due to GOD, which must be the principal.
+
+Pray remember what I have recommended to you, which is, to think often on GOD, by day, by night, in your business, and even in your diversions. He is always near you and with you: leave Him not alone. You would think it rude to leave a friend alone who came to visit you: why then must GOD be neglected? Do not then forget Him, but think on Him often, adore Him continually, live and die with Him; this is the glorious employment of a Christian. In a word, this is our profession; if we do not know it, we must learn it. I will endeavor to help you with my prayers, and am, in our LORD, Yours, &c.

@@ -11,6 +11,7 @@ enum AppRoute: Hashable {
     case prayer(String), collection(String), journey, search, saved, downloads, intentions, reminders, settings, support, history, savedPassages, rosary(String), silence, reader(String)
     case routines, routine(UUID), goals, activity, journal, journalEntry(UUID), intention(UUID)
     case routineReader(String, UUID)
+    case readingLibrary(ReadingKind?), readingWork(String), readingSection(String, String?), readingGuide(String), savedReadings
 }
 
 @Observable final class NavigationMemory {
@@ -26,6 +27,7 @@ enum AppRoute: Hashable {
 struct RootView: View {
     @Environment(AppServices.self) private var services
     @Environment(\.horizontalSizeClass) private var horizontalSize
+    @Environment(\.dynamicTypeSize) private var dynamicType
     @State private var selection: AppTab = .today
     @State private var paths: [AppTab: [AppRoute]] = [:]
     @State private var columnVisibility: NavigationSplitViewVisibility = .all
@@ -34,7 +36,7 @@ struct RootView: View {
         @Bindable var services = services
         Group {
             if !services.local.preferences.welcomed { WelcomeView() }
-            else if horizontalSize == .regular {
+            else if horizontalSize == .regular && !dynamicType.isAccessibilitySize {
                 NavigationSplitView(columnVisibility: $columnVisibility) {
                     List(selection: Binding<AppTab?>(get: { selection }, set: { if let tab = $0 { selection = tab } })) {
                         VStack(alignment: .leading, spacing: 12) {
@@ -45,6 +47,7 @@ struct RootView: View {
                         Section("Your prayer") {
                             Button { selection = .myPrayer; paths[.myPrayer] = [.downloads] } label: { Label("Downloads", systemImage: "arrow.down.to.line") }
                             Button { selection = .scripture; paths[.scripture] = [.savedPassages] } label: { Label("Saved passages", systemImage: "bookmark") }
+                            Button { selection = .discover; paths[.discover] = [.readingLibrary(nil)] } label: { Label("Reading library", systemImage: "books.vertical") }
                         }
                     }.scrollContentBackground(.hidden).background(GraceColor.canvas)
                         .navigationSplitViewColumnWidth(min: 210, ideal: 250, max: 320)
@@ -117,6 +120,11 @@ struct RootView: View {
         case .journalEntry(let id): JournalDetailView(id: id)
         case .intention(let id): IntentionDetailView(id: id)
         case .routineReader(let prayerID, let routineID): if let prayer = services.prayer(prayerID) { ReaderView(prayer: prayer, transcript: false, routineID: routineID) }
+        case .readingLibrary(let kind): ReadingLibraryView(initialKind: kind)
+        case .readingWork(let id): ReadingWorkView(id: id)
+        case .readingSection(let id, let anchor): ReadingSectionView(id: id, anchor: anchor)
+        case .readingGuide(let id): ReadingGuideView(id: id)
+        case .savedReadings: SavedReadingsView()
         }
     }
     private func openPendingIntention() {

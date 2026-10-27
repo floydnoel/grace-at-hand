@@ -1,0 +1,11 @@
+# Universi Dominici Nashville
+
+*Il Papa Gregorio XVI. A perpetua memoria.*
+
+La salvezza di tutto il gregge del Signore, a Noi affidata per volere divino, richiede ed esige che Ci preoccupiamo con il massimo impegno e la massima attenzione di realizzare tutto ciò che sappiamo possa essere propizio al bene della Religione cattolica e dei fedeli cristiani.
+
+Perciò, dopo che i Venerabili Fratelli l’Arcivescovo di Baltimora ed i Vescovi delle Diocesi delle province confederate dell’America Settentrionale, riuniti nel Sinodo provinciale svoltosi nel mese di aprile di questo corrente 1837, Ci hanno inviato una missiva supplice, nella quale si affermava che sarebbe stato utile per la Religione e per la salvezza delle anime erigere nella provincia del Tennessee una nuova sede episcopale nella città – notevolmente popolosa – di Nashville, della contea di Davidson, cosicché ad essa faccia riferimento tutta la provincia del Tennessee, che fino ad ora è stata sottomessa al Vescovo di Bard, Noi, su consiglio dei Venerabili Nostri Fratelli Cardinali di Santa Romana Chiesa preposti agli affari di Propaganda fide, erigiamo ed istituiamo una nuova sede episcopale nella città di Nashville, nella contea di Davidson e ad essa sottomettiamo tutta la provincia del Tennessee, che – sottratta alla giurisdizione del Vescovo di Bard – costituiamo in provincia propria ed autonoma; parimenti, nella citata città e diocesi, istituiamo un Vescovo autonomo. A questo Vescovo, che dev’essere scelto da questa Sede, con la medesima Nostra autorità concediamo ed affidiamo tutte e singole le consuete facoltà.
+
+Questo vogliamo e disponiamo, derogando da quanto prescritto nella lettera apostolica del 18 giugno 1834 [ma: 17 giugno 1834] Benedictus Deus, relativa all’attribuzione al Vescovo di New Orleans della giurisdizione sulla provincia del Mississippi; e disponiamo che la presente lettera, eccetera, contravvenire, nonostante, eccetera, ed ogni volta che ci sia bisogno, al Nostro Predecessore Benedetto XIV, di felice memoria, a proposito della divisione delle materie, ed alle altre costituzioni, eccetera.
+
+*Dato a Roma, presso Santa Maria Maggiore, sotto l’anello del Pescatore, il 28 luglio 1837, anno settimo del Nostro Pontificato.*

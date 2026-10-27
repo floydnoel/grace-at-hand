@@ -10,6 +10,7 @@ struct ScriptureView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 PageHeading(eyebrow: "A word to carry with you", title: "Scripture")
+                NavigationLink(value: AppRoute.readingLibrary(.bible)) { Label("Read the Douay–Rheims Bible", systemImage: "books.vertical").frame(maxWidth: .infinity, minHeight: 48, alignment: .leading) }.accessibilityIdentifier("openFullBible")
                 HStack {
                     Button { if let previous = Calendar.current.date(byAdding: .day, value: -1, to: date) { date = previous } } label: { Image(systemName: "chevron.left").frame(width: 44, height: 44) }.accessibilityLabel("Previous daily passage")
                     Spacer(); Text(Calendar.current.isDateInToday(date) ? "A passage for today" : date.formatted(date: .abbreviated, time: .omitted)).font(.subheadline.weight(.medium)); Spacer()

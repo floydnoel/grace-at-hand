@@ -1,0 +1,13 @@
+# Ex debito pastoralis
+
+*Il Papa Gregorio XVI. A perpetua memoria.*
+
+Per dovere dell’ufficio pastorale, posto sulle Nostre spalle dalla suprema provvidenza di Dio; portando il peso, certamente non lieve, della cura di tutto il gregge del Signore, riteniamo che si debba provvedere particolarmente alle pecore che abitano le regioni geograficamente più lontane da questa Sede Apostolica, che è il centro dell’unità cattolica, in modo che, recuperate dalla venuta del Pastore eterno dentro il vero ovile, possano essere felicemente condotte verso i pascoli del cielo.
+
+Pertanto, avendo Noi appreso che, con l’aiuto di Dio, risplende di nuovo la speranza di poter introdurre nel regno del Giappone i missionari e di poter ravvivare la presenza cattolica, già stremata a causa di un’immane persecuzione, dato che ora si presenta la possibilità di penetrare colà dalle isole Liu-Kiu piuttosto che dal Vicariato di Corea; poiché fra le altre cose appare opportuno, per consolidare fin dal suo esordio questa missione e far fronte a necessità e pericoli, porle a capo un presule insignito di dignità vescovile, così Noi, per consiglio dei Nostri Venerabili Fratelli Cardinali di Santa Romana Chiesa preposti alle attività di Propaganda Fide, *motu proprio,*con certa scienza e nella pienezza dell’apostolica potestà, erigiamo e costituiamo nel regno del Giappone unitamente alle citate isole Liu-Kiu e a quelle adiacenti non ancora soggette ad altro presule, un Vicariato apostolico, da governarsi, secondo la volontà Nostra e della Santa Sede Apostolica, da un Vicario apostolico.
+
+Decretiamo che questa lettera abbia forza, validità ed efficacia ora e in futuro; che ottenga e consegua completo ed intero effetto; che sia pienamente rispettata da coloro cui ciò spetta e spetterà in futuro, e che da tutti sia inviolabilmente osservata. In conformità di quanto premesso, debba così giudicarsi e definirsi da parte di qualsiasi giudice ordinario e delegato, anche da parte degli uditori delle cause del palazzo apostolico e dei Cardinali di Santa Romana Chiesa, sottratta ad essi e a ciascuno di loro qualsivoglia facoltà ed autorità di giudicare ed interpretare diversamente, e che resti irrito e senza effetto ciò che qualcuno, con qualsivoglia autorità, voglia, scientemente o per ignoranza, deliberare altrimenti in materia.
+
+Nonostante la norma Nostra e della Cancelleria apostolica «*de iure quaesito non tollendo*», e le altre costituzioni e disposizioni apostoliche e tutte quelle degne di espressa menzione e in qualsiasi modo contrarie.
+
+*Dato a Roma, presso San Pietro, sotto l’anello del Pescatore, il 27 marzo 1846, anno sedicesimo del Nostro Pontificato.*

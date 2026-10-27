@@ -1,0 +1,4035 @@
+{
+  "checkedOn": "2026-10-27",
+  "records": [
+    {
+      "title": "Fausto Appetente Die",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html",
+      "label": "Fausto Appetente Die (June 29, 1921)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Praeclara Summorum",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
+      "label": "In Praeclara Summorum (April 30, 1921)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sacra Propediem",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html",
+      "label": "Sacra Propediem (January 6, 1921)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Annus Iam Plenus",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html",
+      "label": "Annus Iam Plenus (December 1, 1920)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Principi Apostolorum Petro",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html",
+      "label": "Principi Apostolorum Petro (October 5, 1920)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Spiritus Paraclitus",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+      "label": "Spiritus Paraclitus (September 15, 1920)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pacem, Dei Munus Pulcherrimum",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
+      "label": "Pacem, Dei Munus Pulcherrimum (May 23, 1920)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Paterno Iam Diu",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html",
+      "label": "Paterno Iam Diu (November 24, 1919)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Hac Tanta",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html",
+      "label": "In Hac Tanta (May 14, 1919)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Iam Diu",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
+      "label": "Quod Iam Diu (December 1, 1918)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Humani Generis Redemptionem",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
+      "label": "Humani Generis Redemptionem (June 15, 1917)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Beatissimi Apostolorum",
+      "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+      "label": "Ad Beatissimi Apostolorum (November 1, 1914)",
+      "pope": "ben15",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Caritas in veritate",
+      "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html",
+      "label": "Caritas in veritate (June 29, 2009)",
+      "pope": "ben16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Spe salvi",
+      "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+      "label": "Spe salvi (November 30, 2007)",
+      "pope": "ben16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Deus caritas est",
+      "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+      "label": "Deus caritas est (December 25, 2005)",
+      "pope": "ben16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quam Grave",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quam-grave--i---2-agosto-1757--il-pontefice-segnala.html",
+      "label": "Enciclica Quam Grave (2 agosto 1757)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ex Omnibus Christiani",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-omnibus-christiani--i---16-ottobre-1756--lettera.html",
+      "label": "Enciclica Ex Omnibus Christiani (16 ottobre 1756)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ex Quo Primum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-quo-primum--i---1-marzo-1756--il-pontefice-invit.html",
+      "label": "Enciclica Ex Quo Primum (1 marzo 1756)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quam Ex Sublimi",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quam-ex-sublimi--i---8-agosto-1755--il-pontefice-estend.html",
+      "label": "Breve Quam Ex Sublimi (8 agosto 1755)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Allatae Sunt",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-allatae-sunt--i---26-luglio-1755--in-questa-encicli.html",
+      "label": "Enciclica Allatae Sunt (26 luglio 1755)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Provinciale",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quod-provinciale--i---1-agosto-1754--cristiani-che-.html",
+      "label": "Enciclica Quod Provinciale (1 agosto 1754)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum Religiosi Aeque",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-religiosi-aeque--i---26-giugno-1754--il-pontefi.html",
+      "label": "Enciclica Cum Religiosi Aeque (26 giugno 1754)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "A Quo Primum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-a-quo-primum---i--14-giugno-1751--il-pontefice-indi.html",
+      "label": "Enciclica A Quo Primum (14 giugno 1751)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Magno Cum Animi",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magno-cum-animi--i---2-giugno-1751--sugli-abusi-da-.html",
+      "label": "Enciclica Magno Cum Animi (2 giugno 1751)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Providas Romanorum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html",
+      "label": "Bolla Providas Romanorum (18 marzo 1751)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Elapso Proxime Anno",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-elapso-proxime-anno--i---20-febbraio-1751--il-ponte.html",
+      "label": "Enciclica Elapso Proxime Anno (20 febbraio 1751)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Prodiit Jamdudum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-prodiit-jamdudum--i---30-gennaio-1751--poiche-quest.html",
+      "label": "Enciclica Prodiit Jamdudum (30 gennaio 1751)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Celebrationem Magni",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-celebrationem-magni--i---1-gennaio-1751--dopo-aver-.html",
+      "label": "Enciclica Celebrationem Magni (1 gennaio 1751)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Benedictus Deus",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-benedictus-deus--i---25-dicembre-1750--estensione-a-tut.html",
+      "label": "Bolla Benedictus Deus (25 dicembre 1750)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Inter praeteritos",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-praeteritos--i---3-dicembre-1749--allo-scopo-.html",
+      "label": "Enciclica Inter praeteritos (3 dicembre 1749)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Gravissimo Animi",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimo-animi--i---31-ottobre-1749--il-pontefice.html",
+      "label": "Enciclica Gravissimo Animi (31 ottobre 1749)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Apostolica Constitutio",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-apostolica-constitutio--i---26-giugno-1749--richiam.html",
+      "label": "Enciclica Apostolica Constitutio (26 giugno 1749)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Peregrinantes a Domino",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-peregrinantes-a-domino--i---5-maggio-1749-il-pontefice-.html",
+      "label": "Bolla Peregrinantes a Domino (5 maggio 1749)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Officii Nostri",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-officii-nostri--i---15-marzo-1749--poiche-sono-sorti-di.html",
+      "label": "Bolla Officii Nostri (15 marzo 1749)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Annus Qui Hunc",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-annus-qui-hunc--i---19-febbraio-1749--nell--8217-im.html",
+      "label": "Enciclica Annus Qui Hunc (19 febbraio 1749)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Magnae Nobis",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magnae-nobis--i---29-giugno-1748--il-pontefice-reag.html",
+      "label": "Enciclica Magnae Nobis (29 giugno 1748)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inter Caetera",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-caetera--i---1-gennaio-1748--il-pontefice-esp.html",
+      "label": "Enciclica Inter Caetera (1 gennaio 1748)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quemadmodum Nihil",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quemadmodum-nihil--i---16-dicembre-1746--il-pontefice-c.html",
+      "label": "Breve Quemadmodum Nihil (16 dicembre 1746)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Accepimus Praestantium",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-accepimus-praestantium--i---16-luglio-1746--sui-cri.html",
+      "label": "Enciclica Accepimus Praestantium (16 luglio 1746)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Vix Pervenit",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-vix-pervenit--i---1-novembre-1745--poiche-e-venuto-.html",
+      "label": "Enciclica Vix Pervenit (1 novembre 1745)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Gravissimum Supremi",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimum-supremi---i--8-settembre-1745--il-ponte.html",
+      "label": "Enciclica Gravissimum Supremi (8 settembre 1745)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Libentissime Quidem",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-libentissime-quidem--i---10-giugno-1745--richiamati.html",
+      "label": "Enciclica Libentissime Quidem (10 giugno 1745)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum Multorum Charitate",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-cum-multorum-charitate--i---18-febbraio-1745--il-giubil.html",
+      "label": "Breve Cum Multorum Charitate (18 febbraio 1745)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "In Suprema Catholicae",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-catholicae--i---20-novembre-1744--viene-conc.html",
+      "label": "Breve In Suprema Catholicae (20 novembre 1744)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Cum Semper Oblatas",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-semper-oblatas--i---19-agosto-1744--il-pontefic.html",
+      "label": "Enciclica Cum Semper Oblatas (19 agosto 1744)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inter Omnigenas",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-omnigenas---i--2-febbraio-1744--il-pontefice-.html",
+      "label": "Enciclica Inter Omnigenas (2 febbraio 1744)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Nimiam Licentiam",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-nimiam-licentiam--i---18-maggio-1743--constatato-che-in.html",
+      "label": "Breve Nimiam Licentiam (18 maggio 1743)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quemadmodum Preces",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quemadmodum-preces--i---23-marzo-1743--spetta-alla-.html",
+      "label": "Enciclica Quemadmodum Preces (23 marzo 1743)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum Illud Semper",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-illud-semper--i---14-dicembre-1742--desiderando.html",
+      "label": "Enciclica Cum Illud Semper (14 dicembre 1742)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Certiores Effecti",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-certiores-effecti--i---13-novembre-1742--i-sacerdot.html",
+      "label": "Enciclica Certiores Effecti (13 novembre 1742)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Etsi Minime",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-etsi-minime--i---7-febbraio-1742--affermata-la-prim.html",
+      "label": "Enciclica Etsi Minime (7 febbraio 1742)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Satis Vobis Compertum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-satis-vobis-compertum--i--17-novembre-1741--il-pont.html",
+      "label": "Enciclica Satis Vobis Compertum(17 novembre 1741)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quamvis Paternae",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quamvis-paternae---i--26-agosto-1741--richiamate-le.html",
+      "label": "Enciclica Quamvis Paternae (26 agosto 1741)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Suprema Universalis",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-universalis---i--22-agosto-1741--nei-giorni-.html",
+      "label": "Breve In Suprema Universalis (22 agosto 1741)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quanta Cura",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quanta-cura--i---30-giugno-1741--sdegnata-condanna-cont.html",
+      "label": "Breve Quanta Cura (30 giugno 1741)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Enciclica Pro Eximia Tua",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve-enciclica--i-pro-eximia-tua---i--30-giugno-1741--il-presen.html",
+      "label": "Breve Enciclica Pro Eximia Tua (30 giugno 1741)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Non Ambigimus",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-non-ambigimus--i---30-maggio-1741--il-pontefice-ricorda.html",
+      "label": "Breve Non Ambigimus (30 maggio 1741)",
+      "pope": "ben14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ubi primum",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ubi-primum--i---3-dicembre-1740--nell--8217-ambito-.html",
+      "label": "Enciclica Ubi primum (3 dicembre 1740)",
+      "pope": "ben14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Accedamus cum fiducia",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html",
+      "label": "Breve Accedamus cum fiducia (25 giugno 1768)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Summa quae",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-summa-quae-6-gennaio-1768.html",
+      "label": "Breve Summa quae (6 gennaio 1768)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Christianae reipublicae",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-christianae-reipublicae-25-novembre-1766.html",
+      "label": "Enciclica Christianae reipublicae (25 novembre 1766)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quam graviter",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html",
+      "label": "Enciclica Quam graviter (25 giugno 1766)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quanta auxilii",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html",
+      "label": "Breve Quanta auxilii (8 maggio 1765)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ubi primum accepimus",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html",
+      "label": "Breve Ubi primum accepimus (14 gennaio 1764)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quanto in dolore",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html",
+      "label": "Breve Quanto in dolore (9 giugno 1762)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "In dominico agro",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-in-dominico-agro-14-giugno-1761.html",
+      "label": "Enciclica In dominico agro (14 giugno 1761)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Appetente sacro",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-appetente-sacro-20-dicembre-1759.html",
+      "label": "Enciclica Appetente sacro (20 dicembre 1759)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum primum",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-cum-primum-17-settembre-1759.html",
+      "label": "Enciclica Cum primum (17 settembre 1759)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pastoralis officii",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-pastoraliis-officii-21-marzo-1759.html",
+      "label": "Breve Pastoralis officii (21 marzo 1759)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "A quo die",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-a-quo-die-14-settembre-1758.html",
+      "label": "Enciclica A quo die (14 settembre 1758)",
+      "pope": "clem13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Venimus in altitudinem",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html",
+      "label": "Breve Venimus in altitudinem (11 settembre 1758)",
+      "pope": "clem13",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Salutis nostrae",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/bolla-salutis-nostrae-30-aprile-1774.html",
+      "label": "Bolla Salutis nostrae (30 aprile 1774)",
+      "pope": "clem14",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Dominus ac Redemptor",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-dominus-ac-redemptor-21-luglio-1773.html",
+      "label": "Breve Dominus ac Redemptor (21 luglio 1773)",
+      "pope": "clem14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Magna atque",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-magna-atque-16-marzo-1771.html",
+      "label": "Breve Magna atque (16 marzo 1771)",
+      "pope": "clem14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Inscrutabili divinae",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-inscrutabili-divinae-12-dicembre-1769.html",
+      "label": "Breve Inscrutabili divinae (12 dicembre 1769)",
+      "pope": "clem14",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Cum summi apostolatus",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-cum-summi-apostolatus-12-dicembre-1769.html",
+      "label": "Enciclica Cum summi apostolatus (12 dicembre 1769)",
+      "pope": "clem14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Decet quam maxime",
+      "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-decet-quam-maxime-21-settembre-1769.html",
+      "label": "Enciclica Decet quam maxime (21 settembre 1769)",
+      "pope": "clem14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dilexit nos",
+      "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/20241024-enciclica-dilexit-nos.html",
+      "label": "Dilexit nos (24 October 2024)",
+      "pope": "franc",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fratelli tutti",
+      "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+      "label": "Fratelli tutti (3 October 2020)",
+      "pope": "franc",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Laudato si'",
+      "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+      "label": "Laudato si' (24 May 2015)",
+      "pope": "franc",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Lumen fidei",
+      "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+      "label": "Lumen fidei (29 June 2013)",
+      "pope": "franc",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ex debito pastoralis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-27-marzo-1846.html",
+      "label": "Breve Ex debito pastoralis (27 marzo 1846)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Inter gravissimas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-inter-gravissimas-28-giugno-1845.html",
+      "label": "Epistola Inter gravissimas (28 giugno 1845)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Libentissime fraternitas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-libentissime-fraternitas-28-maggio-1845.html",
+      "label": "Epistola Libentissime fraternitas (28 maggio 1845)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Maximis angustiis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-maximis-angustiis-27-aprile-1845.html",
+      "label": "Epistola Maximis angustiis (27 aprile 1845)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Summa quidem",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-summa-quidem-23-aprile-1845.html",
+      "label": "Epistola Summa quidem (23 aprile 1845)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Inter praecipuas machinationes",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-inter-praecipuas-machinationes-8-maii-1844.html",
+      "label": "Enciclica Inter praecipuas machinationes (8 maggio 1844)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum maxima",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-cum-maxima-31-marzo-1844.html",
+      "label": "Epistola Cum maxima (31 marzo 1844)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Ubi novam",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ubi-novam-8-novembre-1843.html",
+      "label": "Epistola Ubi novam (8 novembre 1843)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Ad gravissimas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ad-gravissimas-31-agosto-1843.html",
+      "label": "Epistola Ad gravissimas (31 agosto 1843)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Inter maximas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-maximas-5-agosto-1843.html",
+      "label": "Breve Inter maximas (5 agosto 1843)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Apostolici ministerii",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-apostolici-ministerii-20-settembre-1842.html",
+      "label": "Breve Apostolici ministerii (20 settembre 1842)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Haerentem diu",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-haerentem-diu-22-luglio-1842.html",
+      "label": "Allocuzione Haerentem diu (22 luglio 1842)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Inter ea",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-inter-ea-1-aprile-1842.html",
+      "label": "Enciclica Inter ea (1° aprile 1842)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Catholicae religionis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-catholicae-religionis-22-febbraio-1842.html",
+      "label": "Breve Catholicae religionis (22 febbraio 1842)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "In consistorio",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-in-consistorio-29-agosto-1841.html",
+      "label": "Epistola In consistorio (29 agosto 1841)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "È lungo tempo",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-e-lungo-tempo-29-agosto-1841.html",
+      "label": "Epistola È lungo tempo (29 agosto 1841)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Espistola Ex litteris",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/espistola-ex-litteris-4-maggio-1841.html",
+      "label": "Espistola Ex litteris (4 maggio 1841)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Quas vestro",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quas-vestro-30-aprile-1841.html",
+      "label": "Breve Quas vestro (30 aprile 1841)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Afflictas in Hispania",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-hispania-1-marzo-1841.html",
+      "label": "Allocuzione Afflictas in Hispania (1° marzo 1841)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "De Cochinchinae",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-de-cochinchinae-26-febbraio-1841.html",
+      "label": "Breve De Cochinchinae (26 febbraio 1841)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Augustissimam beatissimi",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-augustissimam-beatissimi-21-dicembre-1840.html",
+      "label": "Enciclica Augustissimam beatissimi (21 dicembre 1840)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Probe nostis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-probe-nostis-18-settembre-1840.html",
+      "label": "Breve Probe nostis (18 settembre 1840)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Pastorale officium",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-24-luglio-1840.html",
+      "label": "Breve Pastorale officium (24 luglio 1840)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Afflictas in tunquino",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-tunquino-27-aprile-1840.html",
+      "label": "Allocuzione Afflictas in tunquino (27 aprile 1840)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "In supremo",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-in-supremo-3-dicembre-1839.html",
+      "label": "Breve In supremo (3 dicembre 1839)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Dolorem quo",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-dolorem-quo-30-novembre-1839.html",
+      "label": "Epistola Dolorem quo (30 novembre 1839)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Quae nuncia",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quae-nuncia-4-agosto-1839.html",
+      "label": "Breve Quae nuncia (4 agosto 1839)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Hanno sempre",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-hanno-sempre-18-settembre-1838.html",
+      "label": "Epistola Hanno sempre (18 settembre 1838)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Pastorale officium",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-14-agosto-1838.html",
+      "label": "Breve Pastorale officium (14 agosto 1838)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ex debito pastoralis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-14-agosto-1838.html",
+      "label": "Breve Ex debito pastoralis (14 agosto 1838)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ex debito pastoralis Leao Tung",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-leao-tung-14-agosto-1838.html",
+      "label": "Breve Ex debito pastoralis Leao Tung (14 agosto 1838)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ex debito pastoralis China",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-china-14-agosto-1838.html",
+      "label": "Breve Ex debito pastoralis China (14 agosto 1838)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Dum intima",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-dum-intima-10-dicembre-1837.html",
+      "label": "Allocuzione Dum intima (10 dicembre 1837)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Universi dominici",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-28-luglio-1837.html",
+      "label": "Breve Universi dominici (28 luglio 1837)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Universi Dominici Nashville",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-nashville-28-luglio-1937.html",
+      "label": "Breve Universi Dominici Nashville (28 luglio 1837)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Universi dominici",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-21-febbraio-1837.html",
+      "label": "Breve Universi dominici (21 febbraio 1837)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "La moltiplicità",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-la-moltiplicita-22-novembre-1836.html",
+      "label": "Epistola La moltiplicità (22 novembre 1836)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Ad beatissimi",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ad-beatissimi-17-luglio-1836.html",
+      "label": "Breve Ad beatissimi (17 luglio 1836)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Sextus iam",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-sextus-iam-1-febbraio-1836.html",
+      "label": "Allocuzione Sextus iam (1° febbraio 1836)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Dum acerbissimas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-dum-acerbissimas-26-settembre-1835.html",
+      "label": "Breve Dum acerbissimas (26 settembre 1835)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Melchitarum catholicorum",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-melchitarum-catholicorum-3-giugno-1835.html",
+      "label": "Breve Melchitarum catholicorum (3 giugno 1835)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Commissum divinitus",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-commissum-divinitus-17-maggio-1835.html",
+      "label": "Enciclica Commissum divinitus (17 maggio 1835)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Perlatae dudum",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-perlatae-dudum-23-aprile-1835.html",
+      "label": "Breve Perlatae dudum (23 aprile 1835)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "L'evidente diminuzione",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/Chirografo-l-evidente-diminuzione-6-agosto-1834.html",
+      "label": "Chirografo L'evidente diminuzione (6 agosto 1834)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "chirograph"
+    },
+    {
+      "title": "Cum pro pastorali",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-cum-pro-pastorali-1-agosto-1834.html",
+      "label": "Allocuzione Cum pro pastorali (1° agosto 1834)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Singulari nos",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-singulari-nos-25-giugno-1834.html",
+      "label": "Enciclica Singulari nos (25 giugno 1834)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Benedictus Deus",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/bolla-benedictus-deus-17-giugno-1834.html",
+      "label": "Bolla Benedictus Deus (17 giugno 1834)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Editam nuper",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-editam-nuper-28-dicembre-1833.html",
+      "label": "Breve Editam nuper (28 dicembre 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Superabundavimus",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-superabundavimus-28-dicembre-1833.html",
+      "label": "Breve Superabundavimus (28 dicembre 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quod de tua",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-quod-de-tua-28-dicembre-1833.html",
+      "label": "Epistola Quod de tua (28 dicembre 1833)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Maiori certo",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-maiori-certo-13-dicembre-1833.html",
+      "label": "Breve Maiori certo (13 dicembre 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quod litteris",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quod-litteris-29-novembre-1833.html",
+      "label": "Breve Quod litteris (29 novembre 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Litteras accepimus",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-littera-accepimus-5-ottobre-1833.html",
+      "label": "Epistola Litteras accepimus (5 ottobre 1833)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Quo graviora",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quo-graviora-4-ottobre-1833.html",
+      "label": "Breve Quo graviora (4 ottobre 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Avendoci ella",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-avendoci-ella-20-febbraio-1833.html",
+      "label": "Chirografo Avendoci ella (20 febbraio 1833)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "chirograph"
+    },
+    {
+      "title": "Plura post",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-plura-post-2-dicembre-1832.html",
+      "label": "Breve Plura post (2 dicembre 1832)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Mirari vos",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-mirari-vos-15-augusti-1832.html",
+      "label": "Enciclica Mirari vos (15 agosto 1832)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pastorale Officium",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-3-luglio-1832.html",
+      "label": "Breve Pastorale Officium (3 luglio 1832)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ci è stato",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-ci-e-stato-9-giugno-1832.html",
+      "label": "Chirografo Ci è stato (9 giugno 1832)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "chirograph"
+    },
+    {
+      "title": "Cum primum",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-cum-primum-9-giugno-1832.html",
+      "label": "Enciclica Cum primum (9 giugno 1832)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Summo iugiter",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-summo-iugiter-27-maggio-1832.html",
+      "label": "Breve Summo iugiter (27 maggio 1832)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Inter gravissimas",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-gravissimas-3-febbraio-1832.html",
+      "label": "Breve Inter gravissimas (3 febbraio 1832)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ex debito pastoralis",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-9-settembre-1831.html",
+      "label": "Breve Ex debito pastoralis (9 settembre 1831)",
+      "pope": "greg16",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Le armi valorose",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-le-armi-valorose-12-luglio-1831.html",
+      "label": "Enciclica Le armi valorose (12 luglio 1831)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quel Dio",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-quel-dio-5-aprile-1831.html",
+      "label": "Enciclica Quel Dio (5 aprile 1831)",
+      "pope": "greg16",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Chiamati dalla divina",
+      "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-chiamati-dalla-divina-9-febbraio-1831.html",
+      "label": "Epistola Chiamati dalla divina (9 febbraio 1831)",
+      "pope": "greg16",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Ecclesia de Eucharistia",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html",
+      "label": "Ecclesia de Eucharistia (17 April 2003)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fides et Ratio",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html",
+      "label": "Fides et Ratio (14 September 1998)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ut Unum Sint",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html",
+      "label": "Ut Unum Sint (25 May 1995)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Evangelium Vitae",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html",
+      "label": "Evangelium Vitae (25 March 1995)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Veritatis Splendor",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html",
+      "label": "Veritatis Splendor (6 August 1993)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Centesimus Annus",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html",
+      "label": "Centesimus Annus (1 May 1991)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Redemptoris Missio",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html",
+      "label": "Redemptoris Missio (7 December 1990)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sollicitudo Rei Socialis",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html",
+      "label": "Sollicitudo Rei Socialis (30 December 1987)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Redemptoris Mater",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html",
+      "label": "Redemptoris Mater (25 March 1987)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dominum et vivificantem",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html",
+      "label": "Dominum et vivificantem (18 May 1986)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Slavorum Apostoli",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html",
+      "label": "Slavorum Apostoli (2 June 1985)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Laborem Exercens",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+      "label": "Laborem Exercens (14 September 1981)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dives in Misericordia",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html",
+      "label": "Dives in Misericordia (30 November 1980)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Redemptor Hominis",
+      "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html",
+      "label": "Redemptor Hominis (4 March 1979)",
+      "pope": "jp02",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pacem in Terris",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+      "label": "Pacem in Terris (April, 11 1963)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Paenitentiam Agere",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_01071962_paenitentiam.html",
+      "label": "Paenitentiam Agere (July 1, 1962)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Aeterna Dei Sapientia",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11111961_aeterna-dei.html",
+      "label": "Aeterna Dei Sapientia (November 11, 1961)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mater et Magistra",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+      "label": "Mater et Magistra (May 15, 1961)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Princeps Pastorum",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_28111959_princeps.html",
+      "label": "Princeps Pastorum (November 28, 1959)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Grata Recordatio",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html",
+      "label": "Grata Recordatio (September 26, 1959)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sacerdotii Nostri Primordia",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html",
+      "label": "Sacerdotii Nostri Primordia (August 1, 1959)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Petri Cathedram",
+      "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html",
+      "label": "Ad Petri Cathedram (June 29, 1959)",
+      "pope": "john23",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quando Spirato",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/chirografo-quando-spirato-6-gennaio-1829.html",
+      "label": "Chirografo Quando Spirato (6 gennaio 1829)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "chirograph"
+    },
+    {
+      "title": "Apostolici Nostri",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/epistola-apostolici-nostri-22-dicembre-1828.html",
+      "label": "Epistola Apostolici Nostri (22 dicembre 1828)",
+      "pope": "leo12",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Fructus Quos",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-fructus-quos-2-ottobre-1827.html",
+      "label": "Breve Fructus Quos (2 ottobre 1827)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Inter Multiplices",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-inter-multiplices-20-marzo-1827.html",
+      "label": "Breve Inter Multiplices (20 marzo 1827)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quanta Laetitia",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
+      "label": "Breve Quanta Laetitia (13 febbraio 1827)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ecclesiarum Omnium",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-ecclesiarum-omnium-12-dicembre-1826.html",
+      "label": "Breve Ecclesiarum Omnium (12 dicembre 1826)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "I Gloriosi Nostri",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-gloriosi-nostri-14-novembre-1826.html",
+      "label": "Motu Proprio I Gloriosi Nostri (14 novembre 1826)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "motu-proprio"
+    },
+    {
+      "title": "Pastoris Aeterni",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/esortazione-pastoris-aeterni-2-luglio-1826.html",
+      "label": "Esortazione Pastoris Aeterni (2 luglio 1826)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "exhortation"
+    },
+    {
+      "title": "L'olio oggetto",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-l-olio-oggetto-21-giugno-1826.html",
+      "label": "Motu Proprio L'olio oggetto (21 giugno 1826)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "motu-proprio"
+    },
+    {
+      "title": "Qui Pacem",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/omelia-qui-pacem-26-marzo-1826.html",
+      "label": "Omelia Qui Pacem (26 marzo 1826)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "homily"
+    },
+    {
+      "title": "Charitate Christi",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-charitate-christi-25-dicembre-1825.html",
+      "label": "Bolla Charitate Christi (25 dicembre 1825)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Exultabat Spiritus",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-exultabat-spiritus-25-dicembre-1825.html",
+      "label": "Bolla Exultabat Spiritus (25 dicembre 1825)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Quo Graviora",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quo-graviora-13-marzo-1825.html",
+      "label": "Bolla Quo Graviora (13 marzo 1825)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Ad Plurimas",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ad-plurimas-25-gennaio-1825.html",
+      "label": "Enciclica Ad Plurimas (25 gennaio 1825)",
+      "pope": "leo12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Etsi Iam Diu",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-etsi-iam-diu-24-settembre-1824.html",
+      "label": "Breve Etsi Iam Diu (24 settembre 1824)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quod Hoc Ineunte",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quod-hoc-ineunte-24-maggio-1824.html",
+      "label": "Bolla Quod Hoc Ineunte (24 maggio 1824)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Cum Multa",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-cum-multa-17-maggio-1824.html",
+      "label": "Breve Cum Multa (17 maggio 1824)",
+      "pope": "leo12",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ubi Primum",
+      "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ubi-primum-5-maggio-1824.html",
+      "label": "Enciclica Ubi Primum (5 maggio 1824)",
+      "pope": "leo12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dum Multa",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121902_dum-multa.html",
+      "label": "Dum Multa (December 24, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fin dal Principio",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html",
+      "label": "Fin dal Principio (December 8, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quae Ad Nos",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22111902_quae-ad-nos.html",
+      "label": "Quae Ad Nos (November 22, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mirae Caritatis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
+      "label": "Mirae Caritatis (May 28, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Votis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30041902_quod-votis.html",
+      "label": "Quod Votis (April 30, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Amplissimo",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15041902_in-amplissimo.html",
+      "label": "In Amplissimo (April 15, 1902)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Urbanitatis Veteris",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111901_urbanitatis-veteris.html",
+      "label": "Urbanitatis Veteris (November 20, 1901)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Reputantibus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20081901_reputantibus.html",
+      "label": "Reputantibus (August 20, 1901)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Gravissimas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16051901_gravissimas.html",
+      "label": "Gravissimas (May 16, 1901)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Graves de Communi Re",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html",
+      "label": "Graves de Communi Re (January 18, 1901)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Tametsi Futura Prospicientibus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111900_tametsi-futura-prospicientibus.html",
+      "label": "Tametsi Futura Prospicientibus (November 1, 1900)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Omnibus Compertum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21071900_omnibus-compertum.html",
+      "label": "Omnibus Compertum (July 21, 1900)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Paternae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18091899_paternae.html",
+      "label": "Paternae (September 18, 1899)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Depuis le Jour",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html",
+      "label": "Depuis le Jour (September 8, 1899)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Annum Sacrum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25051899_annum-sacrum.html",
+      "label": "Annum Sacrum (May 25, 1899)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quum Diuturnum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121898_quum-diuturnum.html",
+      "label": "Quum Diuturnum (December 25, 1898)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Diuturni Temporis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html",
+      "label": "Diuturni Temporis (September 5, 1898)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quam Religiosa",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16081898_quam-religiosa.html",
+      "label": "Quam Religiosa (August 16, 1898)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Spesse Volte",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05081898_spesse-volte.html",
+      "label": "Spesse Volte (August 5, 1898)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Caritatis Studium",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071898_caritatis-studium.html",
+      "label": "Caritatis Studium (July 25, 1898)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Affari Vos",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121897_affari-vos.html",
+      "label": "Affari Vos (December 8, 1897)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Augustissimae Virginis Mariae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091897_augustissimae-virginis-mariae.html",
+      "label": "Augustissimae Virginis Mariae (September 12, 1897)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Militantis Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01081897_militantis-ecclesiae.html",
+      "label": "Militantis Ecclesiae (August 1, 1897)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Divinum illud munus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_09051897_divinum-illud-munus.html",
+      "label": "Divinum illud munus (May 9, 1897)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fidentem piumque animum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091896_fidentem-piumque-animum.html",
+      "label": "Fidentem piumque animum (September 20, 1896)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Satis Cognitum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061896_satis-cognitum.html",
+      "label": "Satis Cognitum (June 29, 1896)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Insignes",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051896_insignes.html",
+      "label": "Insignes (May 1, 1896)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Adiutricem",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091895_adiutricem.html",
+      "label": "Adiutricem (September 5, 1895)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Permoti Nos",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10071895_permoti-nos.html",
+      "label": "Permoti Nos (July 10, 1895)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Longinqua",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua.html",
+      "label": "Longinqua (January 6, 1895)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Christi Nomen",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121894_christi-nomen.html",
+      "label": "Christi Nomen (December 24, 1894)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iucunda Semper Expectatione",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091894_iucunda-semper-expectatione.html",
+      "label": "Iucunda Semper Expectatione (September 8, 1894)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Litteras a Vobis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02071894_litteras-a-vobis.html",
+      "label": "Litteras a Vobis (July 2, 1894)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inter Graves",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051894_inter-graves.html",
+      "label": "Inter Graves (May 1, 1894)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Caritatis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_19031894_caritatis.html",
+      "label": "Caritatis (March 19, 1894)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Providentissimus Deus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18111893_providentissimus-deus.html",
+      "label": "Providentissimus Deus (November 18, 1893)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Non Mediocri",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25101893_non-mediocri.html",
+      "label": "Non Mediocri (October 25, 1893)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Laetitiae Sanctae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html",
+      "label": "Laetitiae Sanctae (September 8, 1893)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Constanti Hungarorum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02091893_constanti-hungarorum.html",
+      "label": "Constanti Hungarorum (September 2, 1893)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Extremas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061893_ad-extremas.html",
+      "label": "Ad Extremas (June 24, 1893)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Custodi di quella Fede",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html",
+      "label": "Custodi di quella Fede (December 8, 1892)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inimica Vis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_inimica-vis.html",
+      "label": "Inimica Vis (December 8, 1892)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Magnae Dei Matris",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091892_magnae-dei-matris.html",
+      "label": "Magnae Dei Matris (September 8, 1892)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quarto Abeunte Saeculo",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16071892_quarto-abeunte-saeculo.html",
+      "label": "Quarto Abeunte Saeculo (July 16, 1892)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Au Milieu Des Sollicitudes",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16021892_au-milieu-des-sollicitudes.html",
+      "label": "Au Milieu Des Sollicitudes (February 16, 1892)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Octobri Mense",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22091891_octobri-mense.html",
+      "label": "Octobri Mense (September 22, 1891)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pastoralis Officii",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091891_pastoralis-officii.html",
+      "label": "Pastoralis Officii (September 12, 1891)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pastoralis vigilantiae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18910625_pastoralis.html",
+      "label": "Pastoralis vigilantiae (June 25, 1891)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Rerum Novarum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+      "label": "Rerum Novarum (May 15, 1891)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Ipso",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03031891_in-ipso.html",
+      "label": "In Ipso (March 3, 1891)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Catholicae Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111890_catholicae-ecclesiae.html",
+      "label": "Catholicae Ecclesiae (November 20, 1890)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dall'alto dell'Apostolico Seggio",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18901015_apostolico-seggio.html",
+      "label": "Dall'alto dell'Apostolico Seggio (October 15, 1890)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sapientiae Christianae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10011890_sapientiae-christianae.html",
+      "label": "Sapientiae Christianae (January 10, 1890)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quamquam Pluries",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html",
+      "label": "Quamquam Pluries (August 15, 1889)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Magni Nobis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_07031889_magni-nobis.html",
+      "label": "Magni Nobis (March 7, 1889)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Exeunte Iam Anno",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121888_exeunte-iam-anno.html",
+      "label": "Exeunte Iam Anno (December 25, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Etsi Cunctas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21121888_etsi-cunctas.html",
+      "label": "Etsi Cunctas (December 21, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quam Aerumnosa",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10121888_quam-aerumnosa.html",
+      "label": "Quam Aerumnosa (December 10, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Paterna Caritas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071888_paterna-caritas.html",
+      "label": "Paterna Caritas (July 25, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Saepe Nos",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061888_saepe-nos.html",
+      "label": "Saepe Nos (June 24, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Libertas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html",
+      "label": "Libertas (June 20, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Plurimis",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05051888_in-plurimis.html",
+      "label": "In Plurimis (May 5, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Anniversarius",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01041888_quod-anniversarius.html",
+      "label": "Quod Anniversarius (April 1, 1888)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Officio Sanctissimo",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121887_officio-sanctissimo.html",
+      "label": "Officio Sanctissimo (December 22, 1887)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Vi è Ben Noto",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091887_vi-e-ben-noto.html",
+      "label": "Vi è Ben Noto (September 20, 1887)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pergrata",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_14091886_pergrata.html",
+      "label": "Pergrata (September 14, 1886)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Multum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22081886_quod-multum.html",
+      "label": "Quod Multum (August 22, 1886)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iampridem",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011886_iampridem.html",
+      "label": "Iampridem (January 6, 1886)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Auctoritate",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121885_quod-auctoritate.html",
+      "label": "Quod Auctoritate (December 22, 1885)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Spectata Fides",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_27111885_spectata-fides.html",
+      "label": "Spectata Fides (November 27, 1885)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Immortale Dei",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html",
+      "label": "Immortale Dei (November 1, 1885)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Superiore Anno",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30081884_superiore-anno.html",
+      "label": "Superiore Anno (August 30, 1884)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Humanum Genus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html",
+      "label": "Humanum Genus (April 20, 1884)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Nobilissima Gallorum Gens",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08021884_nobilissima-gallorum-gens.html",
+      "label": "Nobilissima Gallorum Gens (February 8, 1884)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Supremi Apostolatus Officio",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01091883_supremi-apostolatus-officio.html",
+      "label": "Supremi Apostolatus Officio (September 1, 1883)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum Multa",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121882_cum-multa.html",
+      "label": "Cum Multa (December 8, 1882)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Auspicato Concessum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_17091882_auspicato-concessum.html",
+      "label": "Auspicato Concessum (September 17, 1882)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Etsi Nos",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15021882_etsi-nos.html",
+      "label": "Etsi Nos (February 15, 1882)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Licet Multa",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03081881_licet-multa.html",
+      "label": "Licet Multa (August 3, 1881)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Diuturnum",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061881_diuturnum.html",
+      "label": "Diuturnum (June 29, 1881)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sancta Dei Civitas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03121880_sancta-dei-civitas.html",
+      "label": "Sancta Dei Civitas (December 3, 1880)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Grande Munus",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30091880_grande-munus.html",
+      "label": "Grande Munus (September 30, 1880)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Arcanum Divinae",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10021880_arcanum.html",
+      "label": "Arcanum Divinae (February 10, 1880)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Aeterni Patris",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html",
+      "label": "Aeterni Patris (August 4, 1879)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quod Apostolici Muneris",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28121878_quod-apostolici-muneris.html",
+      "label": "Quod Apostolici Muneris (December 28, 1878)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inscrutabili Dei Consilio",
+      "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21041878_inscrutabili-dei-consilio.html",
+      "label": "Inscrutabili Dei Consilio (April 21, 1878)",
+      "pope": "leo13",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Magnifica Humanitas",
+      "sourceURL": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "label": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas (15 May 2026)",
+      "pope": "leo14",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Humanae Vitae",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html",
+      "label": "Humanae Vitae (July 25, 1968)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sacerdotalis Caelibatus",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html",
+      "label": "Sacerdotalis Caelibatus (June 24, 1967)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Populorum Progressio",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html",
+      "label": "Populorum Progressio (March 26, 1967)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Christi Matri",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html",
+      "label": "Christi Matri (September 15, 1966)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mysterium Fidei",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html",
+      "label": "Mysterium Fidei (September 3, 1965)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mense Maio",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html",
+      "label": "Mense Maio (April 29, 1965)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ecclesiam Suam",
+      "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html",
+      "label": "Ecclesiam Suam (August 6, 1964)",
+      "pope": "paul06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dives in misericordia",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-dives-in-misericordia-16-novembre-1877.html",
+      "label": "Breve Dives in misericordia (16 novembre 1877)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quae in Patriarchatu",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quae-in-patriarchatu-1-settembre-1876.html",
+      "label": "Enciclica Quae in Patriarchatu (Roma, 1° settembre 1876)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Graves ac diuturnae",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-graves-ac-diuturnae-23-martii-1875.html",
+      "label": "Lettera Apostolica Graves ac diuturnae (23 marzo 1875)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "apostolic-letter"
+    },
+    {
+      "title": "Quod nunquam",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quod-nunquam-5-febbraio-1875.html",
+      "label": "Enciclica Quod nunquam (5 febbraio 1875)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Gravibus Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-gravibus-ecclesiae-24-decembris-1874.html",
+      "label": "Enciclica Gravibus Ecclesiae (24 dicembre 1874)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Omnem sollicitudinem",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-omnem-sollicitudinem-13-maggio-1874.html",
+      "label": "Enciclica Omnem sollicitudinem (Roma, 13 maggio 1874)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Vix dum a Nobis",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-vix-dum-a-nobis-7-marzo-1874.html",
+      "label": "Enciclica Vix dum a Nobis (Roma, 7 marzo 1874)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In magnis illis",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-in-magnis-illis-27-dicembre-1873.html",
+      "label": "Enciclica In magnis illis (27 dicembre 1873)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Etsi multa",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-etsi-multa-21-novembre-1873.html",
+      "label": "Enciclica Etsi multa (21 novembre 1873)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quartus supra",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quartus-supra-6-gennaio-1873.html",
+      "label": "Enciclica Quartus supra (Roma, 6 gennaio 1873)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In luctuosissimis",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-in-luctuosissimis-16-iunii-1872.html",
+      "label": "Epistola In luctuosissimis (16 giugno 1872)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Ordinem vestrum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-ordinem-vestrum-27-octobris-1871.html",
+      "label": "Allocuzione Ordinem vestrum (27 ottobre 1871)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Saepe, venerabiles",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-saepe-venerabiles-5-augusti-1871.html",
+      "label": "Enciclica Saepe, venerabiles (Roma, 5 agosto 1871)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Beneficia Dei",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-beneficia-dei-4-iunii-1871.html",
+      "label": "Enciclica Beneficia Dei (4 giugno 1871)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi Nos",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-nos-15-maii-1871.html",
+      "label": "Enciclica Ubi Nos (Roma, 15 maggio 1871)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi prima",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-prima-11-martii-1871.html",
+      "label": "Enciclica Ubi prima (Roma, 11 marzo 1871)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ecclesia Dei",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-ecclesia-dei-2-martii-1871.html",
+      "label": "Epistola Ecclesia Dei (2 marzo 1871)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Respicientes ea",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-respicientes-ea-1-novembris-1870.html",
+      "label": "Enciclica Respicientes ea (Roma, 1° novembre 1870)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "dogmatica Pastor Aeternus",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-pastor-aeternus-18-iulii-1870.html",
+      "label": "Costituzione dogmatica Pastor Aeternus (18 luglio 1870)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "apostolic-constitution"
+    },
+    {
+      "title": "Quo impensiore",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-quo-impensiore-20-maii-1870.html",
+      "label": "Enciclica Quo impensiore (Roma, 20 maggio 1870)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "dogmatica Dei Filius",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-dei-filius-24-aprilis-1870.html",
+      "label": "Costituzione dogmatica Dei Filius (24 aprile 1870)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "apostolic-constitution"
+    },
+    {
+      "title": "Apostolici ministerii",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-apostolici-ministerii-5-aprilis-1870.html",
+      "label": "Breve Apostolici ministerii (5 aprile 1870)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Multiplices inter",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/bolla-multiplices-inter-23-marzo-1870.html",
+      "label": "Bolla Multiplices inter (23 marzo 1870)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Non sine gravissimo",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-non-sine-gravissimo-24-februarii-1870.html",
+      "label": "Lettera Apostolica Non sine gravissimo (24 febbraio 1870)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "apostolic-letter"
+    },
+    {
+      "title": "Religiosas regularium",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-religiosas-regularium-23-februarii-1870.html",
+      "label": "Lettera Apostolica Religiosas regularium (Roma, 23 febbraio 1870)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "apostolic-letter"
+    },
+    {
+      "title": "Iam vos omnes",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-iam-vos-omnes-13-septembris-1868.html",
+      "label": "Enciclica Iam vos omnes (13 settembre 1868)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Arcano divinae",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-arcano-divinae-8-septembris-1868.html",
+      "label": "Enciclica Arcano divinae (8 settembre 1868)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Aeterni Patris",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-aeterni-patris-29-iunii-1868.html",
+      "label": "Bolla Aeterni Patris (29 giugno 1868)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Ex quo infensissimi",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-ex-quo-infensissimi-14-novembre-1867.html",
+      "label": "Breve Ex quo infensissimi (14 novembre 1867)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Levate",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-levate-17-octobris-1867.html",
+      "label": "Enciclica Levate (17 Ottobre 1867)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Meridionali Americae",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-meridionali-americae-30-settembre-1865.html",
+      "label": "Epistola Meridionali Americae (30 settembre 1865)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Multiplices inter",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-multiplices-inter-25-septembris-1865.html",
+      "label": "Allocuzione Multiplices inter (25 settembre 1865)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Quanta cura",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/encyclica-quanta-cura-8-decembris-1864.html",
+      "label": "Enciclica Quanta cura (Roma, 8 dicembre 1864)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Maximae quidem",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-maximae-quidem-18-agosto-1864.html",
+      "label": "Enciclica Maximae quidem (Castel Gandolfo, 18 agosto 1864)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi urbaniano",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-urbaniano-30-luglio-1864.html",
+      "label": "Enciclica Ubi urbaniano (Castel Gandolfo, 30 luglio 1864)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Multis gravissimis",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-multis-gravissimis-28-gennaio-1864.html",
+      "label": "Breve Multis gravissimis (28 gennaio 1864)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Tuas libenter",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-tuas-libenter-21-decembris-1863.html",
+      "label": "Epistola Tuas libenter (Roma, 21 dicembre 1863)",
+      "pope": "pius09",
+      "kind": "apostolicLetter",
+      "originalType": "letter"
+    },
+    {
+      "title": "Incredibili afflictamur",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-incredibili-afflictamur-17-settembre-1863.html",
+      "label": "Enciclica Incredibili afflictamur (17 settembre 1863)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quanto conficiamur",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quanto-conficiamur-10-agosto-1863.html",
+      "label": "Enciclica Quanto conficiamur (Roma, 10 agosto 1863)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Maxima quidem",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maxima-quidem-9-giugno-1862.html",
+      "label": "Allocuzione Maxima quidem (9 giugno 1862)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Amantissimus humani",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimus-humani-8-aprile-1862.html",
+      "label": "Enciclica Amantissimus humani (8 aprile 1862)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iamdudum cernimus",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-iamdudum-cernimus-18-marzo-1861.html",
+      "label": "Allocuzione Iamdudum cernimus (18 marzo 1861)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Multis gravibusque",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-multis-gravibusque-17-dicembre-1860.html",
+      "label": "Allocuzione Multis gravibusque (17 dicembre 1860)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Novos et ante",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-novos-et-ante-28-settembre-1860.html",
+      "label": "Allocuzione Novos et ante (28 settembre 1860)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Cum Catholica Ecclesia",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-cum-catholica-ecclesia-26-marzo-1860.html",
+      "label": "Breve Cum Catholica Ecclesia (26 marzo 1860)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Nullis certe",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nullis-certe-19-gennaio-1860.html",
+      "label": "Enciclica Nullis certe (Roma, 19 gennaio 1860)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Maximo animi",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maximo-animi-26-settembre-1859.html",
+      "label": "Allocuzione Maximo animi (26 settembre 1859)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Ad gravissimum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-ad-gravissimum-20-giugno-1859.html",
+      "label": "Allocuzione Ad gravissimum (20 giugno 1859)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Qui nuper",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-nuper-18-giugno-1859.html",
+      "label": "Enciclica Qui nuper (Roma, 18 giugno 1859)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum Sancta Mater",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-sancta-mater-27-aprile-1859.html",
+      "label": "Enciclica Cum Sancta Mater (27 aprile 1859)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Amantissimi Redemptoris",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimi-redemptoris-3-maggio-1858.html",
+      "label": "Enciclica Amantissimi Redemptoris (3 maggio 1858)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Cum nuper",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-nuper-20-gennaio-1858.html",
+      "label": "Enciclica Cum nuper (20 gennaio 1858)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Singulari quidem",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-singulari-quidem-17-marzo-1856.html",
+      "label": "Enciclica Singulari quidem (Roma, 17 marzo 1856)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ineffabilis Deus",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/18541208-costituzione-apostolica-ineffabilis-deus.html",
+      "label": "Costituzione Apostolica Ineffabilis Deus (8 dicembre 1854)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "apostolic-constitution"
+    },
+    {
+      "title": "Optime noscitis",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-optime-noscitis-20-marzo-1854.html",
+      "label": "Enciclica Optime noscitis (Roma, 20 marzo 1854)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Neminem vestrum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-neminem-vestrum-2-febbraio-1854.html",
+      "label": "Enciclica Neminem vestrum (2 febbraio 1854)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inter multiplices",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-inter-multiplices-21-marzo-1853.html",
+      "label": "Enciclica Inter multiplices (21 marzo 1853)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Nemo certe ignorat",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nemo-certe-ignorat-25-marzo-1852.html",
+      "label": "Enciclica Nemo certe ignorat (25 marzo 1852)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ex aliis Nostris",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ex-aliis-nostris-21-novembre-1851.html",
+      "label": "Enciclica Ex aliis Nostris (21 novembre 1851)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Exultavit cor nostrum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-exultavit-cor-nostrum-21-novembre-1851.html",
+      "label": "Enciclica Exultavit cor nostrum (21 novembre 1851)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Si semper antea",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-si-semper-antea-20-maggio-1850.html",
+      "label": "Allocuzione Si semper antea (20 maggio 1850)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Nostis et nobiscum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nostis-et-nobiscum-8-dicembre-1849.html",
+      "label": "Enciclica Nostis et nobiscum (8 dicembre 1849)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quibus, quantisque",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-quibus-quantisque-20-aprile-1849.html",
+      "label": "Allocuzione Quibus, quantisque (20 aprile 1849)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Protesta La serie",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/protesta-la-serie-14-febbraio-1849.html",
+      "label": "Protesta La serie (Gaeta, 14 febbraio 1849)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Ubi primum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-2-febbraio-1849.html",
+      "label": "Enciclica Ubi primum (2 febbraio 1849)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Proclama Da questa pacifica",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-da-questa-pacifica-1-gennaio-1849.html",
+      "label": "Proclama Da questa pacifica (1° gennaio 1849)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Non semel",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-non-semel-29-aprile-1848.html",
+      "label": "Allocuzione Non semel (29 aprile 1848)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Decreto Nelle istituzioni",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/decreto-nelle-istituzioni-14-marzo-1848.html",
+      "label": "Decreto Nelle istituzioni (14 marzo 1848)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Proclama Romani, e quanti",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-romani-e-quanti-14-marzo-1848.html",
+      "label": "Proclama Romani, e quanti (Roma, 14 marzo 1848)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Ubi primum",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-17-giugno-1847.html",
+      "label": "Enciclica Ubi primum (17 giugno 1847)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Praedecessores Nostros",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-praedecessores-nostros-25-marzo-1847.html",
+      "label": "Enciclica Praedecessores Nostros (25 marzo 1847)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Qui pluribus",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-pluribus-9-novembre-1846.html",
+      "label": "Enciclica Qui pluribus (9 novembre 1846)",
+      "pope": "pius09",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Editto Nei giorni",
+      "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/editto-nei-giorni-16-luglio-1846.html",
+      "label": "Editto Nei giorni (16 luglio 1846)",
+      "pope": "pius09",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Quoties animo",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html",
+      "label": "Breve Quoties animo (13 agosto 1799)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Cum Nos superiori",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html",
+      "label": "Bolla Cum Nos superiori (Firenze, 13 novembre 1798)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Constantiam vestram",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html",
+      "label": "Breve Constantiam vestram (San Cassiano, 10 novembre 1798)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Christi Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html",
+      "label": "Bolla Christi Ecclesiae (Roma, 30 dicembre 1797)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Auctorem fidei",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html",
+      "label": "Bolla Auctorem fidei (Roma, 28 agosto 1794)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Ad nostras manus",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html",
+      "label": "Enciclica Ad nostras manus (Roma, 31 luglio 1793)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quare lacrymae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html",
+      "label": "Allocuzione Quare lacrymae (Roma, 17 giugno 1793)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Perpensis circumstantiis",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html",
+      "label": "Dichiarazione Perpensis circumstantiis (Roma, 10 dicembre 1792)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "declaration"
+    },
+    {
+      "title": "Quae causa",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html",
+      "label": "Breve Quae causa (Roma, 24 novembre 1792)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Ignotae nemini",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ignotae-nemini-21-novembre-1792.html",
+      "label": "Enciclica Ignotae nemini (Roma, 21 novembre 1792)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi Lutetiam",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ubi-lutetiam-13-giugno-1792.html",
+      "label": "Enciclica Ubi Lutetiam (Roma, 13 giugno 1792)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quo fluctu",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
+      "label": "Breve Quo fluctu (Roma, 30 maggio 1792)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Dum Nos",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html",
+      "label": "Enciclica Dum Nos (Roma, 19 aprile 1792)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi communis",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html",
+      "label": "Breve Ubi communis (Roma, 4 aprile 1792)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "In gravissimis",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html",
+      "label": "Enciclica In gravissimis (Roma, 19 marzo 1792)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Novae hae litterae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html",
+      "label": "Enciclica Novae hae litterae (Roma, 19 marzo 1792)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ancorché antichissimo",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html",
+      "label": "Chirografo Ancorché antichissimo (Roma, 5 novembre 1791)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "chirograph"
+    },
+    {
+      "title": "Quo luctu",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-luctu-4-maggio-1791.html",
+      "label": "Breve Quo luctu (Terracina, 4 maggio 1791)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Adeo nota",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html",
+      "label": "Enciclica Adeo nota (Roma, 23 aprile 1791)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Charitas quae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-charitas-quae-13-aprile-1791.html",
+      "label": "Breve Charitas quae (Roma, 13 aprile 1791)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Cum populi",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html",
+      "label": "Breve Cum populi (Roma, 13 aprile 1791)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Quod aliquantum",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html",
+      "label": "Breve Quod aliquantum (Roma, 10 marzo 1791)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Super soliditate Petrae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html",
+      "label": "Breve Super soliditate Petrae (Roma, 28 novembre 1786)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Nuper pro",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html",
+      "label": "Breve Nuper pro (Roma, 6 marzo 1779)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Summa Dei",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html",
+      "label": "Bolla Summa Dei (Roma, 25 dicembre 1775)",
+      "pope": "pius06",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Inscrutabile Divinae",
+      "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-inscrutabile-divinae-25-dicembre-1775.html",
+      "label": "Enciclica Inscrutabile Divinae (Roma, 25 dicembre 1775)",
+      "pope": "pius06",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ecclesiam a Jesu",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html",
+      "label": "Bolla Ecclesiam a Jesu (Roma, 13 settembre 1821)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Praeclara quam",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-praeclara-quam-16-maggio-1820.html",
+      "label": "Breve Praeclara quam (Roma, 16 maggio 1820)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Dominici gregis",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-dominici-gregis-25-agosto-1819.html",
+      "label": "Breve Dominici gregis (Roma, 25 agosto 1819)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Vineam quam plantavit",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-vineam-quam-plantavit-12-giugno-1817.html",
+      "label": "Enciclica Vineam quam plantavit (Roma, 12 giugno 1817)",
+      "pope": "pius07",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Lettera Magno et acerbo",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/epistola-magno-et-acerbo-3-septembris-1816.html",
+      "label": "Lettera Magno et acerbo (3 settembre 1816)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "papal-document"
+    },
+    {
+      "title": "Etsi longissimo",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-etsi-longissimo-30-gennaio-1816.html",
+      "label": "Breve Etsi longissimo (Roma, 30 gennaio 1816)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Optatissimus tandem",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-optatissimus-tandem-26-settembre-1814.html",
+      "label": "Allocuzione Optatissimus tandem (26 settembre 1814)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Sollicitudo omnium",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-sollicitudo-omnium-7-agosto-1814.html",
+      "label": "Bolla Sollicitudo omnium (Roma, 7 agosto 1814)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Il trionfo",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html",
+      "label": "Enciclica Il trionfo (Cesena, 4 maggio 1814)",
+      "pope": "pius07",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quum memoranda",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-quum-memoranda-10-giugno-1809.html",
+      "label": "Breve Quum memoranda (Roma, 10 giugno 1809)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Hoc ipso",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-hoc-ipso-29-ottobre-1804.html",
+      "label": "Allocuzione Hoc ipso (29 ottobre 1804)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Quam luctuosam",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-quam-luctuosam-24-maggio-1802.html",
+      "label": "Allocuzione Quam luctuosam (24 maggio 1802)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Ecclesia Christi",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesia-christi-15-agosto-1801.html",
+      "label": "Bolla Ecclesia Christi (Roma, 15 agosto 1801)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "bull"
+    },
+    {
+      "title": "Tam multa",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-tam-multa-15-agosto-1801.html",
+      "label": "Breve Tam multa (Roma, 15 agosto 1801)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Le più colte",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/motu-proprio-le-piu-colte-11-marzo-1801.html",
+      "label": "Motu proprio Le più colte (Roma, 11 marzo 1801)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "motu-proprio"
+    },
+    {
+      "title": "Ex quo Ecclesiam",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-ex-quo-ecclesiam-24-maggio-1800.html",
+      "label": "Enciclica Ex quo Ecclesiam (Venezia, 24 maggio 1800)",
+      "pope": "pius07",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Diu satis",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-diu-satis-15-maggio-1800.html",
+      "label": "Enciclica Diu satis (Venezia, 15 maggio 1800)",
+      "pope": "pius07",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad supremum",
+      "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-ad-supremum-28-marzo-1800.html",
+      "label": "Allocuzione Ad supremum (Venezia, 28 marzo 1800)",
+      "pope": "pius07",
+      "kind": "papalDocument",
+      "originalType": "allocution"
+    },
+    {
+      "title": "Inter multiplices",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-4-settembre-1829.html",
+      "label": "Breve Inter multiplices (4 settembre 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Inter multiplices",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-11-agosto-1829.html",
+      "label": "Breve Inter multiplices (11 agosto 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Coelestis agricola",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-coelestis-agricola-7-luglio-1829.html",
+      "label": "Breve Coelestis agricola (7 luglio 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Literae fraternitatis",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-literae-fraternitatis-30-giugno-1829.html",
+      "label": "Breve Literae fraternitatis (30 giugno 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "In supremi",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-in-supremi-18-giugno-1829.html",
+      "label": "Breve In supremi (18 giugno 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Traditi humilitati",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/enciclica-traditi-humilitati-24-maggio-1829.html",
+      "label": "Enciclica Traditi humilitati (24 maggio 1829)",
+      "pope": "pius08",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Inter multiplices",
+      "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-15-maggio-1829.html",
+      "label": "Breve Inter multiplices (15 maggio 1829)",
+      "pope": "pius08",
+      "kind": "papalDocument",
+      "originalType": "brief"
+    },
+    {
+      "title": "Singulari quadam",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
+      "label": "Singulari quadam (September 24, 1912)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Lacrimabili Statu",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html",
+      "label": "Lacrimabili Statu (June 7, 1912)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iamdudum",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html",
+      "label": "Iamdudum (May 24, 1911)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Editae Saepe",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html",
+      "label": "Editae Saepe (May 26, 1910)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Communium Rerum",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html",
+      "label": "Communium Rerum (April 21, 1909)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pascendi Dominici Gregis",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+      "label": "Pascendi Dominici Gregis (September 8, 1907)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Une Fois Encore",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html",
+      "label": "Une Fois Encore (January 6, 1907)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Gravissimo Officii Munere",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html",
+      "label": "Gravissimo Officii Munere (August 10, 1906)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pieni L'Animo",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html",
+      "label": "Pieni L'Animo (July 28, 1906)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Tribus Circiter",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html",
+      "label": "Tribus Circiter (April 5, 1906)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Vehementer Nos",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
+      "label": "Vehementer Nos (February 11, 1906)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Il Fermo Proposito",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
+      "label": "Il Fermo Proposito (June 11, 1905)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Acerbo Nimis",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+      "label": "Acerbo Nimis (April 15, 1905)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iucunda Sane",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
+      "label": "Iucunda Sane (March 12, 1904)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Diem Illum Laetissimum",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
+      "label": "Ad Diem Illum Laetissimum (February 2, 1904)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "E Supremi",
+      "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+      "label": "E Supremi (October 4, 1903)",
+      "pope": "pius10",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ingravescentibus Malis",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091937_ingravescentibus-malis.html",
+      "label": "Ingravescentibus Malis (September 29, 1937)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Firmissimam Constantiam",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
+      "label": "Firmissimam Constantiam ( March 28, 1937)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Pius XI, Nos es muy conocida",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html",
+      "label": "Pius XI, Nos es muy conocida (28/03/1937)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Divini Redemptoris",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+      "label": "Divini Redemptoris (March 19, 1937)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mit Brennender Sorge",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+      "label": "Mit Brennender Sorge (March 14, 1937)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Vigilanti Cura",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+      "label": "Vigilanti Cura (June 29, 1936)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Catholici Sacerdotii",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+      "label": "Ad Catholici Sacerdotii (December 20, 1935)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Dilectissima Nobis",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html",
+      "label": "Dilectissima Nobis (June 3, 1933)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Acerba Animi",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091932_acerba-animi.html",
+      "label": "Acerba Animi (September 29, 1932)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Caritate Christi Compulsi",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03051932_caritate-christi-compulsi.html",
+      "label": "Caritate Christi Compulsi (May 3, 1932)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Nova Impendet",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_02101931_nova-impendet.html",
+      "label": "Nova Impendet (October 2, 1931)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Non Abbiamo Bisogno",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061931_non-abbiamo-bisogno.html",
+      "label": "Non Abbiamo Bisogno (June 29, 1931)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quadragesimo Anno",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+      "label": "Quadragesimo Anno (May 15, 1931)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Casti Connubii",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+      "label": "Casti Connubii (December 31, 1930)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Divini Illius Magistri",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+      "label": "Divini Illius Magistri (December 31, 1929)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mens Nostra",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
+      "label": "Mens Nostra (December 20, 1929)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Miserentissimus Redemptor",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html",
+      "label": "Miserentissimus Redemptor (May 8, 1928)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mortalium Animos",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+      "label": "Mortalium Animos (January 6, 1928)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Iniquis Afflictisque",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18111926_iniquis-afflictisque.html",
+      "label": "Iniquis Afflictisque (November 18, 1926)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Rite Expiatis",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_30041926_rite-expiatis.html",
+      "label": "Rite Expiatis (April 30, 1926)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Rerum Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28021926_rerum-ecclesiae.html",
+      "label": "Rerum Ecclesiae (February 28, 1926)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quas Primas",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html",
+      "label": "Quas Primas (December 11, 1925)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Maximam Gravissimamque",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18011924_maximam-gravissimamque.html",
+      "label": "Maximam Gravissimamque (January 18, 1924)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Rerum Omnium Perturbationem",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_26011923_rerum-omnium-perturbationem.html",
+      "label": "Rerum Omnium Perturbationem (January 26, 1923)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ubi Arcano Dei Consilio",
+      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19221223_ubi-arcano-dei-consilio.html",
+      "label": "Ubi Arcano Dei Consilio (23 December 1922)",
+      "pope": "pius11",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Meminisse Iuvat",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
+      "label": "Meminisse Iuvat (July 14, 1958)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Apostolorum Principis",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+      "label": "Ad Apostolorum Principis (June 29, 1958)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Miranda Prorsus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+      "label": "Miranda Prorsus (September 8, 1957)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Le Pèlerinage de Lourdes",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+      "label": "Le Pèlerinage de Lourdes (July 2, 1957)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Invicti Athletae",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html",
+      "label": "Invicti Athletae (May 16, 1957)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fidei Donum",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+      "label": "Fidei Donum (April 21, 1957)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Datis Nuperrime",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
+      "label": "Datis Nuperrime (November 5, 1956)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Laetamur Admodum",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
+      "label": "Laetamur Admodum (November 1, 1956)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Luctuosissimi Eventus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
+      "label": "Luctuosissimi Eventus (October 28, 1956)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Haurietis Aquas",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+      "label": "Haurietis Aquas (May 15, 1956)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Musicae Sacrae",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+      "label": "Musicae Sacrae (December 25, 1955)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Caeli Reginam",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+      "label": "Ad Caeli Reginam (October 11, 1954)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ad Sinarum Gentem",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html",
+      "label": "Ad Sinarum Gentem (October 7, 1954)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ecclesiae Fastos",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html",
+      "label": "Ecclesiae Fastos (June 5, 1954)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sacra Virginitas",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
+      "label": "Sacra Virginitas (March 25, 1954)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fulgens Corona",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
+      "label": "Fulgens Corona (September 8, 1953)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Doctor Mellifluus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
+      "label": "Doctor Mellifluus (May 24, 1953)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Ingruentium Malorum",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
+      "label": "Ingruentium Malorum (September 15, 1951)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sempiternus Rex Christus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
+      "label": "Sempiternus Rex Christus (September 8, 1951)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Evangelii Praecones",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02061951_evangelii-praecones.html",
+      "label": "Evangelii Praecones (June 2, 1951)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mirabile Illud",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06121950_mirabile-illud.html",
+      "label": "Mirabile Illud (December 6, 1950)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Humani Generis",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html",
+      "label": "Humani Generis (August 12, 1950)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Summi Maeroris",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_19071950_summi-maeroris.html",
+      "label": "Summi Maeroris (July 19, 1950)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Anni Sacri",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12031950_anni-sacri.html",
+      "label": "Anni Sacri (March 12, 1950)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Redemptoris Nostri Cruciatus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041949_redemptoris-nostri-cruciatus.html",
+      "label": "Redemptoris Nostri Cruciatus (April 15, 1949)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "In Multiplicibus Curis",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24101948_in-multiplicibus-curis.html",
+      "label": "In Multiplicibus Curis (October 24, 1948)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Auspicia Quaedam",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051948_auspicia-quaedam.html",
+      "label": "Auspicia Quaedam (May 1, 1948)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Optatissima Pax",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_18121947_optatissima-pax.html",
+      "label": "Optatissima Pax (December 18, 1947)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mediator Dei",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+      "label": "Mediator Dei (November 20, 1947)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Fulgens Radiatur",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21031947_fulgens-radiatur.html",
+      "label": "Fulgens Radiatur (March 21, 1947)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Deiparae Virginis Mariae",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051946_deiparae-virginis-mariae.html",
+      "label": "Deiparae Virginis Mariae (May 1, 1946)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Quemadmodum",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06011946_quemadmodum.html",
+      "label": "Quemadmodum (January 6, 1946)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Orientales Omnes Ecclesias",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_23121945_orientales-omnes-ecclesias.html",
+      "label": "Orientales Omnes Ecclesias (December 23, 1945)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Communium Interpretes Dolorum",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041945_communium-interpretes-dolorum.html",
+      "label": "Communium Interpretes Dolorum (April 15, 1945)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Orientalis Ecclesiae",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_09041944_orientalis-ecclesiae.html",
+      "label": "Orientalis Ecclesiae (April 9, 1944)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Divino Afflante Spiritu",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html",
+      "label": "Divino Afflante Spiritu (September 30, 1943)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Mystici Corporis Christi",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html",
+      "label": "Mystici Corporis Christi (June 29, 1943)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Saeculo Exeunte Octavo",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_13061940_saeculo-exeunte-octavo.html",
+      "label": "Saeculo Exeunte Octavo (June 13, 1940)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Sertum Laetitiae",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111939_sertum-laetitiae.html",
+      "label": "Sertum Laetitiae (November 1, 1939)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    },
+    {
+      "title": "Summi Pontificatus",
+      "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20101939_summi-pontificatus.html",
+      "label": "Summi Pontificatus (October 20, 1939)",
+      "pope": "pius12",
+      "kind": "encyclical",
+      "originalType": "encyclical-letter"
+    }
+  ],
+  "indexes": [
+    {
+      "pope": "Benedict XV",
+      "index": "https://www.vatican.va/content/benedict-xv/en/encyclicals.index.html",
+      "sha256": "89b83c0eb76f1d7c2f1cdac7079ca9ef324ee3a504df84289a4b1c44348e1b1a",
+      "documentEntries": 12,
+      "encyclicalEntries": 12
+    },
+    {
+      "pope": "Benedict XVI",
+      "index": "https://www.vatican.va/content/benedict-xvi/en/encyclicals.index.html",
+      "sha256": "e650b173bdb180ed435496242b3e06a78b733914348d9a160285582c297ef027",
+      "documentEntries": 3,
+      "encyclicalEntries": 3
+    },
+    {
+      "pope": "Benedict XIV",
+      "index": "https://www.vatican.va/content/benedictus-xiv/it.html",
+      "sha256": "30fec0a8b75cd9812613c5d74b8e804b9c334ae15db9295ca5f63b77d3524382",
+      "documentEntries": 43,
+      "encyclicalEntries": 30
+    },
+    {
+      "pope": "Clement XIII",
+      "index": "https://www.vatican.va/content/clemens-xiii/it.html",
+      "sha256": "5b6fbc11530fc802cf49adb0d386e8d45166ff476c705c45d6babd5bdbfa40c5",
+      "documentEntries": 13,
+      "encyclicalEntries": 6
+    },
+    {
+      "pope": "Clement XIV",
+      "index": "https://www.vatican.va/content/clemens-xiv/it.html",
+      "sha256": "de207c9be7a0ceb23c422243f0d892ce0c25e10f455063d7306f5352994eebe4",
+      "documentEntries": 6,
+      "encyclicalEntries": 2
+    },
+    {
+      "pope": "Francis",
+      "index": "https://www.vatican.va/content/francesco/en/encyclicals.index.html",
+      "sha256": "6c5243f6b4b1a93c6b9f9b67b1b3b9e3e9f0ad9ea187bd06e4d143aa5aaadf15",
+      "documentEntries": 4,
+      "encyclicalEntries": 4
+    },
+    {
+      "pope": "Gregory XVI",
+      "index": "https://www.vatican.va/content/gregorius-xvi/it.html",
+      "sha256": "6336b9b4bfd49581c8925905220b4e611d3cdd91113308d78c919a72c21560c3",
+      "documentEntries": 66,
+      "encyclicalEntries": 9
+    },
+    {
+      "pope": "John Paul II",
+      "index": "https://www.vatican.va/content/john-paul-ii/en/encyclicals.index.html",
+      "sha256": "60b6619434951e13af290913dbc48f6d3eabbb7a45b15b6d045f651e02efe7ea",
+      "documentEntries": 14,
+      "encyclicalEntries": 14
+    },
+    {
+      "pope": "John XXIII",
+      "index": "https://www.vatican.va/content/john-xxiii/en/encyclicals.index.html",
+      "sha256": "a2bc8e55f84310c89a3443073fef673806913773c64cdbeabcc7adbd29f8ee1a",
+      "documentEntries": 8,
+      "encyclicalEntries": 8
+    },
+    {
+      "pope": "Leo XII",
+      "index": "https://www.vatican.va/content/leo-xii/it.html",
+      "sha256": "9d21218f7d9746d4864596baa8dd2b5ce23aa925de390982a96a89857caf7046",
+      "documentEntries": 18,
+      "encyclicalEntries": 2
+    },
+    {
+      "pope": "Leo XIII",
+      "index": "https://www.vatican.va/content/leo-xiii/en/encyclicals.index.html",
+      "sha256": "d416de4a5a93f4c1723bd9707a1a30a66f90a9e53b2abe89b71a90364f5ae513",
+      "documentEntries": 86,
+      "encyclicalEntries": 86
+    },
+    {
+      "pope": "Leo XIV",
+      "index": "https://www.vatican.va/content/leo-xiv/en/encyclicals.index.html",
+      "sha256": "c6f4049a4c724b214e89a4e0f95aec6737a53a6004df25969d7cc9f86add2983",
+      "documentEntries": 1,
+      "encyclicalEntries": 1
+    },
+    {
+      "pope": "Paul VI",
+      "index": "https://www.vatican.va/content/paul-vi/en/encyclicals.index.html",
+      "sha256": "2a86256d3b5c98c0d6acebed4a0a6fd75ba9f43c05736a0662bed6a7e862e1c7",
+      "documentEntries": 7,
+      "encyclicalEntries": 7
+    },
+    {
+      "pope": "Pius IX",
+      "index": "https://www.vatican.va/content/pius-ix/it.html",
+      "sha256": "1eccf5e660a230cc49a2a400acf1fc6bc4377fca127109159e7b744805589e9b",
+      "documentEntries": 73,
+      "encyclicalEntries": 40
+    },
+    {
+      "pope": "Pius VI",
+      "index": "https://www.vatican.va/content/pius-vi/it.html",
+      "sha256": "4cad28022772fd9d59a911b4d598f0c66ed9773787e53158d7d9175fac394624",
+      "documentEntries": 26,
+      "encyclicalEntries": 8
+    },
+    {
+      "pope": "Pius VII",
+      "index": "https://www.vatican.va/content/pius-vii/it.html",
+      "sha256": "0ec7ec80b684a657964d944af22ab73af619a05aae110356b73f4150dbd38bd2",
+      "documentEntries": 18,
+      "encyclicalEntries": 4
+    },
+    {
+      "pope": "Pius VIII",
+      "index": "https://www.vatican.va/content/pius-viii/it.html",
+      "sha256": "1b7316cde2e84e9b782cabb54cd22aaa1a4e919aaa8b97d1a9d90dff661c50f7",
+      "documentEntries": 7,
+      "encyclicalEntries": 1
+    },
+    {
+      "pope": "Pius X",
+      "index": "https://www.vatican.va/content/pius-x/en/encyclicals.index.html",
+      "sha256": "36ba0661e73d120e86be06e422cdbc4713bdd0337178ea7818db4a7d957f259c",
+      "documentEntries": 16,
+      "encyclicalEntries": 16
+    },
+    {
+      "pope": "Pius XI",
+      "index": "https://www.vatican.va/content/pius-xi/en/encyclicals.index.html",
+      "sha256": "b9f3abe579663bab11730a70bcd1d05b4b6179de346cefd35870185a23727281",
+      "documentEntries": 25,
+      "encyclicalEntries": 25
+    },
+    {
+      "pope": "Pius XII",
+      "index": "https://www.vatican.va/content/pius-xii/en/encyclicals.index.html",
+      "sha256": "1dbb32bd66ad73c65ba275ddc8f8c11d5897fce94b30eb0df28fc4ee201bbb45",
+      "documentEntries": 40,
+      "encyclicalEntries": 40
+    }
+  ]
+}

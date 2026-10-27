@@ -48,8 +48,11 @@ targets:
     platform: iOS
     sources:
       - path: App
-        excludes: [Resources/Media]
+        excludes: [Resources/Media, Resources/ReadingLibrary]
       - path: App/Resources/Media
+        type: folder
+        buildPhase: resources
+      - path: App/Resources/ReadingLibrary
         type: folder
         buildPhase: resources
     dependencies:

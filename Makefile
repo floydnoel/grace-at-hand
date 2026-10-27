@@ -14,6 +14,7 @@ generate:
 	node tools/generate-tokens.mjs
 	node tools/bundle-assets.mjs
 	node tools/content.mjs bundle
+	node tools/readings.mjs bundle
 	xcodegen generate --spec ios/project.yml
 build: generate
 	xcodebuild -project $(PROJECT) -scheme $(SCHEME) -configuration Debug -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
@@ -29,6 +30,7 @@ test-network: generate
 	xcodebuild -project $(PROJECT) -scheme $(SCHEME) -configuration Preview -destination '$(DESTINATION)' -derivedDataPath build/DerivedData -only-testing:GraceAtHandTests/PersistenceTests/testPreviewCatalogAndHTTPDownload CODE_SIGNING_ALLOWED=NO test
 validate:
 	node tools/content.mjs validate
+	node tools/readings.mjs validate
 preview:
 	node tools/content.mjs preview
 release-check:

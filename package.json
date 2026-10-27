@@ -8,8 +8,8 @@
     "node": ">=24.18.0 <25"
   },
   "scripts": {
-    "generate": "node tools/generate-tokens.mjs && node tools/bundle-assets.mjs && node tools/content.mjs bundle",
-    "validate": "node tools/content.mjs validate",
+    "generate": "node tools/generate-tokens.mjs && node tools/bundle-assets.mjs && node tools/content.mjs bundle && node tools/readings.mjs bundle",
+    "validate": "node tools/content.mjs validate && node tools/readings.mjs validate",
     "test": "node --test tools/tests/*.test.mjs",
     "preview": "node tools/content.mjs preview",
     "publish:content": "node tools/content.mjs publish",

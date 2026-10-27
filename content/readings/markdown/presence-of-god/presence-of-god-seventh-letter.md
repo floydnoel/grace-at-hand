@@ -1,0 +1,9 @@
+# Seventh Letter.
+
+I pity you much. It will be of great importance if you can leave the care of your affairs to ----, and spend the remainder of your life only in worshiping GOD. He requires no great matters of us; a little remembrance of Him from time to time; a little adoration; sometimes to pray for His grace, sometimes to offer Him your sufferings, and sometimes to return Him thanks for the favors He has given you, and still gives you, in the midst of your troubles, and to console yourself with Him the oftenest you can. Lift up your heart to Him, sometimes even at your meals, and when you are in company: the least little remembrance will always be acceptable to Him. You need not cry very loud; He is nearer to us than we are aware of.
+
+It is not necessary for being with GOD to be always at church: we may make an oratory of our heart wherein to retire from time to time to converse with Him in meekness, humility and love. Every one is capable of such familiar conversation with GOD, some more, some less: He knows what we can do. Let us begin, then. Perhaps He expects but one generous resolution on our part. Have courage. We have but little time to live; you are near sixty-four, and I am almost eighty. Let us live and die with GOD. Sufferings will be sweet and pleasant to us while we are with Him; and the greatest pleasures will be, without Him, a cruel punishment to us. May He be blessed for all. Amen.
+
+Accustom yourself, then, by degrees thus to worship Him, to beg His grace, to offer Him your heart from time to time in the midst of your business, even every moment, if you can. Do not always scrupulously confine yourself to certain rules, or particular forms of devotion, but act with a general confidence in GOD, with love and humility. You may assure ---- of my poor prayers, and that I am their servant, and particularly
+
+Yours in our LORD, &c.

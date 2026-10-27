@@ -14,6 +14,8 @@ import UIKit
     let reminders: ReminderService
     let practice: PracticeStore
     let appLock: AppLockService
+    let readings: ReadingLibraryRepository
+    let readingShelf: ReadingShelfStore
     var privatePresentationID = UUID()
     var pendingIntentionID: String?
     private var pendingSessions: [PracticeSession] = []
@@ -33,6 +35,8 @@ import UIKit
         let access = { @MainActor [weak lock] in lock?.isUnlocked == true && UIApplication.shared.isProtectedDataAvailable }
         intentions = try IntentStore(root: root, accessAllowed: access)
         practice = try PracticeStore(root: root, accessAllowed: access)
+        readings = ReadingLibraryRepository()
+        readingShelf = try ReadingShelfStore(root: root, accessAllowed: access)
         catalog = try CatalogRepository(configuration: configuration, root: root)
         downloads = try DownloadManager(root: root, testing: testing)
         playback = PlaybackService()
@@ -96,6 +100,7 @@ import UIKit
     func reset() {
         guard intentions.clear() else { alertMessage = intentions.errorMessage; return }
         guard practice.reset() else { alertMessage = practice.errorMessage; return }
+        guard readingShelf.reset() else { alertMessage = readingShelf.errorMessage; return }
         guard appLock.resetUnlocked() else { alertMessage = appLock.errorMessage; return }
         pendingSessions = []; pendingIntentionID = nil
         requestID = UUID(); playback.dismissCurrent(); showPlayer = false
@@ -108,11 +113,11 @@ import UIKit
     func lockPrivateData() {
         for flush in privateEditorFlushers.values { flush() }
         privateEditorFlushers = [:]
-        appLock.lock(); intentions.lock(); practice.lock(); privatePresentationID = UUID()
+        appLock.lock(); intentions.lock(); practice.lock(); readingShelf.lock(); privatePresentationID = UUID()
     }
     func loadPrivateData() {
         guard appLock.isUnlocked, UIApplication.shared.isProtectedDataAvailable else { return }
-        intentions.load(); practice.load()
+        intentions.load(); practice.load(); readingShelf.load()
         if !practice.needsRecovery {
             let queued = pendingSessions; pendingSessions = []
             for session in queued { recordPractice(session) }
@@ -148,6 +153,7 @@ import UIKit
     }
     func clearActivity() {
         pendingSessions = []; playback.dismissCurrent(); local.clearHistory()
+        readingShelf.clearActivity()
         if !practice.clearActivity() { alertMessage = practice.errorMessage }
     }
     @discardableResult func resetPracticeRecords() -> Bool {

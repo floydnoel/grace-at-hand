@@ -118,6 +118,12 @@ struct DiscoverView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 PageHeading(eyebrow: "Prayer for everyday life", title: "Discover")
+                NavigationLink(value: AppRoute.readingLibrary(nil)) {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Label("Reading library", systemImage: "books.vertical").font(.system(.title2, design: .serif))
+                        Text("The Douay–Rheims Bible, papal documents, and spiritual writings. Explore a topic or follow a reading path.").font(.subheadline).foregroundStyle(GraceColor.secondary)
+                    }.frame(maxWidth: .infinity, alignment: .leading).graceCard()
+                }.buttonStyle(.plain).accessibilityIdentifier("openReadingLibrary")
                 NavigationLink(value: AppRoute.search) { Label("Prayers, topics, or Scripture", systemImage: "magnifyingglass").foregroundStyle(GraceColor.secondary).frame(maxWidth: .infinity, alignment: .leading).padding(16).background(GraceColor.wash, in: RoundedRectangle(cornerRadius: 16)) }.buttonStyle(.plain).accessibilityIdentifier("openSearch")
                 ScrollView(.horizontal, showsIndicators: false) { HStack(spacing: 8) { ForEach(["All", "Pray", "Reflect", "Rest", "Learn"], id: \.self) { value in FilterChip(title: value, selected: category == value) { category = value } } } }
                 if category == "All" {

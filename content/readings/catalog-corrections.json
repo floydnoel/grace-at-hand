@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "purpose": "Bibliographic corrections verified against the linked document and its closing date. No rights or editorial approvals are asserted.",
+  "overrides": {
+    "pius10/for-the-fiftieth-anniversary-of-the-proclamation-of-the-dogma-of-the-immaculate-conception": {
+      "title": "For the Fiftieth Anniversary of the Immaculate Conception",
+      "date": "1904-12-12",
+      "kind": "papalDocument",
+      "originalType": "allocution-excerpts",
+      "sourceURL": "https://www.papalencyclicals.net/pius10/p10aniv.htm",
+      "sourceLanguage": "en"
+    },
+    "leo13/misericors-dei-filius": {
+      "date": "1883-05-30",
+      "kind": "papalDocument",
+      "originalType": "apostolic-constitution",
+      "sourceURL": "https://www.papalencyclicals.net/leo13/misericors-dei-filius.htm",
+      "sourceLanguage": "en"
+    },
+    "ben14/bolla-providas-romanorum": {
+      "title": "Providas Romanorum",
+      "date": "1751-03-18",
+      "kind": "papalDocument",
+      "originalType": "bull",
+      "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html",
+      "sourceLanguage": "it"
+    },
+    "innoc11/sollicitudo-pastoralis": {
+      "date": "1679-11-20",
+      "kind": "papalDocument",
+      "originalType": "motu-proprio",
+      "sourceURL": "https://www.papalencyclicals.net/innoc11/soll-l.htm",
+      "sourceLanguage": "la"
+    },
+    "sixtus04/superna-caelestis": {
+      "date": "1482-04-14",
+      "kind": "papalDocument",
+      "originalType": "bull",
+      "sourceURL": "https://www.papalencyclicals.net/sixtus04/superna-caelestis.htm",
+      "sourceLanguage": "en"
+    },
+    "nichol05/romanus-pontifex": {
+      "date": "1455-01-08",
+      "kind": "papalDocument",
+      "originalType": "bull",
+      "sourceURL": "https://www.papalencyclicals.net/nichol05/romanus-pontifex.htm",
+      "sourceLanguage": "en"
+    },
+    "greg10/papal-protection-of-the-jews": {
+      "date": "1272-10-07",
+      "kind": "papalDocument",
+      "originalType": "bull",
+      "sourceURL": "https://www.papalencyclicals.net/greg10/g10jprot.htm",
+      "sourceLanguage": "en"
+    }
+  },
+  "additionalWorks": [
+    {
+      "id": "papal-ben14-sollicita-ac-provida",
+      "title": "Sollicita ac provida",
+      "author": "Pope Benedict XIV",
+      "date": "1753-07-09",
+      "kind": "papalDocument",
+      "originalType": "apostolic-constitution",
+      "sourceURL": "https://la.wikisource.org/wiki/Sollicita_ac_provida",
+      "sourceLanguage": "la"
+    }
+  ]
+}

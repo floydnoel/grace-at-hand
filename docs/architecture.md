@@ -22,7 +22,7 @@ flowchart LR
 
 ## Navigation and presentation
 
-Today, Discover, Scripture, and My prayer each retain a navigation path. Compact layouts use a native tab bar; regular iPad layouts use sidebar/detail navigation with a single active detail stack. `NavigationMemory` retains destination scroll offsets, search filters, and the chosen Scripture date when that stack changes. The full player is a sheet over the originating navigation context. Reading surfaces are opaque; the mini-player offers a solid alternative when Reduce Transparency is enabled. Reading uses scaled system serif typography plus a separate persisted reading-size control. Increased contrast strengthens secondary text and borders through shared tokens.
+Today, Discover, Scripture, and My prayer each retain a navigation path. Compact layouts and accessibility text sizes use native tabs; regular iPad layouts otherwise use sidebar/detail navigation with a single active detail stack. The accessibility fallback gives large-text reading the available width without squeezing navigation labels into a narrow sidebar. `NavigationMemory` retains destination scroll offsets, search filters, and the chosen Scripture date when that stack changes. The full player is a sheet over the originating navigation context. Reading surfaces are opaque; the mini-player offers a solid alternative when Reduce Transparency is enabled. Reading uses scaled system serif typography plus a separate persisted reading-size control. Increased contrast strengthens secondary text and borders through shared tokens.
 
 Today’s featured prayer uses the locally selected interests and available time. Suggestions prefer prayers within the chosen duration, rank matching topics, and use the morning/evening prayer as a stable tie-breaker. When no prayer fits, the shortest available prayer is shown with its actual duration. Offline suggestions prefer retained downloads. These rules live in GraceCore; the complete library remains available in Discover.
 
@@ -70,6 +70,26 @@ The silence timer stores an absolute deadline, so suspension does not make a tic
 | Production | Reviewed bundled catalog plus owned HTTPS delivery; release gate rejects fixtures and missing identity |
 
 `Local.xcconfig` is ignored. No R2 or GitHub secret is ever embedded in the app. Publication credentials belong only to the protected publishing job. Support links require HTTPS configuration and a StoreKit USA storefront; an unknown storefront hides the action. Support never conveys an entitlement or app activity.
+
+## Reading library
+
+The independent version-2 reading manifest and local Markdown are bundled in a
+resource folder; this leaves the existing prayer catalog contract and SwiftData
+V1 unchanged. GraceCore owns contract validation, deterministic topic/full-text
+ranking, Markdown block and verse anchors, and reading-shelf compatibility.
+`ReadingLibraryRepository` verifies the search index and individual sections off
+the main actor. No external search or AI service receives reading queries.
+`ReadingShelfStore` keeps bookmarks and a last-read section in a versioned,
+complete-protection, backup-excluded file, integrated with existing app locking,
+activity clearing, and reset. Invalid metadata or shelf data never overwrites a
+retained file silently. Version 2 adds explicit development-only editions and
+Italian/Latin reading languages; the client also validates version-1 English
+manifests. Development-only status requires a development manifest and is rejected
+at production boundaries even if the top-level flag is changed. Source-only works
+have no bundled body or body index. The bundler copies only referenced Markdown,
+so removing an edition removes its files and indexed text from the next bundle.
+See [reading library](reading-library.md) for source rights, coverage, import
+reconciliation and production gates. Remote reading-pack delivery is future work.
 
 ## Future clients
 

@@ -5,6 +5,7 @@ struct MyPrayerView: View {
     @Environment(AppServices.self) private var services
     private let resources: [(String, String, String, AppRoute)] = [
         ("Saved prayers", "Return to the familiar", "heart", .saved),
+        ("Saved readings", "Books and passages", "bookmark", .savedReadings),
         ("Downloads", "Ready without Wi-Fi", "arrow.down.to.line", .downloads),
         ("My intentions", "Private, just for you", "hands.sparkles", .intentions),
         ("Reminders", "A gentle invitation", "bell", .reminders),
@@ -273,7 +274,7 @@ struct SettingsView: View {
             } message: { Text("This removes recent listening, positions, activity entries, and beginner progress. Routines, goals, journal, saved prayers, passages, intentions, and downloads remain.") }
             .confirmationDialog("Reset all local data?", isPresented: $reset, titleVisibility: .visible) {
                 Button("Reset this device", role: .destructive) { services.reset() }
-            } message: { Text("This permanently deletes intentions, journal, routines, goals, saved prayers and passages, activity, settings, downloads, and reminders from this device.") }
+            } message: { Text("This permanently deletes intentions, journal, routines, goals, saved prayers and passages, reading bookmarks, activity, settings, downloads, and reminders from this device.") }
     }
     private func minuteBinding(_ keyPath: ReferenceWritableKeyPath<Preferences, Int>) -> Binding<Date> {
         Binding(get: { let minutes = services.local.preferences[keyPath: keyPath]; return Calendar.current.date(bySettingHour: minutes / 60, minute: minutes % 60, second: 0, of: .now) ?? .now }, set: { date in

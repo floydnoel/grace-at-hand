@@ -71,9 +71,52 @@ New regression checks cover original intention decoding and update preservation;
 
 Authentication service tests inject a controlled authenticator and do not prove real Face ID, Touch ID or passcode behavior. Simulator checks verify backup-exclusion attributes and access guards; the complete file-protection assertion is reserved for physical devices, as in the existing intention tests. The UI checks reach export previews and confirm share/save actions; actual destination selection, device notification delivery, locked editors/exports and continued locked-screen playback remain physical/manual acceptance items in `release.md`. No real prayer writing is used in tests or logs. The iPhone 16e review settings were restored and the simulator returned to its original shutdown state.
 
+## Initial expanded reading library verification — October 27, 2026
+
+The initial iteration had 505 bibliographic works and 1,491 local Markdown sections: the complete 73-book Douay–Rheims Bible, three historical spiritual works, 428 papal records reconciled from the user's read-only `encyclicals` project and Vatican indexes, and a separate *Salvifici doloris* record. At that stage, 76 works were offline and papal records were source-only. The catalog completion below supersedes those counts and closes the seven recorded source-link gaps, following the user's subsequent authorization to include research texts for local demos and personal use.
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| Required content/domain/publication checks | `make test` passed: both libraries validated, 26 Swift domain tests and 18 Node tests passed | `build/readings-tests-final.log` |
+| Final unsigned simulator build | `make build` passed after the iPad accessibility navigation change | `build/readings-build-final.log` |
+| iPhone 17 Pro native suite | 28 passed; one existing HTTP-only case skipped in Debug | `build/readings-native.log` |
+| iPhone 17 Pro UI | Five existing core flows and four initial reading flows passed | `build/readings-iphone-ui-final.log` |
+| iPad Pro 11-inch (M4) | Four new native and four initial reading UI cases passed; verse navigation and actual in-app dark appearance with largest accessibility text passed in focused follow-ups | `build/readings-ipad.log`, `build/readings-ipad-final.log` |
+| Small phone reading UI | All five reading cases passed on iPhone 16e, including `Romans 8:18` opening at verse 18 and largest accessibility text with actual in-app dark appearance | `build/readings-small-phone.log` |
+| Final iPad accessibility layout | Focused largest-text/dark reader case passed after replacing the crowded sidebar with native tabs at accessibility text sizes; final screenshots inspected | `build/readings-ipad-accessibility-final.log`, `build/readings-ipad-accessibility-captures/` |
+| Production rejection | Reading publication rejects the development library; release checking also rejects the bundled development content and missing release configuration | `build/readings-production-rejection.log`, `build/readings-release-rejection.log` |
+| Working-tree whitespace | `git diff --check` passed | Local command |
+
+New domain/publication checks cover all 73 books and chapter totals, traditional Bible aliases and Psalm numbering, verse anchors, topic aliases and ranking, source-only results without excerpts, guide references, malformed/unsupported schemas, traversal, missing or corrupt files, and edition-specific publication approvals. Native checks exercise checksum verification, bundled search without network services, shelf reopening, clearing activity while retaining bookmarks, backup exclusion, and locked/corrupt shelf write refusal. Search is local; these tests do not prove an actual airplane-mode device relaunch.
+
+Visually inspected search results, source-only documents, saved readings, chapter reading and verse jumps on iPhone/iPad, plus the small-phone and iPad dark largest-text reader captures. The final iPad tabs preserve the full reading column and legible navigation labels. Native evidence uses the same Xcode 26.0.1/iOS 26 simulator toolchain; iOS 18 and physical devices remain untested. No complete VoiceOver, keyboard, landscape/resizing, physical file-protection or hardware acceptance audit is claimed. The collection and guides remain development content pending the named reviews; no publication or permissions approval has been performed.
+
+## Catalog completion and local research editions — October 27, 2026
+
+The user explicitly authorized all collected papal texts offline for local development, demonstration and personal reading, with exact-edition legal clearance or removal to follow before distribution. The library now has 646 offline works and 2,061 Markdown sections, including 570 papal editions. All 486 entries in 20 refreshed Vatican index snapshots resolve exactly once; the seven former source-directory records have verified direct links and corrected dates/types. Added *Sollicita ac provida* retains all 27 numbered Latin sections. Thirty-one retained machine translations are labeled before reading; original Italian/Latin editions identify their reading language. These are research editions, not publication approvals or a claim to every papal writing in history.
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| Required content/domain/publication checks | `make test` passed: 28 Swift domain tests, 19 Node tests; both libraries and all Markdown/index hashes validated | `build/readings-gap-tests-final.log` |
+| Final unsigned simulator build | `make build` passed with the complete corpus and cleaned export headings | `build/readings-gap-build-final.log` |
+| iPhone 17 Pro native suite | 28 passed; one existing HTTP-only case skipped in Debug | `build/readings-gap-iphone-final.log` |
+| iPhone 17 Pro reading UI | All six reading flows passed: verse jump, deuterocanonical chapter navigation, offline papal body with source access, topic/save flow, largest-text dark Bible reader and largest-text light translation notice | `build/readings-gap-iphone-final.log`, `build/readings-gap-iphone-captures/` |
+| iPad Pro 11-inch (M4) reading UI | All six reading flows passed with sidebar/detail at regular text sizes and native tabs at accessibility sizes | `build/readings-gap-ipad-final.log`, `build/readings-gap-ipad-captures/` |
+| Final source formatting on small phone | Four native reading cases and both affected papal UI cases passed on iPhone 16e after cleaning export headings; the bundled-reading case took 1.92 seconds | `build/readings-gap-small-phone-final.log`, `build/readings-gap-small-phone-captures/` |
+| Final source formatting on iPad | Both affected papal UI cases passed after the Markdown cleanup, including the largest-text light translation notice; final captures inspected | `build/readings-gap-ipad-formatting-final.log`, `build/readings-gap-ipad-formatting-captures/` |
+| Source/catalog reconciliation | 569 papal catalog records plus *Salvifici doloris*, all with local editions; 486 official-index mappings; no directory fallbacks; 31 labeled retained DeepL translations | `content/readings/encyclical-inventory.json`, `catalog-corrections.json`, `development-source-lock.json` |
+| Search performance | The native bundled-reading case fell from 26.01 seconds to 2.24 seconds after deferring excerpts until after ranking, using prepared text/literal matching and canceling stale searches; final Mac benchmark topic searches were 1.20–1.30 seconds | `build/readings-gap-native.log`, `build/readings-gap-iphone-final.log`, `build/readings-gap-search-benchmark.log` |
+| Production and removal boundaries | Development publication rejected as intended; regression tests also reject changing only the manifest flag and prove stripped editions leave neither files nor indexed text in the generated bundle | `build/readings-gap-production-rejection.log`, `build/readings-gap-release-rejection.log`, Node tests |
+
+The reading manifest is version 2; tests retain version-1 English compatibility and reject version-2 editions under the old schema. New checks cover prepared-text accent matches, cancellation, hidden text on source-only records, the seven corrections, exact official-index coverage, distinct same-year/same-incipit documents, retained translation notices, and malformed export-heading cleanup. All source-project access was read only; no CMS, account configuration, credentials, generated summaries, or remote publication were used.
+
+Inspected the final small-phone and iPad papal reader and translation-notice captures. Catalog headings replace the old duplicated export headings, orphan italic markers are removed from capitalized front matter, and original source translation notes remain visible. The complete reading-flow captures also cover the largest-text dark Bible reader. These focused visual checks do not constitute the full accessibility acceptance audit.
+
+The text payload is approximately 21.10 MiB; the index is approximately 41.13 MiB including prepared normalized text. This trades bundle size for less startup work. Source and original-edition review remain pending. Physical-device, iOS 18, actual airplane-mode relaunch, complete VoiceOver/keyboard/resizing, and legal clearance are not established by these iOS 26 simulator checks. The removal workflow is documented in [reading-library.md](reading-library.md); it also keeps unused local research files out of the next app bundle.
+
 ## Outstanding production and hardware work
 
-No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed by this implementation. Floyd will handle the private GitHub remote; the local repository is committed on `main` and ready to push. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.
+No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed by this implementation. Floyd will handle the private GitHub remote; the latest work remains local. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.
 
 Simulator results do not prove physical-device file protection, locked playback, calls/Bluetooth/headphone behavior, background transfers after suspension, real airplane-mode relaunch, storage exhaustion, notification delivery, or cloud-backup exclusion. VoiceOver focus, keyboard/pointer behavior, iPad resizing/landscape, Reduce Motion/Transparency, and network/log privacy inspection still require the documented device review.
 

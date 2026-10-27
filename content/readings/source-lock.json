@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "drb-1899",
+      "url": "https://ebible.org/Scriptures/engDRA_usfm.zip",
+      "sha256": "2f991375420fcbff9a8000912920a8d4c1b665d766fdd23f22c9d433e53444eb"
+    },
+    {
+      "id": "gutenberg-1653",
+      "url": "https://www.gutenberg.org/cache/epub/1653/pg1653.txt",
+      "sha256": "7631799607b0ede62f1bd7ed2a8eb62d89524451a3c41e9ad2b5cbf4c2aa5383"
+    },
+    {
+      "id": "gutenberg-3296",
+      "url": "https://www.gutenberg.org/cache/epub/3296/pg3296.txt",
+      "sha256": "ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2"
+    },
+    {
+      "id": "gutenberg-13871",
+      "url": "https://www.gutenberg.org/cache/epub/13871/pg13871.txt",
+      "sha256": "1f4df307f62f2be596e4be48afce14067cea1a1f54c957639087386b180716e9"
+    }
+  ]
+}
