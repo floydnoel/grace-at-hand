@@ -28,17 +28,17 @@ test('all Markdown and the generated full-text index agree with the reading cont
 
 test('the reconciled papal catalog has direct sources and every work has a development offline edition', async () => {
   const papal = source.works.filter(w => ['encyclical', 'papalDocument', 'apostolicLetter'].includes(w.kind));
-  assert.equal(papal.length, 570);
+  assert.equal(papal.length, 569);
   assert.ok(papal.every(w => w.rights.status === 'developmentOnly' && w.sections.length > 0 && w.sourceIsDirectory !== true));
-  assert.equal(inventory.sourceDocumentCount, 401);
-  assert.equal(inventory.records.filter(r => r.translated).length, 32);
+  assert.equal(inventory.originalCorpus?.sourceDocumentCount ?? inventory.sourceDocumentCount, 401);
+  assert.equal(inventory.originalCorpus?.translatedRecords ?? inventory.records.filter(r => r.translated).length, 32);
   assert.equal(inventory.completeHistoricalCensusVerified, false);
   assert.equal(inventory.unresolvedSourceLinks.length, 0);
   const snapshot = JSON.parse(await readFile(join(root, 'vatican-index.json'), 'utf8'));
   assert.equal(inventory.officialIndexCoverage.length, snapshot.records.length);
   for (const item of snapshot.records) {
     const coverage = inventory.officialIndexCoverage.find(c => c.sourceURL === item.sourceURL);
-    assert.equal(source.works.find(w => w.id === coverage?.workID)?.sourceURL, item.sourceURL);
+    assert.equal(source.works.find(w => w.id === coverage?.workID)?.sourceURL, coverage?.canonicalSourceURL);
   }
   const corrections = JSON.parse(await readFile(join(root, 'catalog-corrections.json'), 'utf8'));
   assert.equal(Object.keys(corrections.overrides).length, 7);

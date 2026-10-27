@@ -8,7 +8,7 @@
   "sourceDocumentCount": 401,
   "sourcePopeCount": 43,
   "importedKinds": {
-    "encyclical": 355,
+    "encyclical": 354,
     "papalDocument": 188,
     "apostolicLetter": 26
   },
@@ -191,8 +191,7 @@
     "papal-pius08-coelestis-agricola",
     "papal-pius08-literae-fraternitatis",
     "papal-pius08-in-supremi",
-    "papal-pius08-inter-multiplices-1829-05-15",
-    "papal-pius11-nos-es-muy-conocida-1937"
+    "papal-pius08-inter-multiplices-1829-05-15"
   ],
   "manualAdditions": [
     "papal-ben14-sollicita-ac-provida"
@@ -342,1947 +341,2433 @@
   "officialIndexCoverage": [
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html",
-      "workID": "papal-ben15-fausto-appetente-die"
+      "workID": "papal-ben15-fausto-appetente-die",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
-      "workID": "papal-ben15-in-praeclara-summorum"
+      "workID": "papal-ben15-in-praeclara-summorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html",
-      "workID": "papal-ben15-sacra-propediem"
+      "workID": "papal-ben15-sacra-propediem",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html",
-      "workID": "papal-ben15-annus-iam-plenus"
+      "workID": "papal-ben15-annus-iam-plenus",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html",
-      "workID": "papal-ben15-principi-apostolorum-petro"
+      "workID": "papal-ben15-principi-apostolorum-petro",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
-      "workID": "papal-ben15-spiritus-paraclitus"
+      "workID": "papal-ben15-spiritus-paraclitus",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
-      "workID": "papal-ben15-pacem-dei-munus-pulcherrimum"
+      "workID": "papal-ben15-pacem-dei-munus-pulcherrimum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html",
-      "workID": "papal-ben15-paterno-iam-diu"
+      "workID": "papal-ben15-paterno-iam-diu",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html",
-      "workID": "papal-ben15-in-hac-tanta"
+      "workID": "papal-ben15-in-hac-tanta",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
-      "workID": "papal-ben15-quod-iam-diu"
+      "workID": "papal-ben15-quod-iam-diu",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
-      "workID": "papal-ben15-humani-generis-redemptionem"
+      "workID": "papal-ben15-humani-generis-redemptionem",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
-      "workID": "papal-ben15-ad-beatissimi-apostolorum"
+      "workID": "papal-ben15-ad-beatissimi-apostolorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html",
-      "workID": "papal-ben16-caritas-in-veritate"
+      "workID": "papal-ben16-caritas-in-veritate",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
-      "workID": "papal-ben16-spe-salvi"
+      "workID": "papal-ben16-spe-salvi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
-      "workID": "papal-ben16-deus-caritas-est"
+      "workID": "papal-ben16-deus-caritas-est",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quam-grave--i---2-agosto-1757--il-pontefice-segnala.html",
-      "workID": "papal-ben14-enciclica-quam-grave"
+      "workID": "papal-ben14-enciclica-quam-grave",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quam-grave--i---2-agosto-1757--il-pontefice-segnala.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-omnibus-christiani--i---16-ottobre-1756--lettera.html",
-      "workID": "papal-ben14-ex-omnibus"
+      "workID": "papal-ben14-ex-omnibus",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-omnibus-christiani--i---16-ottobre-1756--lettera.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-quo-primum--i---1-marzo-1756--il-pontefice-invit.html",
-      "workID": "papal-ben14-ex-quo"
+      "workID": "papal-ben14-ex-quo",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ex-quo-primum--i---1-marzo-1756--il-pontefice-invit.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quam-ex-sublimi--i---8-agosto-1755--il-pontefice-estend.html",
-      "workID": "papal-ben14-breve-quam-ex-sublimi"
+      "workID": "papal-ben14-breve-quam-ex-sublimi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quam-ex-sublimi--i---8-agosto-1755--il-pontefice-estend.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-allatae-sunt--i---26-luglio-1755--in-questa-encicli.html",
-      "workID": "papal-ben14-allatae-sunt"
+      "workID": "papal-ben14-allatae-sunt",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-allatae-sunt--i---26-luglio-1755--in-questa-encicli.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quod-provinciale--i---1-agosto-1754--cristiani-che-.html",
-      "workID": "papal-ben14-enciclica-quod-provinciale"
+      "workID": "papal-ben14-enciclica-quod-provinciale",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quod-provinciale--i---1-agosto-1754--cristiani-che-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-religiosi-aeque--i---26-giugno-1754--il-pontefi.html",
-      "workID": "papal-ben14-cum-religiosi"
+      "workID": "papal-ben14-cum-religiosi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-religiosi-aeque--i---26-giugno-1754--il-pontefi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-a-quo-primum---i--14-giugno-1751--il-pontefice-indi.html",
-      "workID": "papal-ben14-a-quo-primum"
+      "workID": "papal-ben14-a-quo-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-a-quo-primum---i--14-giugno-1751--il-pontefice-indi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magno-cum-animi--i---2-giugno-1751--sugli-abusi-da-.html",
-      "workID": "papal-ben14-enciclica-magno-cum-animi"
+      "workID": "papal-ben14-enciclica-magno-cum-animi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magno-cum-animi--i---2-giugno-1751--sugli-abusi-da-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html",
-      "workID": "papal-ben14-bolla-providas-romanorum"
+      "workID": "papal-ben14-bolla-providas-romanorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-elapso-proxime-anno--i---20-febbraio-1751--il-ponte.html",
-      "workID": "papal-ben14-enciclica-elapso-proxime-anno"
+      "workID": "papal-ben14-enciclica-elapso-proxime-anno",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-elapso-proxime-anno--i---20-febbraio-1751--il-ponte.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-prodiit-jamdudum--i---30-gennaio-1751--poiche-quest.html",
-      "workID": "papal-ben14-enciclica-prodiit-jamdudum"
+      "workID": "papal-ben14-enciclica-prodiit-jamdudum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-prodiit-jamdudum--i---30-gennaio-1751--poiche-quest.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-celebrationem-magni--i---1-gennaio-1751--dopo-aver-.html",
-      "workID": "papal-ben14-enciclica-celebrationem-magni"
+      "workID": "papal-ben14-enciclica-celebrationem-magni",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-celebrationem-magni--i---1-gennaio-1751--dopo-aver-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-benedictus-deus--i---25-dicembre-1750--estensione-a-tut.html",
-      "workID": "papal-ben14-bolla-benedictus-deus"
+      "workID": "papal-ben14-bolla-benedictus-deus",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-benedictus-deus--i---25-dicembre-1750--estensione-a-tut.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-praeteritos--i---3-dicembre-1749--allo-scopo-.html",
-      "workID": "papal-ben14-enciclica-inter-praeteritos"
+      "workID": "papal-ben14-enciclica-inter-praeteritos",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-praeteritos--i---3-dicembre-1749--allo-scopo-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimo-animi--i---31-ottobre-1749--il-pontefice.html",
-      "workID": "papal-ben14-enciclica-gravissimo-animi"
+      "workID": "papal-ben14-enciclica-gravissimo-animi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimo-animi--i---31-ottobre-1749--il-pontefice.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-apostolica-constitutio--i---26-giugno-1749--richiam.html",
-      "workID": "papal-ben14-apostolica-constitutio"
+      "workID": "papal-ben14-apostolica-constitutio",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-apostolica-constitutio--i---26-giugno-1749--richiam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-peregrinantes-a-domino--i---5-maggio-1749-il-pontefice-.html",
-      "workID": "papal-ben14-peregrinantes"
+      "workID": "papal-ben14-peregrinantes",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-peregrinantes-a-domino--i---5-maggio-1749-il-pontefice-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-officii-nostri--i---15-marzo-1749--poiche-sono-sorti-di.html",
-      "workID": "papal-ben14-bolla-officii-nostri"
+      "workID": "papal-ben14-bolla-officii-nostri",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-officii-nostri--i---15-marzo-1749--poiche-sono-sorti-di.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-annus-qui-hunc--i---19-febbraio-1749--nell--8217-im.html",
-      "workID": "papal-ben14-annus-qui-hunc"
+      "workID": "papal-ben14-annus-qui-hunc",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-annus-qui-hunc--i---19-febbraio-1749--nell--8217-im.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magnae-nobis--i---29-giugno-1748--il-pontefice-reag.html",
-      "workID": "papal-ben14-magnae-nobis"
+      "workID": "papal-ben14-magnae-nobis",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magnae-nobis--i---29-giugno-1748--il-pontefice-reag.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-caetera--i---1-gennaio-1748--il-pontefice-esp.html",
-      "workID": "papal-ben14-enciclica-inter-caetera"
+      "workID": "papal-ben14-enciclica-inter-caetera",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-caetera--i---1-gennaio-1748--il-pontefice-esp.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quemadmodum-nihil--i---16-dicembre-1746--il-pontefice-c.html",
-      "workID": "papal-ben14-breve-quemadmodum-nihil"
+      "workID": "papal-ben14-breve-quemadmodum-nihil",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quemadmodum-nihil--i---16-dicembre-1746--il-pontefice-c.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-accepimus-praestantium--i---16-luglio-1746--sui-cri.html",
-      "workID": "papal-ben14-enciclica-accepimus-praestantium"
+      "workID": "papal-ben14-enciclica-accepimus-praestantium",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-accepimus-praestantium--i---16-luglio-1746--sui-cri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-vix-pervenit--i---1-novembre-1745--poiche-e-venuto-.html",
-      "workID": "papal-ben14-vix-pervenit"
+      "workID": "papal-ben14-vix-pervenit",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-vix-pervenit--i---1-novembre-1745--poiche-e-venuto-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimum-supremi---i--8-settembre-1745--il-ponte.html",
-      "workID": "papal-ben14-enciclica-gravissimum-supremi"
+      "workID": "papal-ben14-enciclica-gravissimum-supremi",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimum-supremi---i--8-settembre-1745--il-ponte.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-libentissime-quidem--i---10-giugno-1745--richiamati.html",
-      "workID": "papal-ben14-enciclica-libentissime-quidem"
+      "workID": "papal-ben14-enciclica-libentissime-quidem",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-libentissime-quidem--i---10-giugno-1745--richiamati.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-cum-multorum-charitate--i---18-febbraio-1745--il-giubil.html",
-      "workID": "papal-ben14-breve-cum-multorum-charitate"
+      "workID": "papal-ben14-breve-cum-multorum-charitate",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-cum-multorum-charitate--i---18-febbraio-1745--il-giubil.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-catholicae--i---20-novembre-1744--viene-conc.html",
-      "workID": "papal-ben14-breve-in-suprema-catholicae"
+      "workID": "papal-ben14-breve-in-suprema-catholicae",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-catholicae--i---20-novembre-1744--viene-conc.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-semper-oblatas--i---19-agosto-1744--il-pontefic.html",
-      "workID": "papal-ben14-enciclica-cum-semper-oblatas"
+      "workID": "papal-ben14-enciclica-cum-semper-oblatas",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-semper-oblatas--i---19-agosto-1744--il-pontefic.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-omnigenas---i--2-febbraio-1744--il-pontefice-.html",
-      "workID": "papal-ben14-enciclica-inter-omnigenas"
+      "workID": "papal-ben14-enciclica-inter-omnigenas",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-omnigenas---i--2-febbraio-1744--il-pontefice-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-nimiam-licentiam--i---18-maggio-1743--constatato-che-in.html",
-      "workID": "papal-ben14-nimiam-licentiam"
+      "workID": "papal-ben14-nimiam-licentiam",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-nimiam-licentiam--i---18-maggio-1743--constatato-che-in.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quemadmodum-preces--i---23-marzo-1743--spetta-alla-.html",
-      "workID": "papal-ben14-enciclica-quemadmodum-preces"
+      "workID": "papal-ben14-enciclica-quemadmodum-preces",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quemadmodum-preces--i---23-marzo-1743--spetta-alla-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-illud-semper--i---14-dicembre-1742--desiderando.html",
-      "workID": "papal-ben14-enciclica-cum-illud-semper"
+      "workID": "papal-ben14-enciclica-cum-illud-semper",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-illud-semper--i---14-dicembre-1742--desiderando.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-certiores-effecti--i---13-novembre-1742--i-sacerdot.html",
-      "workID": "papal-ben14-enciclica-certiores-effecti"
+      "workID": "papal-ben14-enciclica-certiores-effecti",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-certiores-effecti--i---13-novembre-1742--i-sacerdot.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-etsi-minime--i---7-febbraio-1742--affermata-la-prim.html",
-      "workID": "papal-ben14-enciclica-etsi-minime"
+      "workID": "papal-ben14-enciclica-etsi-minime",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-etsi-minime--i---7-febbraio-1742--affermata-la-prim.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-satis-vobis-compertum--i--17-novembre-1741--il-pont.html",
-      "workID": "papal-ben14-enciclica-satis-vobis-compertum"
+      "workID": "papal-ben14-enciclica-satis-vobis-compertum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-satis-vobis-compertum--i--17-novembre-1741--il-pont.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quamvis-paternae---i--26-agosto-1741--richiamate-le.html",
-      "workID": "papal-ben14-enciclica-quamvis-paternae"
+      "workID": "papal-ben14-enciclica-quamvis-paternae",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quamvis-paternae---i--26-agosto-1741--richiamate-le.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-universalis---i--22-agosto-1741--nei-giorni-.html",
-      "workID": "papal-ben14-breve-in-suprema-universalis"
+      "workID": "papal-ben14-breve-in-suprema-universalis",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-universalis---i--22-agosto-1741--nei-giorni-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quanta-cura--i---30-giugno-1741--sdegnata-condanna-cont.html",
-      "workID": "papal-ben14-quanta-cura"
+      "workID": "papal-ben14-quanta-cura",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quanta-cura--i---30-giugno-1741--sdegnata-condanna-cont.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve-enciclica--i-pro-eximia-tua---i--30-giugno-1741--il-presen.html",
-      "workID": "papal-ben14-breve-enciclica-pro-eximia-tua"
+      "workID": "papal-ben14-breve-enciclica-pro-eximia-tua",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve-enciclica--i-pro-eximia-tua---i--30-giugno-1741--il-presen.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-non-ambigimus--i---30-maggio-1741--il-pontefice-ricorda.html",
-      "workID": "papal-ben14-breve-non-ambigimus"
+      "workID": "papal-ben14-breve-non-ambigimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-non-ambigimus--i---30-maggio-1741--il-pontefice-ricorda.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ubi-primum--i---3-dicembre-1740--nell--8217-ambito-.html",
-      "workID": "papal-ben14-ubi-primum"
+      "workID": "papal-ben14-ubi-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-ubi-primum--i---3-dicembre-1740--nell--8217-ambito-.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html",
-      "workID": "papal-clem13-accedamus-cum-fiducia"
+      "workID": "papal-clem13-accedamus-cum-fiducia",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-summa-quae-6-gennaio-1768.html",
-      "workID": "papal-clem13-summa-quae"
+      "workID": "papal-clem13-summa-quae",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-summa-quae-6-gennaio-1768.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-christianae-reipublicae-25-novembre-1766.html",
-      "workID": "papal-clem13-christianae-reipublicae"
+      "workID": "papal-clem13-christianae-reipublicae",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-christianae-reipublicae-25-novembre-1766.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html",
-      "workID": "papal-clem13-quam-graviter"
+      "workID": "papal-clem13-quam-graviter",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html",
-      "workID": "papal-clem13-quanta-auxilii"
+      "workID": "papal-clem13-quanta-auxilii",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html",
-      "workID": "papal-clem13-ubi-primum-accepimus"
+      "workID": "papal-clem13-ubi-primum-accepimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html",
-      "workID": "papal-clem13-quanto-in-dolore"
+      "workID": "papal-clem13-quanto-in-dolore",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-in-dominico-agro-14-giugno-1761.html",
-      "workID": "papal-clem13-in-dominico-agro"
+      "workID": "papal-clem13-in-dominico-agro",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-in-dominico-agro-14-giugno-1761.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-appetente-sacro-20-dicembre-1759.html",
-      "workID": "papal-clem13-appetente-sacro"
+      "workID": "papal-clem13-appetente-sacro",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-appetente-sacro-20-dicembre-1759.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-cum-primum-17-settembre-1759.html",
-      "workID": "papal-clem13-cum-primum"
+      "workID": "papal-clem13-cum-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-cum-primum-17-settembre-1759.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-pastoraliis-officii-21-marzo-1759.html",
-      "workID": "papal-clem13-pastoralis-officii"
+      "workID": "papal-clem13-pastoralis-officii",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-pastoraliis-officii-21-marzo-1759.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-a-quo-die-14-settembre-1758.html",
-      "workID": "papal-clem13-a-quo-die"
+      "workID": "papal-clem13-a-quo-die",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-a-quo-die-14-settembre-1758.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html",
-      "workID": "papal-clem13-venimus-in-altitudinem"
+      "workID": "papal-clem13-venimus-in-altitudinem",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/bolla-salutis-nostrae-30-aprile-1774.html",
-      "workID": "papal-clem14-salutis-nostrae"
+      "workID": "papal-clem14-salutis-nostrae",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/bolla-salutis-nostrae-30-aprile-1774.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-dominus-ac-redemptor-21-luglio-1773.html",
-      "workID": "papal-clem14-dominus-ac-redemptor"
+      "workID": "papal-clem14-dominus-ac-redemptor",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-dominus-ac-redemptor-21-luglio-1773.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-magna-atque-16-marzo-1771.html",
-      "workID": "papal-clem14-magna-atque"
+      "workID": "papal-clem14-magna-atque",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-magna-atque-16-marzo-1771.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-inscrutabili-divinae-12-dicembre-1769.html",
-      "workID": "papal-clem14-inscrutabili-divinae-sapientiae"
+      "workID": "papal-clem14-inscrutabili-divinae-sapientiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/breve-inscrutabili-divinae-12-dicembre-1769.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-cum-summi-apostolatus-12-dicembre-1769.html",
-      "workID": "papal-clem14-cum-summi"
+      "workID": "papal-clem14-cum-summi",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-cum-summi-apostolatus-12-dicembre-1769.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-decet-quam-maxime-21-settembre-1769.html",
-      "workID": "papal-clem14-decet-quam-maxime"
+      "workID": "papal-clem14-decet-quam-maxime",
+      "canonicalSourceURL": "https://www.vatican.va/content/clemens-xiv/it/documents/enciclica-decet-quam-maxime-21-settembre-1769.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/20241024-enciclica-dilexit-nos.html",
-      "workID": "papal-franc-dilexit-nos"
+      "workID": "papal-franc-dilexit-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/20241024-enciclica-dilexit-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
-      "workID": "papal-franc-fratelli-tutti"
+      "workID": "papal-franc-fratelli-tutti",
+      "canonicalSourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
-      "workID": "papal-franc-laudato-si"
+      "workID": "papal-franc-laudato-si",
+      "canonicalSourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
-      "workID": "papal-franc-lumen-fidei"
+      "workID": "papal-franc-lumen-fidei",
+      "canonicalSourceURL": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-27-marzo-1846.html",
-      "workID": "papal-greg16-ex-debito-pastoralis"
+      "workID": "papal-greg16-ex-debito-pastoralis",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-27-marzo-1846.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-inter-gravissimas-28-giugno-1845.html",
-      "workID": "papal-greg16-inter-gravissimas"
+      "workID": "papal-greg16-inter-gravissimas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-inter-gravissimas-28-giugno-1845.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-libentissime-fraternitas-28-maggio-1845.html",
-      "workID": "papal-greg16-libentissime-fraternitas"
+      "workID": "papal-greg16-libentissime-fraternitas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-libentissime-fraternitas-28-maggio-1845.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-maximis-angustiis-27-aprile-1845.html",
-      "workID": "papal-greg16-maximis-angustiis"
+      "workID": "papal-greg16-maximis-angustiis",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-maximis-angustiis-27-aprile-1845.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-summa-quidem-23-aprile-1845.html",
-      "workID": "papal-greg16-summa-quidem"
+      "workID": "papal-greg16-summa-quidem",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-summa-quidem-23-aprile-1845.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-inter-praecipuas-machinationes-8-maii-1844.html",
-      "workID": "papal-greg16-inter-praecipuas"
+      "workID": "papal-greg16-inter-praecipuas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-inter-praecipuas-machinationes-8-maii-1844.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-cum-maxima-31-marzo-1844.html",
-      "workID": "papal-greg16-cum-maxima"
+      "workID": "papal-greg16-cum-maxima",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-cum-maxima-31-marzo-1844.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ubi-novam-8-novembre-1843.html",
-      "workID": "papal-greg16-ubi-novam"
+      "workID": "papal-greg16-ubi-novam",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ubi-novam-8-novembre-1843.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ad-gravissimas-31-agosto-1843.html",
-      "workID": "papal-greg16-ad-gravissimas"
+      "workID": "papal-greg16-ad-gravissimas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-ad-gravissimas-31-agosto-1843.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-maximas-5-agosto-1843.html",
-      "workID": "papal-greg16-inter-maximas"
+      "workID": "papal-greg16-inter-maximas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-maximas-5-agosto-1843.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-apostolici-ministerii-20-settembre-1842.html",
-      "workID": "papal-greg16-apostolici-ministerii"
+      "workID": "papal-greg16-apostolici-ministerii",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-apostolici-ministerii-20-settembre-1842.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-haerentem-diu-22-luglio-1842.html",
-      "workID": "papal-greg16-haerentem-diu"
+      "workID": "papal-greg16-haerentem-diu",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-haerentem-diu-22-luglio-1842.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-inter-ea-1-aprile-1842.html",
-      "workID": "papal-greg16-inter-ea"
+      "workID": "papal-greg16-inter-ea",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-inter-ea-1-aprile-1842.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-catholicae-religionis-22-febbraio-1842.html",
-      "workID": "papal-greg16-catholicae-religionis"
+      "workID": "papal-greg16-catholicae-religionis",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-catholicae-religionis-22-febbraio-1842.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-in-consistorio-29-agosto-1841.html",
-      "workID": "papal-greg16-in-consistorio"
+      "workID": "papal-greg16-in-consistorio",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-in-consistorio-29-agosto-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-e-lungo-tempo-29-agosto-1841.html",
-      "workID": "papal-greg16-e-lungo-tempo"
+      "workID": "papal-greg16-e-lungo-tempo",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-e-lungo-tempo-29-agosto-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/espistola-ex-litteris-4-maggio-1841.html",
-      "workID": "papal-greg16-espistola-ex-litteris"
+      "workID": "papal-greg16-espistola-ex-litteris",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/espistola-ex-litteris-4-maggio-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quas-vestro-30-aprile-1841.html",
-      "workID": "papal-greg16-quas-vestro"
+      "workID": "papal-greg16-quas-vestro",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quas-vestro-30-aprile-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-hispania-1-marzo-1841.html",
-      "workID": "papal-greg16-afflictas-in-hispania"
+      "workID": "papal-greg16-afflictas-in-hispania",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-hispania-1-marzo-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-de-cochinchinae-26-febbraio-1841.html",
-      "workID": "papal-greg16-de-cochinchinae"
+      "workID": "papal-greg16-de-cochinchinae",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-de-cochinchinae-26-febbraio-1841.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-augustissimam-beatissimi-21-dicembre-1840.html",
-      "workID": "papal-greg16-augustissimam-beatissimi"
+      "workID": "papal-greg16-augustissimam-beatissimi",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-augustissimam-beatissimi-21-dicembre-1840.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-probe-nostis-18-settembre-1840.html",
-      "workID": "papal-greg16-probe-nostis"
+      "workID": "papal-greg16-probe-nostis",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-probe-nostis-18-settembre-1840.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-24-luglio-1840.html",
-      "workID": "papal-greg16-pastorale-officium"
+      "workID": "papal-greg16-pastorale-officium",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-24-luglio-1840.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-tunquino-27-aprile-1840.html",
-      "workID": "papal-greg16-afflictas-in-tunquino"
+      "workID": "papal-greg16-afflictas-in-tunquino",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-afflictas-in-tunquino-27-aprile-1840.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-in-supremo-3-dicembre-1839.html",
-      "workID": "papal-greg16-in-supremo-apostolatus"
+      "workID": "papal-greg16-in-supremo-apostolatus",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-in-supremo-3-dicembre-1839.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-dolorem-quo-30-novembre-1839.html",
-      "workID": "papal-greg16-dolorem-quo"
+      "workID": "papal-greg16-dolorem-quo",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-dolorem-quo-30-novembre-1839.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quae-nuncia-4-agosto-1839.html",
-      "workID": "papal-greg16-quae-nuncia"
+      "workID": "papal-greg16-quae-nuncia",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quae-nuncia-4-agosto-1839.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-hanno-sempre-18-settembre-1838.html",
-      "workID": "papal-greg16-hanno-sempre"
+      "workID": "papal-greg16-hanno-sempre",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-hanno-sempre-18-settembre-1838.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-14-agosto-1838.html",
-      "workID": "papal-greg16-pastorale-officium-1838-08-14"
+      "workID": "papal-greg16-pastorale-officium-1838-08-14",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-14-agosto-1838.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-14-agosto-1838.html",
-      "workID": "papal-greg16-ex-debito-pastoralis-1838-08-14"
+      "workID": "papal-greg16-ex-debito-pastoralis-1838-08-14",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-14-agosto-1838.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-leao-tung-14-agosto-1838.html",
-      "workID": "papal-greg16-ex-debito-pastoralis-leao-tung"
+      "workID": "papal-greg16-ex-debito-pastoralis-leao-tung",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-leao-tung-14-agosto-1838.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-china-14-agosto-1838.html",
-      "workID": "papal-greg16-ex-debito-pastoralis-china"
+      "workID": "papal-greg16-ex-debito-pastoralis-china",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-china-14-agosto-1838.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-dum-intima-10-dicembre-1837.html",
-      "workID": "papal-greg16-dum-intima"
+      "workID": "papal-greg16-dum-intima",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-dum-intima-10-dicembre-1837.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-28-luglio-1837.html",
-      "workID": "papal-greg16-universi-dominici"
+      "workID": "papal-greg16-universi-dominici",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-28-luglio-1837.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-nashville-28-luglio-1937.html",
-      "workID": "papal-greg16-universi-dominici-nashville"
+      "workID": "papal-greg16-universi-dominici-nashville",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-nashville-28-luglio-1937.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-21-febbraio-1837.html",
-      "workID": "papal-greg16-universi-dominici-1837-02-21"
+      "workID": "papal-greg16-universi-dominici-1837-02-21",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-universi-dominici-21-febbraio-1837.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-la-moltiplicita-22-novembre-1836.html",
-      "workID": "papal-greg16-la-moltiplicita"
+      "workID": "papal-greg16-la-moltiplicita",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-la-moltiplicita-22-novembre-1836.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ad-beatissimi-17-luglio-1836.html",
-      "workID": "papal-greg16-ad-beatissimi"
+      "workID": "papal-greg16-ad-beatissimi",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ad-beatissimi-17-luglio-1836.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-sextus-iam-1-febbraio-1836.html",
-      "workID": "papal-greg16-sextus-iam"
+      "workID": "papal-greg16-sextus-iam",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-sextus-iam-1-febbraio-1836.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-dum-acerbissimas-26-settembre-1835.html",
-      "workID": "papal-greg16-dum-acerbissimas"
+      "workID": "papal-greg16-dum-acerbissimas",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-dum-acerbissimas-26-settembre-1835.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-melchitarum-catholicorum-3-giugno-1835.html",
-      "workID": "papal-greg16-melchitarum-catholicorum"
+      "workID": "papal-greg16-melchitarum-catholicorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-melchitarum-catholicorum-3-giugno-1835.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-commissum-divinitus-17-maggio-1835.html",
-      "workID": "papal-greg16-commissum-divinitus"
+      "workID": "papal-greg16-commissum-divinitus",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-commissum-divinitus-17-maggio-1835.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-perlatae-dudum-23-aprile-1835.html",
-      "workID": "papal-greg16-perlatae-dudum"
+      "workID": "papal-greg16-perlatae-dudum",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-perlatae-dudum-23-aprile-1835.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/Chirografo-l-evidente-diminuzione-6-agosto-1834.html",
-      "workID": "papal-greg16-l-evidente-diminuzione"
+      "workID": "papal-greg16-l-evidente-diminuzione",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/Chirografo-l-evidente-diminuzione-6-agosto-1834.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-cum-pro-pastorali-1-agosto-1834.html",
-      "workID": "papal-greg16-cum-pro-pastorali"
+      "workID": "papal-greg16-cum-pro-pastorali",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/allocuzione-cum-pro-pastorali-1-agosto-1834.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-singulari-nos-25-giugno-1834.html",
-      "workID": "papal-greg16-singulari-nos"
+      "workID": "papal-greg16-singulari-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-singulari-nos-25-giugno-1834.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/bolla-benedictus-deus-17-giugno-1834.html",
-      "workID": "papal-greg16-benedictus-deus"
+      "workID": "papal-greg16-benedictus-deus",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/bolla-benedictus-deus-17-giugno-1834.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-editam-nuper-28-dicembre-1833.html",
-      "workID": "papal-greg16-editam-nuper"
+      "workID": "papal-greg16-editam-nuper",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-editam-nuper-28-dicembre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-superabundavimus-28-dicembre-1833.html",
-      "workID": "papal-greg16-superabundavimus"
+      "workID": "papal-greg16-superabundavimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-superabundavimus-28-dicembre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-quod-de-tua-28-dicembre-1833.html",
-      "workID": "papal-greg16-quod-de-tua"
+      "workID": "papal-greg16-quod-de-tua",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-quod-de-tua-28-dicembre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-maiori-certo-13-dicembre-1833.html",
-      "workID": "papal-greg16-maiori-certo"
+      "workID": "papal-greg16-maiori-certo",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-maiori-certo-13-dicembre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quod-litteris-29-novembre-1833.html",
-      "workID": "papal-greg16-quod-litteris"
+      "workID": "papal-greg16-quod-litteris",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quod-litteris-29-novembre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-littera-accepimus-5-ottobre-1833.html",
-      "workID": "papal-greg16-litteras-accepimus"
+      "workID": "papal-greg16-litteras-accepimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-littera-accepimus-5-ottobre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quo-graviora-4-ottobre-1833.html",
-      "workID": "papal-greg16-quo-graviora"
+      "workID": "papal-greg16-quo-graviora",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-quo-graviora-4-ottobre-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-avendoci-ella-20-febbraio-1833.html",
-      "workID": "papal-greg16-avendoci-ella"
+      "workID": "papal-greg16-avendoci-ella",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-avendoci-ella-20-febbraio-1833.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-plura-post-2-dicembre-1832.html",
-      "workID": "papal-greg16-plura-post"
+      "workID": "papal-greg16-plura-post",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-plura-post-2-dicembre-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-mirari-vos-15-augusti-1832.html",
-      "workID": "papal-greg16-mirari-vos"
+      "workID": "papal-greg16-mirari-vos",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/encyclica-mirari-vos-15-augusti-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-3-luglio-1832.html",
-      "workID": "papal-greg16-pastorale-officium-1832-07-03"
+      "workID": "papal-greg16-pastorale-officium-1832-07-03",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-pastorale-officium-3-luglio-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-ci-e-stato-9-giugno-1832.html",
-      "workID": "papal-greg16-ci-e-stato"
+      "workID": "papal-greg16-ci-e-stato",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/chirografo-ci-e-stato-9-giugno-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-cum-primum-9-giugno-1832.html",
-      "workID": "papal-greg16-cum-primum"
+      "workID": "papal-greg16-cum-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-cum-primum-9-giugno-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-summo-iugiter-27-maggio-1832.html",
-      "workID": "papal-greg16-summo-iugiter-studio"
+      "workID": "papal-greg16-summo-iugiter-studio",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-summo-iugiter-27-maggio-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-gravissimas-3-febbraio-1832.html",
-      "workID": "papal-greg16-inter-gravissimas-1832-02-03"
+      "workID": "papal-greg16-inter-gravissimas-1832-02-03",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-inter-gravissimas-3-febbraio-1832.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-9-settembre-1831.html",
-      "workID": "papal-greg16-ex-debito-pastoralis-1831-09-09"
+      "workID": "papal-greg16-ex-debito-pastoralis-1831-09-09",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/breve-ex-debito-pastoralis-9-settembre-1831.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-le-armi-valorose-12-luglio-1831.html",
-      "workID": "papal-greg16-le-armi-valorose"
+      "workID": "papal-greg16-le-armi-valorose",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-le-armi-valorose-12-luglio-1831.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-quel-dio-5-aprile-1831.html",
-      "workID": "papal-greg16-quel-dio"
+      "workID": "papal-greg16-quel-dio",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/enciclica-quel-dio-5-aprile-1831.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-chiamati-dalla-divina-9-febbraio-1831.html",
-      "workID": "papal-greg16-chiamati-dalla-divina"
+      "workID": "papal-greg16-chiamati-dalla-divina",
+      "canonicalSourceURL": "https://www.vatican.va/content/gregorius-xvi/it/documents/epistola-chiamati-dalla-divina-9-febbraio-1831.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html",
-      "workID": "papal-jp02-ecclesia-de-eucharistia"
+      "workID": "papal-jp02-ecclesia-de-eucharistia",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html",
-      "workID": "papal-jp02-fides-et-ratio"
+      "workID": "papal-jp02-fides-et-ratio",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html",
-      "workID": "papal-jp02-ut-unum-sint"
+      "workID": "papal-jp02-ut-unum-sint",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html",
-      "workID": "papal-jp02-evangelium-vitae"
+      "workID": "papal-jp02-evangelium-vitae",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html",
-      "workID": "papal-jp02-veritatis-splendor"
+      "workID": "papal-jp02-veritatis-splendor",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html",
-      "workID": "papal-jp02-centesimus-annus"
+      "workID": "papal-jp02-centesimus-annus",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html",
-      "workID": "papal-jp02-redemptoris-missio"
+      "workID": "papal-jp02-redemptoris-missio",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html",
-      "workID": "papal-jp02-sollicitudo-rei-socialis"
+      "workID": "papal-jp02-sollicitudo-rei-socialis",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html",
-      "workID": "papal-jp02-redemptoris-mater"
+      "workID": "papal-jp02-redemptoris-mater",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html",
-      "workID": "papal-jp02-dominum-et-vivificantem"
+      "workID": "papal-jp02-dominum-et-vivificantem",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html",
-      "workID": "papal-jp02-slavorum-apostoli"
+      "workID": "papal-jp02-slavorum-apostoli",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
-      "workID": "papal-jp02-laborem-exercens"
+      "workID": "papal-jp02-laborem-exercens",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html",
-      "workID": "papal-jp02-dives-in-misericordia"
+      "workID": "papal-jp02-dives-in-misericordia",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html",
-      "workID": "papal-jp02-redemptor-hominis"
+      "workID": "papal-jp02-redemptor-hominis",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
-      "workID": "papal-john23-pacem-in-terris"
+      "workID": "papal-john23-pacem-in-terris",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_01071962_paenitentiam.html",
-      "workID": "papal-john23-paenitentiam-agere"
+      "workID": "papal-john23-paenitentiam-agere",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_01071962_paenitentiam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11111961_aeterna-dei.html",
-      "workID": "papal-john23-aeterna-dei-sapientia"
+      "workID": "papal-john23-aeterna-dei-sapientia",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11111961_aeterna-dei.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
-      "workID": "papal-john23-mater-et-magistra"
+      "workID": "papal-john23-mater-et-magistra",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_28111959_princeps.html",
-      "workID": "papal-john23-princeps-pastorum"
+      "workID": "papal-john23-princeps-pastorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_28111959_princeps.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html",
-      "workID": "papal-john23-grata-recordatio"
+      "workID": "papal-john23-grata-recordatio",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html",
-      "workID": "papal-john23-sacerdotii-nostri-primordia"
+      "workID": "papal-john23-sacerdotii-nostri-primordia",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html",
-      "workID": "papal-john23-ad-petri-cathedram"
+      "workID": "papal-john23-ad-petri-cathedram",
+      "canonicalSourceURL": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/chirografo-quando-spirato-6-gennaio-1829.html",
-      "workID": "papal-leo12-quando-spirato"
+      "workID": "papal-leo12-quando-spirato",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/chirografo-quando-spirato-6-gennaio-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/epistola-apostolici-nostri-22-dicembre-1828.html",
-      "workID": "papal-leo12-apostolici-nostri"
+      "workID": "papal-leo12-apostolici-nostri",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/epistola-apostolici-nostri-22-dicembre-1828.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-fructus-quos-2-ottobre-1827.html",
-      "workID": "papal-leo12-fructus-quos"
+      "workID": "papal-leo12-fructus-quos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-fructus-quos-2-ottobre-1827.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-inter-multiplices-20-marzo-1827.html",
-      "workID": "papal-leo12-inter-multiplices"
+      "workID": "papal-leo12-inter-multiplices",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-inter-multiplices-20-marzo-1827.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
-      "workID": "papal-leo12-quanta-laetitia"
+      "workID": "papal-leo12-quanta-laetitia",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-ecclesiarum-omnium-12-dicembre-1826.html",
-      "workID": "papal-leo12-ecclesiarum-omnium"
+      "workID": "papal-leo12-ecclesiarum-omnium",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-ecclesiarum-omnium-12-dicembre-1826.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-gloriosi-nostri-14-novembre-1826.html",
-      "workID": "papal-leo12-i-gloriosi-nostri"
+      "workID": "papal-leo12-i-gloriosi-nostri",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-gloriosi-nostri-14-novembre-1826.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/esortazione-pastoris-aeterni-2-luglio-1826.html",
-      "workID": "papal-leo12-pastoris-aeterni"
+      "workID": "papal-leo12-pastoris-aeterni",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/esortazione-pastoris-aeterni-2-luglio-1826.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-l-olio-oggetto-21-giugno-1826.html",
-      "workID": "papal-leo12-l-olio-oggetto"
+      "workID": "papal-leo12-l-olio-oggetto",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/motu-proprio-l-olio-oggetto-21-giugno-1826.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/omelia-qui-pacem-26-marzo-1826.html",
-      "workID": "papal-leo12-qui-pacem"
+      "workID": "papal-leo12-qui-pacem",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/omelia-qui-pacem-26-marzo-1826.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-charitate-christi-25-dicembre-1825.html",
-      "workID": "papal-leo12-charitate-christi"
+      "workID": "papal-leo12-charitate-christi",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-charitate-christi-25-dicembre-1825.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-exultabat-spiritus-25-dicembre-1825.html",
-      "workID": "papal-leo12-exultabat-spiritus"
+      "workID": "papal-leo12-exultabat-spiritus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-exultabat-spiritus-25-dicembre-1825.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quo-graviora-13-marzo-1825.html",
-      "workID": "papal-leo12-quo-graviora"
+      "workID": "papal-leo12-quo-graviora",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quo-graviora-13-marzo-1825.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ad-plurimas-25-gennaio-1825.html",
-      "workID": "papal-leo12-ad-plurimas"
+      "workID": "papal-leo12-ad-plurimas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ad-plurimas-25-gennaio-1825.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-etsi-iam-diu-24-settembre-1824.html",
-      "workID": "papal-leo12-etsi-iam-diu"
+      "workID": "papal-leo12-etsi-iam-diu",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-etsi-iam-diu-24-settembre-1824.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quod-hoc-ineunte-24-maggio-1824.html",
-      "workID": "papal-leo12-quod-hoc-ineunte"
+      "workID": "papal-leo12-quod-hoc-ineunte",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/bolla-quod-hoc-ineunte-24-maggio-1824.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-cum-multa-17-maggio-1824.html",
-      "workID": "papal-leo12-cum-multa"
+      "workID": "papal-leo12-cum-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/breve-cum-multa-17-maggio-1824.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ubi-primum-5-maggio-1824.html",
-      "workID": "papal-leo12-ubi-primum"
+      "workID": "papal-leo12-ubi-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xii/it/documents/enciclica-ubi-primum-5-maggio-1824.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121902_dum-multa.html",
-      "workID": "papal-leo13-dum-multa"
+      "workID": "papal-leo13-dum-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121902_dum-multa.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html",
-      "workID": "papal-leo13-fin-dal-principio"
+      "workID": "papal-leo13-fin-dal-principio",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22111902_quae-ad-nos.html",
-      "workID": "papal-leo13-quae-ad-nos"
+      "workID": "papal-leo13-quae-ad-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22111902_quae-ad-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
-      "workID": "papal-leo13-mirae-caritatis"
+      "workID": "papal-leo13-mirae-caritatis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30041902_quod-votis.html",
-      "workID": "papal-leo13-quod-votis"
+      "workID": "papal-leo13-quod-votis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30041902_quod-votis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15041902_in-amplissimo.html",
-      "workID": "papal-leo13-in-amplissimo"
+      "workID": "papal-leo13-in-amplissimo",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15041902_in-amplissimo.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111901_urbanitatis-veteris.html",
-      "workID": "papal-leo13-urbanitatis-veteris"
+      "workID": "papal-leo13-urbanitatis-veteris",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111901_urbanitatis-veteris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20081901_reputantibus.html",
-      "workID": "papal-leo13-reputantiubus"
+      "workID": "papal-leo13-reputantiubus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20081901_reputantibus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16051901_gravissimas.html",
-      "workID": "papal-leo13-gravissimas"
+      "workID": "papal-leo13-gravissimas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16051901_gravissimas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html",
-      "workID": "papal-leo13-graves-de-communi-re"
+      "workID": "papal-leo13-graves-de-communi-re",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111900_tametsi-futura-prospicientibus.html",
-      "workID": "papal-leo13-tametsi-futura-prospicientibus"
+      "workID": "papal-leo13-tametsi-futura-prospicientibus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111900_tametsi-futura-prospicientibus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21071900_omnibus-compertum.html",
-      "workID": "papal-leo13-omnibus-compertum"
+      "workID": "papal-leo13-omnibus-compertum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21071900_omnibus-compertum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18091899_paternae.html",
-      "workID": "papal-leo13-paternae"
+      "workID": "papal-leo13-paternae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18091899_paternae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html",
-      "workID": "papal-leo13-depuis-le-jour"
+      "workID": "papal-leo13-depuis-le-jour",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25051899_annum-sacrum.html",
-      "workID": "papal-leo13-annum-sacrum"
+      "workID": "papal-leo13-annum-sacrum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25051899_annum-sacrum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121898_quum-diuturnum.html",
-      "workID": "papal-leo13-quum-diuturnum"
+      "workID": "papal-leo13-quum-diuturnum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121898_quum-diuturnum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html",
-      "workID": "papal-leo13-diuturni-temporis"
+      "workID": "papal-leo13-diuturni-temporis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16081898_quam-religiosa.html",
-      "workID": "papal-leo13-quam-religiosa"
+      "workID": "papal-leo13-quam-religiosa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16081898_quam-religiosa.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05081898_spesse-volte.html",
-      "workID": "papal-leo13-spesse-volte"
+      "workID": "papal-leo13-spesse-volte",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05081898_spesse-volte.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071898_caritatis-studium.html",
-      "workID": "papal-leo13-caritatis-studium"
+      "workID": "papal-leo13-caritatis-studium",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071898_caritatis-studium.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121897_affari-vos.html",
-      "workID": "papal-leo13-affari-vos"
+      "workID": "papal-leo13-affari-vos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121897_affari-vos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091897_augustissimae-virginis-mariae.html",
-      "workID": "papal-leo13-augustissimae-virginis-mariae"
+      "workID": "papal-leo13-augustissimae-virginis-mariae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091897_augustissimae-virginis-mariae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01081897_militantis-ecclesiae.html",
-      "workID": "papal-leo13-militantis-ecclesiae"
+      "workID": "papal-leo13-militantis-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01081897_militantis-ecclesiae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_09051897_divinum-illud-munus.html",
-      "workID": "papal-leo13-divinum-illud-munus"
+      "workID": "papal-leo13-divinum-illud-munus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_09051897_divinum-illud-munus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091896_fidentem-piumque-animum.html",
-      "workID": "papal-leo13-fidentem-piumque-animum"
+      "workID": "papal-leo13-fidentem-piumque-animum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091896_fidentem-piumque-animum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061896_satis-cognitum.html",
-      "workID": "papal-leo13-satis-cognitum"
+      "workID": "papal-leo13-satis-cognitum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061896_satis-cognitum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051896_insignes.html",
-      "workID": "papal-leo13-insignes"
+      "workID": "papal-leo13-insignes",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051896_insignes.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091895_adiutricem.html",
-      "workID": "papal-leo13-adiutricem"
+      "workID": "papal-leo13-adiutricem",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091895_adiutricem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10071895_permoti-nos.html",
-      "workID": "papal-leo13-permoti-nos"
+      "workID": "papal-leo13-permoti-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10071895_permoti-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua.html",
-      "workID": "papal-leo13-longinqua-january-6-1895"
+      "workID": "papal-leo13-longinqua-january-6-1895",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121894_christi-nomen.html",
-      "workID": "papal-leo13-christi-nomen"
+      "workID": "papal-leo13-christi-nomen",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121894_christi-nomen.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091894_iucunda-semper-expectatione.html",
-      "workID": "papal-leo13-iucunda-semper-expectatione"
+      "workID": "papal-leo13-iucunda-semper-expectatione",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091894_iucunda-semper-expectatione.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02071894_litteras-a-vobis.html",
-      "workID": "papal-leo13-litteras-a-vobis"
+      "workID": "papal-leo13-litteras-a-vobis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02071894_litteras-a-vobis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051894_inter-graves.html",
-      "workID": "papal-leo13-inter-graves"
+      "workID": "papal-leo13-inter-graves",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01051894_inter-graves.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_19031894_caritatis.html",
-      "workID": "papal-leo13-caritatis"
+      "workID": "papal-leo13-caritatis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_19031894_caritatis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18111893_providentissimus-deus.html",
-      "workID": "papal-leo13-providentissimus-deus"
+      "workID": "papal-leo13-providentissimus-deus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18111893_providentissimus-deus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25101893_non-mediocri.html",
-      "workID": "papal-leo13-non-mediocri"
+      "workID": "papal-leo13-non-mediocri",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25101893_non-mediocri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html",
-      "workID": "papal-leo13-laetitiae-sanctae"
+      "workID": "papal-leo13-laetitiae-sanctae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02091893_constanti-hungarorum.html",
-      "workID": "papal-leo13-constanti-hungarorum"
+      "workID": "papal-leo13-constanti-hungarorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_02091893_constanti-hungarorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061893_ad-extremas.html",
-      "workID": "papal-leo13-ad-extremas"
+      "workID": "papal-leo13-ad-extremas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061893_ad-extremas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html",
-      "workID": "papal-leo13-custodi-di-quella-fede"
+      "workID": "papal-leo13-custodi-di-quella-fede",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_inimica-vis.html",
-      "workID": "papal-leo13-inimica-vis"
+      "workID": "papal-leo13-inimica-vis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_inimica-vis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091892_magnae-dei-matris.html",
-      "workID": "papal-leo13-magnae-dei-matris"
+      "workID": "papal-leo13-magnae-dei-matris",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091892_magnae-dei-matris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16071892_quarto-abeunte-saeculo.html",
-      "workID": "papal-leo13-quarto-abeunte-saeculo"
+      "workID": "papal-leo13-quarto-abeunte-saeculo",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16071892_quarto-abeunte-saeculo.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16021892_au-milieu-des-sollicitudes.html",
-      "workID": "papal-leo13-au-milieu-des-sollicitudes"
+      "workID": "papal-leo13-au-milieu-des-sollicitudes",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16021892_au-milieu-des-sollicitudes.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22091891_octobri-mense.html",
-      "workID": "papal-leo13-octobri-mense"
+      "workID": "papal-leo13-octobri-mense",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22091891_octobri-mense.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091891_pastoralis-officii.html",
-      "workID": "papal-leo13-pastoralis-officii"
+      "workID": "papal-leo13-pastoralis-officii",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_12091891_pastoralis-officii.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18910625_pastoralis.html",
-      "workID": "papal-leo13-pastoralis-vigilantiae"
+      "workID": "papal-leo13-pastoralis-vigilantiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18910625_pastoralis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
-      "workID": "papal-leo13-rerum-novarum"
+      "workID": "papal-leo13-rerum-novarum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03031891_in-ipso.html",
-      "workID": "papal-leo13-in-ipso"
+      "workID": "papal-leo13-in-ipso",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03031891_in-ipso.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111890_catholicae-ecclesiae.html",
-      "workID": "papal-leo13-catholicae-ecclesiae"
+      "workID": "papal-leo13-catholicae-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111890_catholicae-ecclesiae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18901015_apostolico-seggio.html",
-      "workID": "papal-leo13-dall-alto-dell-apostolico-seggio"
+      "workID": "papal-leo13-dall-alto-dell-apostolico-seggio",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18901015_apostolico-seggio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10011890_sapientiae-christianae.html",
-      "workID": "papal-leo13-sapientiae-christianae"
+      "workID": "papal-leo13-sapientiae-christianae",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10011890_sapientiae-christianae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html",
-      "workID": "papal-leo13-quamquam-pluries"
+      "workID": "papal-leo13-quamquam-pluries",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_07031889_magni-nobis.html",
-      "workID": "papal-leo13-magni-nobis"
+      "workID": "papal-leo13-magni-nobis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_07031889_magni-nobis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121888_exeunte-iam-anno.html",
-      "workID": "papal-leo13-exeunte-iam-anno"
+      "workID": "papal-leo13-exeunte-iam-anno",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121888_exeunte-iam-anno.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21121888_etsi-cunctas.html",
-      "workID": "papal-leo13-etsi-cunctas"
+      "workID": "papal-leo13-etsi-cunctas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21121888_etsi-cunctas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10121888_quam-aerumnosa.html",
-      "workID": "papal-leo13-quam-aerumnosa"
+      "workID": "papal-leo13-quam-aerumnosa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10121888_quam-aerumnosa.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071888_paterna-caritas.html",
-      "workID": "papal-leo13-paterna-caritas"
+      "workID": "papal-leo13-paterna-caritas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071888_paterna-caritas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061888_saepe-nos.html",
-      "workID": "papal-leo13-saepe-nos"
+      "workID": "papal-leo13-saepe-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24061888_saepe-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html",
-      "workID": "papal-leo13-libertas-praestantissimum"
+      "workID": "papal-leo13-libertas-praestantissimum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05051888_in-plurimis.html",
-      "workID": "papal-leo13-in-plurimis"
+      "workID": "papal-leo13-in-plurimis",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05051888_in-plurimis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01041888_quod-anniversarius.html",
-      "workID": "papal-leo13-quod-anniversarius"
+      "workID": "papal-leo13-quod-anniversarius",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01041888_quod-anniversarius.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121887_officio-sanctissimo.html",
-      "workID": "papal-leo13-officio-sanctissimo"
+      "workID": "papal-leo13-officio-sanctissimo",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121887_officio-sanctissimo.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091887_vi-e-ben-noto.html",
-      "workID": "papal-leo13-vi-e-ben-noto"
+      "workID": "papal-leo13-vi-e-ben-noto",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20091887_vi-e-ben-noto.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_14091886_pergrata.html",
-      "workID": "papal-leo13-pergrata"
+      "workID": "papal-leo13-pergrata",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_14091886_pergrata.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22081886_quod-multum.html",
-      "workID": "papal-leo13-quod-multum"
+      "workID": "papal-leo13-quod-multum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22081886_quod-multum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011886_iampridem.html",
-      "workID": "papal-leo13-iampridem"
+      "workID": "papal-leo13-iampridem",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011886_iampridem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121885_quod-auctoritate.html",
-      "workID": "papal-leo13-quod-auctoritate"
+      "workID": "papal-leo13-quod-auctoritate",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22121885_quod-auctoritate.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_27111885_spectata-fides.html",
-      "workID": "papal-leo13-spectata-fides"
+      "workID": "papal-leo13-spectata-fides",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_27111885_spectata-fides.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html",
-      "workID": "papal-leo13-immortale-dei"
+      "workID": "papal-leo13-immortale-dei",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30081884_superiore-anno.html",
-      "workID": "papal-leo13-superiore-anno"
+      "workID": "papal-leo13-superiore-anno",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30081884_superiore-anno.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html",
-      "workID": "papal-leo13-humanum-genus"
+      "workID": "papal-leo13-humanum-genus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08021884_nobilissima-gallorum-gens.html",
-      "workID": "papal-leo13-nobilissima-gallorum-gens"
+      "workID": "papal-leo13-nobilissima-gallorum-gens",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08021884_nobilissima-gallorum-gens.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01091883_supremi-apostolatus-officio.html",
-      "workID": "papal-leo13-supremi-apostolatus-officio"
+      "workID": "papal-leo13-supremi-apostolatus-officio",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01091883_supremi-apostolatus-officio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121882_cum-multa.html",
-      "workID": "papal-leo13-cum-multa"
+      "workID": "papal-leo13-cum-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121882_cum-multa.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_17091882_auspicato-concessum.html",
-      "workID": "papal-leo13-auspicato-concessum"
+      "workID": "papal-leo13-auspicato-concessum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_17091882_auspicato-concessum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15021882_etsi-nos.html",
-      "workID": "papal-leo13-etsi-nos"
+      "workID": "papal-leo13-etsi-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15021882_etsi-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03081881_licet-multa.html",
-      "workID": "papal-leo13-licet-multa"
+      "workID": "papal-leo13-licet-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03081881_licet-multa.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061881_diuturnum.html",
-      "workID": "papal-leo13-diuturnum"
+      "workID": "papal-leo13-diuturnum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_29061881_diuturnum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03121880_sancta-dei-civitas.html",
-      "workID": "papal-leo13-sancta-dei-civitas"
+      "workID": "papal-leo13-sancta-dei-civitas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_03121880_sancta-dei-civitas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30091880_grande-munus.html",
-      "workID": "papal-leo13-grande-munus"
+      "workID": "papal-leo13-grande-munus",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30091880_grande-munus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10021880_arcanum.html",
-      "workID": "papal-leo13-arcanum"
+      "workID": "papal-leo13-arcanum",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10021880_arcanum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html",
-      "workID": "papal-leo13-aeterni-patris"
+      "workID": "papal-leo13-aeterni-patris",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28121878_quod-apostolici-muneris.html",
-      "workID": "papal-leo13-quod-apostolici-muneris"
+      "workID": "papal-leo13-quod-apostolici-muneris",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28121878_quod-apostolici-muneris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21041878_inscrutabili-dei-consilio.html",
-      "workID": "papal-leo13-inscrutabili-dei-consilio"
+      "workID": "papal-leo13-inscrutabili-dei-consilio",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21041878_inscrutabili-dei-consilio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "workID": "papal-leo14-encyclical-letter-of-his-holiness-leo-xiv-magnifica-humanitas"
+      "workID": "papal-leo14-encyclical-letter-of-his-holiness-leo-xiv-magnifica-humanitas",
+      "canonicalSourceURL": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html",
-      "workID": "papal-paul06-humanae-vitae"
+      "workID": "papal-paul06-humanae-vitae",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html",
-      "workID": "papal-paul06-sacerdotalis-caelibatus"
+      "workID": "papal-paul06-sacerdotalis-caelibatus",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html",
-      "workID": "papal-paul06-populorum-progressio"
+      "workID": "papal-paul06-populorum-progressio",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html",
-      "workID": "papal-paul06-christi-matri"
+      "workID": "papal-paul06-christi-matri",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html",
-      "workID": "papal-paul06-mysterium-fidei"
+      "workID": "papal-paul06-mysterium-fidei",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html",
-      "workID": "papal-paul06-mense-maio"
+      "workID": "papal-paul06-mense-maio",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html",
-      "workID": "papal-paul06-ecclesiam-suam"
+      "workID": "papal-paul06-ecclesiam-suam",
+      "canonicalSourceURL": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-dives-in-misericordia-16-novembre-1877.html",
-      "workID": "papal-pius09-dives-in-misericordia"
+      "workID": "papal-pius09-dives-in-misericordia",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-dives-in-misericordia-16-novembre-1877.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quae-in-patriarchatu-1-settembre-1876.html",
-      "workID": "papal-pius09-quae-in-patriarchatu"
+      "workID": "papal-pius09-quae-in-patriarchatu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quae-in-patriarchatu-1-settembre-1876.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-graves-ac-diuturnae-23-martii-1875.html",
-      "workID": "papal-pius09-graves-ac-diuturnae"
+      "workID": "papal-pius09-graves-ac-diuturnae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-graves-ac-diuturnae-23-martii-1875.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quod-nunquam-5-febbraio-1875.html",
-      "workID": "papal-pius09-quod-nunquam"
+      "workID": "papal-pius09-quod-nunquam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quod-nunquam-5-febbraio-1875.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-gravibus-ecclesiae-24-decembris-1874.html",
-      "workID": "papal-pius09-gravibus-ecclesiae"
+      "workID": "papal-pius09-gravibus-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-gravibus-ecclesiae-24-decembris-1874.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-omnem-sollicitudinem-13-maggio-1874.html",
-      "workID": "papal-pius09-omnem-sollicitudinem"
+      "workID": "papal-pius09-omnem-sollicitudinem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-omnem-sollicitudinem-13-maggio-1874.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-vix-dum-a-nobis-7-marzo-1874.html",
-      "workID": "papal-pius09-vix-dum-a-nobis"
+      "workID": "papal-pius09-vix-dum-a-nobis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-vix-dum-a-nobis-7-marzo-1874.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-in-magnis-illis-27-dicembre-1873.html",
-      "workID": "papal-pius09-in-magnis-illis"
+      "workID": "papal-pius09-in-magnis-illis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-in-magnis-illis-27-dicembre-1873.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-etsi-multa-21-novembre-1873.html",
-      "workID": "papal-pius09-etsi-multa"
+      "workID": "papal-pius09-etsi-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-etsi-multa-21-novembre-1873.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quartus-supra-6-gennaio-1873.html",
-      "workID": "papal-pius09-quartus-supra"
+      "workID": "papal-pius09-quartus-supra",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quartus-supra-6-gennaio-1873.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-in-luctuosissimis-16-iunii-1872.html",
-      "workID": "papal-pius09-in-luctuosissimis"
+      "workID": "papal-pius09-in-luctuosissimis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-in-luctuosissimis-16-iunii-1872.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-ordinem-vestrum-27-octobris-1871.html",
-      "workID": "papal-pius09-ordinem-vestrum"
+      "workID": "papal-pius09-ordinem-vestrum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-ordinem-vestrum-27-octobris-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-saepe-venerabiles-5-augusti-1871.html",
-      "workID": "papal-pius09-saepe-venerabiles-fratres"
+      "workID": "papal-pius09-saepe-venerabiles-fratres",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-saepe-venerabiles-5-augusti-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-beneficia-dei-4-iunii-1871.html",
-      "workID": "papal-pius09-beneficia-dei"
+      "workID": "papal-pius09-beneficia-dei",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-beneficia-dei-4-iunii-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-nos-15-maii-1871.html",
-      "workID": "papal-pius09-ubi-nos"
+      "workID": "papal-pius09-ubi-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-nos-15-maii-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-prima-11-martii-1871.html",
-      "workID": "papal-pius09-ubi-prima"
+      "workID": "papal-pius09-ubi-prima",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-ubi-prima-11-martii-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-ecclesia-dei-2-martii-1871.html",
-      "workID": "papal-pius09-ecclesia-dei"
+      "workID": "papal-pius09-ecclesia-dei",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-ecclesia-dei-2-martii-1871.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-respicientes-ea-1-novembris-1870.html",
-      "workID": "papal-pius09-respicientes"
+      "workID": "papal-pius09-respicientes",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-respicientes-ea-1-novembris-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-pastor-aeternus-18-iulii-1870.html",
-      "workID": "papal-pius09-dogmatica-pastor-aeternus"
+      "workID": "papal-pius09-dogmatica-pastor-aeternus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-pastor-aeternus-18-iulii-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-quo-impensiore-20-maii-1870.html",
-      "workID": "papal-pius09-quo-impensiore"
+      "workID": "papal-pius09-quo-impensiore",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-quo-impensiore-20-maii-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-dei-filius-24-aprilis-1870.html",
-      "workID": "papal-pius09-dogmatica-dei-filius"
+      "workID": "papal-pius09-dogmatica-dei-filius",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/constitutio-dogmatica-dei-filius-24-aprilis-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-apostolici-ministerii-5-aprilis-1870.html",
-      "workID": "papal-pius09-apostolici-ministerii"
+      "workID": "papal-pius09-apostolici-ministerii",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-apostolici-ministerii-5-aprilis-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/bolla-multiplices-inter-23-marzo-1870.html",
-      "workID": "papal-pius09-multiplices-inter"
+      "workID": "papal-pius09-multiplices-inter",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/bolla-multiplices-inter-23-marzo-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-non-sine-gravissimo-24-februarii-1870.html",
-      "workID": "papal-pius09-non-sine-gravissimo"
+      "workID": "papal-pius09-non-sine-gravissimo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-non-sine-gravissimo-24-februarii-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-religiosas-regularium-23-februarii-1870.html",
-      "workID": "papal-pius09-religiosas-regularium"
+      "workID": "papal-pius09-religiosas-regularium",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-religiosas-regularium-23-februarii-1870.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-iam-vos-omnes-13-septembris-1868.html",
-      "workID": "papal-pius09-iam-vos-omnes"
+      "workID": "papal-pius09-iam-vos-omnes",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-iam-vos-omnes-13-septembris-1868.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-arcano-divinae-8-septembris-1868.html",
-      "workID": "papal-pius09-arcano-divinae"
+      "workID": "papal-pius09-arcano-divinae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-arcano-divinae-8-septembris-1868.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-aeterni-patris-29-iunii-1868.html",
-      "workID": "papal-pius09-aeterni-patris"
+      "workID": "papal-pius09-aeterni-patris",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/litterae-apostolicae-aeterni-patris-29-iunii-1868.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-ex-quo-infensissimi-14-novembre-1867.html",
-      "workID": "papal-pius09-ex-quo-infensissimi"
+      "workID": "papal-pius09-ex-quo-infensissimi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-ex-quo-infensissimi-14-novembre-1867.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-levate-17-octobris-1867.html",
-      "workID": "papal-pius09-levate"
+      "workID": "papal-pius09-levate",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-encyclica-levate-17-octobris-1867.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-meridionali-americae-30-settembre-1865.html",
-      "workID": "papal-pius09-meridionali-americae"
+      "workID": "papal-pius09-meridionali-americae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-meridionali-americae-30-settembre-1865.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-multiplices-inter-25-septembris-1865.html",
-      "workID": "papal-pius09-multiplices-inter-1865-09-25"
+      "workID": "papal-pius09-multiplices-inter-1865-09-25",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocutio-multiplices-inter-25-septembris-1865.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/encyclica-quanta-cura-8-decembris-1864.html",
-      "workID": "papal-pius09-quanta-cura"
+      "workID": "papal-pius09-quanta-cura",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/encyclica-quanta-cura-8-decembris-1864.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-maximae-quidem-18-agosto-1864.html",
-      "workID": "papal-pius09-maximae-quidem"
+      "workID": "papal-pius09-maximae-quidem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-maximae-quidem-18-agosto-1864.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-urbaniano-30-luglio-1864.html",
-      "workID": "papal-pius09-ubi-urbaniano"
+      "workID": "papal-pius09-ubi-urbaniano",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-urbaniano-30-luglio-1864.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-multis-gravissimis-28-gennaio-1864.html",
-      "workID": "papal-pius09-multis-gravissimis"
+      "workID": "papal-pius09-multis-gravissimis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-multis-gravissimis-28-gennaio-1864.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-tuas-libenter-21-decembris-1863.html",
-      "workID": "papal-pius09-tuas-libenter"
+      "workID": "papal-pius09-tuas-libenter",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/epistola-tuas-libenter-21-decembris-1863.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-incredibili-afflictamur-17-settembre-1863.html",
-      "workID": "papal-pius09-incredibili"
+      "workID": "papal-pius09-incredibili",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-incredibili-afflictamur-17-settembre-1863.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quanto-conficiamur-10-agosto-1863.html",
-      "workID": "papal-pius09-quanto-conficiamur-moerore"
+      "workID": "papal-pius09-quanto-conficiamur-moerore",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-quanto-conficiamur-10-agosto-1863.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maxima-quidem-9-giugno-1862.html",
-      "workID": "papal-pius09-maxima-quidem"
+      "workID": "papal-pius09-maxima-quidem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maxima-quidem-9-giugno-1862.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimus-humani-8-aprile-1862.html",
-      "workID": "papal-pius09-amantissimus"
+      "workID": "papal-pius09-amantissimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimus-humani-8-aprile-1862.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-iamdudum-cernimus-18-marzo-1861.html",
-      "workID": "papal-pius09-iamdudum-cernimus"
+      "workID": "papal-pius09-iamdudum-cernimus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-iamdudum-cernimus-18-marzo-1861.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-multis-gravibusque-17-dicembre-1860.html",
-      "workID": "papal-pius09-multis-gravibusque"
+      "workID": "papal-pius09-multis-gravibusque",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-multis-gravibusque-17-dicembre-1860.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-novos-et-ante-28-settembre-1860.html",
-      "workID": "papal-pius09-novos-et-ante"
+      "workID": "papal-pius09-novos-et-ante",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-novos-et-ante-28-settembre-1860.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-cum-catholica-ecclesia-26-marzo-1860.html",
-      "workID": "papal-pius09-cum-catholica-ecclesia"
+      "workID": "papal-pius09-cum-catholica-ecclesia",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/breve-cum-catholica-ecclesia-26-marzo-1860.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nullis-certe-19-gennaio-1860.html",
-      "workID": "papal-pius09-nullis-certe-verbis"
+      "workID": "papal-pius09-nullis-certe-verbis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nullis-certe-19-gennaio-1860.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maximo-animi-26-settembre-1859.html",
-      "workID": "papal-pius09-maximo-animi"
+      "workID": "papal-pius09-maximo-animi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-maximo-animi-26-settembre-1859.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-ad-gravissimum-20-giugno-1859.html",
-      "workID": "papal-pius09-ad-gravissimum"
+      "workID": "papal-pius09-ad-gravissimum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-ad-gravissimum-20-giugno-1859.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-nuper-18-giugno-1859.html",
-      "workID": "papal-pius09-qui-nuper"
+      "workID": "papal-pius09-qui-nuper",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-nuper-18-giugno-1859.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-sancta-mater-27-aprile-1859.html",
-      "workID": "papal-pius09-cum-sancta-mater-ecclesia"
+      "workID": "papal-pius09-cum-sancta-mater-ecclesia",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-sancta-mater-27-aprile-1859.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimi-redemptoris-3-maggio-1858.html",
-      "workID": "papal-pius09-amantissimi-redemptoris"
+      "workID": "papal-pius09-amantissimi-redemptoris",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-amantissimi-redemptoris-3-maggio-1858.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-nuper-20-gennaio-1858.html",
-      "workID": "papal-pius09-cum-nuper"
+      "workID": "papal-pius09-cum-nuper",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-cum-nuper-20-gennaio-1858.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-singulari-quidem-17-marzo-1856.html",
-      "workID": "papal-pius09-singulari-quidem"
+      "workID": "papal-pius09-singulari-quidem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-singulari-quidem-17-marzo-1856.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/18541208-costituzione-apostolica-ineffabilis-deus.html",
-      "workID": "papal-pius09-ineffabilis-deus"
+      "workID": "papal-pius09-ineffabilis-deus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/18541208-costituzione-apostolica-ineffabilis-deus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-optime-noscitis-20-marzo-1854.html",
-      "workID": "papal-pius09-optime-noscitis"
+      "workID": "papal-pius09-optime-noscitis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-optime-noscitis-20-marzo-1854.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-neminem-vestrum-2-febbraio-1854.html",
-      "workID": "papal-pius09-neminem-vestrum"
+      "workID": "papal-pius09-neminem-vestrum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-neminem-vestrum-2-febbraio-1854.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-inter-multiplices-21-marzo-1853.html",
-      "workID": "papal-pius09-inter-multiplices"
+      "workID": "papal-pius09-inter-multiplices",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-inter-multiplices-21-marzo-1853.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nemo-certe-ignorat-25-marzo-1852.html",
-      "workID": "papal-pius09-nemo-certe-ignorat"
+      "workID": "papal-pius09-nemo-certe-ignorat",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nemo-certe-ignorat-25-marzo-1852.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ex-aliis-nostris-21-novembre-1851.html",
-      "workID": "papal-pius09-ex-aliis-nostris"
+      "workID": "papal-pius09-ex-aliis-nostris",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ex-aliis-nostris-21-novembre-1851.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-exultavit-cor-nostrum-21-novembre-1851.html",
-      "workID": "papal-pius09-exultavit-cor-nostrum"
+      "workID": "papal-pius09-exultavit-cor-nostrum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-exultavit-cor-nostrum-21-novembre-1851.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-si-semper-antea-20-maggio-1850.html",
-      "workID": "papal-pius09-si-semper-antea"
+      "workID": "papal-pius09-si-semper-antea",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-si-semper-antea-20-maggio-1850.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nostis-et-nobiscum-8-dicembre-1849.html",
-      "workID": "papal-pius09-nostis-et-nobiscum"
+      "workID": "papal-pius09-nostis-et-nobiscum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-nostis-et-nobiscum-8-dicembre-1849.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-quibus-quantisque-20-aprile-1849.html",
-      "workID": "papal-pius09-quibus-quantisque"
+      "workID": "papal-pius09-quibus-quantisque",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-quibus-quantisque-20-aprile-1849.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/protesta-la-serie-14-febbraio-1849.html",
-      "workID": "papal-pius09-protesta-la-serie"
+      "workID": "papal-pius09-protesta-la-serie",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/protesta-la-serie-14-febbraio-1849.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-2-febbraio-1849.html",
-      "workID": "papal-pius09-ubi-primum-1849-02-02"
+      "workID": "papal-pius09-ubi-primum-1849-02-02",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-2-febbraio-1849.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-da-questa-pacifica-1-gennaio-1849.html",
-      "workID": "papal-pius09-proclama-da-questa-pacifica"
+      "workID": "papal-pius09-proclama-da-questa-pacifica",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-da-questa-pacifica-1-gennaio-1849.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-non-semel-29-aprile-1848.html",
-      "workID": "papal-pius09-non-semel"
+      "workID": "papal-pius09-non-semel",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/allocuzione-non-semel-29-aprile-1848.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/decreto-nelle-istituzioni-14-marzo-1848.html",
-      "workID": "papal-pius09-decreto-nelle-istituzioni"
+      "workID": "papal-pius09-decreto-nelle-istituzioni",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/decreto-nelle-istituzioni-14-marzo-1848.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-romani-e-quanti-14-marzo-1848.html",
-      "workID": "papal-pius09-proclama-romani-e-quanti"
+      "workID": "papal-pius09-proclama-romani-e-quanti",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/proclama-romani-e-quanti-14-marzo-1848.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-17-giugno-1847.html",
-      "workID": "papal-pius09-ubi-primum"
+      "workID": "papal-pius09-ubi-primum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-ubi-primum-17-giugno-1847.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-praedecessores-nostros-25-marzo-1847.html",
-      "workID": "papal-pius09-praedecessores-nostros"
+      "workID": "papal-pius09-praedecessores-nostros",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-praedecessores-nostros-25-marzo-1847.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-pluribus-9-novembre-1846.html",
-      "workID": "papal-pius09-qui-pluribus"
+      "workID": "papal-pius09-qui-pluribus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/enciclica-qui-pluribus-9-novembre-1846.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-ix/it/documents/editto-nei-giorni-16-luglio-1846.html",
-      "workID": "papal-pius09-editto-nei-giorni"
+      "workID": "papal-pius09-editto-nei-giorni",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-ix/it/documents/editto-nei-giorni-16-luglio-1846.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html",
-      "workID": "papal-pius06-quoties-animo"
+      "workID": "papal-pius06-quoties-animo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html",
-      "workID": "papal-pius06-cum-nos-superiori"
+      "workID": "papal-pius06-cum-nos-superiori",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html",
-      "workID": "papal-pius06-constantiam-vestram"
+      "workID": "papal-pius06-constantiam-vestram",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html",
-      "workID": "papal-pius06-christi-ecclesiae"
+      "workID": "papal-pius06-christi-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html",
-      "workID": "papal-pius06-auctorem-fidei"
+      "workID": "papal-pius06-auctorem-fidei",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html",
-      "workID": "papal-pius06-ad-nostras-manus"
+      "workID": "papal-pius06-ad-nostras-manus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html",
-      "workID": "papal-pius06-quare-lacrymae"
+      "workID": "papal-pius06-quare-lacrymae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html",
-      "workID": "papal-pius06-perpensis-circumstantiis"
+      "workID": "papal-pius06-perpensis-circumstantiis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html",
-      "workID": "papal-pius06-quae-causa"
+      "workID": "papal-pius06-quae-causa",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ignotae-nemini-21-novembre-1792.html",
-      "workID": "papal-pius06-ignotae-nemini"
+      "workID": "papal-pius06-ignotae-nemini",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ignotae-nemini-21-novembre-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ubi-lutetiam-13-giugno-1792.html",
-      "workID": "papal-pius06-ubi-lutetiam"
+      "workID": "papal-pius06-ubi-lutetiam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ubi-lutetiam-13-giugno-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
-      "workID": "papal-pius06-quo-fluctu"
+      "workID": "papal-pius06-quo-fluctu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html",
-      "workID": "papal-pius06-dum-nos"
+      "workID": "papal-pius06-dum-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html",
-      "workID": "papal-pius06-ubi-communis"
+      "workID": "papal-pius06-ubi-communis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html",
-      "workID": "papal-pius06-in-gravissimis"
+      "workID": "papal-pius06-in-gravissimis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html",
-      "workID": "papal-pius06-novae-hae-litterae"
+      "workID": "papal-pius06-novae-hae-litterae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html",
-      "workID": "papal-pius06-ancorche-antichissimo"
+      "workID": "papal-pius06-ancorche-antichissimo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-luctu-4-maggio-1791.html",
-      "workID": "papal-pius06-quo-luctu"
+      "workID": "papal-pius06-quo-luctu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-luctu-4-maggio-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html",
-      "workID": "papal-pius06-adeo-nota"
+      "workID": "papal-pius06-adeo-nota",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-charitas-quae-13-aprile-1791.html",
-      "workID": "papal-pius06-charitas"
+      "workID": "papal-pius06-charitas",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-charitas-quae-13-aprile-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html",
-      "workID": "papal-pius06-cum-populi"
+      "workID": "papal-pius06-cum-populi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html",
-      "workID": "papal-pius06-quod-aliquantum"
+      "workID": "papal-pius06-quod-aliquantum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html",
-      "workID": "papal-pius06-super-soliditate-petrae"
+      "workID": "papal-pius06-super-soliditate-petrae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html",
-      "workID": "papal-pius06-nuper-pro"
+      "workID": "papal-pius06-nuper-pro",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html",
-      "workID": "papal-pius06-summa-dei"
+      "workID": "papal-pius06-summa-dei",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-inscrutabile-divinae-25-dicembre-1775.html",
-      "workID": "papal-pius06-inscrutabile"
+      "workID": "papal-pius06-inscrutabile",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-inscrutabile-divinae-25-dicembre-1775.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html",
-      "workID": "papal-pius07-ecclesiam-a-jesu"
+      "workID": "papal-pius07-ecclesiam-a-jesu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-praeclara-quam-16-maggio-1820.html",
-      "workID": "papal-pius07-praeclara-quam"
+      "workID": "papal-pius07-praeclara-quam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-praeclara-quam-16-maggio-1820.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-dominici-gregis-25-agosto-1819.html",
-      "workID": "papal-pius07-dominici-gregis"
+      "workID": "papal-pius07-dominici-gregis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-dominici-gregis-25-agosto-1819.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-vineam-quam-plantavit-12-giugno-1817.html",
-      "workID": "papal-pius07-vineam-quam-plantavit"
+      "workID": "papal-pius07-vineam-quam-plantavit",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-vineam-quam-plantavit-12-giugno-1817.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/epistola-magno-et-acerbo-3-septembris-1816.html",
-      "workID": "papal-pius07-lettera-magno-et-acerbo"
+      "workID": "papal-pius07-lettera-magno-et-acerbo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/epistola-magno-et-acerbo-3-septembris-1816.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-etsi-longissimo-30-gennaio-1816.html",
-      "workID": "papal-pius07-etsi-longissimo"
+      "workID": "papal-pius07-etsi-longissimo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-etsi-longissimo-30-gennaio-1816.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-optatissimus-tandem-26-settembre-1814.html",
-      "workID": "papal-pius07-optatissimus-tandem"
+      "workID": "papal-pius07-optatissimus-tandem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-optatissimus-tandem-26-settembre-1814.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-sollicitudo-omnium-7-agosto-1814.html",
-      "workID": "papal-pius07-sollicitudo-omnium"
+      "workID": "papal-pius07-sollicitudo-omnium",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-sollicitudo-omnium-7-agosto-1814.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html",
-      "workID": "papal-pius07-il-trionfo"
+      "workID": "papal-pius07-il-trionfo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-quum-memoranda-10-giugno-1809.html",
-      "workID": "papal-pius07-quum-memoranda"
+      "workID": "papal-pius07-quum-memoranda",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-quum-memoranda-10-giugno-1809.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-hoc-ipso-29-ottobre-1804.html",
-      "workID": "papal-pius07-hoc-ipso"
+      "workID": "papal-pius07-hoc-ipso",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-hoc-ipso-29-ottobre-1804.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-quam-luctuosam-24-maggio-1802.html",
-      "workID": "papal-pius07-quam-luctuosam"
+      "workID": "papal-pius07-quam-luctuosam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-quam-luctuosam-24-maggio-1802.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesia-christi-15-agosto-1801.html",
-      "workID": "papal-pius07-ecclesia-christi"
+      "workID": "papal-pius07-ecclesia-christi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesia-christi-15-agosto-1801.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-tam-multa-15-agosto-1801.html",
-      "workID": "papal-pius07-tam-multa"
+      "workID": "papal-pius07-tam-multa",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/breve-tam-multa-15-agosto-1801.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/motu-proprio-le-piu-colte-11-marzo-1801.html",
-      "workID": "papal-pius07-le-piu-colte"
+      "workID": "papal-pius07-le-piu-colte",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/motu-proprio-le-piu-colte-11-marzo-1801.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-ex-quo-ecclesiam-24-maggio-1800.html",
-      "workID": "papal-pius07-ex-quo-ecclesiam"
+      "workID": "papal-pius07-ex-quo-ecclesiam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-ex-quo-ecclesiam-24-maggio-1800.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-diu-satis-15-maggio-1800.html",
-      "workID": "papal-pius07-diu-satis"
+      "workID": "papal-pius07-diu-satis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-diu-satis-15-maggio-1800.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-ad-supremum-28-marzo-1800.html",
-      "workID": "papal-pius07-ad-supremum"
+      "workID": "papal-pius07-ad-supremum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-vii/it/documents/allocuzione-ad-supremum-28-marzo-1800.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-4-settembre-1829.html",
-      "workID": "papal-pius08-inter-multiplices"
+      "workID": "papal-pius08-inter-multiplices",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-4-settembre-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-11-agosto-1829.html",
-      "workID": "papal-pius08-inter-multiplices-1829-08-11"
+      "workID": "papal-pius08-inter-multiplices-1829-08-11",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-11-agosto-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-coelestis-agricola-7-luglio-1829.html",
-      "workID": "papal-pius08-coelestis-agricola"
+      "workID": "papal-pius08-coelestis-agricola",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-coelestis-agricola-7-luglio-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-literae-fraternitatis-30-giugno-1829.html",
-      "workID": "papal-pius08-literae-fraternitatis"
+      "workID": "papal-pius08-literae-fraternitatis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-literae-fraternitatis-30-giugno-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-in-supremi-18-giugno-1829.html",
-      "workID": "papal-pius08-in-supremi"
+      "workID": "papal-pius08-in-supremi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-in-supremi-18-giugno-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/enciclica-traditi-humilitati-24-maggio-1829.html",
-      "workID": "papal-pius08-traditi-humilitati"
+      "workID": "papal-pius08-traditi-humilitati",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/enciclica-traditi-humilitati-24-maggio-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-15-maggio-1829.html",
-      "workID": "papal-pius08-inter-multiplices-1829-05-15"
+      "workID": "papal-pius08-inter-multiplices-1829-05-15",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-viii/it/documents/breve-inter-multiplices-15-maggio-1829.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
-      "workID": "papal-pius10-singulari-quadam"
+      "workID": "papal-pius10-singulari-quadam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html",
-      "workID": "papal-pius10-lacrimabili-statu"
+      "workID": "papal-pius10-lacrimabili-statu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html",
-      "workID": "papal-pius10-iamdudum"
+      "workID": "papal-pius10-iamdudum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html",
-      "workID": "papal-pius10-editae-saepe"
+      "workID": "papal-pius10-editae-saepe",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html",
-      "workID": "papal-pius10-communium-rerum"
+      "workID": "papal-pius10-communium-rerum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
-      "workID": "papal-pius10-pascendi-dominici-gregis"
+      "workID": "papal-pius10-pascendi-dominici-gregis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html",
-      "workID": "papal-pius10-une-fois-encore"
+      "workID": "papal-pius10-une-fois-encore",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html",
-      "workID": "papal-pius10-gravissimo-officii-munere"
+      "workID": "papal-pius10-gravissimo-officii-munere",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html",
-      "workID": "papal-pius10-pieni-l-animo"
+      "workID": "papal-pius10-pieni-l-animo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html",
-      "workID": "papal-pius10-tribus-circiter"
+      "workID": "papal-pius10-tribus-circiter",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
-      "workID": "papal-pius10-vehementer-nos"
+      "workID": "papal-pius10-vehementer-nos",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
-      "workID": "papal-pius10-il-fermo-proposito"
+      "workID": "papal-pius10-il-fermo-proposito",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
-      "workID": "papal-pius10-acerbo-nimis"
+      "workID": "papal-pius10-acerbo-nimis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
-      "workID": "papal-pius10-iucunda-sane"
+      "workID": "papal-pius10-iucunda-sane",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
-      "workID": "papal-pius10-ad-diem-illum-laetissimum"
+      "workID": "papal-pius10-ad-diem-illum-laetissimum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
-      "workID": "papal-pius10-e-supremi"
+      "workID": "papal-pius10-e-supremi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091937_ingravescentibus-malis.html",
-      "workID": "papal-pius11-ingravescentibus-malis"
+      "workID": "papal-pius11-ingravescentibus-malis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091937_ingravescentibus-malis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
-      "workID": "papal-pius11-nos-es-muy-conocida"
+      "workID": "papal-pius11-nos-es-muy-conocida",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html",
-      "workID": "papal-pius11-nos-es-muy-conocida-1937"
+      "workID": "papal-pius11-nos-es-muy-conocida",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
-      "workID": "papal-pius11-divini-redemptoris"
+      "workID": "papal-pius11-divini-redemptoris",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
-      "workID": "papal-pius11-mit-brennender-sorge"
+      "workID": "papal-pius11-mit-brennender-sorge",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
-      "workID": "papal-pius11-vigilanti-cura"
+      "workID": "papal-pius11-vigilanti-cura",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
-      "workID": "papal-pius11-ad-catholici-sacerdotii"
+      "workID": "papal-pius11-ad-catholici-sacerdotii",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html",
-      "workID": "papal-pius11-dilectissima-nobis"
+      "workID": "papal-pius11-dilectissima-nobis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091932_acerba-animi.html",
-      "workID": "papal-pius11-acerba-animi"
+      "workID": "papal-pius11-acerba-animi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091932_acerba-animi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03051932_caritate-christi-compulsi.html",
-      "workID": "papal-pius11-caritate-christi-compulsi"
+      "workID": "papal-pius11-caritate-christi-compulsi",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03051932_caritate-christi-compulsi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_02101931_nova-impendet.html",
-      "workID": "papal-pius11-nova-impendet"
+      "workID": "papal-pius11-nova-impendet",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_02101931_nova-impendet.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061931_non-abbiamo-bisogno.html",
-      "workID": "papal-pius11-non-abbiamo-bisogno"
+      "workID": "papal-pius11-non-abbiamo-bisogno",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061931_non-abbiamo-bisogno.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
-      "workID": "papal-pius11-quadragesimo-anno"
+      "workID": "papal-pius11-quadragesimo-anno",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
-      "workID": "papal-pius11-casti-connubii"
+      "workID": "papal-pius11-casti-connubii",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
-      "workID": "papal-pius11-divini-illius-magistri"
+      "workID": "papal-pius11-divini-illius-magistri",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
-      "workID": "papal-pius11-mens-nostra"
+      "workID": "papal-pius11-mens-nostra",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html",
-      "workID": "papal-pius11-miserentissimus-redemptor"
+      "workID": "papal-pius11-miserentissimus-redemptor",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
-      "workID": "papal-pius11-mortalium-animos"
+      "workID": "papal-pius11-mortalium-animos",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18111926_iniquis-afflictisque.html",
-      "workID": "papal-pius11-iniquis-afflictisque"
+      "workID": "papal-pius11-iniquis-afflictisque",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18111926_iniquis-afflictisque.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_30041926_rite-expiatis.html",
-      "workID": "papal-pius11-rite-expiatis"
+      "workID": "papal-pius11-rite-expiatis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_30041926_rite-expiatis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28021926_rerum-ecclesiae.html",
-      "workID": "papal-pius11-rerum-ecclesiae"
+      "workID": "papal-pius11-rerum-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28021926_rerum-ecclesiae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html",
-      "workID": "papal-pius11-quas-primas"
+      "workID": "papal-pius11-quas-primas",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18011924_maximam-gravissimamque.html",
-      "workID": "papal-pius11-maximam-gravissimamque"
+      "workID": "papal-pius11-maximam-gravissimamque",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_18011924_maximam-gravissimamque.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_26011923_rerum-omnium-perturbationem.html",
-      "workID": "papal-pius11-rerum-omnium-perturbationem"
+      "workID": "papal-pius11-rerum-omnium-perturbationem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_26011923_rerum-omnium-perturbationem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19221223_ubi-arcano-dei-consilio.html",
-      "workID": "papal-pius11-ubi-arcano-dei-consilio"
+      "workID": "papal-pius11-ubi-arcano-dei-consilio",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19221223_ubi-arcano-dei-consilio.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
-      "workID": "papal-pius12-meminisse-iuvat"
+      "workID": "papal-pius12-meminisse-iuvat",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
-      "workID": "papal-pius12-ad-apostolorum-principis"
+      "workID": "papal-pius12-ad-apostolorum-principis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
-      "workID": "papal-pius12-miranda-prorsus"
+      "workID": "papal-pius12-miranda-prorsus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
-      "workID": "papal-pius12-le-pelerinage-de-lourdes"
+      "workID": "papal-pius12-le-pelerinage-de-lourdes",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html",
-      "workID": "papal-pius12-invicti-athletae"
+      "workID": "papal-pius12-invicti-athletae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
-      "workID": "papal-pius12-fidei-donum"
+      "workID": "papal-pius12-fidei-donum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
-      "workID": "papal-pius12-datis-nuperrime"
+      "workID": "papal-pius12-datis-nuperrime",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
-      "workID": "papal-pius12-laetamur-admodum"
+      "workID": "papal-pius12-laetamur-admodum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
-      "workID": "papal-pius12-luctuosissimi-eventus"
+      "workID": "papal-pius12-luctuosissimi-eventus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
-      "workID": "papal-pius12-haurietis-aquas"
+      "workID": "papal-pius12-haurietis-aquas",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
-      "workID": "papal-pius12-musicae-sacrae"
+      "workID": "papal-pius12-musicae-sacrae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
-      "workID": "papal-pius12-ad-caeli-reginam"
+      "workID": "papal-pius12-ad-caeli-reginam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html",
-      "workID": "papal-pius12-ad-sinarum-gentem"
+      "workID": "papal-pius12-ad-sinarum-gentem",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html",
-      "workID": "papal-pius12-ecclesiae-fastos"
+      "workID": "papal-pius12-ecclesiae-fastos",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
-      "workID": "papal-pius12-sacra-virginitas"
+      "workID": "papal-pius12-sacra-virginitas",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
-      "workID": "papal-pius12-fulgens-corona"
+      "workID": "papal-pius12-fulgens-corona",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
-      "workID": "papal-pius12-doctor-mellifluus"
+      "workID": "papal-pius12-doctor-mellifluus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
-      "workID": "papal-pius12-ingruentium-malorum"
+      "workID": "papal-pius12-ingruentium-malorum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
-      "workID": "papal-pius12-sempiternus-rex-christus"
+      "workID": "papal-pius12-sempiternus-rex-christus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02061951_evangelii-praecones.html",
-      "workID": "papal-pius12-evangelii-praecones"
+      "workID": "papal-pius12-evangelii-praecones",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02061951_evangelii-praecones.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06121950_mirabile-illud.html",
-      "workID": "papal-pius12-mirabile-illud"
+      "workID": "papal-pius12-mirabile-illud",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06121950_mirabile-illud.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html",
-      "workID": "papal-pius12-humani-generis"
+      "workID": "papal-pius12-humani-generis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_19071950_summi-maeroris.html",
-      "workID": "papal-pius12-summi-maeroris"
+      "workID": "papal-pius12-summi-maeroris",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_19071950_summi-maeroris.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12031950_anni-sacri.html",
-      "workID": "papal-pius12-anni-sacri"
+      "workID": "papal-pius12-anni-sacri",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12031950_anni-sacri.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041949_redemptoris-nostri-cruciatus.html",
-      "workID": "papal-pius12-redemptoris-nostri-cruciatus"
+      "workID": "papal-pius12-redemptoris-nostri-cruciatus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041949_redemptoris-nostri-cruciatus.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24101948_in-multiplicibus-curis.html",
-      "workID": "papal-pius12-in-multiplicibus-curis"
+      "workID": "papal-pius12-in-multiplicibus-curis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24101948_in-multiplicibus-curis.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051948_auspicia-quaedam.html",
-      "workID": "papal-pius12-auspicia-quaedam"
+      "workID": "papal-pius12-auspicia-quaedam",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051948_auspicia-quaedam.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_18121947_optatissima-pax.html",
-      "workID": "papal-pius12-optatissima-pax"
+      "workID": "papal-pius12-optatissima-pax",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_18121947_optatissima-pax.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
-      "workID": "papal-pius12-mediator-dei"
+      "workID": "papal-pius12-mediator-dei",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21031947_fulgens-radiatur.html",
-      "workID": "papal-pius12-fulgens-radiatur"
+      "workID": "papal-pius12-fulgens-radiatur",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21031947_fulgens-radiatur.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051946_deiparae-virginis-mariae.html",
-      "workID": "papal-pius12-deiparae-virginis-mariae"
+      "workID": "papal-pius12-deiparae-virginis-mariae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01051946_deiparae-virginis-mariae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06011946_quemadmodum.html",
-      "workID": "papal-pius12-quemadmodum"
+      "workID": "papal-pius12-quemadmodum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_06011946_quemadmodum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_23121945_orientales-omnes-ecclesias.html",
-      "workID": "papal-pius12-orientales-omnes-ecclesias"
+      "workID": "papal-pius12-orientales-omnes-ecclesias",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_23121945_orientales-omnes-ecclesias.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041945_communium-interpretes-dolorum.html",
-      "workID": "papal-pius12-communium-interpretes-doloraum"
+      "workID": "papal-pius12-communium-interpretes-doloraum",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15041945_communium-interpretes-dolorum.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_09041944_orientalis-ecclesiae.html",
-      "workID": "papal-pius12-orientalis-ecclesiae"
+      "workID": "papal-pius12-orientalis-ecclesiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_09041944_orientalis-ecclesiae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html",
-      "workID": "papal-pius12-divino-afflante-spiritu"
+      "workID": "papal-pius12-divino-afflante-spiritu",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html",
-      "workID": "papal-pius12-mystici-corporis"
+      "workID": "papal-pius12-mystici-corporis",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_13061940_saeculo-exeunte-octavo.html",
-      "workID": "papal-pius12-saeculo-exeunte-octavo"
+      "workID": "papal-pius12-saeculo-exeunte-octavo",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_13061940_saeculo-exeunte-octavo.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111939_sertum-laetitiae.html",
-      "workID": "papal-pius12-sertum-laetitiae"
+      "workID": "papal-pius12-sertum-laetitiae",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111939_sertum-laetitiae.html"
     },
     {
       "sourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20101939_summi-pontificatus.html",
-      "workID": "papal-pius12-summi-pontificatus"
+      "workID": "papal-pius12-summi-pontificatus",
+      "canonicalSourceURL": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20101939_summi-pontificatus.html"
     }
   ],
   "unresolvedSourceLinks": [],

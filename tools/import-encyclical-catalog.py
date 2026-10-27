@@ -116,6 +116,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project", type=Path, required=True)
     parser.add_argument("--vatican-indexes", type=Path)
+    parser.add_argument("--output-dir", type=Path, help="Write a comparison catalog without replacing the app's current inventory")
     args = parser.parse_args()
     source = args.project / "encyclicals/markdown"
     raw_index = (source / "index.json").read_bytes()
@@ -124,11 +125,14 @@ def main():
     recovered = json.loads((ROOT / "content/readings/source-links.json").read_text())["links"]
     corrections = json.loads((ROOT / "content/readings/catalog-corrections.json").read_text())
     overrides = corrections["overrides"]
+    source_aliases = corrections.get("sourceAliases", {})
     works = []; audit = []; used = set(); excluded = []
     for item in index["documents"]:
         key = item["popeSlug"] + "/" + item["slug"]
         if key == "pius10/pope-st-pius-x":
             excluded.append({"record": key, "reason": "Biographical note, not a papal document"}); continue
+        if key == "jp02/salvifici-doloris":
+            excluded.append({"record": key, "reason": "Already represented by the separately curated apostolic letter", "mergedInto": "salvifici-doloris"}); continue
         metadata_path = source / (key + ".json")
         metadata = json.loads(metadata_path.read_text())
         title = item["incipit"]
@@ -144,7 +148,8 @@ def main():
         exact = [entry for entry in candidates if normalize(entry["title"]) == normalize(corrected)]
         if len(exact) > 1:
             exact = [entry for entry in exact if str(item.get("year")) in entry["label"]]
-        match = exact[0] if len(exact) == 1 else None
+        retained_url = source_aliases.get(metadata.get("sourceURL"), metadata.get("sourceURL"))
+        match = official.get(retained_url) or (exact[0] if len(exact) == 1 else None)
         if match is None:
             short = normalize(corrected)
             extended = [entry for entry in candidates if min(len(short), len(normalize(entry["title"]))) >= 7 and (normalize(entry["title"]).startswith(short + " ") or short.startswith(normalize(entry["title"]) + " "))]
@@ -152,7 +157,7 @@ def main():
         if match:
             source_url = match["sourceURL"]; used.add(source_url)
             kind = match.get("kind", "encyclical"); original_type = match.get("originalType", "encyclical-letter")
-        else: source_url = recovered.get(key, DIRECTORY)
+        else: source_url = metadata.get("sourceURL") or recovered.get(key, DIRECTORY)
         override = overrides.get(key, {})
         source_url = override.get("sourceURL", source_url)
         if source_url in official: used.add(source_url)
@@ -176,6 +181,7 @@ def main():
     additions = []
     for item in official.values():
         if item["sourceURL"] in used: continue
+        if source_aliases.get(item["sourceURL"]) in used: continue
         title_key = normalize(item["title"])
         work_id = "papal-" + item["pope"] + "-" + title_key.replace(" ", "-")
         year = re.search(r"\b(1[2-9]\d{2}|20\d{2})\b", item["label"])
@@ -185,19 +191,24 @@ def main():
         additions.append(work_id)
     manual_additions = []
     for item in corrections["additionalWorks"]:
+        if any(w["id"] == item["id"] for w in works): continue
         works.append(record(item["id"], item["title"], item["author"], item["kind"], item["sourceURL"], item["date"], item.get("aliases"), original_type=item["originalType"]))
         works[-1]["sourceLanguage"] = item["sourceLanguage"]
         manual_additions.append(item["id"])
     coverage = []
     for item in official.values():
-        matching = [w["id"] for w in works if w["sourceURL"] == item["sourceURL"]]
+        canonical_url = source_aliases.get(item["sourceURL"], item["sourceURL"])
+        matching = [w["id"] for w in works if w["sourceURL"] == canonical_url]
         if len(matching) != 1: raise ValueError(f"Official index entry must resolve once: {item['sourceURL']} {matching}")
-        coverage.append({"sourceURL": item["sourceURL"], "workID": matching[0]})
+        coverage.append({"sourceURL": item["sourceURL"], "workID": matching[0], "canonicalSourceURL": canonical_url})
     if any(w["sourceIsDirectory"] for w in works): raise ValueError("Unresolved source-directory record")
     works.sort(key=lambda w: (w.get("date", ""), w["id"]), reverse=True)
-    dest = ROOT / "content/readings"
+    dest = args.output_dir or ROOT / "content/readings"
+    dest.mkdir(parents=True, exist_ok=True)
     (dest / "encyclicals.json").write_text(json.dumps({"works": works}, ensure_ascii=False, indent=2) + "\n")
-    inventory = {"schemaVersion": 1, "sourceProject": "encyclicals", "sourceIndexSHA256": hashlib.sha256(raw_index).hexdigest(), "sourceIndexGeneratedAt": index["generatedAt"], "checkedOn": "2026-10-27", "completeHistoricalCensusVerified": False, "sourceDocumentCount": len(index["documents"]), "sourcePopeCount": index["totalPopes"], "importedKinds": dict(Counter(w["kind"] for w in works)), "excluded": excluded, "officialIndexAdditions": additions, "manualAdditions": manual_additions, "officialIndexes": inventories, "officialIndexCoverage": coverage, "unresolvedSourceLinks": [], "records": audit}
+    previous = json.loads((ROOT / "content/readings/encyclical-inventory.json").read_text())
+    baseline = previous.get("originalCorpus") or {"sourceDocumentCount": previous["sourceDocumentCount"], "sourceIndexSHA256": previous["sourceIndexSHA256"], "translatedRecords": sum(r["translated"] for r in previous["records"])}
+    inventory = {"schemaVersion": 1, "sourceProject": "encyclicals", "sourceIndexSHA256": hashlib.sha256(raw_index).hexdigest(), "sourceIndexGeneratedAt": index["generatedAt"], "checkedOn": "2026-10-27", "completeHistoricalCensusVerified": False, "sourceDocumentCount": len(index["documents"]), "sourcePopeCount": index["totalPopes"], "originalCorpus": baseline, "importedKinds": dict(Counter(w["kind"] for w in works)), "excluded": excluded, "officialIndexAdditions": additions, "manualAdditions": manual_additions, "officialIndexes": inventories, "officialIndexCoverage": coverage, "unresolvedSourceLinks": [], "records": audit}
     (dest / "encyclical-inventory.json").write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + "\n")
     print(f"Cataloged {len(works)} papal works: {dict(Counter(w['kind'] for w in works))}; {sum(not w['sourceIsDirectory'] for w in works)} direct source links; {len(additions)} official-index additions. No source bodies copied.")
 

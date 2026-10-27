@@ -957,16 +957,6 @@
       "readingLanguage": "en"
     },
     {
-      "id": "papal-pius11-nos-es-muy-conocida-1937",
-      "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html",
-      "resolvedURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html",
-      "sha256": "afcaf02043c6580aef8ec8aa834810ea02abeb77c38532a961f020a6220170e3",
-      "bytes": 54911,
-      "contentType": "text/html",
-      "machineTranslated": false,
-      "readingLanguage": "en"
-    },
-    {
       "id": "papal-pius11-vigilanti-cura",
       "localRecord": "pius11/vigilanti-cura",
       "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",

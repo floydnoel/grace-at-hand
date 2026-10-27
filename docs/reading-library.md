@@ -18,29 +18,29 @@ human permissions approval. Production publication remains blocked.
   *Confessions*, Saint Augustine, E. B. Pusey translation; and *The Practice of
   the Presence of God*, Brother Lawrence, the historical Project Gutenberg
   English edition. Introductions and redistribution notices remain.
-- 569 papal records: 399 unique works from the user's research collection,
-  169 additions from the expanded Vatican-index comparison, and *Sollicita ac
+- 568 papal records: 399 unique works from the user's research collection,
+  168 additions from the expanded Vatican-index comparison, and *Sollicita ac
   provida*. A biographical note is excluded and a duplicate *Ubi primum* edition
   is consolidated. *Firmissimam constantiam* and *Nos es muy conocida* resolve
   to one work, retaining the original corpus ID and alternate title.
 - A separate *Salvifici doloris* apostolic-letter record, also available offline.
 - Fourteen starting topics and two optional reading guides.
 
-All **646 cataloged works** have local text, in **2,061 Markdown sections**.
-The Markdown occupies approximately 21.10 MiB and the generated full-text index
-41.13 MiB. The index includes precomputed normalized text to reduce first-search
-work; excerpts are formatted only after ranking the returned page. Each papal work currently has one reading section. The 570 papal
-editions comprise 395 English, 162 Italian, and 13 Latin texts. Thirty-one retained
+All **645 cataloged works** have local text, in **2,060 Markdown sections**.
+The Markdown occupies approximately 21.07 MiB and the generated full-text index
+41.07 MiB. The index includes precomputed normalized text to reduce first-search
+work; excerpts are formatted only after ranking the returned page. Each papal work currently has one reading section. The 569 papal
+editions comprise 394 English, 162 Italian, and 13 Latin texts. Thirty-one retained
 English editions are explicitly labeled unreviewed DeepL translations. The
 Pius X anniversary address is labeled as excerpts because that is what its source
 contains; it is not represented as a complete address.
 
 ## Catalog reconciliation and provenance
 
-The reference project is read only:
-`/Users/floyd/projects/personal/catholic/encyclicals`. Its index has 401 documents
-across 43 popes, rather than the older README's 45. Its scripts, CMS, account
-configuration, credentials, and generated summaries are not used. The supplied
+The original import read `/Users/floyd/projects/personal/catholic/encyclicals`
+without changing it. Its baseline index had 401 documents across 43 popes,
+rather than the older README's 45. Its scripts, CMS, account configuration,
+credentials, and generated summaries were not used. The supplied
 Markdown is imported directly, retaining original translation notes. Exported
 headings are normalized to catalog titles; duplicate titles and author/year
 wrappers are removed, and stray italic markers in capitalized front matter are
@@ -54,7 +54,7 @@ bulls, constitutions, letters and other writings, with document types preserved.
 The same incipit can identify different documents: Pius VIII's three 1829
 *Inter multiplices* briefs retain separate dates and records.
 
-All 569 papal catalog records now have direct HTTPS sources. These seven former
+All 568 papal catalog records now have direct HTTPS sources. These seven former
 directory fallbacks were checked individually and corrected:
 
 | Work | Direct source | Catalog correction |
@@ -82,6 +82,16 @@ fixes and manual additions; `source-links.json` preserves recovered links.
 `development-source-lock.json` fingerprints every supplied or downloaded papal
 edition and records reading language and machine-translation status. Language
 detection and research classifications still need editorial review.
+
+The user subsequently requested the findings be added to the source project.
+That reconciliation contains 569 canonical works and 572 retained source records,
+including alternate editions and a biographical reference. The original 401-record
+import remains recorded in this app's inventory. The metadata importer accepts
+the expanded index and retained source URLs, preserves the app's work IDs, and
+avoids adding *Salvifici doloris* or *Sollicita ac provida* a second time.
+Use `--output-dir /path/to/comparison` to inspect a future metadata import before
+rebuilding the app library. The two Vatican URLs for the 1937 Mexican letter
+resolve to one canonical work in both projects.
 
 ## Editions and release boundary
 

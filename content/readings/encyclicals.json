@@ -1152,7 +1152,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12appsy.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1280,7 +1280,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12perf.htm",
       "sourceIsDirectory": false,
-      "originalType": "apostolic-constitution",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1329,7 +1329,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12layap.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1689,7 +1689,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12psyre.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1713,7 +1713,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12psych.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1737,7 +1737,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12art.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1864,7 +1864,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12exist.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -1888,7 +1888,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12tchrs.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -2271,7 +2271,7 @@
       "topics": [],
       "sourceURL": "https://www.papalencyclicals.net//pius12/p12woman.htm",
       "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
+      "originalType": "address",
       "rights": {
         "status": "linkOnly",
         "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
@@ -2717,29 +2717,6 @@
       },
       "sections": [],
       "date": "1937-03-14",
-      "sourceLanguage": "en"
-    },
-    {
-      "id": "papal-pius11-nos-es-muy-conocida-1937",
-      "title": "Pius XI, Nos es muy conocida",
-      "author": "Pope Pius XI",
-      "kind": "encyclical",
-      "language": "en",
-      "summary": "Bibliographic record. Read the document in its historical context at the source; editorial classification and edition review are pending.",
-      "aliases": [],
-      "topics": [],
-      "sourceURL": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html",
-      "sourceIsDirectory": false,
-      "originalType": "encyclical-letter",
-      "rights": {
-        "status": "linkOnly",
-        "edition": "Source text as linked; exact English-edition redistribution rights are not recorded.",
-        "statement": "Source link only. No document text, extracted full-text index, or machine translation is included. Full offline reproduction requires an exact-edition rights assessment.",
-        "evidenceURL": "https://www.vatican.va/content/vatican/en/legal-notes.html",
-        "territory": "US"
-      },
-      "sections": [],
-      "date": "1937",
       "sourceLanguage": "en"
     },
     {

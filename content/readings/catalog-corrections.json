@@ -2,6 +2,9 @@
   "schemaVersion": 1,
   "checkedOn": "2026-10-27",
   "purpose": "Bibliographic corrections verified against the linked document and its closing date. No rights or editorial approvals are asserted.",
+  "sourceAliases": {
+    "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_28031937_nos-es-muy-conocida.html": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html"
+  },
   "overrides": {
     "pius10/for-the-fiftieth-anniversary-of-the-proclamation-of-the-dogma-of-the-immaculate-conception": {
       "title": "For the Fiftieth Anniversary of the Immaculate Conception",

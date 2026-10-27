@@ -114,6 +114,30 @@ Inspected the final small-phone and iPad papal reader and translation-notice cap
 
 The text payload is approximately 21.10 MiB; the index is approximately 41.13 MiB including prepared normalized text. This trades bundle size for less startup work. Source and original-edition review remain pending. Physical-device, iOS 18, actual airplane-mode relaunch, complete VoiceOver/keyboard/resizing, and legal clearance are not established by these iOS 26 simulator checks. The removal workflow is documented in [reading-library.md](reading-library.md); it also keeps unused local research files out of the next app bundle.
 
+## Source-project backport and duplicate correction — October 27, 2026
+
+The user subsequently requested the findings be added to the `encyclicals` project.
+The backport also identified the remaining duplicate: *Firmissimam constantiam*
+and *Nos es muy conocida* are one letter with two Vatican URLs. Both sources are
+retained in that project, with one canonical record. The app now has 645 offline
+works and 2,060 Markdown sections, including 569 papal editions (568 catalog records
+plus *Salvifici doloris*). All 486 official-index entries still resolve once.
+The current text payload is approximately 21.07 MiB and the index 41.07 MiB.
+
+The source project contains 569 canonical works and 572 retained source records.
+All 802 original source and summary Markdown files are preserved byte for byte.
+Its local suite has eight passing tests, including repeated extraction that
+preserves editor fields and source bodies. A comparison import of its expanded
+index reproduces all 568 app catalog IDs with no missing or unexpected IDs.
+Nine Pius XII records also inherit the source project's address classification;
+their app categories, dates, IDs and reading text remain unchanged.
+This supersedes the earlier collection totals; the simulator evidence above
+describes the prior iteration. No CMS write or deployment is part of this backport.
+
+`make test` passes after this reconciliation (28 Swift domain tests and 19 Node
+tests), and `make generate` rebuilds the 645-work, 2,060-section bundle. Evidence:
+`build/readings-backport-tests.log`, `build/readings-backport-generate.log`.
+
 ## Outstanding production and hardware work
 
 No remote GitHub repository, cloud publication, physical-device validation, TestFlight upload, or App Store submission has been completed by this implementation. Floyd will handle the private GitHub remote; the latest work remains local. Signing, R2/domain configuration, public policy/contact/support URLs, final artwork review, and named content owners are external release inputs.
