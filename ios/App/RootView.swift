@@ -9,6 +9,8 @@ enum AppTab: String, CaseIterable, Identifiable {
 }
 enum AppRoute: Hashable {
     case prayer(String), collection(String), journey, search, saved, downloads, intentions, reminders, settings, support, history, savedPassages, rosary(String), silence, reader(String)
+    case routines, routine(UUID), goals, activity, journal, journalEntry(UUID), intention(UUID)
+    case routineReader(String, UUID)
 }
 
 @Observable final class NavigationMemory {
@@ -66,6 +68,9 @@ struct RootView: View {
         .onReceive(NotificationCenter.default.publisher(for: .graceOpenPrayer)) { notification in
             if let id = notification.object as? String { selection = .today; paths[.today, default: []].append(.prayer(id)) }
         }
+        .onChange(of: services.pendingIntentionID) { _, _ in openPendingIntention() }
+        .onChange(of: services.reminders.pendingIntentionID) { _, _ in openPendingIntention() }
+        .onAppear { openPendingIntention() }
     }
     private var destinations: some View {
         TabView(selection: $selection) {
@@ -104,7 +109,19 @@ struct RootView: View {
         case .rosary(let raw): RosaryView(initialSet: RosaryMysteries(rawValue: raw) ?? .joyful)
         case .silence: SilenceView()
         case .reader(let id): if let prayer = services.prayer(id) { ReaderView(prayer: prayer, transcript: false) }
+        case .routines: RoutinesView()
+        case .routine(let id): RoutineDetailView(id: id)
+        case .goals: GoalsView()
+        case .activity: ActivityView()
+        case .journal: JournalView()
+        case .journalEntry(let id): JournalDetailView(id: id)
+        case .intention(let id): IntentionDetailView(id: id)
+        case .routineReader(let prayerID, let routineID): if let prayer = services.prayer(prayerID) { ReaderView(prayer: prayer, transcript: false, routineID: routineID) }
         }
+    }
+    private func openPendingIntention() {
+        guard let value = services.pendingIntentionID ?? services.reminders.pendingIntentionID, let id = UUID(uuidString: value) else { return }
+        services.pendingIntentionID = nil; services.reminders.pendingIntentionID = nil; selection = .myPrayer; paths[.myPrayer] = [.intentions, .intention(id)]
     }
 }
 
@@ -139,7 +156,7 @@ struct PreferencesView: View {
         @Bindable var preferences = services.local.preferences
         NavigationStack {
             Form {
-                Section { Text("Begin wherever you are. These choices are optional and can change any time.") }
+                Section { Text("Your choices shape the prayer suggested on Today. All prayers stay available in Discover. These choices are optional and can change any time.") }
                 Section("What brings you here?") {
                     ForEach(["Beginner", "Morning", "Scripture", "Family", "Rest", "Rosary"], id: \.self) { interest in
                         Toggle(interest, isOn: Binding(get: { preferences.interests.contains(interest) }, set: { selected in
@@ -147,7 +164,10 @@ struct PreferencesView: View {
                         }))
                     }
                 }
-                Section("A little time for prayer") { Picker("Available time", selection: $preferences.availableMinutes) { Text("5 minutes").tag(5); Text("10 minutes").tag(10); Text("20 minutes").tag(20) } }
+                Section("A little time for prayer") {
+                    Picker("Available time", selection: $preferences.availableMinutes) { Text("5 minutes").tag(5); Text("10 minutes").tag(10); Text("20 minutes").tag(20) }
+                    Text("We’ll suggest prayers within this time when available. The actual length is always shown.").font(.footnote).foregroundStyle(.secondary)
+                }
                 Section { Text("English · US Roman Catholic calendar\nMore languages and calendars can be added later.").font(.footnote).foregroundStyle(.secondary) }
             }.navigationTitle("A place to begin").navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { services.local.save(); dismiss() } } }

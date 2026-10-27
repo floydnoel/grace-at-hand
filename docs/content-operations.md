@@ -4,7 +4,7 @@
 
 `shared/content-schema/catalog.schema.json` is the version 1 contract. It defines prayers, collections, seven-session journeys, daily passages, US Roman Catholic calendar entries, media assets, and optional paragraph/Rosary-step timing cues. Stable IDs survive edits; record revisions identify editorial changes and audio revisions identify changed recordings. Public records carry language, text, transcripts, suitability, credits, and downloadable media integrity metadata. Passage `verseNumbers` are explicit labels; clients never assume a passage begins at verse one.
 
-Daily assignments are `YYYY-MM-DD` values interpreted in the device's local calendar day. `publishedAt` is a UTC timestamp. A cached passage must retain its assigned date. There is no full-Bible or daily-Mass-reading entitlement in this contract.
+Daily assignments are `YYYY-MM-DD` values interpreted in the device's local calendar day. `publishedAt` is a UTC timestamp. A cached passage must retain its assigned date. Version 1 publication accepts only `en`, matching the launch client; other prayer languages fail validation before publication. The fixture generator takes this language from the shared schema. There is no full-Bible or daily-Mass-reading entitlement in this contract.
 
 The schema rejects unknown fields, including accidental private rights evidence. Public output is an explicit allowlist. For schema evolution, bump the major version for incompatible changes and test the older client's retained-library recovery. Do not reuse withdrawn IDs for unrelated content.
 

@@ -162,4 +162,137 @@ import GraceCore
         XCTAssertEqual(fallback.catalog.schemaVersion, 1)
         XCTAssertFalse(fallback.catalog.items[0].text.isEmpty)
     }
+    func testUnreadableDownloadRecordsArePreservedUntilExplicitReset() async throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let repository = try CatalogRepository(configuration: AppConfiguration(), root: root)
+        let prayer = try XCTUnwrap(repository.catalog.items.first)
+        let folder = try PrivateFiles.directory("Downloads", root: root)
+        let file = folder.appendingPathComponent("records.json")
+        let original = Data("unreadable download index".utf8)
+        try original.write(to: file)
+        let media = folder.appendingPathComponent("retained.m4a")
+        try Data("retained recording".utf8).write(to: media)
+        let manager = try DownloadManager(root: root, testing: true)
+        manager.resolveMedia = { repository.mediaURL($0) }
+        XCTAssertTrue(manager.needsRecovery)
+        manager.start(prayer); manager.cancel(prayer.id)
+        XCTAssertFalse(manager.remove(prayer.id))
+        manager.reconcileCatalog(repository.catalog)
+        manager.updatePolicy(wifiOnly: false)
+        manager.retryLoading()
+        try await Task.sleep(for: .milliseconds(200))
+        XCTAssertEqual(try Data(contentsOf: file), original)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: media.path))
+        XCTAssertTrue(manager.records.isEmpty)
+        XCTAssertNotNil(manager.errorMessage)
+        XCTAssertTrue(manager.clear())
+        XCTAssertFalse(manager.needsRecovery)
+        XCTAssertTrue(try JSONDecoder().decode([DownloadRecord].self, from: Data(contentsOf: file)).isEmpty)
+        XCTAssertFalse(FileManager.default.fileExists(atPath: media.path))
+        manager.start(prayer)
+        for _ in 0..<100 where !manager.isAvailable(prayer) { try await Task.sleep(for: .milliseconds(25)) }
+        XCTAssertTrue(manager.isAvailable(prayer))
+    }
+    func testDownloadRecoveryCanRetryARepairedIndex() async throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let repository = try CatalogRepository(configuration: AppConfiguration(), root: root)
+        let prayer = try XCTUnwrap(repository.catalog.items.first)
+        let folder = try PrivateFiles.directory("Downloads", root: root)
+        let file = folder.appendingPathComponent("records.json")
+        try Data("unreadable download index".utf8).write(to: file)
+        let manager = try DownloadManager(root: root, testing: true)
+        XCTAssertTrue(manager.needsRecovery)
+        let record = DownloadRecord(prayer: prayer, pendingPrayer: nil, state: .available, progress: 1, taskID: nil, message: nil)
+        try PrivateFiles.write([record], to: file)
+        let asset = try XCTUnwrap(prayer.audio)
+        try FileManager.default.copyItem(at: XCTUnwrap(repository.mediaURL(asset)), to: folder.appendingPathComponent(asset.sha256 + ".m4a"))
+        manager.retryLoading()
+        XCTAssertFalse(manager.needsRecovery)
+        XCTAssertNil(manager.errorMessage)
+        let restored = await manager.localRecording(for: prayer)
+        XCTAssertEqual(restored?.prayer, prayer)
+        XCTAssertTrue(restored?.url.isFileURL == true)
+    }
+    func testResetImmediatelyAppliesDefaultTransferAndQuietHoursPolicies() throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let services = try AppServices(testing: true, root: root)
+        services.local.preferences.welcomed = true
+        services.local.preferences.wifiOnly = false
+        services.local.preferences.quietStart = 600; services.local.preferences.quietEnd = 900
+        services.local.save()
+        services.downloads.updatePolicy(wifiOnly: false)
+        services.reminders.quietStart = 600; services.reminders.quietEnd = 900
+        services.reset()
+        XCTAssertNil(services.alertMessage)
+        XCTAssertFalse(services.local.preferences.welcomed)
+        XCTAssertTrue(services.local.preferences.wifiOnly)
+        XCTAssertTrue(services.downloads.wifiOnly)
+        XCTAssertEqual(services.reminders.quietStart, 1260)
+        XCTAssertEqual(services.reminders.quietEnd, 420)
+        XCTAssertFalse(ReminderRules.isQuiet(minute: 720, start: services.reminders.quietStart, end: services.reminders.quietEnd))
+    }
+    func testAudioUpdateRetainsMatchingOfflineRecordingAndResumeAcrossRelaunch() async throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let repository = try CatalogRepository(configuration: AppConfiguration(), root: root)
+        let prayer = repository.catalog.items[0]
+        let manager = try DownloadManager(root: root, testing: true)
+        manager.resolveMedia = { repository.mediaURL($0) }
+        manager.start(prayer)
+        for _ in 0..<100 where !manager.isAvailable(prayer) { try await Task.sleep(for: .milliseconds(25)) }
+        let savedURL = await manager.localURL(for: prayer)
+        XCTAssertNotNil(savedURL)
+        do { let store = try LocalStore(root: root); store.savePlayback(prayer, seconds: 8) }
+
+        var payload = try JSONSerialization.jsonObject(with: JSONEncoder().encode(repository.catalog)) as! [String: Any]
+        var items = payload["items"] as! [[String: Any]]
+        items[0]["audio"] = items[1]["audio"]
+        items[0]["durationSeconds"] = items[1]["durationSeconds"]
+        items[0]["revision"] = prayer.revision + 1
+        items[0]["transcript"] = ["Synthetic updated recording transcript"]
+        payload["items"] = items
+        let updated = try JSONDecoder().decode(Catalog.self, from: JSONSerialization.data(withJSONObject: payload))
+        try updated.validate()
+        let cache = try PrivateFiles.directory("PublicCatalog", root: root).appendingPathComponent("catalog-cache.json")
+        try PrivateFiles.write(CachedCatalog(generation: 42, catalog: updated), to: cache)
+        let services = try AppServices(testing: true, root: root, inMemory: false)
+        defer { services.playback.dismissCurrent() }
+        for _ in 0..<100 where services.playback.current == nil { try await Task.sleep(for: .milliseconds(25)) }
+        XCTAssertEqual(services.catalog.catalog.items[0].audio, updated.items[0].audio)
+        XCTAssertEqual(services.playback.current, prayer)
+        XCTAssertEqual(services.playback.currentURL, savedURL)
+        XCTAssertFalse(services.playback.isPlaying)
+        XCTAssertEqual(services.local.checkpoint(for: prayer), 8, accuracy: 0.1)
+        await services.play(updated.items[0])
+        XCTAssertEqual(services.playback.current, prayer)
+        XCTAssertEqual(services.playback.currentURL, savedURL)
+        XCTAssertEqual(services.playback.current?.transcript, prayer.transcript)
+        services.playback.pause()
+        services.downloads.start(updated.items[0])
+        XCTAssertEqual(services.downloads.record(prayer.id)?.pendingPrayer, updated.items[0])
+        XCTAssertTrue(services.downloads.isAvailable(prayer))
+        for _ in 0..<100 where !services.downloads.isAvailable(updated.items[0]) { try await Task.sleep(for: .milliseconds(25)) }
+        XCTAssertTrue(services.downloads.isAvailable(updated.items[0]))
+        await services.play(updated.items[0])
+        XCTAssertEqual(services.playback.current, updated.items[0])
+        XCTAssertEqual(services.playback.currentURL?.lastPathComponent, updated.items[0].audio!.sha256 + ".m4a")
+        XCTAssertEqual(services.local.checkpoint(for: updated.items[0]), 0)
+    }
+    func testFinishedRecordingRestoresAtTheBeginning() async throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let repository = try CatalogRepository(configuration: AppConfiguration(), root: root)
+        let prayer = try XCTUnwrap(repository.catalog.items.first)
+        do { let store = try LocalStore(root: root); store.savePlayback(prayer, seconds: prayer.durationSeconds, completed: true) }
+        let services = try AppServices(testing: true, root: root, inMemory: false)
+        defer { services.playback.dismissCurrent() }
+        for _ in 0..<100 where services.playback.current == nil { try await Task.sleep(for: .milliseconds(25)) }
+        XCTAssertEqual(services.playback.current?.id, prayer.id)
+        XCTAssertEqual(services.local.checkpoint(for: prayer), 0)
+        XCTAssertEqual(services.playback.position, 0, accuracy: 0.1)
+        XCTAssertFalse(services.playback.isPlaying)
+    }
 }

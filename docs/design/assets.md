@@ -14,7 +14,7 @@ Status: original development artwork; final identity/suitability/rights review r
 
 - `ArchShape` in `Components.swift` draws the rounded architectural mask.
 - Evening artwork is a still native composition of circles and the SF Symbol `moon.stars.fill`; no animated ambience or external image request.
-- The provisional app icon is original arch-and-leaf geometry in `tools/create-icon.swift`, rendered to the 1024-point asset. Run `swift -module-cache-path build/ModuleCache tools/create-icon.swift` to reproduce it on macOS. Final brand clearance is pending.
+- The provisional app icon is original arch-and-leaf geometry in `tools/create-icon.swift`, rendered through an opaque Core Graphics context to the 1024-pixel asset, using colors from the shared design tokens. Run `swift -module-cache-path build/ModuleCache tools/create-icon.swift` to reproduce it on macOS. Final brand clearance is pending.
 - SF Symbols and system typography are used through Apple platform APIs. No third-party icon or font pack is bundled.
 
 The private design reference is supplied by the user at `docs/design/reference.pdf`; its authorship and any embedded assets remain governed by their original provenance. It is not included in the built app or public content output.

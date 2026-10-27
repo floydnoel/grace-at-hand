@@ -40,6 +40,7 @@ struct PassageDetailView: View {
 struct PassageContent: View {
     @Environment(AppServices.self) private var services
     let passage: Passage
+    @State private var journal = false
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
             Eyebrow(text: passage.title)
@@ -63,7 +64,9 @@ struct PassageContent: View {
             }
             VStack(alignment: .leading, spacing: 10) { Text("For reflection").font(.subheadline.weight(.semibold)); Text(passage.reflection).font(.subheadline).lineSpacing(4) }.padding(20).frame(maxWidth: .infinity, alignment: .leading).background(GraceColor.wash, in: RoundedRectangle(cornerRadius: 22))
             Text("\(passage.date) · \(passage.credit)").font(.caption).foregroundStyle(GraceColor.secondary)
+            Button("Write a reflection") { journal = true }.frame(minHeight: 44)
         }
+        .sheet(isPresented: $journal) { JournalEditor(link: JournalLink(kind: .passage, id: passage.id, title: "\(passage.reference) · \(passage.date)")) }
     }
 }
 struct SavedPassagesView: View {

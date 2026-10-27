@@ -40,6 +40,6 @@ The 24-point compact margin, 24-point card family, 52-point primary action minim
 - The sample calendar is explicitly unreviewed; repeated Psalm assignments demonstrate local-date behavior, not a liturgical publication.
 - Native navigation, sheets, menus, routing, and notification permission use current platform behavior. iPad is launch scope by the user's request.
 - The CMS in the book becomes Git metadata, approval records, validation, and protected publication.
-- Journal (18), circle (19), confession preparation (20), and routine builder (21) remain deferred.
+- The user authorized personal practice on October 27, 2026: journal (18) and routine builder (21) now have native implementations, with additional goals/activity, private exports, intention updates, and optional app locking. Circle (19) and confession preparation (20) remain deferred.
 
 Simulator screenshots and test evidence are recorded in `../validation.md`. Physical VoiceOver, pointer/keyboard, resizing, and device audio checks are release gates, not claims established by the PDF or simulator screenshots.

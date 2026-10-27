@@ -63,6 +63,7 @@ targets:
       properties:
         CFBundleDisplayName: Grace at Hand
         ITSAppUsesNonExemptEncryption: false
+        NSFaceIDUsageDescription: Unlock your private prayer space when you enable the optional app lock.
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
         UILaunchScreen:

@@ -15,6 +15,8 @@ import GraceCore
     private(set) var rate: Float = 1
     private(set) var sleepDeadline: Date?
     private(set) var sleepAtEnd = false
+    private(set) var sessionID = UUID()
+    var routineID: UUID?
     var persist: ((Prayer, Double, Bool) -> Void)?
     private var player = AVPlayer()
     private var timeObserver: Any?
@@ -60,7 +62,7 @@ import GraceCore
     }
     func prepare(_ prayer: Prayer, url: URL, position: Double = 0, autoplay: Bool = true) {
         savePosition()
-        player.pause(); playGeneration = UUID()
+        player.pause(); playGeneration = UUID(); sessionID = UUID(); routineID = nil
         current = prayer; currentURL = url; self.position = position
         duration = max(1, prayer.durationSeconds); errorMessage = nil; isLoading = autoplay
         lastPersisted = -10; autoplayAfterReady = autoplay
@@ -87,7 +89,7 @@ import GraceCore
         guard current != nil else { return }
         do {
             try configureSession()
-            if position >= duration - 0.5 { seek(to: 0) }
+            if position >= duration - 0.5 { sessionID = UUID(); seek(to: 0) }
             if let deadline = sleepDeadline, deadline <= .now { sleepDeadline = nil }
             player.playImmediately(atRate: rate); errorMessage = nil
         } catch { errorMessage = "Audio is unavailable right now. Try again or read the prayer." }

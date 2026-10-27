@@ -1,30 +1,46 @@
-import AppKit
+import CoreGraphics
 import Foundation
+import ImageIO
+import UniformTypeIdentifiers
 
-// Original vector geometry, rasterized for the required iOS app-icon asset.
+// Original vector geometry, rendered directly into an opaque, supported RGB context.
 let size = 1024
-let bitmap = NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: size, pixelsHigh: size, bitsPerSample: 8, samplesPerPixel: 3, hasAlpha: false, isPlanar: false, colorSpaceName: .deviceRGB, bytesPerRow: 0, bitsPerPixel: 0)!
-NSGraphicsContext.saveGraphicsState()
-NSGraphicsContext.current = NSGraphicsContext(bitmapImageRep: bitmap)
-NSColor(srgbRed: 0x25 / 255.0, green: 0x3E / 255.0, blue: 0x32 / 255.0, alpha: 1).setFill()
-NSBezierPath(rect: NSRect(x: 0, y: 0, width: size, height: size)).fill()
-let ivory = NSColor(srgbRed: 0xF7 / 255.0, green: 0xF6 / 255.0, blue: 0xF0 / 255.0, alpha: 1)
-ivory.setStroke()
-let arch = NSBezierPath()
-arch.move(to: NSPoint(x: 286, y: 236)); arch.line(to: NSPoint(x: 286, y: 566))
-arch.curve(to: NSPoint(x: 512, y: 802), controlPoint1: NSPoint(x: 286, y: 707), controlPoint2: NSPoint(x: 378, y: 802))
-arch.curve(to: NSPoint(x: 738, y: 566), controlPoint1: NSPoint(x: 646, y: 802), controlPoint2: NSPoint(x: 738, y: 707))
-arch.line(to: NSPoint(x: 738, y: 236)); arch.close()
-arch.lineWidth = 17; arch.lineJoinStyle = .round; arch.stroke()
-let leaf = NSBezierPath()
-leaf.move(to: NSPoint(x: 425, y: 421))
-leaf.curve(to: NSPoint(x: 621, y: 651), controlPoint1: NSPoint(x: 366, y: 554), controlPoint2: NSPoint(x: 498, y: 634))
-leaf.curve(to: NSPoint(x: 425, y: 421), controlPoint1: NSPoint(x: 600, y: 510), controlPoint2: NSPoint(x: 553, y: 382))
-leaf.lineWidth = 24; leaf.lineJoinStyle = .round; leaf.stroke()
-let stem = NSBezierPath(); stem.move(to: NSPoint(x: 395, y: 370)); stem.curve(to: NSPoint(x: 562, y: 572), controlPoint1: NSPoint(x: 435, y: 470), controlPoint2: NSPoint(x: 496, y: 525)); stem.lineWidth = 22; stem.lineCapStyle = .round; stem.stroke()
-NSGraphicsContext.restoreGraphicsState()
-let destination = URL(fileURLWithPath: FileManager.default.currentDirectoryPath).appendingPathComponent("ios/App/Resources/Assets.xcassets/AppIcon.appiconset")
-try FileManager.default.createDirectory(at: destination, withIntermediateDirectories: true)
-try bitmap.representation(using: .png, properties: [:])!.write(to: destination.appendingPathComponent("AppIcon.png"))
+let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+struct DesignTokens: Decodable { let colors: [String: [String: String]] }
+let colors = try JSONDecoder().decode(DesignTokens.self, from: Data(contentsOf: root.appendingPathComponent("shared/design-tokens/tokens.json"))).colors
+func color(_ name: String) -> CGColor {
+    guard let value = colors[name]?["light"], let hex = UInt32(value, radix: 16) else { fatalError("Missing icon color token: \(name)") }
+    return CGColor(srgbRed: CGFloat((hex >> 16) & 255) / 255,
+                   green: CGFloat((hex >> 8) & 255) / 255,
+                   blue: CGFloat(hex & 255) / 255, alpha: 1)
+}
+guard let context = CGContext(data: nil, width: size, height: size, bitsPerComponent: 8,
+                              bytesPerRow: size * 4, space: CGColorSpace(name: CGColorSpace.sRGB)!,
+                              bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue) else { fatalError("Could not create app-icon context") }
+context.setFillColor(color("ink"))
+context.fill(CGRect(x: 0, y: 0, width: size, height: size))
+context.setStrokeColor(color("canvas"))
+context.setLineJoin(.round)
+context.setLineWidth(17)
+context.move(to: CGPoint(x: 286, y: 236)); context.addLine(to: CGPoint(x: 286, y: 566))
+context.addCurve(to: CGPoint(x: 512, y: 802), control1: CGPoint(x: 286, y: 707), control2: CGPoint(x: 378, y: 802))
+context.addCurve(to: CGPoint(x: 738, y: 566), control1: CGPoint(x: 646, y: 802), control2: CGPoint(x: 738, y: 707))
+context.addLine(to: CGPoint(x: 738, y: 236)); context.closePath(); context.strokePath()
+context.setLineWidth(24)
+context.move(to: CGPoint(x: 425, y: 421))
+context.addCurve(to: CGPoint(x: 621, y: 651), control1: CGPoint(x: 366, y: 554), control2: CGPoint(x: 498, y: 634))
+context.addCurve(to: CGPoint(x: 425, y: 421), control1: CGPoint(x: 600, y: 510), control2: CGPoint(x: 553, y: 382))
+context.strokePath()
+context.setLineWidth(22); context.setLineCap(.round)
+context.move(to: CGPoint(x: 395, y: 370))
+context.addCurve(to: CGPoint(x: 562, y: 572), control1: CGPoint(x: 435, y: 470), control2: CGPoint(x: 496, y: 525))
+context.strokePath()
+
+let directory = root.appendingPathComponent("ios/App/Resources/Assets.xcassets/AppIcon.appiconset")
+try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+guard let image = context.makeImage(),
+      let destination = CGImageDestinationCreateWithURL(directory.appendingPathComponent("AppIcon.png") as CFURL, UTType.png.identifier as CFString, 1, nil) else { fatalError("Could not export app icon") }
+CGImageDestinationAddImage(destination, image, nil)
+guard CGImageDestinationFinalize(destination) else { fatalError("Could not save app icon") }
 let contents: [String: Any] = ["images": [["filename": "AppIcon.png", "idiom": "universal", "platform": "ios", "size": "1024x1024"]], "info": ["author": "xcode", "version": 1]]
-try JSONSerialization.data(withJSONObject: contents, options: [.prettyPrinted, .sortedKeys]).write(to: destination.appendingPathComponent("Contents.json"))
+try JSONSerialization.data(withJSONObject: contents, options: [.prettyPrinted, .sortedKeys]).write(to: directory.appendingPathComponent("Contents.json"))

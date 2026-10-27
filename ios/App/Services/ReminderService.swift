@@ -11,9 +11,17 @@ struct PrayerReminder: Codable, Identifiable, Equatable {
     var prayerID: String
     var enabled: Bool
 }
-extension Notification.Name { static let graceOpenPrayer = Notification.Name("GraceOpenPrayer") }
+extension Notification.Name {
+    static let graceOpenPrayer = Notification.Name("GraceOpenPrayer")
+    static let graceOpenIntention = Notification.Name("GraceOpenIntention")
+}
 
 @MainActor @Observable final class ReminderService: NSObject {
+    private struct FollowUp {
+        let id: UUID
+        let status: IntentionStatus
+        let followUpDate: Date?
+    }
     private(set) var reminders: [PrayerReminder] = []
     private(set) var authorization: UNAuthorizationStatus = .notDetermined
     var errorMessage: String?
@@ -21,6 +29,8 @@ extension Notification.Name { static let graceOpenPrayer = Notification.Name("Gr
     var quietEnd = 420
     private let file: URL
     private let center = UNUserNotificationCenter.current()
+    private var followUpTask: Task<Bool, Never>?
+    var pendingIntentionID: String?
     init(root: URL? = nil) throws {
         file = try PrivateFiles.directory("Reminders", root: root).appendingPathComponent("reminders.json")
         super.init()
@@ -84,7 +94,43 @@ extension Notification.Name { static let graceOpenPrayer = Notification.Name("Gr
     func reschedule() async {
         for reminder in reminders { do { try await schedule(reminder) } catch { errorMessage = "Some reminders could not be updated." } }
     }
-    @discardableResult func clear() -> Bool { for id in reminders.map(\.id) { delete(id) }; cancelSilence(); return reminders.isEmpty }
+    @discardableResult func clear() -> Bool {
+        pendingIntentionID = nil
+        for id in reminders.map(\.id) { delete(id) }; cancelSilence()
+        Task { _ = await syncFollowUps([]) }
+        return reminders.isEmpty
+    }
+    @discardableResult func syncFollowUps(_ entries: [PrayerIntention]) async -> Bool {
+        let followUps = entries.map { FollowUp(id: $0.id, status: $0.status, followUpDate: $0.followUpDate) }
+        let previous = followUpTask
+        let task = Task { @MainActor [weak self] in
+            _ = await previous?.value
+            guard let self else { return false }
+            let pending = await center.pendingNotificationRequests()
+            center.removePendingNotificationRequests(withIdentifiers: pending.filter { $0.identifier.hasPrefix("intention.") }.map(\.identifier))
+            let delivered = await center.deliveredNotifications()
+            let currentIDs = Set(followUps.filter { $0.status == .active && $0.followUpDate != nil }.map { "intention.\($0.id.uuidString)" })
+            center.removeDeliveredNotifications(withIdentifiers: delivered.map { $0.request.identifier }.filter { $0.hasPrefix("intention.") && !currentIDs.contains($0) })
+            await refreshAuthorization()
+            guard allowed else { return true }
+            do {
+                let upcoming: [(FollowUp, Date)] = followUps.compactMap { entry in
+                    guard entry.status == .active, let date = entry.followUpDate,
+                          let actual = ReminderRules.snoozeDate(after: date, minutes: 0, quietStart: quietStart, quietEnd: quietEnd), actual > .now else { return nil }
+                    return (entry, actual)
+                }.sorted { $0.1 < $1.1 }
+                for (entry, actual) in upcoming.prefix(10) {
+                    let content = UNMutableNotificationContent()
+                    content.title = "Grace at Hand"; content.body = "A quiet moment to return to your private prayer space."
+                    content.sound = .default; content.userInfo = ["intentionID": entry.id.uuidString]
+                    try await center.add(UNNotificationRequest(identifier: "intention.\(entry.id.uuidString)", content: content, trigger: UNTimeIntervalNotificationTrigger(timeInterval: max(1, actual.timeIntervalSinceNow), repeats: false)))
+                }
+                return true
+            } catch { errorMessage = "Your intention was saved, but its follow-up could not be scheduled. Try saving it again."; return false }
+        }
+        followUpTask = task
+        return await task.value
+    }
     func scheduleSilence(at deadline: Date, sound: Bool) async {
         guard allowed else { return }
         let content = UNMutableNotificationContent(); content.title = "Your quiet moment"; content.body = "Take a gentle breath and return when you’re ready."
@@ -105,9 +151,12 @@ extension ReminderService: UNUserNotificationCenterDelegate {
         let action = response.actionIdentifier
         let id = response.notification.request.content.userInfo["reminderID"] as? String
         let prayerID = response.notification.request.content.userInfo["prayerID"] as? String
+        let intentionID = response.notification.request.content.userInfo["intentionID"] as? String
         if action == "SNOOZE", let id, let uuid = UUID(uuidString: id) { await snooze(uuid) }
         else if action == UNNotificationDefaultActionIdentifier, let prayerID {
             await MainActor.run { NotificationCenter.default.post(name: .graceOpenPrayer, object: prayerID) }
+        } else if action == UNNotificationDefaultActionIdentifier, let intentionID {
+            await MainActor.run { self.pendingIntentionID = intentionID; NotificationCenter.default.post(name: .graceOpenIntention, object: intentionID) }
         }
     }
 }

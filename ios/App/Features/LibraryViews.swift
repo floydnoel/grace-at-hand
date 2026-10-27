@@ -5,9 +5,10 @@ struct TodayView: View {
     @Environment(AppServices.self) private var services
     @State private var now = Date.now
     private var featured: Prayer? {
-        if services.catalog.isOffline, let download = services.downloads.available.first { return download }
-        let hour = Calendar.current.component(.hour, from: now)
-        return services.catalog.catalog.item(hour >= 18 || hour < 5 ? "evening-surrender" : "morning-offering") ?? services.catalog.catalog.items.first
+        let downloaded = services.downloads.available
+        let prayers = services.catalog.isOffline && !downloaded.isEmpty ? downloaded : services.catalog.catalog.items
+        return PrayerRecommendations.featured(from: prayers, interests: services.local.preferences.interests,
+                                              availableMinutes: services.local.preferences.availableMinutes, on: now)
     }
     var body: some View {
         ScrollView {
@@ -47,6 +48,14 @@ struct TodayView: View {
                 }
                 SectionHeading(title: "A beginning in prayer") { NavigationLink("View path", value: AppRoute.journey) }
                 BeginnerCard()
+                if !services.practice.document.routines.isEmpty {
+                    SectionHeading(title: "Your prayer rhythm") { NavigationLink("All routines", value: AppRoute.routines) }
+                    ForEach(services.practice.document.routines.filter { $0.isScheduled(on: now) }) { routine in
+                        NavigationLink(value: AppRoute.routine(routine.id)) {
+                            VStack(alignment: .leading, spacing: 8) { Text(routine.title).font(.headline); Text("\(routine.period.title) · \(routine.prayerIDs.count) prayers").font(.subheadline).foregroundStyle(GraceColor.secondary) }.graceCard()
+                        }.buttonStyle(.plain)
+                    }
+                }
                 if let entry = services.catalog.catalog.calendarEntry(on: now) {
                     HStack(alignment: .top, spacing: 14) {
                         Image(systemName: "calendar").foregroundStyle(GraceColor.accent)
@@ -67,13 +76,18 @@ struct FeaturedPrayer: View {
     let prayer: Prayer
     var body: some View {
         VStack(alignment: .leading, spacing: 13) {
-            HStack { Spacer(); Label(prayer.category == "Rest" ? "Evening prayer" : "Morning prayer", systemImage: prayer.symbol).font(.caption2).padding(.horizontal, 12).padding(.vertical, 8).background(Color(hex: 0x253E32).opacity(0.86), in: Capsule()) }
+            HStack { Spacer(); Label(prayer.topics.first ?? prayer.category, systemImage: prayer.symbol).font(.caption2).padding(.horizontal, 12).padding(.vertical, 8).background(Color(hex: 0x253E32).opacity(0.86), in: Capsule()) }
             Spacer(minLength: 130)
             Text("BEGIN WHERE YOU ARE").font(.caption2.weight(.semibold)).tracking(1.5)
             Text(prayer.title).font(.system(.largeTitle, design: .serif))
             Label("\(prayer.durationLabel) · A gentle place to begin", systemImage: "headphones").font(.caption)
-            Button { Task { await services.play(prayer) } } label: { Label("Pray now", systemImage: "play.fill") }
-                .buttonStyle(PrimaryButtonStyle(light: true)).accessibilityIdentifier("prayNow")
+            if prayer.audio != nil {
+                Button { Task { await services.play(prayer) } } label: { Label("Pray now", systemImage: "play.fill") }
+                    .buttonStyle(PrimaryButtonStyle(light: true)).accessibilityIdentifier("prayNow")
+            } else {
+                NavigationLink(value: AppRoute.reader(prayer.id)) { Label("Read prayer", systemImage: "book") }
+                    .buttonStyle(PrimaryButtonStyle(light: true))
+            }
         }.padding(24).foregroundStyle(Color.white).frame(minHeight: 330)
             .background {
                 PrayerArtwork(evening: prayer.category == "Rest")
@@ -196,7 +210,7 @@ struct PrayerDetailView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Eyebrow(text: "Sources & credits")
                     ForEach(prayer.credits, id: \.self) { Text($0).font(.footnote).foregroundStyle(GraceColor.secondary) }
-                    Text(prayer.suitability == "family" ? "Family prayer · children participate with an adult" : "General audience").font(.caption).foregroundStyle(GraceColor.secondary)
+                    Text(prayer.suitabilityLabel).font(.caption).foregroundStyle(GraceColor.secondary)
                 }.padding(.top, 10)
                 Button("Report a content issue") { services.alertMessage = "You can share a diagnostic report from Settings. Include the prayer title and the correction you suggest in your own message." }.font(.footnote).frame(minHeight: 44)
             }.padding(24).frame(maxWidth: 720).frame(maxWidth: .infinity)

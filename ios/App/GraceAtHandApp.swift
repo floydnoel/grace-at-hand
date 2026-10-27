@@ -48,12 +48,16 @@ import UIKit
         WindowGroup {
             Group {
                 if let services {
-                    RootView().environment(services)
+                    Group {
+                        if services.appLock.isUnlocked { RootView().id(services.privatePresentationID) }
+                        else { AppLockedView() }
+                    }.environment(services)
                         .preferredColorScheme(services.local.preferences.appearance == "light" ? .light : services.local.preferences.appearance == "dark" ? .dark : nil)
                         .task { await services.refresh() }
                         .task { await services.observeStorefront() }
-                        .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataWillBecomeUnavailableNotification)) { _ in services.intentions.lock() }
-                        .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataDidBecomeAvailableNotification)) { _ in services.intentions.load() }
+                        .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataWillBecomeUnavailableNotification)) { _ in services.lockPrivateData() }
+                        .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataDidBecomeAvailableNotification)) { _ in services.loadPrivateData() }
+                        .onReceive(NotificationCenter.default.publisher(for: .graceOpenIntention)) { notification in services.pendingIntentionID = notification.object as? String }
                 } else if startupError {
                     ContentUnavailableView {
                         Label("A moment to reconnect", systemImage: "leaf")
@@ -64,8 +68,11 @@ import UIKit
             }
             .tint(GraceColor.accent)
             .onChange(of: scenePhase) { _, phase in
-                if phase == .active { services?.intentions.load(); Task { await services?.refresh() } }
-                else { services?.playback.savePosition(); services?.local.save() }
+                if phase == .active { services?.loadPrivateData(); Task { await services?.refresh() } }
+                else {
+                    services?.playback.savePosition(); services?.local.save()
+                    if phase == .background, services?.appLock.enabled == true { services?.lockPrivateData() }
+                }
             }
         }
     }

@@ -47,6 +47,53 @@ private func fixture() throws -> Catalog { try JSONDecoder().decode(Catalog.self
     #expect(ResumeCheckpoint(itemID: prayer.id, assetRevision: "replaced", seconds: 12).position(for: prayer) == 0)
     #expect(ResumeCheckpoint(itemID: prayer.id, assetRevision: prayer.audio!.revision, seconds: -.infinity).position(for: prayer) == 0)
 }
+@Test func completedRecordingsRestartWhileUnfinishedRecordingsResume() throws {
+    let prayer = try #require(fixture().items.first)
+    for seconds in [prayer.durationSeconds, prayer.durationSeconds - 0.25, prayer.durationSeconds + 5] {
+        #expect(ResumeCheckpoint(itemID: prayer.id, assetRevision: prayer.audio!.revision, seconds: seconds).position(for: prayer) == 0)
+    }
+    #expect(ResumeCheckpoint(itemID: prayer.id, assetRevision: prayer.audio!.revision, seconds: 8).position(for: prayer) == 8)
+}
+@Test func unsupportedPrayerLanguagesAreRejected() throws {
+    var json = try JSONSerialization.jsonObject(with: fixtureData()) as! [String: Any]
+    var items = json["items"] as! [[String: Any]]
+    for language in ["es", "EN", ""] {
+        items[0]["language"] = language; json["items"] = items
+        let catalog = try JSONDecoder().decode(Catalog.self, from: JSONSerialization.data(withJSONObject: json))
+        #expect(throws: (any Error).self) { try catalog.validate() }
+    }
+}
+@Test func audienceLabelsDistinguishAdultsFromGeneralAndFamilyPrayer() throws {
+    var json = try JSONSerialization.jsonObject(with: JSONEncoder().encode(fixture().items[0])) as! [String: Any]
+    for (value, label) in [("adult", "For adults"), ("general", "General audience"), ("family", "Family prayer · children participate with an adult")] {
+        json["suitability"] = value
+        let prayer = try JSONDecoder().decode(Prayer.self, from: JSONSerialization.data(withJSONObject: json))
+        #expect(prayer.suitabilityLabel == label)
+    }
+}
+@Test func featuredPrayerUsesInterestsWithStableTimeOfDayDefaults() throws {
+    let prayers = try fixture().items
+    var calendar = Calendar(identifier: .gregorian); calendar.timeZone = TimeZone(secondsFromGMT: 0)!
+    let morning = try #require(calendar.date(from: DateComponents(year: 2026, month: 10, day: 24, hour: 9)))
+    let evening = try #require(calendar.date(byAdding: .hour, value: 12, to: morning))
+    #expect(PrayerRecommendations.featured(from: prayers, interests: [], availableMinutes: 10, on: morning, calendar: calendar)?.id == "morning-offering")
+    #expect(PrayerRecommendations.featured(from: prayers, interests: [], availableMinutes: 10, on: evening, calendar: calendar)?.id == "evening-surrender")
+    for (interest, id) in [("Scripture", "lectio-divina"), ("Rosary", "rosary-joyful"), ("Beginner", "begin-with-gratitude"), ("Rest", "evening-surrender")] {
+        #expect(PrayerRecommendations.featured(from: prayers, interests: [interest], availableMinutes: 5, on: morning, calendar: calendar)?.id == id)
+    }
+    #expect(PrayerRecommendations.featured(from: prayers, interests: ["Family"], availableMinutes: 5, on: morning, calendar: calendar)?.suitability == "family")
+    #expect(PrayerRecommendations.featured(from: prayers, interests: ["Morning", "Scripture", "Scripture"], availableMinutes: 5, on: morning, calendar: calendar)?.id == "morning-offering")
+}
+@Test func availableTimeLimitsSuggestionsAndFallsBackToTheShortestPrayer() throws {
+    var json = try JSONSerialization.jsonObject(with: fixtureData()) as! [String: Any]
+    var items = json["items"] as! [[String: Any]]
+    items = Array(items.prefix(2)); items[0]["durationSeconds"] = 720; items[1]["durationSeconds"] = 240; json["items"] = items
+    let prayers = try JSONDecoder().decode(Catalog.self, from: JSONSerialization.data(withJSONObject: json)).items
+    #expect(PrayerRecommendations.featured(from: prayers, interests: ["Morning"], availableMinutes: 5, on: .now)?.id == "our-father")
+    #expect(PrayerRecommendations.featured(from: prayers, interests: ["Morning"], availableMinutes: 20, on: .now)?.id == "morning-offering")
+    #expect(PrayerRecommendations.featured(from: prayers, interests: ["Morning"], availableMinutes: 1, on: .now)?.id == "our-father")
+    #expect(PrayerRecommendations.featured(from: [], interests: [], availableMinutes: 5, on: .now) == nil)
+}
 @Test func rosaryGuidesHaveFiveCompleteDecades() {
     for set in RosaryMysteries.allCases {
         let steps = RosaryGuide.steps(for: set)

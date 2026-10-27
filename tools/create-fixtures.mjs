@@ -6,6 +6,8 @@ import { fileURLToPath } from 'node:url';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { sha256 } from './content-lib.mjs';
+import { loadSchema } from './schema.mjs';
+const language = (await loadSchema()).$defs.item.properties.language.const;
 const root = fileURLToPath(new URL('../', import.meta.url));
 const mediaDir = join(root, 'content/fixtures/media');
 await mkdir(mediaDir, { recursive: true });
@@ -46,14 +48,14 @@ try {
     const bytes = await readFile(target);
     const duration = Number(execFileSync('ffprobe', ['-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',target], { encoding: 'utf8' }).trim());
     if (!Number.isFinite(duration) || duration < 1 || bytes.length < 2_000) throw new Error('Speech output was empty. Run with access to the macOS speech service.');
-    items.push({id,revision:1,title,subtitle,category,topics,language:'en',suitability,durationSeconds:duration,text,transcript,credits:[id==='quiet-psalm'?'Douay–Rheims, 1899 American Edition, Psalm 22:1–3. Development fixture; publication review pending.':['our-father','hail-mary','glory-be','apostles-creed','act-of-contrition','divine-mercy'].includes(id)?'Traditional Catholic prayer wording. Development fixture; editorial and permissions review pending.':'Original Grace at Hand development text. Editorial and theological review pending.','Synthetic development narration; replace before production.'],artwork:category==='Rest'?'Evening':'Cloister',symbol,howTo:id.startsWith('rosary-')?'Begin with the opening prayers, then reflect on each of the five mysteries while praying an Our Father, ten Hail Marys, and a Glory Be. The guide includes the opening and closing prayers.':id==='divine-mercy'?'This text guides all five decades. The development recording reads the instructions; it is not a full paced recording.':'Read slowly or listen. Pause whenever you need. There is no required pace.',audio:{revision:sha256(bytes),url:`bundle:${id}.m4a`,bytes:bytes.length,sha256:sha256(bytes),mimeType:'audio/mp4'},cues:null,rosarySet:id.startsWith('rosary-')?id.slice(7):null});
+    items.push({id,revision:1,title,subtitle,category,topics,language,suitability,durationSeconds:duration,text,transcript,credits:[id==='quiet-psalm'?'Douay–Rheims, 1899 American Edition, Psalm 22:1–3. Development fixture; publication review pending.':['our-father','hail-mary','glory-be','apostles-creed','act-of-contrition','divine-mercy'].includes(id)?'Traditional Catholic prayer wording. Development fixture; editorial and permissions review pending.':'Original Grace at Hand development text. Editorial and theological review pending.','Synthetic development narration; replace before production.'],artwork:category==='Rest'?'Evening':'Cloister',symbol,howTo:id.startsWith('rosary-')?'Begin with the opening prayers, then reflect on each of the five mysteries while praying an Our Father, ten Hail Marys, and a Glory Be. The guide includes the opening and closing prayers.':id==='divine-mercy'?'This text guides all five decades. The development recording reads the instructions; it is not a full paced recording.':'Read slowly or listen. Pause whenever you need. There is no required pace.',audio:{revision:sha256(bytes),url:`bundle:${id}.m4a`,bytes:bytes.length,sha256:sha256(bytes),mimeType:'audio/mp4'},cues:null,rosarySet:id.startsWith('rosary-')?id.slice(7):null});
     console.log(`Recorded ${id}`);
   }
   const passages = [], calendar = [];
   for (let n=0;n<730;n++) {
     const day = new Date('2026-01-01T12:00:00Z'); day.setUTCDate(day.getUTCDate()+n); const date=day.toISOString().slice(0,10);
-    passages.push({id:`passage:${date}`,revision:1,language:'en',verseNumbers:['1','2','3'],date,title:'A psalm of trust',reference:'Psalm 22:1–3',translation:'Douay–Rheims',numberingNote:'Psalm 23 in many modern editions',verses:prayers.at(-1).at(-1),credit:'Douay–Rheims, 1899 American Edition. Repeated development passage; not a reviewed daily schedule.',reflection:'What would it mean to move through today with a little more trust?',audioItemID:'quiet-psalm'});
-    calendar.push({id:`calendar:${date}`,revision:1,language:'en',date,region:'US',rite:'roman',season:'Development calendar',observance:'US · Latin rite · review pending'});
+    passages.push({id:`passage:${date}`,revision:1,language,verseNumbers:['1','2','3'],date,title:'A psalm of trust',reference:'Psalm 22:1–3',translation:'Douay–Rheims',numberingNote:'Psalm 23 in many modern editions',verses:prayers.at(-1).at(-1),credit:'Douay–Rheims, 1899 American Edition. Repeated development passage; not a reviewed daily schedule.',reflection:'What would it mean to move through today with a little more trust?',audioItemID:'quiet-psalm'});
+    calendar.push({id:`calendar:${date}`,revision:1,language,date,region:'US',rite:'roman',season:'Development calendar',observance:'US · Latin rite · review pending'});
   }
   const groups = [
     ['devotions','Rosary & devotions','Familiar prayers, gently guided.','cross',items.filter(x=>x.topics.includes('Devotions')||x.topics.includes('Essential prayers')).map(x=>x.id)],
@@ -62,6 +64,6 @@ try {
     ['family','Family prayer','Small moments, shared together.','house',items.filter(x=>x.suitability==='family').map(x=>x.id)],
     ['daily','Throughout the day','Morning, midday, meals, and evening.','sun.max',['morning-offering','midday-pause','meal-prayer','evening-surrender']]
   ];
-  const catalog={schemaVersion:1,revision:'development-1',publishedAt:'2026-10-24T00:00:00Z',isFixture:true,items,collections:groups.map(([id,title,subtitle,symbol,itemIDs])=>({id,revision:1,language:'en',title,subtitle,symbol,itemIDs})),journeys:[{id:'beginning',revision:1,language:'en',title:'A beginning in prayer',subtitle:'Seven small invitations. Your own pace.',itemIDs:['make-space','begin-with-gratitude','sit-with-silence','lectio-divina','bring-intentions','daily-examen','return-gently']}],passages,calendar,withdrawnIDs:[]};
+  const catalog={schemaVersion:1,revision:'development-1',publishedAt:'2026-10-24T00:00:00Z',isFixture:true,items,collections:groups.map(([id,title,subtitle,symbol,itemIDs])=>({id,revision:1,language,title,subtitle,symbol,itemIDs})),journeys:[{id:'beginning',revision:1,language,title:'A beginning in prayer',subtitle:'Seven small invitations. Your own pace.',itemIDs:['make-space','begin-with-gratitude','sit-with-silence','lectio-divina','bring-intentions','daily-examen','return-gently']}],passages,calendar,withdrawnIDs:[]};
   await writeFile(join(root,'content/fixtures/catalog.json'),JSON.stringify(catalog,null,2)+'\n');
 } finally { await rm(temp,{recursive:true,force:true}); }

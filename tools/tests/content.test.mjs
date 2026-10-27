@@ -15,6 +15,13 @@ test('fixture catalog and every audio checksum agree', async () => {
 test('production rejects fixture content', async () => {
   await assert.rejects(validateCatalog(clone(), { production: true }), /fixtures/);
 });
+test('publication rejects prayer languages unsupported by the iOS client', async () => {
+  for (const language of ['es', 'EN', '']) {
+    const catalog = clone(); catalog.items[0].language = language;
+    await assert.rejects(validateCatalog(catalog), /language/);
+  }
+  await validateCatalog(clone());
+});
 test('unknown private fields cannot enter a public record', async () => {
   const catalog = clone(); catalog.items[0].privateRightsEvidence = 'confidential';
   await assert.rejects(validateCatalog(catalog), /unknown field/);

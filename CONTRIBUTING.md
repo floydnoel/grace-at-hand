@@ -20,4 +20,4 @@ Configure private visibility, default branch `main`, protected pull requests, an
 
 Create the protected `production-content` environment, require a human reviewer, and limit it to `main`. Only that workflow receives publication secrets. Pull-request jobs have read-only repository permissions and no signing or publication credentials. Scheduled health checks use public URLs only.
 
-The app stays at one application window in v1. Do not add deferred journal, community, confession-preparation, account/sync, or payment-entitlement behavior as incidental scope.
+The app stays at one application window in v1. Personal practice tools, including journaling and routines, are explicitly authorized in `docs/release.md`. Do not add deferred community, confession-preparation, account/sync, or payment-entitlement behavior as incidental scope.

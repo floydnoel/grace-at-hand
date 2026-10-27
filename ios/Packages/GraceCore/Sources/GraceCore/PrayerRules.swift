@@ -83,6 +83,36 @@ public struct ResumeCheckpoint: Codable, Sendable, Equatable {
     }
     public func position(for item: Prayer) -> Double {
         guard item.id == itemID, item.audio?.revision == assetRevision, seconds.isFinite else { return 0 }
+        guard seconds < item.durationSeconds - 0.5 else { return 0 }
         return min(max(0, seconds), max(0, item.durationSeconds - 1))
+    }
+}
+
+public enum PrayerRecommendations {
+    public static func featured(from prayers: [Prayer], interests: [String], availableMinutes: Int, on date: Date, calendar: Calendar = .current) -> Prayer? {
+        let fitting = prayers.filter { $0.durationSeconds <= Double(max(1, availableMinutes)) * 60 }
+        guard !fitting.isEmpty else { return prayers.min { $0.durationSeconds < $1.durationSeconds } }
+        let interests = Set(interests.map { $0.lowercased() })
+        let hour = calendar.component(.hour, from: date)
+        let usualID = hour >= 18 || hour < 5 ? "evening-surrender" : "morning-offering"
+        func score(_ prayer: Prayer) -> Int {
+            let topics = Set(prayer.topics.map { $0.lowercased() })
+            return interests.filter { interest in
+                switch interest {
+                case "beginner": topics.contains("beginner") || prayer.category == "Learn"
+                case "family": prayer.suitability == "family"
+                case "rest": prayer.category == "Rest"
+                case "rosary": prayer.rosarySet != nil
+                case "morning", "scripture": topics.contains(interest)
+                default: false
+                }
+            }.count
+        }
+        return fitting.enumerated().max { lhs, rhs in
+            let left = score(lhs.element), right = score(rhs.element)
+            if left != right { return left < right }
+            if (lhs.element.id == usualID) != (rhs.element.id == usualID) { return rhs.element.id == usualID }
+            return lhs.offset > rhs.offset
+        }?.element
     }
 }

@@ -44,11 +44,13 @@ struct PlayerView: View {
     @Environment(AppServices.self) private var services
     @Environment(\.dismiss) private var dismiss
     @State private var seeking: Double?
+    @State private var journal = false
     private var evening: Bool { services.playback.current?.category == "Rest" }
     var body: some View {
         NavigationStack {
             ScrollView {
                 if let prayer = services.playback.current {
+                    let downloadTarget = services.prayer(prayer.id) ?? prayer
                     VStack(spacing: 24) {
                         Eyebrow(text: evening ? "A gentle ending" : "A little space for prayer").padding(.top, 12)
                         PrayerArtwork(evening: evening).frame(height: 270).clipShape(ArchShape()).frame(maxWidth: 340)
@@ -75,10 +77,13 @@ struct PlayerView: View {
                         HStack {
                             Menu { ForEach([0.75, 1.0, 1.25, 1.5, 2.0], id: \.self) { value in Button("\(value.formatted())×") { services.playback.setRate(Float(value)) } } } label: { Text("\(Double(services.playback.rate).formatted())×").font(.subheadline.weight(.semibold)).frame(width: 48, height: 48) }.accessibilityLabel("Playback speed")
                             Spacer(); SleepTimerMenu(); Spacer()
-                            Button { services.download(prayer) } label: { Image(systemName: services.downloads.isAvailable(prayer) ? "checkmark.circle" : "arrow.down.to.line").font(.title3).frame(width: 48, height: 48) }.accessibilityLabel(services.downloads.isAvailable(prayer) ? "Downloaded" : "Download prayer").disabled(services.downloads.isAvailable(prayer))
+                            Button { services.download(downloadTarget) } label: { Image(systemName: services.downloads.isAvailable(downloadTarget) ? "checkmark.circle" : "arrow.down.to.line").font(.title3).frame(width: 48, height: 48) }.accessibilityLabel(services.downloads.isAvailable(downloadTarget) ? "Downloaded" : "Download prayer").disabled(services.downloads.isAvailable(downloadTarget))
                             Spacer(); AudioRoutePicker().frame(width: 48, height: 48)
                         }
-                        if let record = services.downloads.record(prayer.id), record.state != .available { DownloadAction(prayer: prayer) }
+                        if let record = services.downloads.record(prayer.id), record.state != .available { DownloadAction(prayer: downloadTarget) }
+                        if let latest = services.catalog.catalog.item(prayer.id), latest.audio?.revision != prayer.audio?.revision {
+                            StatusNotice(text: "Playing the recording saved on this device. A newer recording is available.", symbol: "arrow.down.to.line")
+                        }
                         if let message = services.playback.errorMessage {
                             StatusNotice(text: message, symbol: "waveform.slash")
                             Button("Try audio again") { Task { await services.play(prayer) } }.frame(minHeight: 44)
@@ -90,9 +95,13 @@ struct PlayerView: View {
                 }
             }.pageStyle().toolbar {
                 ToolbarItem(placement: .topBarLeading) { Button { dismiss() } label: { Image(systemName: "chevron.down").frame(width: 44, height: 44) }.accessibilityLabel("Close full player") }
-                ToolbarItem(placement: .topBarTrailing) { Menu { Button("Stop listening") { services.playback.dismissCurrent(); dismiss() } } label: { Image(systemName: "ellipsis").frame(width: 44, height: 44) }.accessibilityLabel("Player options") }
+                ToolbarItem(placement: .topBarTrailing) { Menu {
+                    Button("Write a reflection") { journal = true }
+                    Button("Stop listening") { services.playback.dismissCurrent(); dismiss() }
+                } label: { Image(systemName: "ellipsis").frame(width: 44, height: 44) }.accessibilityLabel("Player options") }
             }.navigationBarTitleDisplayMode(.inline)
         }.preferredColorScheme(evening ? .dark : nil)
+            .sheet(isPresented: $journal) { if let prayer = services.playback.current { JournalEditor(link: JournalLink(kind: .prayer, id: prayer.id, title: prayer.title)) } }
     }
     private func time(_ seconds: Double) -> String { let seconds = Int(max(0, seconds)); return String(format: "%d:%02d", seconds / 60, seconds % 60) }
 }
@@ -113,7 +122,14 @@ struct ReaderView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     let prayer: Prayer
     let transcript: Bool
+    var routineID: UUID? = nil
     @State private var follow = false
+    @State private var journal = false
+    private var completedToday: Bool {
+        if !services.local.preferences.keepHistory { return services.local.record(prayer.id)?.completed == true }
+        if let routineID { return services.practice.completedIDs(for: routineID).contains(prayer.id) }
+        return services.practice.document.sessions.contains { $0.sourceID == "reading:\(prayer.id):\(LocalDay.key(.now))" }
+    }
     private var paragraphs: [String] { transcript ? prayer.transcript : prayer.text }
     private var activeParagraph: Int? { guard transcript, follow, services.playback.current?.id == prayer.id else { return nil }; return prayer.cues?.first { services.playback.position >= $0.start && services.playback.position < $0.end }?.paragraph }
     var body: some View {
@@ -129,13 +145,16 @@ struct ReaderView: View {
                     }
                     Divider()
                     ForEach(prayer.credits, id: \.self) { Text($0).font(.caption).foregroundStyle(GraceColor.secondary) }
-                    Button { services.local.markComplete(prayer) } label: { Label(services.local.record(prayer.id)?.completed == true ? "Completed · tap to undo" : "Mark session complete", systemImage: services.local.record(prayer.id)?.completed == true ? "checkmark.circle.fill" : "checkmark.circle") }.frame(minHeight: 44)
+                    Button { services.completeReading(prayer, routineID: routineID) } label: { Label(completedToday ? "Completed · tap to undo" : "Mark session complete", systemImage: completedToday ? "checkmark.circle.fill" : "checkmark.circle") }.frame(minHeight: 44)
+                    Button("Write a reflection") { journal = true }.frame(minHeight: 44)
+                    PracticeErrorNotice()
                 }.padding(24).frame(maxWidth: GraceLayout.readingWidth).frame(maxWidth: .infinity)
             }.onChange(of: activeParagraph) { _, next in
                 guard let next else { return }
                 if reduceMotion { proxy.scrollTo(next, anchor: .center) } else { withAnimation(.easeInOut(duration: 0.3)) { proxy.scrollTo(next, anchor: .center) } }
             }
         }.pageStyle().navigationTitle(transcript ? "Read along" : "Read prayer").navigationBarTitleDisplayMode(.inline)
+            .sheet(isPresented: $journal) { JournalEditor(link: JournalLink(kind: .prayer, id: prayer.id, title: prayer.title)) }
     }
 }
 
@@ -212,6 +231,7 @@ struct SilenceView: View {
                         services.playback.pause(); finished = false; now = .now
                         let deadline = now.addingTimeInterval(Double(minutes * 60))
                         services.local.preferences.silenceDeadline = deadline; services.local.save()
+                        if services.local.preferences.keepHistory { services.practice.beginSilence(PracticeSession(date: now, title: "Quiet prayer", durationSeconds: Double(minutes * 60), source: .silence, sourceID: "silence:\(deadline.timeIntervalSince1970)")) }
                         if services.local.preferences.silenceSound { AudioServicesPlaySystemSound(1057) }
                         if notify { Task { await services.reminders.scheduleSilence(at: deadline, sound: services.local.preferences.silenceSound) } }
                     }.buttonStyle(PrimaryButtonStyle())
@@ -224,6 +244,8 @@ struct SilenceView: View {
             .onReceive(Timer.publish(every: 1, on: .main, in: .common).autoconnect()) { now = $0; if services.local.preferences.silenceDeadline != nil && remaining == 0 { end(sound: true) } }
     }
     private func end(sound: Bool) {
+        if sound, let session = services.practice.document.silenceSession { services.recordPractice(session) }
+        services.practice.beginSilence(nil)
         services.local.preferences.silenceDeadline = nil; services.local.save(); services.reminders.cancelSilence(); finished = true
         if sound && services.local.preferences.silenceSound { AudioServicesPlaySystemSound(1057) }
     }

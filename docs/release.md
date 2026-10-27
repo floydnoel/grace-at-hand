@@ -2,7 +2,7 @@
 
 ## Scope
 
-Native iPhone and iPad, iOS/iPadOS 18+, English, US Roman Catholic calendar, US App Store distribution. Guest access, free prayer and downloads, private local data, Git-reviewed content, R2 delivery, and optional external support outside playback. iPad is launch scope. Journal, prayer circles, confession preparation, routine builder, accounts/sync, full Bible, Mass readings, child profiles, widgets, Android, and web remain future work.
+Native iPhone and iPad, iOS/iPadOS 18+, English, US Roman Catholic calendar, US App Store distribution. Guest access, free prayer and downloads, private local data, Git-reviewed content, R2 delivery, and optional external support outside playback. iPad is launch scope. The user expanded the scope on October 27, 2026 to include personal practice: ordered routines on chosen weekdays, flexible weekly prayer-day goals, a private activity calendar and editable manual logging, optional streaks, a journal with gratitude/reflection entries and content connections, intention updates/status/tags/follow-ups, readable exports, selective deletion, and optional biometric/device-passcode app locking. Prayer circles, confession preparation, accounts/sync, full Bible, Mass readings, child profiles, widgets, Android, and web remain future work.
 
 ## Milestones
 
@@ -37,6 +37,11 @@ Native iPhone and iPad, iOS/iPadOS 18+, English, US Roman Catholic calendar, US 
 - [ ] Compare with the PDF at 393 × 852, then small phone, landscape, largest text, dark/light, Increase Contrast, Reduce Motion, Reduce Transparency, and reading size.
 - [ ] VoiceOver labels/state/focus on all flows, including return focus after player/editor dismissal; no color-only progress information.
 - [ ] iPad landscape/portrait, compact windows, resizing, keyboard focus/shortcuts, pointer controls, and bounded reading width. Single app window only.
+- [ ] Create, reorder, pause, edit, and delete routines; check scheduled days and completion across midnight. Verify unavailable/withdrawn prayers can be replaced without losing the routine.
+- [ ] Test Monday–Sunday goal counts, morning/midday/evening boundaries, manual backfill/edit/delete, optional streaks, hiding progress, and disabling/clearing activity without deleting writing.
+- [ ] Upgrade an original intention file; edit tags/status/updates, allow/deny follow-up notification permission, confirm quiet-hour delivery and cancellation after deletion/answered status. Notification text must remain neutral.
+- [ ] Create/edit/search journal entries, connect prayers/passages/activity, preview single/selected/all exports, save a text file, and selectively delete writing. Inspect exported copies and confirm no app-owned plaintext export cache remains.
+- [ ] Enable/disable optional app lock with Face ID/Touch ID and device-passcode fallback. Test failed/cancelled authentication, cold launch, background/relaunch, device locking with an editor/export open, and continued locked-screen audio. Verify practice/journal complete file protection and cloud-backup exclusion on a physical device.
 
 ## Production and distribution
 

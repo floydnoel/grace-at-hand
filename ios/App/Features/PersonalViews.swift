@@ -7,7 +7,11 @@ struct MyPrayerView: View {
         ("Saved prayers", "Return to the familiar", "heart", .saved),
         ("Downloads", "Ready without Wi-Fi", "arrow.down.to.line", .downloads),
         ("My intentions", "Private, just for you", "hands.sparkles", .intentions),
-        ("Reminders", "A gentle invitation", "bell", .reminders)
+        ("Reminders", "A gentle invitation", "bell", .reminders),
+        ("Prayer routines", "Your own rhythm", "sun.and.horizon", .routines),
+        ("Personal goals", "Gentle by choice", "leaf", .goals),
+        ("Prayer activity", "Days to return to", "calendar", .activity),
+        ("Prayer journal", "Room for your own words", "book.closed", .journal)
     ]
     var body: some View {
         ScrollView {
@@ -78,6 +82,7 @@ struct DownloadAction: View {
 struct DownloadsView: View {
     @Environment(AppServices.self) private var services
     @State private var removing: String?
+    @State private var resetting = false
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
@@ -88,7 +93,10 @@ struct DownloadsView: View {
                 }.padding(20).background(GraceColor.wash, in: RoundedRectangle(cornerRadius: 20))
                 Toggle("Download on Wi-Fi only", isOn: Binding(get: { services.local.preferences.wifiOnly }, set: { services.local.preferences.wifiOnly = $0; services.local.save(); services.downloads.updatePolicy(wifiOnly: $0) })).padding(.vertical, 8)
                 if let error = services.downloads.errorMessage { StatusNotice(text: error, symbol: "exclamationmark.circle") }
-                if services.downloads.records.isEmpty {
+                if services.downloads.needsRecovery {
+                    Button("Try opening downloads again") { services.downloads.retryLoading() }.buttonStyle(PrimaryButtonStyle())
+                    Button("Reset downloads", role: .destructive) { resetting = true }.frame(minHeight: 44)
+                } else if services.downloads.records.isEmpty {
                     GraceEmpty(symbol: "arrow.down.to.line", title: "Bring a little quiet\nwith you.", message: "Download a prayer to listen offline. Downloads are always free.")
                     NavigationLink("Find a prayer", value: AppRoute.search).buttonStyle(PrimaryButtonStyle())
                 } else {
@@ -113,68 +121,9 @@ struct DownloadsView: View {
             .confirmationDialog("Remove this download?", isPresented: Binding(get: { removing != nil }, set: { if !$0 { removing = nil } }), titleVisibility: .visible) {
                 Button("Remove download", role: .destructive) { if let removing { services.downloads.remove(removing) }; removing = nil }
             } message: { Text("Your saved favorite will remain. You can download this recording again.") }
-    }
-}
-
-struct IntentionsView: View {
-    @Environment(AppServices.self) private var services
-    @State private var editing: PrayerIntention?
-    @State private var showingEditor = false
-    @State private var deleting: PrayerIntention?
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                PageHeading(eyebrow: "Private · On this device", title: services.intentions.entries.isEmpty ? "My intentions" : "On your heart.", subtitle: "People and hopes to bring to prayer.")
-                if services.intentions.isLocked { GraceEmpty(symbol: "lock", title: "A private space.", message: "Unlock your device to return to your intentions.") }
-                else if let error = services.intentions.errorMessage { StatusNotice(text: error, symbol: "lock"); Button("Try again") { services.intentions.load() } }
-                else {
-                    if services.intentions.entries.isEmpty { GraceEmpty(symbol: "hands.sparkles", title: "Who is on\nyour heart?", message: "You can begin with a name, a hope, or a few words.") }
-                    ForEach(services.intentions.entries) { intention in
-                        VStack(alignment: .leading, spacing: 16) {
-                            HStack {
-                                Text(intention.title).font(.headline).privacySensitive()
-                                Spacer()
-                                Menu {
-                                    Button("Edit intention") { editing = intention; showingEditor = true }
-                                    Button("Delete intention", role: .destructive) { deleting = intention }
-                                } label: { Image(systemName: "ellipsis").frame(width: 44, height: 44) }.accessibilityLabel("Intention options")
-                            }
-                            if !intention.note.isEmpty { Text(intention.note).foregroundStyle(GraceColor.secondary).privacySensitive() }
-                            HStack {
-                                Text(intention.createdAt.formatted(date: .abbreviated, time: .omitted)).font(.caption2).foregroundStyle(GraceColor.secondary)
-                                Spacer(); NavigationLink(value: AppRoute.silence) { Label("Pray", systemImage: "hands.sparkles").font(.subheadline).frame(minHeight: 44) }
-                            }
-                        }.graceCard()
-                    }
-                    Button { editing = nil; showingEditor = true } label: { Label("Add an intention", systemImage: "plus") }.buttonStyle(PrimaryButtonStyle()).accessibilityIdentifier("addIntention")
-                    StatusNotice(text: "Your intentions stay on this device. No account or sharing is needed.", symbol: "lock")
-                }
-            }.padding(24).frame(maxWidth: 720).frame(maxWidth: .infinity)
-        }.pageStyle().navigationBarTitleDisplayMode(.inline)
-            .sheet(isPresented: $showingEditor) { IntentionEditor(intention: editing) }
-            .confirmationDialog("Delete this intention?", isPresented: Binding(get: { deleting != nil }, set: { if !$0 { deleting = nil } }), titleVisibility: .visible) { Button("Delete intention", role: .destructive) { if let deleting { services.intentions.delete(deleting.id) }; deleting = nil } } message: { Text("This removes it from this device. There is no cloud copy.") }
-    }
-}
-
-struct IntentionEditor: View {
-    @Environment(AppServices.self) private var services
-    @Environment(\.dismiss) private var dismiss
-    let intention: PrayerIntention?
-    @State private var title: String
-    @State private var note: String
-    init(intention: PrayerIntention?) { self.intention = intention; _title = State(initialValue: intention?.title ?? ""); _note = State(initialValue: intention?.note ?? "") }
-    var body: some View {
-        NavigationStack {
-            Form {
-                Section("A name or a hope") { TextField("Who is on your heart?", text: $title).privacySensitive().accessibilityIdentifier("intentionTitle") }
-                Section("A few words, if you like") { TextEditor(text: $note).frame(minHeight: 160).privacySensitive().accessibilityLabel("Intention notes") }
-                Section { Label("Private · Saved only on this device", systemImage: "lock").font(.footnote); if let error = services.intentions.errorMessage { Text(error).foregroundStyle(.red) } }
-            }.navigationTitle(intention == nil ? "A new intention" : "Edit intention").navigationBarTitleDisplayMode(.inline)
-                .toolbar {
-                    ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
-                    ToolbarItem(placement: .confirmationAction) { Button("Save") { if services.intentions.upsert(id: intention?.id, title: title, note: note) { dismiss() } }.disabled(title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty).accessibilityIdentifier("saveIntention") }
-                }
-        }
+            .confirmationDialog("Reset your download library?", isPresented: $resetting, titleVisibility: .visible) {
+                Button("Reset downloads", role: .destructive) { services.downloads.clear() }
+            } message: { Text("This removes saved recordings and their download records from this device. Your favorites remain. You can download recordings again.") }
     }
 }
 
@@ -292,10 +241,17 @@ struct SettingsView: View {
             }
             Section("Private by default") {
                 NavigationLink { PrivacyView() } label: { Label("Privacy & data", systemImage: "lock") }
-                Toggle("Keep recent activity", isOn: $preferences.keepHistory)
+                Toggle("Keep prayer activity", isOn: $preferences.keepHistory)
+                Text("Turning this off clears listening history, activity entries, and beginner progress, and stops automatic activity recording. Your writing and saved prayers remain.").font(.footnote).foregroundStyle(.secondary)
                 Button("Clear local activity", role: .destructive) { clearHistory = true }
                 Button("Reset all local data", role: .destructive) { reset = true }
                 Text("Intentions and activity stay on this device and are excluded from cloud backup. Deleting the app removes them. Downloads can be saved again.").font(.footnote).foregroundStyle(.secondary)
+            }
+            Section("Optional app lock") {
+                Toggle("Require device authentication", isOn: Binding(get: { services.appLock.enabled }, set: { value in Task { _ = await services.appLock.setEnabled(value) } })).disabled(services.appLock.authenticating)
+                Text("Use Face ID, Touch ID, or your device passcode when opening the app and after it goes into the background. Locked-screen audio continues.").font(.footnote).foregroundStyle(.secondary)
+                if services.appLock.enabled { Button("Lock prayer space now") { services.lockPrivateData() } }
+                if let error = services.appLock.errorMessage { Text(error).foregroundStyle(.red) }
             }
             Section("Help & support") {
                 NavigationLink("Daily prayer. Freely shared.", value: AppRoute.support)
@@ -310,20 +266,23 @@ struct SettingsView: View {
             }
         }.scrollContentBackground(.hidden).pageStyle().navigationTitle("Settings").navigationBarTitleDisplayMode(.inline)
             .onChange(of: preferences.appearance) { _, _ in services.local.save() }
-            .onChange(of: preferences.keepHistory) { _, enabled in if !enabled { services.local.clearHistory() }; services.local.save() }
+            .onChange(of: preferences.keepHistory) { _, enabled in if !enabled { services.clearActivity() }; services.local.save() }
             .sheet(isPresented: $showPreferences) { PreferencesView() }
             .confirmationDialog("Clear local activity?", isPresented: $clearHistory, titleVisibility: .visible) {
-                Button("Clear activity", role: .destructive) { services.playback.dismissCurrent(); services.local.clearHistory() }
-            } message: { Text("This removes recent listening, positions, and beginner progress. Saved prayers, passages, intentions, and downloads remain.") }
+                Button("Clear activity", role: .destructive) { services.clearActivity() }
+            } message: { Text("This removes recent listening, positions, activity entries, and beginner progress. Routines, goals, journal, saved prayers, passages, intentions, and downloads remain.") }
             .confirmationDialog("Reset all local data?", isPresented: $reset, titleVisibility: .visible) {
                 Button("Reset this device", role: .destructive) { services.reset() }
-            } message: { Text("This permanently deletes intentions, saved prayers and passages, activity, settings, downloads, and reminders from this device.") }
+            } message: { Text("This permanently deletes intentions, journal, routines, goals, saved prayers and passages, activity, settings, downloads, and reminders from this device.") }
     }
     private func minuteBinding(_ keyPath: ReferenceWritableKeyPath<Preferences, Int>) -> Binding<Date> {
         Binding(get: { let minutes = services.local.preferences[keyPath: keyPath]; return Calendar.current.date(bySettingHour: minutes / 60, minute: minutes % 60, second: 0, of: .now) ?? .now }, set: { date in
             services.local.preferences[keyPath: keyPath] = Calendar.current.component(.hour, from: date) * 60 + Calendar.current.component(.minute, from: date)
             services.local.save(); services.reminders.quietStart = services.local.preferences.quietStart; services.reminders.quietEnd = services.local.preferences.quietEnd
-            Task { await services.reminders.reschedule() }
+            Task {
+                await services.reminders.reschedule()
+                if !services.intentions.isLocked, services.intentions.errorMessage == nil { await services.reminders.syncFollowUps(services.intentions.entries) }
+            }
         })
     }
 }
@@ -333,11 +292,12 @@ struct PrivacyView: View {
     var body: some View {
         ScrollView { VStack(alignment: .leading, spacing: 24) {
             PageHeading(eyebrow: "Private by default", title: "A space that’s yours.")
-            Text("Your intentions, saved prayers, bookmarks, reminders, and listening activity stay on this device. There is no account or synchronization in this version.")
-            Text("Personal data is excluded from cloud backup. Intentions use locked-device file protection. Audio downloads remain available for listening with the screen locked.")
+            Text("Your intentions, journal, routines, goals, activity, saved prayers, bookmarks, and reminders stay on this device. There is no account or synchronization in this version.")
+            Text("Personal data is excluded from cloud backup. Intentions, journal, and practice records use complete file protection while the device is locked. Optional device authentication gates access to the app. Audio downloads remain available for listening with the screen locked.")
             Text("The app requests public catalog and media files when you refresh, stream, or download. The hosting provider receives ordinary network information such as your IP address. Private intentions, search terms, and listening history are not included in those requests.")
             Text("There are no advertising or behavioral analytics SDKs. You can choose to share a diagnostic report or contact support. Review the report before sharing it.")
             Text("You can delete individual intentions and downloads, clear activity, or reset all local data in Settings. Removing the app deletes its local prayer data.")
+            Text("Journal and intentions offer readable exports with a preview. Copies you choose to share leave the app’s protection. Activity and writing are never included in the diagnostic report.")
             if let url = services.configuration.privacyURL { Link("Read the privacy policy", destination: url) }
         }.lineSpacing(5).padding(24).frame(maxWidth: GraceLayout.readingWidth).frame(maxWidth: .infinity) }.pageStyle().navigationTitle("Privacy & data").navigationBarTitleDisplayMode(.inline)
     }

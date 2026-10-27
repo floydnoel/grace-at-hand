@@ -13,10 +13,15 @@ struct DownloadRecord: Codable, Identifiable {
     var message: String?
     var target: Prayer { pendingPrayer ?? prayer }
 }
+struct DownloadedRecording {
+    let prayer: Prayer
+    let url: URL
+}
 
 @MainActor @Observable final class DownloadManager: NSObject {
     static let sessionIdentifier = "org.graceathand.downloads.v1"
     private(set) var records: [DownloadRecord] = []
+    private(set) var needsRecovery = false
     var errorMessage: String?
     private let directory: URL
     nonisolated let stagingDirectory: URL
@@ -28,6 +33,7 @@ struct DownloadRecord: Codable, Identifiable {
     private var finishedBackgroundEvents = false
     var wifiOnly = true
     var resolveMedia: ((MediaAsset) -> URL?)?
+    private let recoveryMessage = "Download records could not be opened. Try again, or reset downloads to rebuild this library. Your saved favorites have not changed."
 
     init(root: URL? = nil, testing: Bool = false) throws {
         directory = try PrivateFiles.directory("Downloads", root: root)
@@ -36,10 +42,7 @@ struct DownloadRecord: Codable, Identifiable {
         super.init()
         // No verification task survives process death; URLSession owns in-flight temporary files elsewhere.
         for file in (try? FileManager.default.contentsOfDirectory(at: stagingDirectory, includingPropertiesForKeys: nil)) ?? [] { try? FileManager.default.removeItem(at: file) }
-        if FileManager.default.fileExists(atPath: metadataURL.path) {
-            do { records = try JSONDecoder().decode([DownloadRecord].self, from: Data(contentsOf: metadataURL)) }
-            catch { errorMessage = "Download records could not be read. Clear downloads to rebuild them." }
-        }
+        loadRecords()
         let config = testing ? URLSessionConfiguration.default : URLSessionConfiguration.background(withIdentifier: Self.sessionIdentifier)
         config.sessionSendsLaunchEvents = !testing
         config.isDiscretionary = false
@@ -48,30 +51,56 @@ struct DownloadRecord: Codable, Identifiable {
         session = URLSession(configuration: config, delegate: self, delegateQueue: nil)
         reconcileTransfers()
     }
+    private func loadRecords() {
+        do {
+            records = try JSONDecoder().decode([DownloadRecord].self, from: Data(contentsOf: metadataURL))
+            needsRecovery = false; errorMessage = nil
+        } catch let error as CocoaError where error.code == .fileReadNoSuchFile {
+            records = []; needsRecovery = false; errorMessage = nil
+        } catch { needsRecovery = true; errorMessage = recoveryMessage }
+    }
+    func retryLoading() { loadRecords(); reconcileTransfers() }
     func record(_ id: String) -> DownloadRecord? { records.first { $0.id == id } }
     private func fileURL(_ prayer: Prayer) -> URL? {
         guard let asset = prayer.audio else { return nil }
         return directory.appendingPathComponent(asset.sha256 + ".m4a")
     }
     func isAvailable(_ prayer: Prayer) -> Bool {
-        guard let record = record(prayer.id), let url = fileURL(record.prayer),
+        guard !needsRecovery, let record = record(prayer.id), let url = fileURL(record.prayer),
               record.prayer.audio?.revision == prayer.audio?.revision else { return false }
         return FileManager.default.fileExists(atPath: url.path) && (record.state == .available || record.pendingPrayer != nil)
     }
     var available: [Prayer] { records.filter { isAvailable($0.prayer) }.map(\.prayer) }
     var totalBytes: Int64 { available.compactMap(\.audio?.bytes).reduce(0, +) }
     func localURL(for prayer: Prayer) async -> URL? {
-        guard isAvailable(prayer), let url = fileURL(prayer), let asset = prayer.audio else { return nil }
-        do {
-            let hash = try await Task.detached(priority: .utility) { try Integrity.fileHash(url) }.value
-            guard hash == asset.sha256 else { throw URLError(.cannotDecodeContentData) }
-            return url
-        } catch {
-            if let i = records.firstIndex(where: { $0.id == prayer.id }) { records[i].state = .failed; records[i].message = "This download could not be verified. Download it again."; persist() }
-            return nil
+        guard isAvailable(prayer) else { return nil }
+        guard let recording = await localRecording(for: prayer), recording.prayer.audio == prayer.audio else { return nil }
+        return recording.url
+    }
+    func localRecording(for prayer: Prayer) async -> DownloadedRecording? {
+        // A retained recording must travel with its own text, credits and resume revision.
+        // Retry once if a replacement finishes while the old file is being verified.
+        for _ in 0..<2 {
+            guard !needsRecovery, let saved = record(prayer.id)?.prayer, isAvailable(saved),
+                  let url = fileURL(saved), let asset = saved.audio else { return nil }
+            do {
+                let hash = try await Task.detached(priority: .utility) { try Integrity.fileHash(url) }.value
+                guard record(prayer.id)?.prayer.audio == asset else { continue }
+                guard hash == asset.sha256 else { throw URLError(.cannotDecodeContentData) }
+                guard isAvailable(saved) else { return nil }
+                return DownloadedRecording(prayer: saved, url: url)
+            } catch {
+                guard let index = records.firstIndex(where: { $0.id == prayer.id }) else { return nil }
+                guard records[index].prayer.audio == asset else { continue }
+                if records[index].pendingPrayer == nil { records[index].state = .failed }
+                records[index].message = "This download could not be verified. Download it again."; persist()
+                return nil
+            }
         }
+        return nil
     }
     func start(_ prayer: Prayer) {
+        guard !needsRecovery else { errorMessage = recoveryMessage; return }
         guard let asset = prayer.audio, let source = resolveMedia?(asset) else { errorMessage = "This recording is not available to download. You can still read the prayer."; return }
         if let record = record(prayer.id), record.state == .downloading || record.state == .verifying { return }
         do {
@@ -109,6 +138,7 @@ struct DownloadRecord: Codable, Identifiable {
         }
     }
     func cancel(_ id: String) {
+        guard !needsRecovery else { return }
         fixtureTasks[id]?.cancel(); fixtureTasks[id] = nil
         guard let index = records.firstIndex(where: { $0.id == id }) else { return }
         let taskID = records[index].taskID
@@ -119,6 +149,7 @@ struct DownloadRecord: Codable, Identifiable {
         persist()
     }
     @discardableResult func remove(_ id: String) -> Bool {
+        guard !needsRecovery else { errorMessage = recoveryMessage; return false }
         errorMessage = nil
         cancel(id)
         let old = record(id)
@@ -131,6 +162,21 @@ struct DownloadRecord: Codable, Identifiable {
         return errorMessage == nil
     }
     @discardableResult func clear() -> Bool {
+        if needsRecovery {
+            do {
+                for file in try FileManager.default.contentsOfDirectory(at: directory, includingPropertiesForKeys: nil) where file.pathExtension == "m4a" { try FileManager.default.removeItem(at: file) }
+                try PrivateFiles.write([DownloadRecord](), to: metadataURL)
+                records = []; needsRecovery = false; errorMessage = nil
+                session.getAllTasks { [weak self] tasks in
+                    Task { @MainActor [weak self] in
+                        guard let self else { return }
+                        let newTasks = Set(records.compactMap(\.taskID))
+                        for task in tasks where !newTasks.contains(task.taskIdentifier) { task.cancel() }
+                    }
+                }
+                return true
+            } catch { errorMessage = "Downloads could not be reset. Please try again."; return false }
+        }
         var success = true
         for id in records.map(\.id) { if !remove(id) { success = false } }
         do {
@@ -145,17 +191,19 @@ struct DownloadRecord: Codable, Identifiable {
         for prayer in active { cancel(prayer.id); start(prayer) }
     }
     func reconcileCatalog(_ catalog: Catalog) {
+        guard !needsRecovery else { return }
         for id in catalog.withdrawnIDs { remove(id) }
         for record in records where record.state == .available {
             if let updated = catalog.item(record.id), updated.audio?.revision != record.prayer.audio?.revision { start(updated) }
         }
     }
     private func reconcileTransfers() {
+        guard !needsRecovery else { return }
         let pending = records.filter { $0.state == .downloading || $0.state == .verifying }
         session.getAllTasks { [weak self] tasks in
             let active = Set(tasks.map(\.taskIdentifier))
             Task { @MainActor [weak self] in
-                guard let self else { return }
+                guard let self, !needsRecovery else { return }
                 for index in records.indices where records[index].state == .downloading || records[index].state == .verifying {
                     if pending.contains(where: { $0.id == records[index].id && $0.taskID == records[index].taskID }),
                        fixtureTasks[records[index].id] == nil, pendingVerifications == 0,
@@ -170,6 +218,7 @@ struct DownloadRecord: Codable, Identifiable {
         }
     }
     private func persist() {
+        guard !needsRecovery else { return }
         do { try PrivateFiles.write(records, to: metadataURL) }
         catch { errorMessage = "Download status could not be saved. Please try again." }
     }

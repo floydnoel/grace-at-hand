@@ -30,6 +30,28 @@ import XCTest
         capture(app, "07-read-along")
         XCTAssertEqual(app.alerts.count, 0)
     }
+    func testPersonalizationChangesTodaysPrayer() throws {
+        let app = launch()
+        XCTAssertTrue(app.buttons["beginPraying"].waitForExistence(timeout: 10))
+        let personalize = app.buttons["Personalize my experience"]
+        for _ in 0..<8 where !personalize.isHittable { app.swipeUp() }
+        personalize.tap()
+        let scripture = app.switches["Scripture"]
+        for _ in 0..<8 where !scripture.exists || !scripture.isHittable { app.swipeUp() }
+        XCTAssertTrue(scripture.waitForExistence(timeout: 5))
+        scripture.coordinate(withNormalizedOffset: CGVector(dx: 0.9, dy: 0.5)).tap()
+        capture(app, "personalization-preferences")
+        XCTAssertEqual(scripture.value as? String, "1")
+        app.buttons["Done"].tap()
+        app.buttons["beginPraying"].tap()
+        XCTAssertTrue(app.staticTexts["Pray with Scripture"].waitForExistence(timeout: 5))
+        capture(app, "personalized-today")
+        let prayNow = app.buttons["prayNow"]
+        for _ in 0..<8 where !prayNow.isHittable { app.swipeUp() }
+        prayNow.tap()
+        XCTAssertTrue(app.buttons["mainPlayback"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Pray with Scripture"].exists)
+    }
     func testSearchAndPrivateIntentionFlow() throws {
         let app = launch(skipWelcome: true)
         navigate(app, "Discover")

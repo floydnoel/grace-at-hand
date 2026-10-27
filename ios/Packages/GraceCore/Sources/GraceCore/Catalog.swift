@@ -111,6 +111,14 @@ public struct Prayer: Codable, Identifiable, Hashable, Sendable {
     public var durationLabel: String {
         durationSeconds < 60 ? "\(Int(durationSeconds.rounded())) sec" : "\(Int(ceil(durationSeconds / 60))) min"
     }
+    public var suitabilityLabel: String {
+        switch suitability {
+        case "family": "Family prayer · children participate with an adult"
+        case "general": "General audience"
+        case "adult": "For adults"
+        default: "Audience information unavailable"
+        }
+    }
 }
 
 public struct MediaAsset: Codable, Hashable, Sendable {
